@@ -1,0 +1,7 @@
+.note-section-text-container {
+  display: block;
+  width: 100%;
+}
+.note-section-block:not(:last-child) {
+  margin-bottom: 4.5rem;
+}

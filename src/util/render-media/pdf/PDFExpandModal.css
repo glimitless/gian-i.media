@@ -1,0 +1,5 @@
+.pdf-button.expand svg{
+  height: 2rem;
+  width: auto;
+  color: var(--secondary);
+}

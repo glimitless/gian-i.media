@@ -1,0 +1,29 @@
+.note-section-item-desc .desc-inner .read-link-container{
+  box-sizing: border-box;
+  padding-left: 4.9rem;
+  padding-right: 0.4rem;
+  padding-top: 1.29rem;
+  padding-bottom: 0.9rem;
+}
+.note-section-item-desc .desc-inner .read-link-container .read-link {
+  height: fit-content;
+  width: fit-content;
+  box-shadow: 0 0 0.4rem var(--dropShadowInactive);
+  padding-inline: 1.125rem;
+  padding-block: 0.675rem;
+  display: flex;
+  align-items: center;
+  font-size: var(--buttonFontSize);
+  text-decoration: none;
+  color: var(--secondary);
+  transition: 
+    background-color var(--bcTransitionDuration) var(--bcTransitionEase),
+    transform var(--tsTransitionDuration) var(--tsTransitionEase),
+    box-shadow var(--tsTransitionDuration) var(--tsTransitionEase),
+    color var(--cTransitionDuration) var(--cTransitionEase);
+}
+.note-section-item-desc .desc-inner .read-link-container .read-link:hover{
+  background-color: var(--backgroundActive);
+  transform: scale(0.96);
+  box-shadow: 0 0 0.2rem var(--dropShadowActive);
+}

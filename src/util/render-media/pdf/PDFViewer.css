@@ -1,0 +1,83 @@
+.pdf-viewer{
+  display: block;
+}
+.pdf-pages{
+  width: 100%;
+  aspect-ratio: 5 / 4;
+  background-color: var(--surface);
+  margin-bottom: 0.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color var(--bcTransitionDuration) var(--bcTransitionEase);
+}
+.pdf-pages img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.pdf-controls{
+  box-sizing: border-box;
+  padding: 0.4rem;
+  width: 100%;
+  height: 4.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0.1rem;
+}
+.pdf-button {
+  width: 4rem;
+  height: 4rem;
+  border: none;
+  background-color: var(--background);
+  box-shadow: 0 0 0.4rem var(--dropShadowInactive);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  transition:
+    background-color var(--bcTransitionDuration) var(--bcTransitionEase),
+    transform var(--tsTransitionDuration) var(--tsTransitionEase),
+    box-shadow var(--bsTransitionDuration) var(--bsTransitionEase),
+    color var(--cTransitionDuration) var(--cTransitionEase);
+}
+.pdf-button:hover {
+  background-color: var(--backgroundActive);
+  transform: scale(0.96);
+  box-shadow: 0 0 0.2rem var(--dropShadowActive);
+  cursor: pointer;
+}
+.pdf-viewer .pdf-modal{
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+.pdf-viewer .pdf-modal .pdf-modal-pages{
+  flex: 1 1 0;
+  min-height: 0;
+  background-color: var(--imageModalBackground);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.pdf-viewer .pdf-modal .pdf-modal-pages img{
+  max-width: 100vw;
+  max-height: 100vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+.pdf-viewer .pdf-modal .pdf-modal-controls{
+  box-sizing: border-box;
+  height: 7.5rem;
+  background-color: var(--surface);
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

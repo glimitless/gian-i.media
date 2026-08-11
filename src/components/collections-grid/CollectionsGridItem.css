@@ -1,0 +1,27 @@
+.collections-grid-item{
+  display: block;
+  width: 100%;
+}
+.collection-item-thumbnail{
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  border: none;
+  background-color: var(--surface);
+  margin-bottom: 0;
+  transition: opacity var(--bcvgTransitionDuration) var(--bcvgTransitionEase);
+}
+.collection-item-thumbnail:hover{
+  opacity: 75%;
+  cursor: pointer;
+}
+.collection-item-thumbnail img{
+  width: 100%;
+  height: auto;
+}
+.collection-item-name{
+  margin-top: 0.75rem;
+  margin-bottom: 0;
+}

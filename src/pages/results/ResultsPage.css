@@ -1,0 +1,33 @@
+.results-page{
+  display: block;
+}
+@container content (min-width: 1600px){
+  .results-page{
+    width: 160rem;
+  }
+}
+@container content (min-width: 1320px) and (max-width: 1599px){
+  .results-page{
+    width: 132rem;
+  }
+}
+@container content (min-width: 1040px) and (max-width: 1319px){
+  .results-page{
+    width: 104rem;
+  }
+}
+@container content (min-width: 760px) and (max-width: 1039px){
+  .results-page{
+    width: 76rem;
+  }
+}
+@container content (min-width: 480px) and (max-width: 759px){
+  .results-page{
+    width: 48rem;
+  }
+}
+@container content (max-width: 479px){
+  .results-page{
+    width: 25rem;
+  }
+}

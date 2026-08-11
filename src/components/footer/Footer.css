@@ -1,0 +1,25 @@
+.footer{
+  box-sizing: border-box;
+  background-color: var(--background);
+  height: 7.5rem;
+  transition: background-color var(--bc2TransitionDuration) var(--bc2TransitionEase);
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: row;
+}
+.contact-links-containers{
+  display: flex;
+  flex-direction: row;
+  gap: 1.75rem;
+}
+@container main (min-width: 995px){
+  .footer{
+    justify-content: flex-end;
+  }
+}
+@container main (max-width: 994px){
+  .footer{
+    justify-content: space-between;
+  }
+}
+

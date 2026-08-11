@@ -1,0 +1,11 @@
+.pdf-direction-controls{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+.pdf-button.left svg, .pdf-button.right svg{
+  height: 1.7rem;
+  width: auto;
+  color: var(--secondary);
+}

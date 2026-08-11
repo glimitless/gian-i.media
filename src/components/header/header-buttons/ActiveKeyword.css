@@ -1,0 +1,53 @@
+.active-keyword{
+  flex-shrink: 0;
+  background-color: var(--background);
+  font-size: var(--buttonFontSize);
+  border: none;
+  height: 4rem;
+  color: var(--secondary);
+  box-shadow: 0 0 0.4rem var(--dropShadowInactive);
+  padding-inline: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  white-space: nowrap;
+  transition: 
+    background-color var(--bcTransitionDuration) var(--bcTransitionEase),
+    transform var(--tsTransitionDuration) var(--tsTransitionEase),
+    box-shadow var(--bsTransitionDuration) var(--bsTransitionEase),
+    color var(--cTransitionDuration) var(--cTransitionEase);
+}
+.active-keyword svg{
+  width: 1rem;
+}
+.active-keyword:hover{
+  background-color: var(--backgroundActive);
+  transform: scale(0.96);
+  box-shadow: 0 0 0.2rem var(--dropShadowActive);
+  cursor: pointer;
+}
+.active-keyword-icon {
+  position: relative;
+  width: 0.9rem;
+  height: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.active-keyword-icon svg {
+  position: absolute;
+  width: 0.9rem;
+  transition: opacity 0.15s ease-out;
+}
+.active-keyword-checkmark {
+  opacity: 1;
+}
+.active-keyword-x {
+  opacity: 0;
+}
+.active-keyword:hover .active-keyword-checkmark {
+  opacity: 0;
+}
+.active-keyword:hover .active-keyword-x {
+  opacity: 1;
+}

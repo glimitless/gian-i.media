@@ -1,0 +1,216 @@
+/* zilla-slab-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Zilla Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../src/assets/fonts/zilla-slab-v12-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('../src/assets/fonts/zilla-slab-v12-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* zilla-slab-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Zilla Slab';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../src/assets/fonts/zilla-slab-v12-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('../src/assets/fonts/zilla-slab-v12-latin-500.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* zilla-slab-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Zilla Slab';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../src/assets/fonts/zilla-slab-v12-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('../src/assets/fonts/zilla-slab-v12-latin-600.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* zilla-slab-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Zilla Slab';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../src/assets/fonts/zilla-slab-v12-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('../src/assets/fonts//zilla-slab-v12-latin-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+html{
+  font-size: 10px;
+}
+
+body{
+  background-color: var(--background);
+  font-family: var(--mainFontFamily), Rockwell, Georgia, serif;
+  font-weight: var(--bodyFontWeight);
+  margin: 0;
+}
+button{
+  font-family: inherit;
+}
+h1, h2, h3, p{
+  margin-block: 0;
+}
+h1 {
+  color: var(--primary);
+  font-size: var(--titleFontSize);
+  font-weight: var(--titleFontWeight);
+  line-height: var(--titleLineHeight);
+  transition: color var(--cTransitionDuration) var(--cTransitionEase);
+}
+h2 {
+  color: var(--secondary);
+  font-size: var(--subtitleTwoFontSize);
+  font-weight: var(--subtitleTwoFontWeight);
+  line-height: var(--subtitleTwoLineHeight);
+  transition: color var(--cTransitionDuration) var(--cTransitionEase);
+}
+h3 {
+  color: var(--secondary);
+  font-size: var(--subtitleFontSize);
+  font-weight: var(--subtitleFontWeight);
+  line-height: var(--subtitleLineHeight);
+  transition: color var(--cTransitionDuration) var(--cTransitionEase);
+}
+p {
+  color: var(--primary);
+  font-size: var(--bodyFontSize);
+  line-height: var(--bodyLineHeight);
+  transition: color var(--cTransitionDuration) var(--cTransitionEase);
+}
+a {
+  color: var(--secondary);
+  font-size: inherit;
+  line-height: inherit;
+  transition: color var(--cTransitionDuration) var(--cTransitionEase);
+}
+a:hover {
+  color: var(--secondaryActive);
+}
+svg {
+  transition: color var(--cTransitionDuration) var(--cTransitionEase);
+}
+img{
+  vertical-align: bottom;
+}
+video{
+  vertical-align: bottom;
+}
+li{
+  color: var(--primary);
+  font-size: var(--bodyFontSize);
+  line-height: var(--bodyLineHeight);
+  transition: color var(--cTransitionDuration) var(--cTransitionEase);
+}
+ul{
+  margin: 0;
+}
+ol{
+  margin: 0;
+}
+
+/* loading animation for image and pdf modal */
+.loader {
+  width: 3rem;
+  padding: 0.8rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--secondary);
+  --_m:
+    conic-gradient(#0000 10%, #000),
+    linear-gradient(#000 0 0) content-box;
+  -webkit-mask: var(--_m);
+          mask: var(--_m);
+  -webkit-mask-composite: source-out;
+          mask-composite: subtract;
+  animation: l3 1s infinite linear;
+}
+@keyframes l3 { to { transform: rotate(1turn); } }
+
+/* text container styles */
+.title-container{
+  margin-bottom: 0.92rem;
+}
+
+/* formatText styles */
+.desc-subtitle-two{
+  margin-bottom: 0.4rem;
+}
+.desc-paragraph:not(:last-child){ 
+  margin-bottom: 1.1rem;
+}
+.desc-caption:not(:last-child){
+  margin-bottom: 0.2rem;
+}
+.desc-bullet-lead{
+  margin-bottom: 0.65rem;
+}
+.desc-bullet-list {
+  padding-left: 3rem;
+  list-style-type: circle;
+}
+.desc-bullet-list:not(:last-child){
+  margin-bottom: 1.3rem;
+}
+.desc-bullet-list li:not(:last-child){
+  margin-bottom: 0.55rem;
+}
+
+.quote-block{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.quote-block .quote-rule{
+  width: 0.5rem;
+  background-color: var(--surface);
+  margin-right: 1rem;
+  transition: background-color var(--bcTransitionDuration) var(--bcTransitionEase);
+}
+.quote-block .quote-content{
+  flex: 1 1 0;
+  min-width: 0;
+}
+.quote-block:not(:last-child){
+  margin-bottom: 1.3rem;
+}
+.quote-block .quote {
+  list-style-type: "“ ";
+  padding-left: 0.888rem;
+}
+.quote-block .quote:not(:last-child), .quote-block .source:not(:last-child){
+  margin-bottom: 1.1rem;
+}
+.quote-block .source {
+  list-style-type: "– ";
+  padding-left: 1.276rem;
+}
+.numbered-list{
+  padding-left: 2.4rem;
+}
+.numbered-list li .lead {
+  margin-bottom: 0.55rem;
+}
+.numbered-list:not(:last-child){
+  margin-bottom: 1.1rem;
+}
+.numbered-list li:not(:last-child){
+  margin-bottom: 1.1rem;
+}
+.numbered-list li .lead{
+  margin-bottom: 0.25rem;
+}
+.numbered-list ul{
+  padding-left: 3rem;
+  list-style-type: circle;
+}
+.numbered-list ul:last-child{
+  padding-bottom: 0.2rem;
+}
+.numbered-list ul li:not(:last-child){
+  margin-bottom: 0.55rem;
+}
+.num-list-bullet-lead {
+  margin-bottom: 0.8rem;
+}

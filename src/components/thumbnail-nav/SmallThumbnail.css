@@ -1,0 +1,36 @@
+.small-nav-thumbnails .thumbnail {
+  display: block;
+  box-sizing: border-box;
+  width: 4rem;
+  height: 4rem;
+  border: none;
+  text-decoration: none;
+  background-color: var(--surface);
+  color: var(--secondary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.16rem;
+  transition: 
+    background-color var(--bcvgTransitionDuration) var(--bcvgTransitionEase),
+    color var(--cvgTransitionDuration) var(--cvgTransitionEase);
+}
+.small-nav-thumbnails .thumbnail:hover{
+  background-color: var(--backgroundActive);
+  cursor: pointer;
+}
+.small-nav-thumbnails .thumbnail svg:hover{
+  transform: scale(0.96);
+} 
+.small-nav-thumbnails .thumbnail.is-active{
+  background-color: var(--medium);
+  color: var(--background);
+}
+.small-nav-thumbnails .thumbnail.is-active svg{
+  transform: none;
+}
+.small-nav-thumbnails .thumbnail svg{
+  width: 100%;
+  height: auto;
+  transition: transform var(--tsTransitionDuration) var(--tsTransitionEase);
+}

@@ -1,0 +1,22 @@
+.resume {
+  width: 100%;
+}
+.resume-block:not(:last-child){
+  margin-bottom: 2.5rem;
+}
+.resume-block-item:not(:last-child){
+  margin-bottom: 1.25rem;
+}
+.resume-block h2{
+  margin-bottom: 0.4rem;
+}
+.resume-block-list-lead{
+  margin-bottom: 0.2rem;
+}
+.resume-block-list{
+  list-style-type: "– ";
+  padding-left: 2.5rem;
+}
+.resume-block-list li:not(:last-child){
+  margin-bottom: 0.25rem;
+}

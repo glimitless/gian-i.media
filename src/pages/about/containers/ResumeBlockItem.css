@@ -1,0 +1,28 @@
+.expandable-resume-block-item:not(:last-child){
+  margin-bottom: 1.25rem;
+  display: block;
+}
+.expandable-resume-block-item li{
+  font-size: var(--bodyFontSize);
+  line-height: var(--bodyLineHeight);
+}
+.expandable-resume-block-item ul{
+  list-style-type: "– ";
+  padding-left: 6.77rem;
+  padding-top: 0.25rem;
+}
+.expandable-resume-block-item ul li:not(:last-child){
+  padding-bottom: 0.45rem;
+}
+.expandable-resume-block-item-desc{
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows var(--dimTransitionDuration) var(--dimTransitionEase);
+}
+.expandable-resume-block-item.expand .expandable-resume-block-item-desc{
+  grid-template-rows: 1fr;
+}
+.expandable-resume-block-item-desc > div {
+  overflow: hidden;
+  min-height: 0;
+}

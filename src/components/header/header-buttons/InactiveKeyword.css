@@ -1,0 +1,34 @@
+.inactive-keyword{
+  background-color: var(--background);
+  border: none;
+  box-shadow: 0 0 0.4rem var(--dropShadowInactive);
+  height: 4rem;
+  padding-inline: 1.25rem;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  transition: 
+    background-color var(--bcTransitionDuration) var(--bcTransitionEase),
+    transform var(--tsTransitionDuration) var(--tsTransitionEase),
+    box-shadow var(--bsTransitionDuration) var(--bsTransitionEase);
+}
+.inactive-keyword:hover{
+  background-color: var(--backgroundActive);
+  transform: scale(0.96);
+  box-shadow: 0 0 0.2rem var(--dropShadowActive);
+  cursor: pointer;
+}
+.inactive-keyword svg{
+  width: 0.8rem;
+  height: auto;
+  color: var(--secondary);
+  transition: color var(--bcTransitionDuration) var(--bcTransitionEase);
+}
+.inactive-keyword .text{
+  color: var(--secondary);
+  font-size: var(--buttonFontSize);
+  color: var(--secondary);
+  transition: color var(--bcTransitionDuration) var(--bcTransitionEase);
+}

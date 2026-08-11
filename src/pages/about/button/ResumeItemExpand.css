@@ -1,0 +1,41 @@
+.resume-block-expand {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 0.65rem;
+  border: none;
+  background-color: var(--background);
+  padding: 0;
+  transition: 
+    background-color var(--bcvgTransitionDuration) var(--bcvgTransitionEase),
+    color var(--cvgTransitionDuration) var(--cvgTransitionEase);
+}
+.resume-block-expand:hover{
+  background-color: var(--backgroundActive);
+  cursor: pointer;
+}
+.resume-block-expand .text{
+  font-size: var(--bodyFontSize);
+  flex: 1 1 0;
+}
+.resume-block-expand .svg{
+  box-sizing: border-box;
+  width: 3.85rem;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 1.3rem;
+}
+.resume-block-expand .svg svg{
+  width: 1.25rem;
+  color: var(--secondary);
+  height: auto;
+  transition: 
+    transform var(--dimTransitionDuration) var(--dimTransitionEase),
+    color var(--cvgTransitionDuration) var(--cvgTransitionEase);
+}
+.resume-block-expand.is-expanded .svg svg{
+  transform: rotate(180deg);
+}

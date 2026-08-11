@@ -1,0 +1,48 @@
+.sidebar{
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: var(--surface);
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+  justify-content: space-between;
+  transition: background-color 0.25s ease-out;
+}
+.sidebar .center-buttons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+.sidebar.hidden {
+  width: 7.5rem;
+  transition: width 0.3s ease-out;
+}
+.sidebar.expanded {
+  width: 24rem;
+  transition: width 0.3s ease-out;
+}
+.sidebar .temple-button-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  min-width: 5rem;
+}
+.sidebar .name-wordmark-container {
+  flex: 1;
+  height: 4rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--secondary)
+}
+.sidebar .name-wordmark-container svg {
+  height: 1.53rem;
+  width: auto;
+  flex-shrink: 0;
+}

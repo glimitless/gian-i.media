@@ -1,0 +1,52 @@
+.pdf-current-page {
+  min-width: 4rem;
+  height: 4rem;
+  width: auto;
+  background-color: var(--background);
+  box-shadow: 0 0 0.4rem var(--dropShadowInactive);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0.9rem;
+  padding-right: 1.1rem;
+  color: var(--secondary);
+  transition:
+    background-color var(--bcTransitionDuration) var(--bcTransitionEase),
+    transform var(--tsTransitionDuration) var(--tsTransitionEase),
+    box-shadow var(--bsTransitionDuration) var(--bsTransitionEase);
+}
+.pdf-current-page:hover{
+  background-color: var(--backgroundActive);
+  transform: scale(0.96);
+  box-shadow: 0 0 0.2rem var(--dropShadowActive);
+  cursor: text;
+}
+.pdf-current-page:has(.current-page-input:focus){
+  background-color: var(--backgroundActive);
+  transform: scale(0.96);
+  box-shadow: 0 0 0.2rem var(--dropShadowActive);
+}
+.current-page-input{
+  height: 2rem;
+  width: auto;
+  field-sizing: content;
+  min-width: 0;
+  border-radius: 0.5rem;
+  background-color: var(--surface);
+  border: none;
+  color: var(--secondary);
+  font-size: var(--buttonFontSize);
+  white-space: nowrap;
+  padding-inline: 0.5rem;
+  transition: color var(--cTransitionDuration) var(--cTransitionEase);
+}
+.current-page-input:focus-visible{
+  outline: none;
+}
+.pdf-length-display{
+  margin-left: 0.2rem;
+  font-size: var(--buttonFontSize);
+  color: var(--fadedText);
+  white-space: nowrap;
+  transition: color var(--cTransitionDuration) var(--cTransitionEase);
+}

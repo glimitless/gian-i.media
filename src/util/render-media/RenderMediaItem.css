@@ -1,0 +1,21 @@
+.media-item{
+  display: block;
+  width: 100%;
+  margin-bottom: 0.3rem;
+}
+.media-item .caption-container{
+  width: 100%;
+  margin-top: 0.4rem;
+  margin-bottom: 4rem;
+}
+.media-item:last-child .caption-container{
+  margin-bottom: 0;
+}
+.media-item:last-child {
+  margin-bottom: 0;
+}
+.media-item .video{
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.25rem;
+}

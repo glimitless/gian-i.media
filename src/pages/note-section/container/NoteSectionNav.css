@@ -1,0 +1,15 @@
+.note-section-block .nav-block {
+  display: flex;
+  flex-direction: row;
+  padding: 0.4rem;
+  box-sizing: border-box;
+}
+.note-section-block .nav-block.both-directions{
+  justify-content: space-between;
+}
+.note-section-block .nav-block.previous-only{
+  justify-content: flex-start;
+}
+.note-section-block .nav-block.next-only{
+  justify-content: flex-end;
+}

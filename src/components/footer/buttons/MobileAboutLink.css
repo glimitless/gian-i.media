@@ -1,0 +1,47 @@
+.mobile-about-link{
+  height: 4rem;
+  width: 4rem;
+  background-color: var(--background);
+  box-shadow: 0 0 0.4rem var(--dropShadowInactive);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-decoration: none;
+  transition: 
+    background-color var(--bcTransitionDuration) var(--bcTransitionEase),
+    transform var(--tsTransitionDuration) var(--tsTransitionEase),
+    box-shadow var(--bsTransitionDuration) var(--bsTransitionEase);
+}
+.mobile-about-link:hover{
+  background-color: var(--backgroundActive);
+  transform: scale(0.96);
+  box-shadow: 0 0 0.2rem var(--dropShadowActive);
+  cursor: pointer;
+}
+.mobile-about-link.is-active{
+  background-color: var(--backgroundActive);
+  transform: scale(0.96);
+  box-shadow: 0 0 0.2rem var(--dropShadowActive);
+}
+.mobile-about-link.is-home{
+  width: auto;
+  justify-content: flex-start;
+  padding-left: 0.98rem;
+  padding-right: 1.18rem;
+  gap: 0.95rem;
+
+}
+.mobile-about-link svg{
+  width: auto;
+  height: 2.2rem;
+  flex-shrink: 0;
+  color: var(--secondary);
+  transition: color var(--cTransitionDuration) var(--cTransitionEase);
+}
+.mobile-about-link .text {
+  font-size: var(--buttonFontSize);
+  white-space: nowrap;
+  color: var(--secondary);
+  transition: color var(--cTransitionDuration) var(--cTransitionEase);
+}

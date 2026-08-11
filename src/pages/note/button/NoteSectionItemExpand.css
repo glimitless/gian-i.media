@@ -1,0 +1,41 @@
+.note-section-item-expand {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 0.65rem;
+  border: none;
+  background-color: var(--background);
+  padding: 0;
+  transition: 
+    background-color var(--bcvgTransitionDuration) var(--bcvgTransitionEase),
+    color var(--cvgTransitionDuration) var(--cvgTransitionEase);
+}
+.note-section-item-expand:hover{
+  background-color: var(--backgroundActive);
+  cursor: pointer;
+}
+.note-section-item-expand .text {
+  font-size: var(--bodyFontSize);
+  flex: 1 1 0;
+}
+.note-section-item-expand .svg{
+  box-sizing: border-box;
+  width: 3.85rem;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 1.3rem;
+}
+.note-section-item-expand .svg svg{
+  width: 1.25rem;
+  color: var(--secondary);
+  height: auto;
+  transition: 
+    transform var(--dimTransitionDuration) var(--dimTransitionEase),
+    color var(--cvgTransitionDuration) var(--cvgTransitionEase);
+}
+.note-section-item-expand.is-expanded .svg svg{
+  transform: rotate(180deg);
+}

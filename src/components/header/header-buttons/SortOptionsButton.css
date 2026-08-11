@@ -1,0 +1,40 @@
+.sort-options-button{
+  flex-shrink: 0;
+  background-color: var(--background);
+  font-size: var(--buttonFontSize);
+  border: none;
+  color: var(--secondary);
+  box-shadow: 0 0 0.4rem var(--dropShadowInactive);
+  height: 4rem;
+  padding-inline: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  white-space: nowrap;
+  gap: 0.5rem;
+  transition: 
+    background-color var(--bcTransitionDuration) var(--bcTransitionEase),
+    transform var(--tsTransitionDuration) var(--tsTransitionEase),
+    box-shadow var(--bsTransitionDuration) var(--bsTransitionEase),
+    color var(--cTransitionDuration) var(--cTransitionEase);
+}
+.sort-options-button:hover{
+  background-color: var(--backgroundActive);
+  transform: scale(0.96);
+  box-shadow: 0 0 0.2rem var(--dropShadowActive);
+  cursor: pointer;
+}
+.sort-options-button.is-expanded{
+  background-color: var(--backgroundActive);
+  transform: scale(0.96);
+  box-shadow: 0 0 0.2rem var(--dropShadowActive);
+  cursor: pointer;
+}
+
+.sort-options-button svg{
+  width: 0.8rem;
+  transition: transform 0.3s ease-out;
+}
+.sort-options-button.is-expanded svg{
+  transform: rotate(180deg);
+}

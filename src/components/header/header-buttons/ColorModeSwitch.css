@@ -1,0 +1,51 @@
+.color-mode-switch{
+  box-sizing: border-box;;
+  width: 8rem;
+  height: 4rem;
+  box-shadow: 0 0 0.4rem var(--dropShadowInactive);
+  background-color: var(--background);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.5rem;
+  border: none;
+  transition: justify-content 0.3s ease-out;
+  justify-content: flex-start;
+  transition: 
+    width 0.3s ease-out,
+    background-color var(--bcTransitionDuration) var(--bcTransitionEase),
+    transform var(--tsTransitionDuration) var(--tsTransitionEase),
+    box-shadow var(--bsTransitionDuration) var(--bsTransitionEase);
+}
+.color-mode-switch:hover{
+  background-color: var(--backgroundActive);
+  transform: scale(0.96);
+  box-shadow: 0 0 0.2rem var(--dropShadowActive);
+  cursor: pointer;
+}
+.color-mode-switch .mode-indicator{
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--surface);
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 
+    background-color var(--bcTransitionDuration) var(--bcTransitionEase),
+    transform var(--bc2TransitionDuration) var(--bc2TransitionEase);
+}
+.color-mode-switch .mode-indicator svg{
+  color: var(--secondary);
+  height: 1.75rem;
+  width: auto;
+  flex-shrink: 0;
+  transition: color var(--cTransitionDuration) var(--cTransitionEase);
+}
+.color-mode-switch.isDarkMode .mode-indicator{
+  transform: translateX(0);
+}
+.color-mode-switch.isLightMode .mode-indicator{
+  transform: translateX(4rem);
+}
+

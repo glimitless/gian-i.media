@@ -1,0 +1,15 @@
+.active-keywords-container{
+  flex: 1;
+  min-width: 0; /* critical — without this, flex: 1 won't shrink */
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+}
+.active-keywords-container::-webkit-scrollbar {
+  display: none;
+}

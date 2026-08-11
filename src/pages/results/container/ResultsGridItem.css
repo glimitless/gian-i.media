@@ -1,0 +1,90 @@
+.results-grid-item {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.results-thumbnail {
+  display: block;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  background-color: var(--surface);
+  /* box-shadow: 0 0 0.4rem var(--dropShadowInactive); */
+  padding: 0.4rem;
+  transition:
+    background-color var(--bcvgTransitionDuration) var(--bcvgTransitionEase);
+}
+.results-thumbnail svg {
+  width: 100%;
+  height: auto;
+  color: var(--secondary);
+  transition: 
+    transform var(--tsvgTransitionDuration) var(--tsvgTransitionEase),
+    color var(--cvgTransitionDuration) var(--cvgTransitionEase);
+}
+.results-thumbnail:hover{
+  background-color: var(--backgroundActive);
+}
+.results-thumbnail svg:hover {
+  color: var(--secondaryActive);
+  transform: scale(0.96);
+  cursor: pointer;
+}
+.results-grid-item .text-container {
+  transition: color var(--cvgTransitionDuration) var(--cvgTransitionEase);
+}
+.results-grid-item .text-container .item-name {
+  margin-top: 0.75rem;
+}
+.results-grid-item .text-container .item-date {
+  margin-top: 0.05rem;
+}
+.results-grid-item .text-container .item-keywords {
+  margin-top: 0.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0.24em;
+}
+.item-keywords .keyword-group {
+  white-space: nowrap;
+}
+.text-keyword-button {
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+  padding: 0;
+  cursor: pointer;
+  transition: 
+    background-color 0.15s ease-out,
+    color 0.15s ease-out;
+}
+.text-keyword-button:hover {
+  color: var(--secondaryActive);
+}
+.text-keyword-button.is-active {
+  background-color: var(--surface);
+}
+
+@container content (min-width: 480px){
+  .results-thumbnail{
+    width: 20rem;
+    height: 20rem;
+  }
+  .results-grid-item .text-container {
+    width: 20rem;
+  }
+}
+@container content (max-width: 479px){
+  .results-thumbnail{
+    width: 25rem;
+    height: 25rem;
+  }
+  .results-grid-item .text-container {
+    width: 25rem;
+  }
+}

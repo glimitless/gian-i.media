@@ -1,0 +1,28 @@
+.sort-order-option{
+  background-color: var(--background);
+  border: none;
+  font-size: var(--buttonFontSize);
+  color: var(--secondary);
+  box-shadow: 0 0 0.4rem var(--dropShadowInactive);
+  height: 4rem;
+  padding-inline: 1.25rem;
+  transition: 
+    background-color var(--bcTransitionDuration) var(--bcTransitionEase),
+    transform var(--tsTransitionDuration) var(--tsTransitionEase),
+    box-shadow var(--bsTransitionDuration) var(--bsTransitionEase),
+    color var(--cTransitionDuration) var(--cTransitionEase);
+}
+.sort-order-option:hover{
+  background-color: var(--backgroundActive);
+  transform: scale(0.96);
+  box-shadow: 0 0 0.2rem var(--dropShadowActive);
+  cursor: pointer;
+}
+.sort-order-option.is-active{
+  background-color: var(--backgroundActive);
+  transform: scale(0.96);
+  box-shadow: 0 0 0.2rem var(--dropShadowActive);
+}
+.sort-order-option.is-active:hover{
+  cursor: default;
+}

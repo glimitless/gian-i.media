@@ -1,0 +1,7 @@
+.title-search-container{
+  display: flex;
+  width: auto;
+  height: 4rem;
+  flex-direction: row;
+  gap: 1rem;
+}

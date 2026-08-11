@@ -1,0 +1,40 @@
+.large-nav-thumbnails .thumbnail {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 8rem;
+  height: 8rem;
+  border: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  opacity: 100%;
+  transition: 
+    background-color var(--bcvgTransitionDuration) var(--bcvgTransitionEase),
+    color var(--cvgTransitionDuration) var(--cvgTransitionEase);
+}
+.large-nav-thumbnails .thumbnail:hover{
+  cursor: pointer;
+}
+.large-nav-thumbnails .thumbnail img{
+  width: 100%;
+  height: auto;
+}
+.large-nav-thumbnails .thumbnail-overlay{
+  position: absolute;
+  inset: 0;
+  background-color: var(--surface);
+  opacity: 0.75;
+  pointer-events: none;
+  transition:
+    opacity var(--bcvgTransitionDuration) var(--bcvgTransitionEase);
+}
+.large-nav-thumbnails .thumbnail:hover .thumbnail-overlay {
+  opacity: 0.5;
+}
+.large-nav-thumbnails .thumbnail.is-active .thumbnail-overlay {
+  opacity: 0.25;
+}

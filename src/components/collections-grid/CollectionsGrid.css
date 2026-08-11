@@ -1,0 +1,19 @@
+.collections-grid{
+  width: 100%;
+  display: grid;
+  grid-auto-rows: auto;
+}
+@container content (min-width: 720px){
+  .collections-grid{
+    grid-template-columns: repeat(2, 25rem);
+    column-gap: 4rem;
+    row-gap: 4rem;
+  }
+}
+
+@container content (max-width: 719px){
+  .collections-grid{
+    grid-template-columns: 1fr;
+    row-gap: 4rem;
+  }
+}

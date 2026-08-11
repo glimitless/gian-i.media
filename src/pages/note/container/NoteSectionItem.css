@@ -1,0 +1,38 @@
+.note-section-item{
+  box-sizing: border-box;
+}
+.note-section-item:not(:last-child){
+  margin-bottom: 1.25rem;
+  display: block;
+}
+.note-section-item ul{
+  list-style-type: "– ";
+  padding-left: 6.77rem;
+  padding-top: 0.25rem;
+}
+.note-section-item li{
+  font-size: var(--bodyFontSize);
+  line-height: var(--bodyLineHeight);
+}
+.note-section-item ul li:not(:last-child){
+  padding-bottom: 0.45rem;
+}
+.note-section-item-desc{
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows var(--dimTransitionDuration) var(--dimTransitionEase);
+}
+.note-section-item.expand .note-section-item-desc{
+  grid-template-rows: 1fr;
+}
+.note-section-item-desc > div {
+  overflow: hidden;
+  box-sizing: border-box;
+  min-height: 0;
+}
+.note-section-item-desc .desc-inner .section-summary {
+  padding-top: 0.4rem;
+}
+.note-section-item-desc .desc-inner .section-summary h3 {
+  padding-left: 4.5rem;
+}

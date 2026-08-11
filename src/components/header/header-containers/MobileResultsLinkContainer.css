@@ -1,0 +1,18 @@
+.mobile-results-link-container{
+  display: flex;
+  flex-direction: row;
+  gap: 0.9rem;
+  min-width: 0;
+}
+.mobile-results-link-container .mobile-wordmark-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mobile-results-link-container .mobile-wordmark-container svg {
+  height: 1.53rem;
+  width: auto;
+  flex-shrink: 0;
+  color: var(--secondary);
+  transition: color var(--cTransitionDuration) var(--cTransitionEase);
+}
