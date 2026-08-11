@@ -1768,7 +1768,7 @@ const content = {
       title: 'Birth',
       subtitle: 'Website Documentation',
       thumbnail: BThumbnail,
-      date: 20260725,
+      date: 20260811,
       keywords: [
         'Brand Identity',
         'Philosophy',
@@ -1792,7 +1792,7 @@ const content = {
           blocks: [
             {
               title: 'Let’s Start Here',
-              date: 20260725,
+              date: 20260811,
               summary: [
                 'Explores the temple-themed branding of Gian-I Media.',
               ],
@@ -1921,7 +1921,7 @@ const content = {
           blocks: [
             {
               title: 'Learning React.js',
-              date: 20260725,
+              date: 20260811,
               summary: [
                 'Pursued React after internship feedback and missing the Parlour project.',
                 'Built the entire site from one HTML file using React and React Router.',
@@ -2025,7 +2025,7 @@ const content = {
             },
             {
               title: 'General Structure',
-              date: 20260725,
+              date: 20260811,
               summary: [
                 'Modeled the layout on Novak’s Hypermedia Navigator concept.',
                 'Framed the portfolio as a dream space with a persistent filtering navigator.',
@@ -2122,7 +2122,7 @@ const content = {
             },
             {
               title: 'Filtration System',
-              date: 20260725,
+              date: 20260811,
               summary: [
                 'Implemented multiple filter layers to scale cleanly to a large and growing project archive.',
                 'Filter settings persist across navigation until the page is reloaded.',
@@ -2287,7 +2287,7 @@ const content = {
             },
             {
               title: 'Next Steps',
-              date: 20260725,
+              date: 20260811,
               summary: [
                 'Finish the remaining 5 works to move from v0.5 to v0.6.',
                 'Redesign the filter UI for mobile resolutions.',
