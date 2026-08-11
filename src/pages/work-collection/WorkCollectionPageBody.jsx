@@ -1,6 +1,6 @@
 import { ThumbnailNav } from '../../components/thumbnail-nav/ThumbnailNav';
 import { WorkCollectionTextContainer } from './container/WorkCollectionTextContainer';
-import { RenderMedia } from '../../util/renderMedia';
+import { RenderMedia } from '../../util/RenderMedia';
 import { useRef, useLayoutEffect } from 'react';
 import { pageContentScroll } from '../../util/autoScroll';
 
