@@ -8,16 +8,18 @@
   justify-content: center;
   overflow: hidden;
   text-decoration: none;
+  cursor: pointer;
   transition: 
     background-color var(--bcTransitionDuration) var(--bcTransitionEase),
     transform var(--tsTransitionDuration) var(--tsTransitionEase),
     box-shadow var(--bsTransitionDuration) var(--bsTransitionEase);
 }
-.mobile-about-link:hover{
-  background-color: var(--backgroundActive);
-  transform: scale(0.96);
-  box-shadow: 0 0 0.2rem var(--dropShadowActive);
-  cursor: pointer;
+@container main (min-width: 450px){
+  .mobile-about-link:hover{
+    background-color: var(--backgroundActive);
+    transform: scale(0.96);
+    box-shadow: 0 0 0.2rem var(--dropShadowActive);
+  }
 }
 .mobile-about-link.is-active{
   background-color: var(--backgroundActive);

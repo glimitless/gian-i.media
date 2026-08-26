@@ -1,6 +1,9 @@
 .pdf-viewer{
   display: block;
 }
+.pdf-viewer:not(:last-child){
+  margin-bottom: 0.55rem;
+}
 .pdf-pages{
   width: 100%;
   aspect-ratio: 5 / 4;
@@ -10,10 +13,6 @@
   justify-content: center;
   align-items: center;
   transition: background-color var(--bcTransitionDuration) var(--bcTransitionEase);
-}
-.pdf-pages img {
-  max-width: 100%;
-  max-height: 100%;
 }
 .pdf-controls{
   box-sizing: border-box;
@@ -41,11 +40,13 @@
     box-shadow var(--bsTransitionDuration) var(--bsTransitionEase),
     color var(--cTransitionDuration) var(--cTransitionEase);
 }
-.pdf-button:hover {
-  background-color: var(--backgroundActive);
-  transform: scale(0.96);
-  box-shadow: 0 0 0.2rem var(--dropShadowActive);
-  cursor: pointer;
+@container main (min-width: 450px){
+  .pdf-button:hover {
+    background-color: var(--backgroundActive);
+    transform: scale(0.96);
+    box-shadow: 0 0 0.2rem var(--dropShadowActive);
+    cursor: pointer;
+  }
 }
 .pdf-viewer .pdf-modal{
   position: fixed;
@@ -62,13 +63,6 @@
   align-content: center;
   justify-content: center;
 }
-.pdf-viewer .pdf-modal .pdf-modal-pages img{
-  max-width: 100vw;
-  max-height: 100vh;
-  width: auto;
-  height: auto;
-  object-fit: contain;
-}
 .pdf-viewer .pdf-modal .pdf-modal-controls{
   box-sizing: border-box;
   height: 7.5rem;
@@ -80,4 +74,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+.pdf-viewer:has(.single) .pdf-pages {
+  margin-bottom: 0.55rem;
 }

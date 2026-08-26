@@ -1,7 +1,7 @@
 import './ThumbnailNav.css';
 import { SmallThumbnail } from './SmallThumbnail';
 import { LargeThumbnail } from './LargeThumbnail';
-import { useIsBelowMobileBreakpoint } from '../../util/useMediaQuery';
+import { useIsBelowMobileBreakpoint } from '../../hooks/useMediaQuery';
 
 export function ThumbnailNav({
   activeThumbnail,

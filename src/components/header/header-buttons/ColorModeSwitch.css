@@ -11,17 +11,20 @@
   border: none;
   transition: justify-content 0.3s ease-out;
   justify-content: flex-start;
+  cursor: pointer;
   transition: 
     width 0.3s ease-out,
     background-color var(--bcTransitionDuration) var(--bcTransitionEase),
     transform var(--tsTransitionDuration) var(--tsTransitionEase),
     box-shadow var(--bsTransitionDuration) var(--bsTransitionEase);
 }
-.color-mode-switch:hover{
-  background-color: var(--backgroundActive);
-  transform: scale(0.96);
-  box-shadow: 0 0 0.2rem var(--dropShadowActive);
-  cursor: pointer;
+@container main (min-width: 450px){
+  .color-mode-switch:hover{
+    background-color: var(--backgroundActive);
+    transform: scale(0.96);
+    box-shadow: 0 0 0.2rem var(--dropShadowActive);
+    cursor: pointer;
+  }
 }
 .color-mode-switch .mode-indicator{
   width: 3rem;
@@ -48,4 +51,3 @@
 .color-mode-switch.isLightMode .mode-indicator{
   transform: translateX(4rem);
 }
-

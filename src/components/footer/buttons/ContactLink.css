@@ -9,14 +9,21 @@
   height: 4rem;
   padding-inline: 1.3rem;
   text-decoration: none;
+  cursor: pointer;
   transition: 
     background-color var(--bcTransitionDuration) var(--bcTransitionEase),
     transform var(--tsTransitionDuration) var(--tsTransitionEase),
     box-shadow var(--tsTransitionDuration) var(--tsTransitionEase),
     color var(--cTransitionDuration) var(--cTransitionEase);
 }
-.contact-link:hover{
-  background-color: var(--backgroundActive);
-  transform: scale(0.96);
-  box-shadow: 0 0 0.2rem var(--dropShadowActive);
+@container main (min-width: 450px){
+  .contact-link:hover{
+    background-color: var(--backgroundActive);
+    transform: scale(0.96);
+    box-shadow: 0 0 0.2rem var(--dropShadowActive);
+  }
 }
+.contact-links-container a:hover{
+  color: var(--secondary);
+}
+

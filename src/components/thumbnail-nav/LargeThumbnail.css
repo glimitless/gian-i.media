@@ -30,6 +30,7 @@
   opacity: 0.75;
   pointer-events: none;
   transition:
+    background-color var(--bcvgTransitionDuration) var(--bcvgTransitionEase),
     opacity var(--bcvgTransitionDuration) var(--bcvgTransitionEase);
 }
 .large-nav-thumbnails .thumbnail:hover .thumbnail-overlay {

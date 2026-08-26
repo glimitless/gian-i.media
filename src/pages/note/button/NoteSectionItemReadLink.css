@@ -16,14 +16,17 @@
   font-size: var(--buttonFontSize);
   text-decoration: none;
   color: var(--secondary);
+  cursor: pointer;
   transition: 
     background-color var(--bcTransitionDuration) var(--bcTransitionEase),
     transform var(--tsTransitionDuration) var(--tsTransitionEase),
     box-shadow var(--tsTransitionDuration) var(--tsTransitionEase),
     color var(--cTransitionDuration) var(--cTransitionEase);
 }
-.note-section-item-desc .desc-inner .read-link-container .read-link:hover{
-  background-color: var(--backgroundActive);
-  transform: scale(0.96);
-  box-shadow: 0 0 0.2rem var(--dropShadowActive);
+@container main (min-width: 450px){
+  .note-section-item-desc .desc-inner .read-link-container .read-link:hover{
+    background-color: var(--backgroundActive);
+    transform: scale(0.96);
+    box-shadow: 0 0 0.2rem var(--dropShadowActive);
+  }
 }

@@ -8,7 +8,7 @@ export function Footer({ isBelowTablet }){
       {isBelowTablet && 
         <MobileAboutLink />
       }
-      <div className="contact-links-containers">
+      <div className="contact-links-container">
         <ContactLink link="https://www.instagram.com/gian.immanuel/" label="Instagram" />
         <ContactLink link="https://www.linkedin.com/in/giancambridge/" label="LinkedIn"/>
       </div>

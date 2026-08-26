@@ -7,13 +7,15 @@
   border: none;
   background-color: var(--background);
   padding: 0;
+  cursor: pointer;
   transition: 
     background-color var(--bcvgTransitionDuration) var(--bcvgTransitionEase),
     color var(--cvgTransitionDuration) var(--cvgTransitionEase);
 }
-.note-section-item-expand:hover{
-  background-color: var(--backgroundActive);
-  cursor: pointer;
+@container main (min-width: 450px){
+  .note-section-item-expand:hover{
+    background-color: var(--backgroundActive);
+  }
 }
 .note-section-item-expand .text {
   font-size: var(--bodyFontSize);

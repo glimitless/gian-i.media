@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: row;
 }
-.contact-links-containers{
+.contact-links-container{
   display: flex;
   flex-direction: row;
   gap: 1.75rem;

@@ -9,7 +9,7 @@ import { WorkPage } from './pages/work/WorkPage';
 import { WorkCollectionPage } from './pages/work-collection/WorkCollectionPage';
 import { NotePage } from './pages/note/NotePage';
 import { NoteSectionPage } from './pages/note-section/NoteSectionPage';
-import { useIsBelowMobileBreakpoint } from './util/useMediaQuery';
+import { useIsBelowMobileBreakpoint } from './hooks/useMediaQuery';
 
 const lightMode = {
   background: '#F0EEE9',
@@ -23,6 +23,8 @@ const lightMode = {
   dropShadowInactive: '#22222340',
   dropShadowActive: '#22222326',
   imageModalBackground: '#F0EEE9E6',
+  youtubeEmbedBackground: '#222223BF',
+  youtubeEmbedPrimary: '#A59C94',
 }
 const darkMode = {
   background: '#171614',
@@ -36,7 +38,8 @@ const darkMode = {
   dropShadowInactive: '#ECE8E240',
   dropShadowActive: '#ECE8E226',
   imageModalBackground: '#171614E6',
-  imageModalIcon: '#A9A29B',
+  youtubeEmbedBackground: '#171614BF',
+  youtubeEmbedPrimary: '#A9A29B',
 }
 const fontStyles = {
   mainFontFamily: 'Zilla Slab',
@@ -198,15 +201,16 @@ function App() {
     Object.entries(colors).forEach(([key, value]) => {
       root.style.setProperty(`--${key}`, value);
     });
-
+  }, [colors]);
+  useLayoutEffect(() => {
+    const root = document.documentElement;
     Object.entries(fontStyles).forEach(([key, value]) => {
       root.style.setProperty(`--${key}`, value);
     });
-
     Object.entries(transitionStyles).forEach(([key, value]) => {
       root.style.setProperty(`--${key}`, value);
     });
-  }, [colors]);
+  }, []);
 
 
   if (!colors) return null;

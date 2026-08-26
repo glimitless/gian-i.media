@@ -39,6 +39,14 @@ function renderTextBlock(block, key) {
       {block.content.map((qBlock, i) => renderTextBlock(qBlock, i))}
     </ol>
   }
+  else if(block.type === 'new-block'){
+    return <div
+      key={key}
+      className="desc-new-block"
+    >
+      {block.content.map((newBlock, i) => renderTextBlock(newBlock, i))}
+    </div>
+  }
   else if (block.type === 'numbered-list-item'){
     return <li key={key}>
       {block.content.map((qBlock, i) => renderTextBlock(qBlock, i))}
@@ -84,6 +92,9 @@ function renderTextBlock(block, key) {
   }
   else if (block.type === 'subtitle-two'){
     return <h2 key={key} className="desc-subtitle-two">{content} </h2>
+  }
+  else if (block.type === 'subtitle-two-quote-block-lead'){
+    return <h2 key={key} className="desc-subtitle-two quote-block-lead">{content} </h2>
   }
   else if (block.type === 'source'){
     return <ul key={key} className="source"><li>{content}</li></ul>

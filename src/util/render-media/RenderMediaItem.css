@@ -1,11 +1,10 @@
 .media-item{
   display: block;
   width: 100%;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.2rem;
 }
 .media-item .caption-container{
   width: 100%;
-  margin-top: 0.4rem;
   margin-bottom: 4rem;
 }
 .media-item:last-child .caption-container{
@@ -17,5 +16,18 @@
 .media-item .video{
   width: 100%;
   height: auto;
-  margin-bottom: 0.25rem;
+  
+}
+.media-item .video:not(:last-child){
+  margin-bottom: 0.55rem;
+}
+
+.media-item .youtube-embed{
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-color: var(--surface);
+}
+.media-item .youtube-embed:not(:last-child){
+  margin-bottom: 0.55rem;
 }

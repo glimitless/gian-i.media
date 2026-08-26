@@ -7,14 +7,17 @@
   border: none;
   background-color: var(--background);
   padding: 0;
+  cursor: pointer;
   transition: 
     background-color var(--bcvgTransitionDuration) var(--bcvgTransitionEase),
     color var(--cvgTransitionDuration) var(--cvgTransitionEase);
 }
-.resume-block-expand:hover{
-  background-color: var(--backgroundActive);
-  cursor: pointer;
+@container main (min-width: 450px){
+  .resume-block-expand:hover{
+    background-color: var(--backgroundActive);
+  }
 }
+
 .resume-block-expand .text{
   font-size: var(--bodyFontSize);
   flex: 1 1 0;

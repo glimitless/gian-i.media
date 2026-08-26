@@ -8,7 +8,7 @@ export function PDFCurrentPage({
   function onChange(event){
     const string = event.target.value;
 
-    if(string === '' || /^\d+$/.test(string) && Number(string) <= pdfLength - 1){
+    if(string === '' || /^\d+$/.test(string) && Number(string) <= pdfLength){
       setCurrentPageDisplay(string);
       if(string !== ''){
         setCurrentPage(Number(string) - 1);
@@ -47,7 +47,6 @@ export function PDFCurrentPage({
       event.preventDefault();
       event.target.blur();
     }
-
   }
 
   return (

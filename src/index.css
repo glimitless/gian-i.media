@@ -136,11 +136,17 @@ ol{
 .desc-subtitle-two{
   margin-bottom: 0.4rem;
 }
+.desc-subtitle-two.quote-block-lead{
+  margin-bottom: 0.55rem;
+}
 .desc-paragraph:not(:last-child){ 
   margin-bottom: 1.1rem;
 }
+.desc-new-block{
+  margin-top: 2.2rem;
+}
 .desc-caption:not(:last-child){
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.225rem;
 }
 .desc-bullet-lead{
   margin-bottom: 0.65rem;
@@ -155,7 +161,6 @@ ol{
 .desc-bullet-list li:not(:last-child){
   margin-bottom: 0.55rem;
 }
-
 .quote-block{
   box-sizing: border-box;
   display: flex;

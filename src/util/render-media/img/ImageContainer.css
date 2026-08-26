@@ -3,7 +3,9 @@
   padding: 0;
   background-color: transparent;
   height: auto;
-  margin-bottom: 0.25rem;
+}
+.media-item .image-container:not(:last-child){
+  margin-bottom: 0.55rem;
 }
 .media-item .image-container img{
   width: 100%;

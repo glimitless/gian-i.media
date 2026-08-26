@@ -11,11 +11,13 @@
   border: none;
   background-color: var(--surface);
   margin-bottom: 0;
+  cursor: pointer;
   transition: opacity var(--bcvgTransitionDuration) var(--bcvgTransitionEase);
 }
-.collection-item-thumbnail:hover{
-  opacity: 75%;
-  cursor: pointer;
+@container main (min-width: 450px){
+  .collection-item-thumbnail:hover{
+    opacity: 75%;
+  }
 }
 .collection-item-thumbnail img{
   width: 100%;

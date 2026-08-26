@@ -2,6 +2,7 @@ import './RenderMediaItem.css';
 import { formatText } from '../formatText';
 import { ImageContainer } from './img/ImageContainer';
 import { PDFViewer } from './pdf/PDFViewer';
+import { YoutubeEmbed } from './pdf/YoutubeEmbed';
 
 export function RenderMediaItem({ mediaItem }){
   
@@ -47,8 +48,21 @@ export function RenderMediaItem({ mediaItem }){
             </div>
           )}
         </>
-        
-        
+      )}
+      {mediaItem.type === 'youtube-video' && (
+        <>
+          <div className="youtube-embed">
+            <YoutubeEmbed 
+              videoId={mediaItem.videoId}
+              title={mediaItem.alt}
+            />
+          </div>
+          {mediaItem.desc.length > 0 && (
+            <div className="caption-container">
+              {formatText(mediaItem.desc)}
+            </div>
+          )}
+        </>
       )}
       
     </div>

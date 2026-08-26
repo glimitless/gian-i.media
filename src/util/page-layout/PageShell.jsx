@@ -1,7 +1,7 @@
 import { Sidebar } from "../../components/sidebar/Sidebar";
 import { Header } from "../../components/header/Header";
 import { Footer } from "../../components/footer/Footer";
-import { useIsBelowMobileBreakpoint, useIsBelowTabletBreakpoint } from "../useMediaQuery";
+import { useIsBelowMobileBreakpoint, useIsBelowTabletBreakpoint } from "../../hooks/useMediaQuery";
 import { useRef } from "react";
 
 export function PageShell({ sidebarProps, headerProps, children }){
