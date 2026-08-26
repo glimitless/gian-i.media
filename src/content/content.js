@@ -5686,6 +5686,7 @@ const content = {
                   ],
                 },
               ],
+              id: 'putting-my-best-foot-forward',
             },
           ],
           id: 'version-0p6'
