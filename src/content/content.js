@@ -236,7 +236,7 @@ import vsGameMapPixelcutScreenshotHighRes from '../assets/images/vs/game-map/gc_
 import vsMicropublicationsThumbnailSmall from '../assets/images/vs/micropublications/gc_vs-micropublications-thumbnail-160.webp';
 import vsMicropublicationsThumbnailLarge from '../assets/images/vs/micropublications/gc_vs-micropublications-thumbnail-480.webp';
 import vsMicropub1Pages from './vs/vsMicropub1Pages.js';
-import vsMicropub2Pages from './vs/vsMicroPub2Pages.js';
+import vsMicropub2Pages from './vs/vsMicropub2Pages.js';
 import vsMicropub3Pages from './vs/vsMicropub3Pages.js';
 import vsMicropub4Pages from './vs/vsMicropub4Pages.js';
 import vsMicropub5Pages from './vs/vsMicropub5Pages.js';
