@@ -1,15 +1,15 @@
 import scyuFinalWebsiteScreenshot1LowRes from '../../assets/images/scyu/website/gc_scyu-original-website-design-sc-1-1080.webp';
-import scyuFinalWebsiteScreenshot1HighRes from '../../assets/images/scyu/website/gc_scyu-original-website-design-sc-1-1920.webp';
+import scyuFinalWebsiteScreenshot1HighRes from '../../assets/images/scyu/website/gc_scyu-original-website-design-sc-1-1600.webp';
 import scyuFinalWebsiteScreenshot2LowRes from '../../assets/images/scyu/website/gc_scyu-original-website-design-sc-2-1080.webp';
-import scyuFinalWebsiteScreenshot2HighRes from '../../assets/images/scyu/website/gc_scyu-original-website-design-sc-2-1920.webp';
+import scyuFinalWebsiteScreenshot2HighRes from '../../assets/images/scyu/website/gc_scyu-original-website-design-sc-2-1600.webp';
 import scyuFinalWebsiteScreenshot3LowRes from '../../assets/images/scyu/website/gc_scyu-original-website-design-sc-3-1080.webp';
-import scyuFinalWebsiteScreenshot3HighRes from '../../assets/images/scyu/website/gc_scyu-original-website-design-sc-3-1920.webp';
+import scyuFinalWebsiteScreenshot3HighRes from '../../assets/images/scyu/website/gc_scyu-original-website-design-sc-3-1600.webp';
 import scyuFinalWebsiteScreenshot4LowRes from '../../assets/images/scyu/website/gc_scyu-original-website-design-sc-4-1080.webp';
-import scyuFinalWebsiteScreenshot4HighRes from '../../assets/images/scyu/website/gc_scyu-original-website-design-sc-4-1920.webp';
+import scyuFinalWebsiteScreenshot4HighRes from '../../assets/images/scyu/website/gc_scyu-original-website-design-sc-4-1600.webp';
 import scyuFinalWebsiteScreenshot5LowRes from '../../assets/images/scyu/website/gc_scyu-original-website-design-sc-5-1080.webp';
-import scyuFinalWebsiteScreenshot5HighRes from '../../assets/images/scyu/website/gc_scyu-original-website-design-sc-5-1920.webp';
+import scyuFinalWebsiteScreenshot5HighRes from '../../assets/images/scyu/website/gc_scyu-original-website-design-sc-5-1600.webp';
 import scyuFinalWebsiteScreenshot6LowRes from '../../assets/images/scyu/website/gc_scyu-original-website-design-sc-6-1080.webp';
-import scyuFinalWebsiteScreenshot6HighRes from '../../assets/images/scyu/website/gc_scyu-original-website-design-sc-6-1920.webp';
+import scyuFinalWebsiteScreenshot6HighRes from '../../assets/images/scyu/website/gc_scyu-original-website-design-sc-6-1600.webp';
 
 const scyuFinalWebsiteScreenshots = [
   {

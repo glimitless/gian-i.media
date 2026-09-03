@@ -1,8 +1,4 @@
 // svg thumbnails
-// import BhdThumbnail from '../assets/thumbnails/svg/works/gc_bhd-thumbnail.svg?react';
-// import EglThumbnail from '../assets/thumbnails/svg/works/gc_egl-thumbnail.svg?react';
-// import AdThumbnail from '../assets/thumbnails/svg/works/gc_ad-thumbnail.svg?react';
-// import ScThumbnail from '../assets/thumbnails/svg/works/gc_sc-thumbnail.svg?react';
 // import CpThumbnail from '../assets/thumbnails/svg/notes/gc_cp-thumbnail.svg?react';
 // import DiThumbnail from '../assets/thumbnails/svg/notes/gc_di-thumbnail.svg?react';
 
@@ -14,24 +10,24 @@ import ssProsAd1ThumbnailSmall from '../assets/images/ss/prospective-advertiseme
 import ssProsAd1ThumbnailLarge from '../assets/images/ss/prospective-advertisement-1/gc_ss-prospective-ad-1-thumbnail-480.webp';
 import ssProspectiveAdvertisement1 from '../assets/video/ss/gc-dk_ss-prospective-advertisement-1.mp4';
 import ssProsAd1AfterEffectsSCLowRes from '../assets/images/ss/prospective-advertisement-1/gc-dk_ss-prospective-ad-1-after-effects-screenshot-1080.webp';
-import ssProsAd1AfterEffectsSCHighRes from '../assets/images/ss/prospective-advertisement-1/gc-dk_ss-prospective-ad-1-after-effects-screenshot-2160.webp';
+import ssProsAd1AfterEffectsSCHighRes from '../assets/images/ss/prospective-advertisement-1/gc-dk_ss-prospective-ad-1-after-effects-screenshot-1440.webp';
 import ssProsAd1BlenderSC1LowRes from '../assets/images/ss/prospective-advertisement-1/gc-dk_ss-prospective-ad-1-blender-screenshot-1-1080.webp';
-import ssProsAd1BlenderSC1HighRes from '../assets/images/ss/prospective-advertisement-1/gc-dk_ss-prospective-ad-1-blender-screenshot-1-2160.webp';
+import ssProsAd1BlenderSC1HighRes from '../assets/images/ss/prospective-advertisement-1/gc-dk_ss-prospective-ad-1-blender-screenshot-1-1440.webp';
 import ssProsAd1BlenderSC2LowRes from '../assets/images/ss/prospective-advertisement-1/gc-dk_ss-prospective-ad-1-blender-screenshot-2-1080.webp';
-import ssProsAd1BlenderSC2HighRes from '../assets/images/ss/prospective-advertisement-1/gc-dk_ss-prospective-ad-1-blender-screenshot-2-2160.webp';
+import ssProsAd1BlenderSC2HighRes from '../assets/images/ss/prospective-advertisement-1/gc-dk_ss-prospective-ad-1-blender-screenshot-2-1440.webp';
 import ssProsAd1IllustratorSC1LowRes from '../assets/images/ss/prospective-advertisement-1/gc-dk_pros-ad-1-illustrator-sc-1-1080.webp';
-import ssProsAd1IllustratorSC1HighRes from '../assets/images/ss/prospective-advertisement-1/gc-dk_pros-ad-1-illustrator-sc-1-2160.webp';
+import ssProsAd1IllustratorSC1HighRes from '../assets/images/ss/prospective-advertisement-1/gc-dk_pros-ad-1-illustrator-sc-1-1440.webp';
 import ssProsAd1IllustratorSC2LowRes from '../assets/images/ss/prospective-advertisement-1/gc-dk_pros-ad-1-illustrator-sc-2-1080.webp';
-import ssProsAd1IllustratorSC2HighRes from '../assets/images/ss/prospective-advertisement-1/gc-dk_pros-ad-1-illustrator-sc-2-2160.webp';
+import ssProsAd1IllustratorSC2HighRes from '../assets/images/ss/prospective-advertisement-1/gc-dk_pros-ad-1-illustrator-sc-2-1440.webp';
 import ssProsAd1PremiereProSCLowRes from '../assets/images/ss/prospective-advertisement-1/gc-dk_pros-ad-1-prem-sc-1080.webp';
-import ssProsAd1PremiereProSCHighRes from '../assets/images/ss/prospective-advertisement-1/gc-dk_pros-ad-1-prem-sc-2160.webp';
+import ssProsAd1PremiereProSCHighRes from '../assets/images/ss/prospective-advertisement-1/gc-dk_pros-ad-1-prem-sc-1600.webp';
 import ssProsAd1FLSLowRes from '../assets/images/ss/prospective-advertisement-1/gc-dk_pros-ad-1-fl-sc-1080.webp';
-import ssProsAd1FLSHighRes from '../assets/images/ss/prospective-advertisement-1/gc-dk_pros-ad-1-fl-sc-2160.webp';
+import ssProsAd1FLSHighRes from '../assets/images/ss/prospective-advertisement-1/gc-dk_pros-ad-1-fl-sc-1440.webp';
 
 import ssProspectiveAdvertisement2LowRes from '../assets/images/ss/prospective-advertisement-2/gc-dk_ss-prospective-ad-2-1080.webp';
-import ssProspectiveAdvertisement2HighRes from '../assets/images/ss/prospective-advertisement-2/gc-dk_ss-prospective-ad-2-2160.webp';
+import ssProspectiveAdvertisement2HighRes from '../assets/images/ss/prospective-advertisement-2/gc-dk_ss-prospective-ad-2-1440.webp';
 import ssProsAd2IllustratorSCLowRes from '../assets/images/ss/prospective-advertisement-2/gc-dk_ss-prospective-ad-2-illustrator-screenshot-1080.webp';
-import ssProsAd2IllustratorSCHighRes from '../assets/images/ss/prospective-advertisement-2/gc-dk_ss-prospective-ad-2-illustrator-screenshot-2160.webp';
+import ssProsAd2IllustratorSCHighRes from '../assets/images/ss/prospective-advertisement-2/gc-dk_ss-prospective-ad-2-illustrator-screenshot-1440.webp';
 
 // User Experience - Seventh Sense
 import ssUXThumbnailSmall from '../assets/images/ss/user-experience/gc_ss-user-experience-thumbnail-160.webp';
@@ -41,7 +37,7 @@ import ssUXExpandedSystemDiagramHighRes from '../assets/images/ss/user-experienc
 import ssUXTaxonomyLowRes from '../assets/images/ss/user-experience/gc-dk_ss-taxonomy-1080.webp';
 import ssUXTaxonomyHighRes from '../assets/images/ss/user-experience/gc-dk_ss-taxonomy-2160.webp';
 import ssUXIPhoneControlCenterLowRes from '../assets/images/ss/user-experience/gc-dk_ss-iphone-control-center-ux-1080.webp';
-import ssUXIPhoneControlCenterHighRes from '../assets/images/ss/user-experience/gc-dk_ss-iphone-control-center-ux-2160.webp';
+import ssUXIPhoneControlCenterHighRes from '../assets/images/ss/user-experience/gc-dk_ss-iphone-control-center-ux-1820.webp';
 import ssUXIPhoneSettingsLowRes from '../assets/images/ss/user-experience/gc-dk_ss-ios-settings-ux-1080.webp';
 import ssUXIPhoneSettingsHighRes from '../assets/images/ss/user-experience/gc-dk_ss-ios-settings-ux-1408.webp';
 import ssUXIPhoneFrequencyTuningLowRes from '../assets/images/ss/user-experience/gc-dk_ss-iphone-frequency-tuning-ux-1080.webp';
@@ -53,7 +49,7 @@ import ssUXEarlySensorExperiment from '../assets/video/ss/gc-dk_ss-sensor-experi
 import ssColorTheoryThumbnailSmall from '../assets/images/ss/color-theory/gc_ss-color-theory-thumbnail-160.webp';
 import ssColorTheoryThumbnailLarge from '../assets/images/ss/color-theory/gc_ss-color-theory-thumbnail-480.webp';
 import ssColorTheoryReasoningLowRes from '../assets/images/ss/color-theory/gc-dk_ss-color-theory-1080.webp';
-import ssColorTheoryReasoningHighRes from '../assets/images/ss/color-theory/gc-dk_ss-color-theory-2160.webp';
+import ssColorTheoryReasoningHighRes from '../assets/images/ss/color-theory/gc-dk_ss-color-theory-1440.webp';
 import ssFullColorTheoryResearchLowRes from '../assets/images/ss/color-theory/gc-dk_ss-full-color-research-1080.webp';
 import ssFullColorTheoryResearchHighRes from '../assets/images/ss/color-theory/gc-dk_ss-full-color-research-2160.webp';
 import ssUXEarlyReactiveVisualExperiment from '../assets/video/ss/gc-dk_ss-reactive-visual-experiment.mp4';
@@ -73,89 +69,91 @@ import TutsThumbnail from '../assets/thumbnails/svg/works/gc_tuts-thumbnail.svg?
 import spiralExhibitionThumbnailSmall from '../assets/images/tuts/exhibition/gc_spiral-exhibition-thumbnail-160.webp';
 import spiralExhibitionThumbnailLarge from '../assets/images/tuts/exhibition/gc_spiral-exhibition-thumbnail-480.webp';
 import spiralExhibitionFullSetupLowRes from '../assets/images/tuts/exhibition/gc_full-gradex-setup-1080.webp';
-import spiralExhibitionFullSetupHighRes from '../assets/images/tuts/exhibition/gc_full-gradex-setup-2160.webp';
+import spiralExhibitionFullSetupHighRes from '../assets/images/tuts/exhibition/gc_full-gradex-setup-1280.webp';
 import spiralExhibitionSnapshot1LowRes from '../assets/images/tuts/exhibition/gc_gradex-snapshot-1-1080.webp';
-import spiralExhibitionSnapshot1HighRes from '../assets/images/tuts/exhibition/gc_gradex-snapshot-1-2160.webp';
+import spiralExhibitionSnapshot1HighRes from '../assets/images/tuts/exhibition/gc_gradex-snapshot-1-1280.webp';
 import spiralExhibitionSnapshot2LowRes from '../assets/images/tuts/exhibition/gc_gradex-snapshot-2-1080.webp';
-import spiralExhibitionSnapshot2HighRes from '../assets/images/tuts/exhibition/gc_gradex-snapshot-2-2160.webp';
+import spiralExhibitionSnapshot2HighRes from '../assets/images/tuts/exhibition/gc_gradex-snapshot-2-1280.webp';
 import spiralExhibitionSnapshot3LowRes from '../assets/images/tuts/exhibition/gc_gradex-snapshot-3-1080.webp';
-import spiralExhibitionSnapshot3HighRes from '../assets/images/tuts/exhibition/gc_gradex-snapshot-3-2160.webp';
+import spiralExhibitionSnapshot3HighRes from '../assets/images/tuts/exhibition/gc_gradex-snapshot-3-1280.webp';
 import spiralExhibitionOriginalSetupLowRes from '../assets/images/tuts/exhibition/gc_original-gradex-setup-1080.webp';
-import spiralExhibitionOriginalSetupHighRes from '../assets/images/tuts/exhibition/gc_original-gradex-setup-2160.webp';
+import spiralExhibitionOriginalSetupHighRes from '../assets/images/tuts/exhibition/gc_original-gradex-setup-1440.webp';
 import spiralExhibitionOriginalSetupDifferentAngleLowRes from '../assets/images/tuts/exhibition/gc_original-gradex-setup-different-angle-1080.webp';
-import spiralExhibitionOriginalSetupDifferentAngleHighRes from '../assets/images/tuts/exhibition/gc_original-gradex-setup-different-angle-2160.webp';
+import spiralExhibitionOriginalSetupDifferentAngleHighRes from '../assets/images/tuts/exhibition/gc_original-gradex-setup-different-angle-1440.webp';
 import spiralExhibitionLiveVisUX1LowRes from '../assets/images/tuts/exhibition/gc_live-vis-and-a-sneak-of-treatise-1080.webp';
-import spiralExhibitionLiveVisUX1HighRes from '../assets/images/tuts/exhibition/gc_live-vis-and-a-sneak-of-treatise-2160.webp';
+import spiralExhibitionLiveVisUX1HighRes from '../assets/images/tuts/exhibition/gc_live-vis-and-a-sneak-of-treatise-1440.webp';
 import spiralExhibitionLiveVisUX2LowRes from '../assets/images/tuts/exhibition/gc_live-vis-interaction-1080.webp';
-import spiralExhibitionLiveVisUX2HighRes from '../assets/images/tuts/exhibition/gc_live-vis-interaction-2160.webp';
+import spiralExhibitionLiveVisUX2HighRes from '../assets/images/tuts/exhibition/gc_live-vis-interaction-1440.webp';
 import spiralExhibitionHourglassBookTreatiseLowRes from '../assets/images/tuts/exhibition/gc_book-treatise-and-hourglass-1080.webp';
-import spiralExhibitionHourglassBookTreatiseHighRes from '../assets/images/tuts/exhibition/gc_book-treatise-and-hourglass-2160.webp';
+import spiralExhibitionHourglassBookTreatiseHighRes from '../assets/images/tuts/exhibition/gc_book-treatise-and-hourglass-1280.webp';
 import spiralExhibitionHourglassLowRes from '../assets/images/tuts/exhibition/gc_spiral-hourglass-gradex-1080.webp';
-import spiralExhibitionHourglassHighRes from '../assets/images/tuts/exhibition/gc_spiral-hourglass-gradex-2160.webp';
+import spiralExhibitionHourglassHighRes from '../assets/images/tuts/exhibition/gc_spiral-hourglass-gradex-1440.webp';
 import spiralExhibitionReadingInstructions1LowRes from '../assets/images/tuts/exhibition/gc_spiral-research-guidance-card-1-1080.webp';
-import spiralExhibitionReadingInstructions1HighRes from '../assets/images/tuts/exhibition/gc_spiral-research-guidance-card-1-2160.webp';
+import spiralExhibitionReadingInstructions1HighRes from '../assets/images/tuts/exhibition/gc_spiral-research-guidance-card-1-1440.webp';
 import spiralExhibitionReadingInstructions2LowRes from '../assets/images/tuts/exhibition/gc_spiral-research-guidance-card-2-1080.webp';
-import spiralExhibitionReadingInstructions2HighRes from '../assets/images/tuts/exhibition/gc_spiral-research-guidance-card-2-2160.webp';
+import spiralExhibitionReadingInstructions2HighRes from '../assets/images/tuts/exhibition/gc_spiral-research-guidance-card-2-1440.webp';
 import spiralExhibitionReadingInstructions3LowRes from '../assets/images/tuts/exhibition/gc_spiral-research-guidance-card-3-1080.webp';
-import spiralExhibitionReadingInstructions3HighRes from '../assets/images/tuts/exhibition/gc_spiral-research-guidance-card-3-2160.webp';
+import spiralExhibitionReadingInstructions3HighRes from '../assets/images/tuts/exhibition/gc_spiral-research-guidance-card-3-1440.webp';
 import spiralExhibitionBusinessCardsLowRes from '../assets/images/tuts/exhibition/gc_spiral-business-cards-1080.webp';
-import spiralExhibitionBusinessCardsHighRes from '../assets/images/tuts/exhibition/gc_spiral-business-cards-2160.webp';
+import spiralExhibitionBusinessCardsHighRes from '../assets/images/tuts/exhibition/gc_spiral-business-cards-1440.webp';
 
 // Spiral Hourglass - TIME: Unwinding the Spiral
 import spiralHourglassThumbnailSmall from '../assets/images/tuts/spiral-hourglass/gc_spiral-hourglass-thumbnail-160.webp';
 import spiralHourglassThumbnailLarge from '../assets/images/tuts/spiral-hourglass/gc_spiral-hourglass-thumbnail-480.webp';
 import spiralHourglassFullAndEmptyLowRes from '../assets/images/tuts/spiral-hourglass/gc_hourglass-full-and-empty-1080.webp';
-import spiralHourglassFullAndEmptyHighRes from '../assets/images/tuts/spiral-hourglass/gc_hourglass-full-and-empty-2160.webp';
+import spiralHourglassFullAndEmptyHighRes from '../assets/images/tuts/spiral-hourglass/gc_hourglass-full-and-empty-1440.webp';
 import spiralHourglassFullIntoEmptyLowRes from '../assets/images/tuts/spiral-hourglass/gc_hourglass-full-into-empty-1080.webp';
-import spiralHourglassFullIntoEmptyHighRes from '../assets/images/tuts/spiral-hourglass/gc_hourglass-full-into-empty-2160.webp';
+import spiralHourglassFullIntoEmptyHighRes from '../assets/images/tuts/spiral-hourglass/gc_hourglass-full-into-empty-1440.webp';
 import spiralHourglassRhinoFileScreenshotLowRes from '../assets/images/tuts/spiral-hourglass/gc_hourglass-rhino-file-screenshot-1080.webp';
-import spiralHourglassRhinoFileScreenshotHighRes from '../assets/images/tuts/spiral-hourglass/gc_hourglass-rhino-file-screenshot-2160.webp';
+import spiralHourglassRhinoFileScreenshotHighRes from '../assets/images/tuts/spiral-hourglass/gc_hourglass-rhino-file-screenshot-1440.webp';
 import spiralHourglassConceptSketchesLowRes from '../assets/images/tuts/spiral-hourglass/gc_hourglass-concept-sketches-1080.webp';
-import spiralHourglassConceptSketchesHighRes from '../assets/images/tuts/spiral-hourglass/gc_hourglass-concept-sketches-2160.webp';
+import spiralHourglassConceptSketchesHighRes from '../assets/images/tuts/spiral-hourglass/gc_hourglass-concept-sketches-1440.webp';
 
 // Spiral Treatise - TIME: Unwinding the Spiral
 import spiralTreatiseThumbnailSmall from '../assets/images/tuts/spiral-treatise/gc_spiral-treatise-thumbnail-160.webp';
 import spiralTreatiseThumbnailLarge from '../assets/images/tuts/spiral-treatise/gc_spiral-treatise-thumbnail-480.webp';
 import spiralTreatiseScanLowRes from '../assets/images/tuts/spiral-treatise/gc_spiral-treatise-scan-1080.webp';
-import spiralTreatiseScanHighRes from '../assets/images/tuts/spiral-treatise/gc_spiral-treatise-scan-2160.webp';
+import spiralTreatiseScanHighRes from '../assets/images/tuts/spiral-treatise/gc_spiral-treatise-scan-1280.webp';
 import spiralTreatisePDF from '../assets/pdf/spiral-treatise/gc_spiral-treatise.pdf';
 import spiralTreatiseExhibitionSetupLowRes from '../assets/images/tuts/spiral-treatise/gc_treatise-exhibition-setup-1080.webp';
-import spiralTreatiseExhibitionSetupHighRes from '../assets/images/tuts/spiral-treatise/gc_treatise-exhibition-setup-2160.webp';
+import spiralTreatiseExhibitionSetupHighRes from '../assets/images/tuts/spiral-treatise/gc_treatise-exhibition-setup-1440.webp';
 
 // Live Visualization - TIME: Unwinding the Spiral
 import spiralLiveVisualizationThumbnailSmall from '../assets/images/tuts/live-visualization/gc_spiral-live-vis-thumbnail-160.webp';
 import spiralLiveVisualizationThumbnailLarge from '../assets/images/tuts/live-visualization/gc_spiral-live-vis-thumbnail-480.webp';
 import spiralLiveVisualizationFullSetupLowRes from '../assets/images/tuts/live-visualization/gc_spiral-live-vis-full-setup-1080.webp';
-import spiralLiveVisualizationFullSetupHighRes from '../assets/images/tuts/live-visualization/gc_spiral-live-vis-full-setup-2160.webp';
+import spiralLiveVisualizationFullSetupHighRes from '../assets/images/tuts/live-visualization/gc_spiral-live-vis-full-setup-1440.webp';
 import spiralLiveVisualizationVideoDoc1 from '../assets/video/tuts/gc_spiral-live-vis-video-doc-1.mp4';
 import spiralLiveVisualizationVideoDoc2 from '../assets/video/tuts/gc_spiral-live-vis-video-doc-2.mp4';
 import spiralLiveVisualizationMaxPatchLowRes from '../assets/images/tuts/live-visualization/gc_spiral-live-vis-max-patch-1080.webp';
 import spiralLiveVisualizationMaxPatchHighRes from '../assets/images/tuts/live-visualization/gc_spiral-live-vis-max-patch-1150.webp';
 import spiralInsideVisualizationControllerLowRes from '../assets/images/tuts/live-visualization/gc_insde-visualization-controller-1080.webp';
-import spiralInsideVisualizationControllerHighRes from '../assets/images/tuts/live-visualization/gc_insde-visualization-controller-2160.webp';
+import spiralInsideVisualizationControllerHighRes from '../assets/images/tuts/live-visualization/gc_insde-visualization-controller-1440.webp';
 import spiralControllerCaseRhinoScreenshot1LowRes from '../assets/images/tuts/live-visualization/gc_controller-case-rhino-screenshot-1-1080.webp';
-import spiralControllerCaseRhinoScreenshot1HighRes from '../assets/images/tuts/live-visualization/gc_controller-case-rhino-screenshot-1-2160.webp';
+import spiralControllerCaseRhinoScreenshot1HighRes from '../assets/images/tuts/live-visualization/gc_controller-case-rhino-screenshot-1-1440.webp';
 import spiralControllerCaseRhinoScreenshot2LowRes from '../assets/images/tuts/live-visualization/gc_controller-case-rhino-screenshot-2-1080.webp';
-import spiralControllerCaseRhinoScreenshot2HighRes from '../assets/images/tuts/live-visualization/gc_controller-case-rhino-screenshot-2-2160.webp';
+import spiralControllerCaseRhinoScreenshot2HighRes from '../assets/images/tuts/live-visualization/gc_controller-case-rhino-screenshot-2-1440.webp';
 import spiralServoAttachmentRhinoScreenshotLowRes from '../assets/images/tuts/live-visualization/gc_custom-servo-piece_rhino-screenshot-1080.webp';
-import spiralServoAttachmentRhinoScreenshotHighRes from '../assets/images/tuts/live-visualization/gc_custom-servo-piece_rhino-screenshot-2160.webp';
+import spiralServoAttachmentRhinoScreenshotHighRes from '../assets/images/tuts/live-visualization/gc_custom-servo-piece_rhino-screenshot-1440.webp';
 import spiralControllerSketchLowRes from '../assets/images/tuts/live-visualization/gc-live-vis-controller-sketch-1080.webp';
-import spiralControllerSketchHighRes from '../assets/images/tuts/live-visualization/gc-live-vis-controller-sketch-2160.webp';
+import spiralControllerSketchHighRes from '../assets/images/tuts/live-visualization/gc-live-vis-controller-sketch-1440.webp';
 import spiralLiveVisArduinoCodeLowRes from '../assets/images/tuts/live-visualization/gc_spiral-live-vis-arduino-code-1080.webp';
-import spiralLiveVisArduinoCodeHighRes from '../assets/images/tuts/live-visualization/gc_spiral-live-vis-arduino-code-2160.webp';
+import spiralLiveVisArduinoCodeHighRes from '../assets/images/tuts/live-visualization/gc_spiral-live-vis-arduino-code-1440.webp';
 
 // Visual Research - TIME: Unwinding the Spiral
 import spiralVisResearchThumbnailSmall from '../assets/images/tuts/visual-research/gc_spiral-visual-research-thumbnail-160.webp';
 import spiralVisResearchThumbnailLarge from '../assets/images/tuts/visual-research/gc_spiral-visual-research-thumbnail-480.webp';
 import spiralVisResearchFrontCoverLowRes from '../assets/images/tuts/visual-research/gc_spiral-visual-research-front-cover-1080.webp';
-import spiralVisResearchFrontCoverHighRes from '../assets/images/tuts/visual-research/gc_spiral-visual-research-front-cover-2160.webp';
+import spiralVisResearchFrontCoverHighRes from '../assets/images/tuts/visual-research/gc_spiral-visual-research-front-cover-1440.webp';
 import spiralVisResearchPages from '../content/tuts/spiralVisualResearchPages.js';
 import spiralVisResearchRhino8ScreenshotLowRes from '../assets/images/tuts/visual-research/gc_tuts-visual-research-rhino-8-screenshot-1080.webp';
-import spiralVisResearchRhino8ScreenshotHighRes from '../assets/images/tuts/visual-research/gc_tuts-visual-research-rhino-8-screenshot-2160.webp';
+import spiralVisResearchRhino8ScreenshotHighRes from '../assets/images/tuts/visual-research/gc_tuts-visual-research-rhino-8-screenshot-1600.webp';
 import spiralVisResearchProcessingScreenshotLowRes from '../assets/images/tuts/visual-research/gc_tuts-visual-research-processing-screenshot-1080.webp';
-import spiralVisResearchProcessingScreenshotHighRes from '../assets/images/tuts/visual-research/gc_tuts-visual-research-processing-screenshot-2160.webp';
+import spiralVisResearchProcessingScreenshotHighRes from '../assets/images/tuts/visual-research/gc_tuts-visual-research-processing-screenshot-1600.webp';
 import spiralVisResearchPhotoshopScreenshotLowRes from '../assets/images/tuts/visual-research/gc_tuts-visual-research-photoshop-screenshot-1080.webp';
-import spiralVisResearchPhotoshopScreenshotHighRes from '../assets/images/tuts/visual-research/gc_tuts-visual-research-photoshop-screenshot-2160.webp';
+import spiralVisResearchPhotoshopScreenshotHighRes from '../assets/images/tuts/visual-research/gc_tuts-visual-research-photoshop-screenshot-1440.webp';
+import spiralVisResearchInDesignScreenshotLowRes from '../assets/images/tuts/visual-research/gc_tuts-visual-research-indesign-sc-1080.webp';
+import spiralVisResearchInDesignScreenshotHighRes from '../assets/images/tuts/visual-research/gc_tuts-visual-research-indesign-sc-1440.webp';
 
 // Visualizing Science
 import VsThumbnail from '../assets/thumbnails/svg/works/gc_vs-thumbnail.svg?react';
@@ -164,52 +162,52 @@ import VsThumbnail from '../assets/thumbnails/svg/works/gc_vs-thumbnail.svg?reac
 import vsControllerPrototypeThumbnailSmall from '../assets/images/vs/controller-prototype/gc_vs-controller-prototype-thumbnail-160.webp';
 import vsControllerPrototypeThumbnailLarge from '../assets/images/vs/controller-prototype/gc_vs-controller-prototype-thumbnail-480.webp';
 import vsContProtPOCFullSetupLowRes from '../assets/images/vs/controller-prototype/gc_vs-proof-of-concept-full-setup-1080.webp';
-import vsContProtPOCFullSetupHighRes from '../assets/images/vs/controller-prototype/gc_vs-proof-of-concept-full-setup-2160.webp';
+import vsContProtPOCFullSetupHighRes from '../assets/images/vs/controller-prototype/gc_vs-proof-of-concept-full-setup-1440.webp';
 import vsContProtPOCControllerLowRes from '../assets/images/vs/controller-prototype/gc_vs-proof-of-concept-controller-1080.webp';
-import vsContProtPOCControllerHighRes from '../assets/images/vs/controller-prototype/gc_vs-proof-of-concept-controller-2160.webp';
+import vsContProtPOCControllerHighRes from '../assets/images/vs/controller-prototype/gc_vs-proof-of-concept-controller-1440.webp';
 import vsContProtPOCIRCameraSetupLowRes from '../assets/images/vs/controller-prototype/gc_vs-proof-of-concept-ir-camera-1080.webp';
-import vsContProtPOCIRCameraSetupHighRes from '../assets/images/vs/controller-prototype/gc_vs-proof-of-concept-ir-camera-2160.webp';
+import vsContProtPOCIRCameraSetupHighRes from '../assets/images/vs/controller-prototype/gc_vs-proof-of-concept-ir-camera-1440.webp';
 import vsContProtFFPFullSetupLowRes from '../assets/images/vs/controller-prototype/gc_vs-first-code-prototype-full-setup-1080.webp';
-import vsContProtFFPFullSetupHighRes from '../assets/images/vs/controller-prototype/gc_vs-first-code-prototype-full-setup-2160.webp';
+import vsContProtFFPFullSetupHighRes from '../assets/images/vs/controller-prototype/gc_vs-first-code-prototype-full-setup-1440.webp';
 import vsContProtFullFWALowRes from '../assets/images/vs/controller-prototype/gc_vs-first-wiring-attempt-and-form-prototype-1080.webp';
-import vsContProtFullFWAHighRes from '../assets/images/vs/controller-prototype/gc_vs-first-wiring-attempt-and-form-prototype-2160.webp';
+import vsContProtFullFWAHighRes from '../assets/images/vs/controller-prototype/gc_vs-first-wiring-attempt-and-form-prototype-1440.webp';
 import vsContProtFPAngle1LowRes from '../assets/images/vs/controller-prototype/gc_vs-first-wiring-attempt-controller-form-angle-1-1080.webp';
-import vsContProtFPAngle1HighRes from '../assets/images/vs/controller-prototype/gc_vs-first-wiring-attempt-controller-form-angle-1-2160.webp';
+import vsContProtFPAngle1HighRes from '../assets/images/vs/controller-prototype/gc_vs-first-wiring-attempt-controller-form-angle-1-1440.webp';
 import vsContProtFPAngle2LowRes from '../assets/images/vs/controller-prototype/gc_vs-first-wiring-attempt-controller-form-angle-2-1080.webp';
-import vsContProtFPAngle2HighRes from '../assets/images/vs/controller-prototype/gc_vs-first-wiring-attempt-controller-form-angle-2-2160.webp';
+import vsContProtFPAngle2HighRes from '../assets/images/vs/controller-prototype/gc_vs-first-wiring-attempt-controller-form-angle-2-1440.webp';
 import vsContProtFWAControllerAngle1LowRes from '../assets/images/vs/controller-prototype/gc_vs-first-wiring-attempt-controller-wiring-angle-1-1080.webp';
-import vsContProtFWAControllerAngle1HighRes from '../assets/images/vs/controller-prototype/gc_vs-first-wiring-attempt-controller-wiring-angle-1-2160.webp';
+import vsContProtFWAControllerAngle1HighRes from '../assets/images/vs/controller-prototype/gc_vs-first-wiring-attempt-controller-wiring-angle-1-1440.webp';
 import vsContProtFWAControllerAngle2LowRes from '../assets/images/vs/controller-prototype/gc_vs-first-wiring-attempt-controller-wiring-angle-2-1080.webp';
-import vsContProtFWAControllerAngle2HighRes from '../assets/images/vs/controller-prototype/gc_vs-first-wiring-attempt-controller-wiring-angle-2-2160.webp';
+import vsContProtFWAControllerAngle2HighRes from '../assets/images/vs/controller-prototype/gc_vs-first-wiring-attempt-controller-wiring-angle-2-1440.webp';
 import vsContProtFWAIRCameraAngle1LowRes from '../assets/images/vs/controller-prototype/gc_vs-first-wiring-attempt-ir-camera-angle-1-1080.webp';
-import vsContProtFWAIRCameraAngle1HighRes from '../assets/images/vs/controller-prototype/gc_vs-first-wiring-attempt-ir-camera-angle-1-2160.webp';
+import vsContProtFWAIRCameraAngle1HighRes from '../assets/images/vs/controller-prototype/gc_vs-first-wiring-attempt-ir-camera-angle-1-1440.webp';
 import vsContProtFWAIRCameraAngle2LowRes from '../assets/images/vs/controller-prototype/gc_vs-first-wiring-attempt-ir-camera-angle-2-1080.webp';
-import vsContProtFWAIRCameraAngle2HighRes from '../assets/images/vs/controller-prototype/gc_vs-first-wiring-attempt-ir-camera-angle-2-2160.webp';
+import vsContProtFWAIRCameraAngle2HighRes from '../assets/images/vs/controller-prototype/gc_vs-first-wiring-attempt-ir-camera-angle-2-1440.webp';
 import vsControllerSketchesPages from '../content/vs/vsControllerSketches.js';
 
 // Planetary Archive - Visualizing Science
 import vsPlanetaryArchiveThumbnailSmall from '../assets/images/vs/planetary-archive/gc_vs-planetary-archive-thumbnail-160.webp';
 import vsPlanetaryArchiveThumbnailLarge from '../assets/images/vs/planetary-archive/gc_vs-planetary-archive-thumbnail-480.webp';
 import vsPlanArchLandingPageLowRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-landing-page-1080.webp';
-import vsPlanArchLandingPageHighRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-landing-page-2160.webp';
+import vsPlanArchLandingPageHighRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-landing-page-1440.webp';
 import vsPlanArchNavigationMenuLowRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-navigation-menu-1080.webp';
-import vsPlanArchNavigationMenuHighRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-navigation-menu-2160.webp';
+import vsPlanArchNavigationMenuHighRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-navigation-menu-1440.webp';
 import vsPlanArchPlanetSelectedLowRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-planet-selected-1080.webp';
-import vsPlanArchPlanetSelectedHighRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-planet-selected-2160.webp';
+import vsPlanArchPlanetSelectedHighRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-planet-selected-1440.webp';
 import vsPlanArchPlanetSelectedMoreInfoLowRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-planet-selected-more-info-1080.webp';
-import vsPlanArchPlanetSelectedMoreInfoHighRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-planet-selected-more-info-2160.webp';
+import vsPlanArchPlanetSelectedMoreInfoHighRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-planet-selected-more-info-1440.webp';
 import vsPlanArchOrbitSpeedComparisonLowRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-orbit-speed-comparison-1080.webp';
-import vsPlanArchOrbitSpeedComparisonHighRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-orbit-speed-comparison-2160.webp';
+import vsPlanArchOrbitSpeedComparisonHighRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-orbit-speed-comparison-1440.webp';
 import vsPlanArchOrbitSpeedComparisonAngle2LowRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-orbit-speed-comparison-angle-2-1080.webp';
-import vsPlanArchOrbitSpeedComparisonAngle2HighRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-orbit-speed-comparison-angle-2-2160.webp';
+import vsPlanArchOrbitSpeedComparisonAngle2HighRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-orbit-speed-comparison-angle-2-1440.webp';
 import vsPlanArchOrbitSpeedComparisonPlanetSelectedLowRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-orbit-speed-comparison-planet-selected-1080.webp';
-import vsPlanArchOrbitSpeedComparisonPlanetSelectedHighRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-orbit-speed-comparison-planet-selected-2160.webp';
+import vsPlanArchOrbitSpeedComparisonPlanetSelectedHighRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-orbit-speed-comparison-planet-selected-1440.webp';
 import vsPlanArchCursorScreenshotLowRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-cursor-screenshot-1080.webp';
-import vsPlanArchCursorScreenshotHighRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-cursor-screenshot-2160.webp';
+import vsPlanArchCursorScreenshotHighRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-cursor-screenshot-1440.webp';
 import vsPlanArchSketchIdeation1LowRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-sketch-ideation-1-1080.webp';
-import vsPlanArchSketchIdeation1HighRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-sketch-ideation-1-2160.webp';
+import vsPlanArchSketchIdeation1HighRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-sketch-ideation-1-1440.webp';
 import vsPlanArchSketchIdeation2LowRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-sketch-ideation-2-1080.webp';
-import vsPlanArchSketchIdeation2HighRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-sketch-ideation-2-2160.webp';
+import vsPlanArchSketchIdeation2HighRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-sketch-ideation-2-1440.webp';
 import vsPlanArchSitemapLowRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-sitemap-1080.webp';
 import vsPlanArchSitemapHighRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-sitemap-2160.webp';
 import vsPlanArchOverlayMockupLowRes from '../assets/images/vs/planetary-archive/gc_planetary-archive-overlay-mockup-1080.webp';
@@ -221,16 +219,16 @@ import vsPlanArchOverlayMockupProfFeedbackHighRes from '../assets/images/vs/plan
 import vsGameMapThumbnailSmall from '../assets/images/vs/game-map/gc_vs-game-map-thumbnail-160.webp';
 import vsGameMapThumbnailLarge from '../assets/images/vs/game-map/gc_vs-game-map-thumbnail-480.webp';
 import vsSunCycleGameMapLowRes from '../assets/images/vs/game-map/gc_sun-cycle-game-map-1080.webp';
-import vsSunCycleGameMapHighRes from '../assets/images/vs/game-map/gc_sun-cycle-game-map-2160.webp';
+import vsSunCycleGameMapHighRes from '../assets/images/vs/game-map/gc_sun-cycle-game-map-1280.webp';
 import vsLCBDrawings from './vs/vsLCBDrawings.js';
 import vsGameMapBackgroundProcessLowRes from '../assets/images/vs/game-map/gc_vs-game-map-background-1080.webp';
-import vsGameMapBackgroundProcessHighRes from '../assets/images/vs/game-map/gc_vs-game-map-background-2160.webp';
+import vsGameMapBackgroundProcessHighRes from '../assets/images/vs/game-map/gc_vs-game-map-background-1600.webp';
 import vsGameMapTiledScreenshot1LowRes from '../assets/images/vs/game-map/gc_vs-game-map-tiled-screenshot-1-1080.webp';
-import vsGameMapTiledScreenshot1HighRes from '../assets/images/vs/game-map/gc_vs-game-map-tiled-screenshot-1-2160.webp';
+import vsGameMapTiledScreenshot1HighRes from '../assets/images/vs/game-map/gc_vs-game-map-tiled-screenshot-1-1440.webp';
 import vsGameMapTiledScreenshot2LowRes from '../assets/images/vs/game-map/gc_vs-game-map-tiled-screenshot-2-1080.webp';
-import vsGameMapTiledScreenshot2HighRes from '../assets/images/vs/game-map/gc_vs-game-map-tiled-screenshot-2-2160.webp';
+import vsGameMapTiledScreenshot2HighRes from '../assets/images/vs/game-map/gc_vs-game-map-tiled-screenshot-2-1440.webp';
 import vsGameMapPixelcutScreenshotLowRes from '../assets/images/vs/game-map/gc_vs-game-map-pixelcut-screenshot-1080.webp';
-import vsGameMapPixelcutScreenshotHighRes from '../assets/images/vs/game-map/gc_vs-game-map-pixelcut-screenshot-2160.webp';
+import vsGameMapPixelcutScreenshotHighRes from '../assets/images/vs/game-map/gc_vs-game-map-pixelcut-screenshot-1278.webp';
 
 // Micropublications - Visualizing Science
 import vsMicropublicationsThumbnailSmall from '../assets/images/vs/micropublications/gc_vs-micropublications-thumbnail-160.webp';
@@ -248,14 +246,14 @@ import dpThumbnail from '../assets/thumbnails/svg/works/gc_dp-thumbnail.svg?reac
 import dpPostersThumbnailSmall from '../assets/images/dp/posters/gc_dp-posters-thumbnail-160.webp';
 import dpPostersThumbnailLarge from '../assets/images/dp/posters/gc_dp-posters-thumbnail-480.webp';
 import dpPostersContext1LowRes from '../assets/images/dp/posters/gc_dp-posters-context-1-1080.webp';
-import dpPostersContext1HighRes from '../assets/images/dp/posters/gc_dp-posters-context-1-2160.webp';
+import dpPostersContext1HighRes from '../assets/images/dp/posters/gc_dp-posters-context-1-1280.webp';
 import dpPostersContext2 from '../assets/images/dp/posters/gc_dp-posters-context-2-960.webp';
 import dpPostersProcessContext1LowRes from '../assets/images/dp/posters/gc_dp-screen-posters-indesign-screenshot-1080.webp';
-import dpPostersProcessContext1HighRes from '../assets/images/dp/posters/gc_dp-screen-posters-indesign-screenshot-2160.webp';
+import dpPostersProcessContext1HighRes from '../assets/images/dp/posters/gc_dp-screen-posters-indesign-screenshot-1440.webp';
 import dpPostersContext2LowRes from '../assets/images/dp/posters/gc_dp-infographics-printed-context-1080.webp';
-import dpPostersContext2HighRes from '../assets/images/dp/posters/gc_dp-infographics-printed-context-2160.webp';
+import dpPostersContext2HighRes from '../assets/images/dp/posters/gc_dp-infographics-printed-context-1440.webp';
 import dpPostersProcessContext2LowRes from '../assets/images/dp/posters/gc_dp-printed-posters-indesign-screenshot-1080.webp';
-import dpPostersProcessContext2HighRes from '../assets/images/dp/posters/gc_dp-printed-posters-indesign-screenshot-2160.webp';
+import dpPostersProcessContext2HighRes from '../assets/images/dp/posters/gc_dp-printed-posters-indesign-screenshot-1440.webp';
 import dpInfographicsWinter25 from './dp/posters-screen/dpInfographicsWinter25.js';
 import dpInfographicsFall25 from './dp/posters-screen/dpInfographicsFall25.js';
 import dpInfographicsWinter26 from './dp/posters-screen/dpInfographicsWinter26.js';
@@ -275,52 +273,52 @@ import dpSignageWordmarkContext1 from '../assets/images/dp/signage/gc_dp-wordmar
 import dpSignageWordmarkContext2LowRes from '../assets/images/dp/signage/gc_dp-design-photography-sign-context-1-1080.webp';
 import dpSignageWordmarkContext2HighRes from '../assets/images/dp/signage/gc_dp-design-photography-sign-context-1-1280.webp';
 import dpSignageWordmarkContext3LowRes from '../assets/images/dp/signage/gc_dp-design-photography-sign-context-2-1080.webp';
-import dpSignageWordmarkContext3HighRes from '../assets/images/dp/signage/gc_dp-design-photography-sign-context-2-2160.webp';
+import dpSignageWordmarkContext3HighRes from '../assets/images/dp/signage/gc_dp-design-photography-sign-context-2-1600.webp';
 import dpSignageWordmarkContext4LowRes from '../assets/images/dp/signage/gc_dp-design-photography-sign-context-3-1080.webp';
-import dpSignageWordmarkContext4HighRes from '../assets/images/dp/signage/gc_dp-design-photography-sign-context-3-2160.webp';
+import dpSignageWordmarkContext4HighRes from '../assets/images/dp/signage/gc_dp-design-photography-sign-context-3-1600.webp';
 import dpSignageWordmarkContext5LowRes from '../assets/images/dp/signage/gc_dp-design-photography-sign-context-4-1080.webp';
-import dpSignageWordmarkContext5HighRes from '../assets/images/dp/signage/gc_dp-design-photography-sign-context-4-2160.webp';
+import dpSignageWordmarkContext5HighRes from '../assets/images/dp/signage/gc_dp-design-photography-sign-context-4-1600.webp';
 import dpSignageWordmarkContext6LowRes from '../assets/images/dp/signage/gc_dp-design-photography-sign-context-5-1080.webp';
-import dpSignageWordmarkContext6HighRes from '../assets/images/dp/signage/gc_dp-design-photography-sign-context-5-2160.webp';
+import dpSignageWordmarkContext6HighRes from '../assets/images/dp/signage/gc_dp-design-photography-sign-context-5-1600.webp';
 import dpSignageWordmarkIllustratorSC1LowRes from '../assets/images/dp/signage/gc_dp-design-photography-sign-illustrator-1-1080.webp';
-import dpSignageWordmarkIllustratorSC1HighRes from '../assets/images/dp/signage/gc_dp-design-photography-sign-illustrator-1-2160.webp';
+import dpSignageWordmarkIllustratorSC1HighRes from '../assets/images/dp/signage/gc_dp-design-photography-sign-illustrator-1-1440.webp';
 import dpSignageWordmarkIllustratorSC2LowRes from '../assets/images/dp/signage/gc_dp-design-photography-sign-illustrator-2-1080.webp';
-import dpSignageWordmarkIllustratorSC2HighRes from '../assets/images/dp/signage/gc_dp-design-photography-sign-illustrator-2-2160.webp';
+import dpSignageWordmarkIllustratorSC2HighRes from '../assets/images/dp/signage/gc_dp-design-photography-sign-illustrator-2-1440.webp';
 import dpSignagePutItUpContext1 from '../assets/images/dp/signage/gc_dp-put-it-up-sign-1-960.webp';
 import dpSignagePutItUpContext2LowRes from '../assets/images/dp/signage/gc_dp-put-it-up-sign-2-1080.webp';
-import dpSignagePutItUpContext2HighRes from '../assets/images/dp/signage/gc_dp-put-it-up-sign-2-2160.webp';
+import dpSignagePutItUpContext2HighRes from '../assets/images/dp/signage/gc_dp-put-it-up-sign-2-1600.webp';
 import dpSignagePutItUpIllustratorSCLowRes from '../assets/images/dp/signage/gc_dp-put-it-up-sign-illustrator-1080.webp';
-import dpSignagePutItUpIllustratorSCHighRes from '../assets/images/dp/signage/gc_dp-put-it-up-sign-illustrator-2160.webp';
+import dpSignagePutItUpIllustratorSCHighRes from '../assets/images/dp/signage/gc_dp-put-it-up-sign-illustrator-1440.webp';
 import dpSignageBackgroundCheckContext from '../assets/images/dp/signage/gc_dp-the-background-check-sign-893.webp';
 import dpSignageBackgroundCheckIllustratorSCLowRes from '../assets/images/dp/signage/gc_dp-the-background-check-sign-illustrator-1080.webp';
-import dpSignageBackgroundCheckIllustratorSCHighRes from '../assets/images/dp/signage/gc_dp-the-background-check-sign-illustrator-2160.webp';
+import dpSignageBackgroundCheckIllustratorSCHighRes from '../assets/images/dp/signage/gc_dp-the-background-check-sign-illustrator-1440.webp';
 import dpLightenUpLabelsSCLowRes from '../assets/images/dp/signage/gc_dp-lighten-up-labels-1080.webp';
-import dpLightenUpLabelsSCHighRes from '../assets/images/dp/signage/gc_dp-lighten-up-labels-2160.webp';
+import dpLightenUpLabelsSCHighRes from '../assets/images/dp/signage/gc_dp-lighten-up-labels-1600.webp';
 
 // Timeout - Design Photography
 import dpTimeoutThumbnailSmall from '../assets/images/dp/timeout/gc_dp-timeout-thumbnail-160.webp';
 import dpTimeoutThumbnailLarge from '../assets/images/dp/timeout/gc_dp-timeout-thumbnail-480.webp';
 import dpTimeoutMyContributionsLowRes from '../assets/images/dp/timeout/gc_dp-timeout-my-contributions-1080.webp';
-import dpTimeoutMyContributionsHighRes from '../assets/images/dp/timeout/gc_dp-timeout-my-contributions-1080.webp';
+import dpTimeoutMyContributionsHighRes from '../assets/images/dp/timeout/gc_dp-timeout-my-contributions-1280.webp';
 import dpTimeoutOpeningReception from './dp/timeout/dpTimeoutOpeningReception.js';
 import dpTimeoutArtistStatementTemplate from './dp/timeout/dpTimeoutArtistStatementTemplate.js';
 import dpTimeoutArtistStatementTemplateInDesignSCLowRes from '../assets/images/dp/timeout/gc_timeout-artist-statements-indesign-sc-1080.webp';
 import dpTimeoutArtistStatementTemplateInDesignSCHighRes from '../assets/images/dp/timeout/gc_timeout-artist-statements-indesign-sc-2160.webp';
 import dpTimeoutCatalogue from './dp/timeout/dpTimeoutCatalogue.js';
 import dpTimeoutCataloguePackagedLowRes from '../assets/images/dp/timeout/gc_timeout-catalogue-packaged-1080.webp';
-import dpTimeoutCataloguePackagedHighRes from '../assets/images/dp/timeout/gc_timeout-catalogue-packaged-2160.webp';
+import dpTimeoutCataloguePackagedHighRes from '../assets/images/dp/timeout/gc_timeout-catalogue-packaged-1440.webp';
 import dpTimeoutCatalogueInDesignSCLowRes from '../assets/images/dp/timeout/gc_timeout-catalogue-indesign-sc-1080.webp';
-import dpTimeoutCatalogueInDesignSCHighRes from '../assets/images/dp/timeout/gc_timeout-catalogue-indesign-sc-2160.webp';
+import dpTimeoutCatalogueInDesignSCHighRes from '../assets/images/dp/timeout/gc_timeout-catalogue-indesign-sc-1440.webp';
 
 // Tutorial Series Intro - Design Photography
 import dpTSThumbnailSmall from '../assets/images/dp/tutorial-series/gc_dp-tutorial-series-intro-thumbnail-160.webp';
 import dpTSThumbnailLarge from '../assets/images/dp/tutorial-series/gc_dp-tutorial-series-intro-thumbnail-480.webp';
 import dpTSIntro from '../assets/video/dp/gc_dp-tutorial-series-intro.mp4';
 import dpTSIntroProcessSCLowRes from '../assets/images/dp/tutorial-series/gc_dp-tutorial-series-intro-process-sc-1080.webp';
-import dpTSIntroProcessSCHighRes from '../assets/images/dp/tutorial-series/gc_dp-tutorial-series-intro-process-sc-2160.webp';
+import dpTSIntroProcessSCHighRes from '../assets/images/dp/tutorial-series/gc_dp-tutorial-series-intro-process-sc-1440.webp';
 import dpTSOutroTemplate from '../assets/video/dp/gc_dp-tutorial-series-outro-template.mp4';
 import dpTSOutroTemplateProcessSCLowRes from '../assets/images/dp/tutorial-series/gc_dp-tutorial-series-outro-process-sc-1080.webp';
-import dpTSOutroTemplateProcessSCHighRes from '../assets/images/dp/tutorial-series/gc_dp-tutorial-series-outro-process-sc-2160.webp';
+import dpTSOutroTemplateProcessSCHighRes from '../assets/images/dp/tutorial-series/gc_dp-tutorial-series-outro-process-sc-1440.webp';
 
 // Orange Shirt Day - Design Photography
 import dpOSDThumbnailSmall from '../assets/images/dp/orange-shirt-day/gc_dp-osd-thumbnail-160.webp';
@@ -328,9 +326,9 @@ import dpOSDThumbnailLarge from '../assets/images/dp/orange-shirt-day/gc_dp-osd-
 import dpOSDDesignPrint from '../assets/images/dp/orange-shirt-day/gc_dp-osd-shirt-design-print-961.webp';
 import dpOSDDesignContext from '../assets/images/dp/orange-shirt-day/gc_dp-osd-shirt-design-context-839.webp';
 import dpOSDOriginalDesignLowRes from '../assets/images/dp/orange-shirt-day/gc_dp-osd-orginal-design-1080.webp';
-import dpOSDOriginalDesignHighRes from '../assets/images/dp/orange-shirt-day/gc_dp-osd-orginal-design-2160.webp';
+import dpOSDOriginalDesignHighRes from '../assets/images/dp/orange-shirt-day/gc_dp-osd-orginal-design-1280.webp';
 import dpOSDIllustratorSCLowRes from '../assets/images/dp/orange-shirt-day/gc_dp-osd-illustrator-sc-1080.webp';
-import dpOSDIllustratorSCHighRes from '../assets/images/dp/orange-shirt-day/gc_dp-osd-illustrator-sc-2160.webp';
+import dpOSDIllustratorSCHighRes from '../assets/images/dp/orange-shirt-day/gc_dp-osd-illustrator-sc-1440.webp';
 
 // SensingChange
 import ScyuThumbnail from '../assets/thumbnails/svg/works/gc_scyu-thumbnail.svg?react';
@@ -339,14 +337,14 @@ import ScyuThumbnail from '../assets/thumbnails/svg/works/gc_scyu-thumbnail.svg?
 import scyuLogoThumbnailSmall from '../assets/images/scyu/logo/gc_scyu-logo-thumbnail-160.webp';
 import scyuLogoThumbnailLarge from '../assets/images/scyu/logo/gc_scyu-logo-thumbnail-480.webp';
 import scyuLogoFinalLowRes from '../assets/images/scyu/logo/gc_scyu-logo-final-1080.webp';
-import scyuLogoFinalHighRes from '../assets/images/scyu/logo/gc_scyu-logo-final-1080.webp';
+import scyuLogoFinalHighRes from '../assets/images/scyu/logo/gc_scyu-logo-final-1440.webp';
 import scyuLogoProposal1Process from './scyu/scyuLogoProposal1Process.js';
 import scyuLogoProposal1Animation from '../assets/video/scyu/logo-proposal-animation.mp4';
 import scyuLogoProposal1AnimationProcessSCLowRes from '../assets/images/scyu/logo/gc_scyu-logo-proposal-1-animation-process-sc-1080.webp';
-import scyuLogoProposal1AnimationProcessSCHighRes from '../assets/images/scyu/logo/gc_scyu-logo-proposal-1-animation-process-sc-2160.webp';
+import scyuLogoProposal1AnimationProcessSCHighRes from '../assets/images/scyu/logo/gc_scyu-logo-proposal-1-animation-process-sc-1440.webp';
 import scyuLogoProposal2Process from './scyu/scyuLogoProposal2Process.js';
 import scyuLogoProposal1LowRes from '../assets/images/scyu/logo/gc_scyu-logo-proposal-1-1080.webp';
-import scyuLogoProposal1HighRes from '../assets/images/scyu/logo/gc_scyu-logo-proposal-1-2160.webp';
+import scyuLogoProposal1HighRes from '../assets/images/scyu/logo/gc_scyu-logo-proposal-1-1440.webp';
 
 // Website - SensingChange
 import scyuWebsiteThumbnailSmall from '../assets/images/scyu/website/gc_scyu-website-thumbnail-160.webp';
@@ -355,70 +353,906 @@ import scyuWebsiteFinalScreenshots from './scyu/scyuWebsiteFinalScreenshots.js';
 import scyuWebsiteMainPageScroll from '../assets/video/scyu/gc_scyu-website-main-page-scroll.mp4';
 import scyuWebsiteNavigationBarScroll from '../assets/video/scyu/gc_scyu-website-navigation-bar-scroll.mp4';
 import scyuWebsiteCursorSCLowRes from '../assets/images/scyu/website/gc_scyu-website-final-cursor-sc-1080.webp';
-import scyuWebsiteCursorSCHighRes from '../assets/images/scyu/website/gc_scyu-website-final-cursor-sc-2160.webp';
+import scyuWebsiteCursorSCHighRes from '../assets/images/scyu/website/gc_scyu-website-final-cursor-sc-1600.webp';
 import scyuWebsiteFinalDesignScreenshots from './scyu/scyuWebsiteFinalDesignScreenshots.js';
 import scyuWebsiteProcessPageLayouts from './scyu/scyuWebsiteProcessPageLayouts.js';
 import scyuWebsiteTeamMemberProfileHover from '../assets/video/scyu/gc_scyu-website-team-member-profile-hover.mp4';
 import scyuWebsiteTeamMemberProfileHoverDesignLowRes from '../assets/images/scyu/website/gc_scyu-website-final-design-thumbnails-figma-sc-1080.webp';
-import scyuWebsiteTeamMemberProfileHoverDesignHighRes from '../assets/images/scyu/website/gc_scyu-website-final-design-thumbnails-figma-sc-2160.webp';
+import scyuWebsiteTeamMemberProfileHoverDesignHighRes from '../assets/images/scyu/website/gc_scyu-website-final-design-thumbnails-figma-sc-1920.webp';
 import scyuWebsiteNewsAndEventsPage from '../assets/video/scyu/gc_scyu-website-news-and-events-page.mp4';
 import scyuWebsiteNewsAndEventsPageDesignLowRes from '../assets/images/scyu/website/gc_scyu-website-final-design-n&e-figma-sc-1080.webp';
-import scyuWebsiteNewsAndEventsPageDesignHighRes from '../assets/images/scyu/website/gc_scyu-website-final-design-n&e-figma-sc-2160.webp';
+import scyuWebsiteNewsAndEventsPageDesignHighRes from '../assets/images/scyu/website/gc_scyu-website-final-design-n&e-figma-sc-1920.webp';
+
+// Enginuitty Group Ltd
+import EglThumbnail from '../assets/thumbnails/svg/works/gc_egl-thumbnail.svg?react';
+
+// MOH Vaccine Campaign - Enginuitty Group Ltd
+import eglMOHVaccineThumbnailSmall from '../assets/images/egl/moh-vaccine-campaign/gc_moh-vaccinne-thumbnail-160.webp';
+import eglMOHVaccineThumbnailLarge from '../assets/images/egl/moh-vaccine-campaign/gc_moh-vaccinne-thumbnail-480.webp';
+import eglMOHVaccineSquarePostFormat from './egl/moh/eglMOHVaccineSquarePostFormat.js';
+import eglMOHVaccineSquarePostFormatIllustratorSCLowRes from '../assets/images/egl/moh-vaccine-campaign/gc_moh-vaccine-square-post-format-illustrator-sc-1080.webp';
+import eglMOHVaccineSquarePostFormatIllustratorSCHighRes from '../assets/images/egl/moh-vaccine-campaign/gc_moh-vaccine-square-post-format-illustrator-sc-1440.webp';
+import eglMOHVaccinePortraitPostFormat from './egl/moh/eglMOHVaccinePortraitPostFormat.js';
+import eglMOHVaccinePortraitPostFormatIllustratorSCLowRes from '../assets/images/egl/moh-vaccine-campaign/gc_moh-vaccine-portrait-post-format-illustrator-sc-1080.webp';
+import eglMOHVaccinePortraitPostFormatIllustratorSCHighRes from '../assets/images/egl/moh-vaccine-campaign/gc_moh-vaccine-portrait-post-format-illustrator-sc-1440.webp';
+import eglMOHVaccineStoryFormat from './egl/moh/eglMOHVaccineStoryFormat.js';
+import eglMOHVaccineStoryFormatIllustratorSCLowRes from '../assets/images/egl/moh-vaccine-campaign/gc_moh-vaccine-story-format-illustrator-sc-1080.webp';
+import eglMOHVaccineStoryFormatIllustratorSCHighRes from '../assets/images/egl/moh-vaccine-campaign/gc_moh-vaccine-story-format-illustrator-sc-1440.webp';
+
+// Rocket Science Ltd - Enginuitty Group Ltd
+import eglRocketScienceThumbnailSmall from '../assets/images/egl/rocket-science/gc_egl-rocket-science-thumbnail-160.webp';
+import eglRocketScienceThumbnailLarge from '../assets/images/egl/rocket-science/gc_egl-rocket-science-thumbnail-480.webp';
+import eglRocketScienceLogo from './egl/rocket-science/eglRocketScienceLogo.js';
+import eglRocketScienceWordmark from './egl/rocket-science/eglRocketScienceWordmark.js';
+import eglRocketScienceIllustratorFileSCLowRes from '../assets/images/egl/rocket-science/gc_egl-rocket-science-working-file-screenshot-1080.webp';
+import eglRocketScienceIllustratorFileSCHighRes from '../assets/images/egl/rocket-science/gc_egl-rocket-science-working-file-screenshot-1440.webp';
+import eglRocketScienceWordmarkSketches from './egl/rocket-science/eglRocketScienceWordmarkSketches.js';
+import eglRocketScienceSketchBrainstormLowRes from '../assets/images/egl/rocket-science/gc_egl-rocket-science-sketch-brainstorm-1080.webp';
+import eglRocketScienceSketchBrainstormHighRes from '../assets/images/egl/rocket-science/gc_egl-rocket-science-sketch-brainstorm-1440.webp';
+
+// Parlour - Enginuitty Group Ltd
+import eglParlourThumbnailSmall from '../assets/images/egl/parlour/gc_egl-parlour-thumbnail-160.webp';
+import eglParlourThumbnailLarge from '../assets/images/egl/parlour/gc_egl-parlour-thumbnail-480.webp';
+import eglParlourBrandGuidelines from './egl/parlour/eglParlourBrandGuidelines.js';
+import eglParlourBrandGuidelinesInDesignSCLowRes from '../assets/images/egl/parlour/gc_egl-parlour-brand-guidelines-indesign-sc-1080.webp';
+import eglParlourBrandGuidelinesInDesignSCHighRes from '../assets/images/egl/parlour/gc_egl-parlour-brand-guidelines-indesign-sc-1440.webp';
+import eglParlourSocialMediaPosts from './egl/parlour/eglParlourSocialMediaPosts.js';
+import eglParlourSocialMediaStories from './egl/parlour/eglParlourSocialMediaStories.js';
+import eglParlourSocialMediaPostsIllustratorSCLowRes from '../assets/images/egl/parlour/gc_egl-parlour-posts-illustrator-sc-1080.webp';
+import eglParlourSocialMediaPostsIllustratorSCHighRes from '../assets/images/egl/parlour/gc_egl-parlour-posts-illustrator-sc-1440.webp';
+
+
+// Paypr- Enginuitty Group Ltd
+import eglPayprThumbnailSmall from '../assets/images/egl/paypr/gc_egl-paypr-thumbnail-160.webp';
+import eglPayprThumbnailLarge from '../assets/images/egl/paypr/gc_egl-paypr-thumbnail-480.webp';
+import eglPayprBrandAtAGlance from './egl/paypr/eglPayprBrandAtAGlance.js';
+import eglPayprBrandAtAGlanceIllustratorSCLowRes from '../assets/images/egl/paypr/gc_egl-paypr-brand-at-a-glance-working-file-screenshot-1080.webp';
+import eglPayprBrandAtAGlanceIllustratorSCHighes from '../assets/images/egl/paypr/gc_egl-paypr-brand-at-a-glance-working-file-screenshot-1440.webp';
+import eglPayprBrandGuidelines from './egl/paypr/eglPayprBrandGuidelines.js';
+import eglPayprBrandGuidelinesInDesignSCLowRes from '../assets/images/egl/paypr/gc_egl-paypr-brand-guidelines-working-file-screenshot-1080.webp';
+import eglPayprBrandGuidelinesInDesignSCHighRes from '../assets/images/egl/paypr/gc_egl-paypr-brand-guidelines-working-file-screenshot-1440.webp';
+
+// Beehive Design
+import BhdThumbnail from '../assets/thumbnails/svg/works/gc_bhd-thumbnail.svg?react';
+
+// Cecconi Simone - Beehive Design
+import bhdCecconiSimoneThumbnailSmall from '../assets/images/bhd/cecconi-simone/gc_bhd-cecconi-simone-thumbnail-160.webp';
+import bhdCecconiSimoneThumbnailLarge from '../assets/images/bhd/cecconi-simone/gc_bhd-cecconi-simone-thumbnail-480.webp';
+import bhdCCResearchDocument from './bhd/bhdCCResearchDocument.js';
+import bhdCCResearchDocumentInDesignSCLowRes from '../assets/images/bhd/cecconi-simone/gc_bhd-research-document-indesign-sc-1080.webp';
+import bhdCCResearchDocumentInDesignSCHighRes from '../assets/images/bhd/cecconi-simone/gc_bhd-research-document-indesign-sc-1440.webp';
+
+// Scarborough Charter
+import ScThumbnail from '../assets/thumbnails/svg/works/gc_sc-thumbnail.svg?react';
+
+// Committee Report - Scarborough Charter
+import scCommitteeReportThumbnailSmall from '../assets/images/sc/committee-report/gc_sc-committee-report-thumbnail-160.webp';
+import scCommitteeReportThumbnailLarge from '../assets/images/sc/committee-report/gc_sc-committee-report-thumbnail-480.webp';
+import scCommitteeReportFrontCoverMockup1LowRes from '../assets/images/sc/committee-report/gc_sc-committee-report-front-cover-mockup-1-1080.webp';
+import scCommitteeReportFrontCoverMockup1HighRes from '../assets/images/sc/committee-report/gc_sc-committee-report-front-cover-mockup-1-1440.webp';
+import scCommitteeReportFrontCoverMockup2LowRes from '../assets/images/sc/committee-report/gc_sc-committee-report-front-cover-mockup-2-1080.webp';
+import scCommitteeReportFrontCoverMockup2HighRes from '../assets/images/sc/committee-report/gc_sc-committee-report-front-cover-mockup-2-1440.webp';
+import scCommitteeReportFrontAndBackCoversMockupLowRes from '../assets/images/sc/committee-report/gc_sc-committee-report-front-and-back-cover-mockup-1080.webp';
+import scCommitteeReportFrontAndBackCoversMockupHighRes from '../assets/images/sc/committee-report/gc_sc-committee-report-front-and-back-cover-mockup-1440.webp';
+import scCommitteeReportFinalDigital from './sc/scCommitteeReportFinalDigital.js';
+import scCommitteeReportFinalIllustratorSCLowRes from '../assets/images/sc/committee-report/gc_sc-committee-report-cover-final-illustrator-sc-1080.webp';
+import scCommitteeReportFinalIllustratorSCHighRes from '../assets/images/sc/committee-report/gc_sc-committee-report-cover-final-illustrator-sc-1440.webp';
+import scCommitteeReportFirstIterationDigital from './sc/scCommitteeReportFirstIterationDigital.js';
+import scCommitteeReportFirstIterationPhotoshopSCLowRes from '../assets/images/sc/committee-report/gc_sc-committee-report-cover-sketch-photoshop-sc-1080.webp';
+import scCommitteeReportFirstIterationPhotoshopSCHighRes from '../assets/images/sc/committee-report/gc_sc-committee-report-cover-sketch-photoshop-sc-1440.webp';
+import scCommitteeReportFirstIterationIllustratorSC1LowRes from '../assets/images/sc/committee-report/gc_sc-committee-report-cover-first-iteration-illustrator-sc-1080.webp';
+import scCommitteeReportFirstIterationIllustratorSC1HighRes from '../assets/images/sc/committee-report/gc_sc-committee-report-cover-first-iteration-illustrator-sc-1440.webp';
+import scCommitteeReportFirstIterationIllustratorSC2LowRes from '../assets/images/sc/committee-report/gc_sc-committee-report-cover-first-iteration-illustrator-sc-2-1080.webp';
+import scCommitteeReportFirstIterationIllustratorSC2HighRes from '../assets/images/sc/committee-report/gc_sc-committee-report-cover-first-iteration-illustrator-sc-2-1440.webp';
+import scCommitteeReportOriginalSketchLowRes from '../assets/images/sc/committee-report/gc_sc-committee-report-original-sketch-1080.webp'; 
+import scCommitteeReportOriginalSketchHighRes from '../assets/images/sc/committee-report/gc_sc-committee-report-original-sketch-1440.webp'; 
+
+// AXXS Digital
+import AdThumbnail from '../assets/thumbnails/svg/works/gc_ad-thumbnail.svg?react';
+
+// Parlour - AXXS Digital
+import adParlourThumbnailLowRes from '../assets/images/ad/parlour/gc_ad-parlour-thumbnail-160.webp';
+import adParlourThumbnailHighRes from '../assets/images/ad/parlour/gc_ad-parlour-thumbnail-480.webp';
+import adParlourBrandProposal1 from './ad/adParlourBrandProposal1.js';
+import adParlourBrandProposal1IllustratorSC1LowRes from '../assets/images/ad/parlour/gc_ad-parlour-brand-proposal-1-illustrator-sc-1-1080.webp';
+import adParlourBrandProposal1IllustratorSC1HighRes from '../assets/images/ad/parlour/gc_ad-parlour-brand-proposal-1-illustrator-sc-1-1440.webp';
+import adParlourBrandProposal1IllustratorSC2LowRes from '../assets/images/ad/parlour/gc_ad-parlour-brand-proposal-1-illustrator-sc-2-1080.webp';
+import adParlourBrandProposal1IllustratorSC2HighRes from '../assets/images/ad/parlour/gc_ad-parlour-brand-proposal-1-illustrator-sc-2-1440.webp';
+import adParlourBrandProposal2 from './ad/adParlourBrandProposal2.js';
+import adParlourBrandProposal2IllustratorSCLowRes from '../assets/images/ad/parlour/gc_ad-parlour-brand-proposal-2-illustrator-sc-1-1080.webp';
+import adParlourBrandProposal2IllustratorSCHighRes from '../assets/images/ad/parlour/gc_ad-parlour-brand-proposal-2-illustrator-sc-1-1440.webp';
+import adParlourBrandProposals1and2SketchIdeationLowRes from '../assets/images/ad/parlour/gc_parlour-brand-proposals-1+2-sketches-1080.webp';
+import adParlourBrandProposals1and2SketchIdeationHighRes from '../assets/images/ad/parlour/gc_parlour-brand-proposals-1+2-sketches-1280.webp';
+import adParlourBrandProposal3 from './ad/adParlourBrandProposal3.js';
+import adParlourBrandProposal3IllustratorSC1LowRes from '../assets/images/ad/parlour/gc_ad-parlour-brand-proposal-3-illustrator-sc-1-1080.webp';
+import adParlourBrandProposal3IllustratorSC1HighRes from '../assets/images/ad/parlour/gc_ad-parlour-brand-proposal-3-illustrator-sc-1-1440.webp';
+import adParlourBrandProposal3IllustratorSC2LowRes from '../assets/images/ad/parlour/gc_ad-parlour-brand-proposal-3-illustrator-sc-2-1080.webp';
+import adParlourBrandProposal3IllustratorSC2HighRes from '../assets/images/ad/parlour/gc_ad-parlour-brand-proposal-3-illustrator-sc-2-1440.webp';
+import adParlourBrandProposalsInDesignSCLowRes from '../assets/images/ad/parlour/gc_ad-parlour-brand-proposals-indesign-sc-1080.webp';
+import adParlourBrandProposalsInDesignSCHighRes from '../assets/images/ad/parlour/gc_ad-parlour-brand-proposals-indesign-sc-1440.webp';
+import adParlourEarlyContactUsAndCartExperienceWireframesLowRes from '../assets/images/ad/parlour/gc_ad-parlour-early-contact-us-and-cart-experience-wireframes-1080.webp';
+import adParlourEarlyContactUsAndCartExperienceWireframesHighRes from '../assets/images/ad/parlour/gc_ad-parlour-early-contact-us-and-cart-experience-wireframes-1600.webp';
+import adParlourEarlyAboutUsAndFAQWireframes from './ad/adParlourEarlyAboutUsAndFAQWireframes.js';
+import adParlourEarlyWireframesFullFigmaSCLowRes from '../assets/images/ad/parlour/gc_ad-parlour-early-wireframes-full-figma-files-sc-1080.webp';
+import adParlourEarlyWireframesFullFigmaSCHighRes from '../assets/images/ad/parlour/gc_ad-parlour-early-wireframes-full-figma-files-sc-1600.webp';
+
+// The GazettE - AXXS Digital
+import adTheGazetteThumbnailLowRes from '../assets/images/ad/the-gazette/gc_ad-the-gazette-thumbnail-160.webp';
+import adTheGazetteThumbnailHighRes from '../assets/images/ad/the-gazette/gc_ad-the-gazette-thumbnail-480.webp';
+import adTheGazetteAppAuthorAndDailyDigestWireframeLowRes from '../assets/images/ad/the-gazette/gc_ad-the-gazette-app-author-page-and-daily-digest-wireframes-1080.webp';
+import adTheGazetteAppAuthorAndDailyDigestWireframeHighRes from '../assets/images/ad/the-gazette/gc_ad-the-gazette-app-author-page-and-daily-digest-wireframes-1440.webp';
+import adTheGazetteAppAuthorAndDailyDigestFullFigmaSCLowRes from '../assets/images/ad/the-gazette/gc_ad-the-gazette-app-author-page-and-daily-digest-full-figma-file-snapshot-1080.webp';
+import adTheGazetteAppAuthorAndDailyDigestFullFigmaSCHighRes from '../assets/images/ad/the-gazette/gc_ad-the-gazette-app-author-page-and-daily-digest-full-figma-file-snapshot-1600.webp';
+import adTheGazetteAppWordGamePrototypeFullFigmaSC from './ad/adTheGazetteAppWordGameFullFigmaSC.js';
+import adTheGazetteAppWordGameShareCard from './ad/adTheGazetteAppWordGameShareCard.js';
+import adTheGazetteAppWordGameShareCardIllustratorSCLowRes from '../assets/images/ad/the-gazette/gc_ad-the-gazette-app-word-game-share-card-illustrator-sc-1080.webp';
+import adTheGazetteAppWordGameShareCardIllustratorSCHighRes from '../assets/images/ad/the-gazette/gc_ad-the-gazette-app-word-game-share-card-illustrator-sc-1440.webp';
 
 // Birth
 import BThumbnail from '../assets/thumbnails/svg/notes/gc_b-thumbnail.svg?react';
 
 // Version 0.5 - Birth
 import birthLearningReactLowRes from '../assets/images/b/version-0p5/gc_birth-learning-react-1080.webp';
-import birthLearningReactHighRes from '../assets/images/b/version-0p5/gc_birth-learning-react-2160.webp';
+import birthLearningReactHighRes from '../assets/images/b/version-0p5/gc_birth-learning-react-1440.webp';
 import birthGeneralStructureLowRes from '../assets/images/b/version-0p5/gc_birth-general-structure-1080.webp';
-import birthGeneralStructureHighRes from '../assets/images/b/version-0p5/gc_birth-general-structure-2160.webp';
+import birthGeneralStructureHighRes from '../assets/images/b/version-0p5/gc_birth-general-structure-1440.webp';
 import birthFiltrationSystemLowRes from '../assets/images/b/version-0p5/gc_birth-filtration-system-1080.webp';
-import birthFiltrationSystemHighRes from '../assets/images/b/version-0p5/gc_birth-filtration-system-2160.webp';
+import birthFiltrationSystemHighRes from '../assets/images/b/version-0p5/gc_birth-filtration-system-1440.webp';
 
 // Version 0.6 - Birth
 import birthPuttingMyBestFootForwardLowRes from '../assets/images/b/version-0p6/gc_birth-putting-my-best-foot-forward-1080.webp';
-import birthPuttingMyBestFootForwardHighRes from '../assets/images/b/version-0p6/gc_birth-putting-my-best-foot-forward-2160.webp';
+import birthPuttingMyBestFootForwardHighRes from '../assets/images/b/version-0p6/gc_birth-putting-my-best-foot-forward-1440.webp';
+
+// Version 0.7 - Birth
+import birthRecursiveSelfImprovementLowRes from '../assets/images/b/version-0p7/gc_birth-recursive-self-improvement-1080.webp';
+import birthRecursiveSelfImprovementHighRes from '../assets/images/b/version-0p7/gc_birth-recursive-self-improvement-1440.webp';
 
 const content = {
   works: {
-    // ad: {
-    //   title: 'AXXS Digital',
-    //   thumbnail: AdThumbnail,
-    //   date: 20260712,
-    //   keywords: [
-    //     'Brand Identity',
-    //     'Client Work',
-    //     'UI Prototyping',
-    //   ],
-    //   id: 'axxs-digital',
-    // },
-    // egl: {
-    //   title: 'Enginuitty Group Limited',
-    //   thumbnail: EglThumbnail,
-    //   date: 20220328,
-    //   keywords: [
-    //     'Brand Identity',
-    //     'Client Work',
-    //   ],
-    //   id: 'enginuitty-group-limited',
-    // },
-    // sc: {
-    //   title: 'Scarborough Charter',
-    //   thumbnail: ScThumbnail,
-    //   date: 20250411,
-    //   keywords: [
-    //     'Book Design',
-    //     'Client Work',
-    //   ],
-    //   id: 'scarborough-charter',
-    // },
+    ad: {
+      title: 'AXXS Digital',
+      thumbnail: AdThumbnail,
+      date: 20260712,
+      keywords: [
+        'App Design',
+        'Brand Identity',
+        'Client Work',
+        'UI Design',
+        'UI Prototyping',
+        'Website Design',
+      ],
+      tools: [
+        'Adobe Illustrator, InDesign',
+        'Figma',
+      ],
+      desc: [
+        {
+          type: 'paragraph',
+          content: [
+            {
+              type: 'text',
+              value: 'During the summer of 2026, I interned at AXXS Digital, a Caribbean-focused brand and product studio that combines communication, strategy, and software to help organizations solve complex business problems and deliver meaningful digital transformation.',
+            },
+          ],
+        },
+        {
+          type: 'paragraph',
+          content: [
+            {
+              type: 'text',
+              value: 'Working under the guidance of ',
+            },
+            {
+              type: 'link',
+              href: 'https://www.linkedin.com/in/andelhusbands/',
+              label: 'Andel Husbands',
+              download: false,
+              fileName: '',
+            },
+            {
+              type: 'text',
+              value: ', my contributions included supporting the rebranding of Parlour Caribbean and designing new features for The Gazette app. The internship involved brand development and digital product design, with a focus on creating clear, cohesive, and user-centred visual experiences for Caribbean audiences.',
+            },
+          ],
+        },
+      ],
+      descExp: [ 
+      ],
+      collections: [
+        {
+          title: 'Parlour',
+          medium: 'Brand & UI Design',
+          thumbnailSmall: adParlourThumbnailLowRes,
+          thumbnailLarge: adParlourThumbnailHighRes,
+          desc: [
+            {
+              type: 'paragraph',
+              content: [
+                {
+                  type: 'text',
+                  value: 'In early 2026, Parlour Caribbean entered a new phase of ownership. Because the acquisition from TSTT did not include rights to the platform’s original visual identity, the transition created an opportunity to develop a new brand for the marketplace.',
+                },
+              ],
+            },
+            {
+              type: 'paragraph',
+              content: [
+                {
+                  type: 'text',
+                  value: 'The rebrand was intended to support a more efficient, Caribbean-centred e-commerce experience. Key objectives included reducing delivery times for locally made products and enabling an integrated online payment system that would make it easier for Caribbean businesses to participate in e-commerce. The broader aim was to create stronger opportunities for regional businesses to ship and receive authentic Caribbean goods while making those products more accessible to customers around the world.',
+                },
+              ],
+            },
+            {
+              type: 'paragraph',
+              content: [
+                {
+                  type: 'text',
+                  value: 'Three brand directions were developed and presented. The third proposal was selected as the primary direction, while the first was retained for possible future use. Select pages for the new Parlour website’s minimum viable product (MVP) were also designed in support of ',
+                },
+                {
+                  type: 'link',
+                  href: 'https://www.linkedin.com/in/andelhusbands/',
+                  label: 'Andel Husbands',
+                  download: false,
+                  fileName: '',
+                },
+                {
+                  type: 'text',
+                  value: '’ development of the revised digital experience.',
+                },
+              ],
+            },
+          ],
+          media: [
+            {
+              type: 'pdf',
+              pages: adParlourBrandProposal1,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'First brand proposal for the Parlour Caribbean rebrand, exploring a new formal direction that utilised a similar colour philosophy to the original identity.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'parlour-new-brand-proposal-1',
+            },
+            {
+              type: 'image',
+              lowRes: adParlourBrandProposal1IllustratorSC1LowRes,
+              highRes: adParlourBrandProposal1IllustratorSC1HighRes,
+              desc: [
+              ],
+              alt: '',
+              id: 'ad-parlour-brand-proposal-1-illustrator-sc-1',
+            },
+            {
+              type: 'image',
+              lowRes: adParlourBrandProposal1IllustratorSC2LowRes,
+              highRes: adParlourBrandProposal1IllustratorSC2HighRes,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Screenshots of the Adobe Illustrator files used to develop the first proposed wordmark, showing construction grids and early explorations.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'ad-parlour-brand-proposal-1-illustrator-sc-2',
+            },
+            {
+              type: 'pdf',
+              pages: adParlourBrandProposal2,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Second brand proposal for the Parlour Caribbean rebrand, focusing on typography to communicate an authentic Caribbean experience.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'parlour-new-brand-proposal-2',
+            },
+            {
+              type: 'image',
+              lowRes: adParlourBrandProposal2IllustratorSCLowRes,
+              highRes: adParlourBrandProposal2IllustratorSCHighRes,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Screenshot of the Adobe Illustrator file used to develop the second proposed wordmark, highlighting the alternate letterform treatment.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'ad-parlour-brand-proposal-2-illustrator-sc',
+            },
+            {
+              type: 'image',
+              lowRes: adParlourBrandProposals1and2SketchIdeationLowRes,
+              highRes: adParlourBrandProposals1and2SketchIdeationHighRes,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Photographs of ideation sketches for the first and second proposals, documenting early concepts and wordmark explorations.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'ad-parlour-brand-proposals-1-and-2-sketch-ideation',
+            },
+            {
+              type: 'pdf',
+              pages: adParlourBrandProposal3,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Third brand proposal for the Parlour Caribbean rebrand, selected as the primary direction for its clarity, scalability, and regional resonance.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'parlour-new-brand-proposal-3',
+            },
+            {
+              type: 'image',
+              lowRes: adParlourBrandProposal3IllustratorSC2LowRes,
+              highRes: adParlourBrandProposal3IllustratorSC2HighRes,
+              desc: [
+              ],
+              alt: '',
+              id: 'ad-parlour-brand-proposal-3-illustrator-sc-2',
+            },
+            {
+              type: 'image',
+              lowRes: adParlourBrandProposal3IllustratorSC1LowRes,
+              highRes: adParlourBrandProposal3IllustratorSC1HighRes,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Screenshots of the Adobe Illustrator files used to develop the third proposed wordmark, including alternate explorations into the sunset concept.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'ad-parlour-brand-proposal-3-illustrator-sc-1',
+            },
+            {
+              type: 'image',
+              lowRes: adParlourBrandProposalsInDesignSCLowRes,
+              highRes: adParlourBrandProposalsInDesignSCHighRes,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Screenshot of the Adobe InDesign file used to assemble the rebrand presentation, organizing all three proposals into cohesive templated decks for review.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'ad-parlour-brand-proposals-indesign-sc',
+            },
+            {
+              type: 'image',
+              lowRes: adParlourEarlyContactUsAndCartExperienceWireframesLowRes,
+              highRes: adParlourEarlyContactUsAndCartExperienceWireframesHighRes,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Wireframes for the Contact Us page and cart experience, designed for the new Parlour website MVP to support streamlined user flows and integrated payments.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'ad-parlour-early-contact-us-and-cart-experience-wireframes',
+            },
+            {
+              type: 'pdf',
+              pages: adParlourEarlyAboutUsAndFAQWireframes,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Wireframes for the About Us and FAQ pages, designed for the new Parlour website MVP to clarify the platform’s mission and address legal concerns.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'parlour-early-about-us-and-faq-wireframes',
+            },
+            {
+              type: 'image',
+              lowRes: adParlourEarlyWireframesFullFigmaSCLowRes,
+              highRes: adParlourEarlyWireframesFullFigmaSCHighRes,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Screenshot of the full Figma file containing the wireframes for the new Parlour website MVP, showing component structure and artboards.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'ad-parlour-early-wireframes-full-figma-sc',
+            },
+          ],
+          id: 'parlour'
+        },
+        {
+          title: 'The GazettE',
+          medium: 'UI Design',
+          thumbnailSmall: adTheGazetteThumbnailLowRes,
+          thumbnailLarge: adTheGazetteThumbnailHighRes,
+          desc: [
+            {
+              type: 'paragraph',
+              content: [
+                {
+                  type: 'text',
+                  value: 'The Gazette app is a Caribbean news aggregator and storytelling platform that brings local journalism, culture, and community updates together in one convenient mobile experience.',
+                },
+              ],
+            },
+            {
+              type: 'paragraph',
+              content: [
+                {
+                  type: 'text',
+                  value: 'During my internship at AXXS Digital, I also supported development of The Gazette app by designing three key features: a mobile-optimised author page to improve on‑the‑go reading and content discovery; a daily digest surfacing the most popular and relevant news from the previous 24 hours; and a new daily word game intended to increase organic app opens by giving users a reason to launch the app directly, rather than relying solely on push notifications.',
+                },
+              ],
+            },
+          ],
+          media: [
+            {
+              type: 'image',
+              lowRes: adTheGazetteAppAuthorAndDailyDigestWireframeLowRes,
+              highRes: adTheGazetteAppAuthorAndDailyDigestWireframeHighRes,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Wireframes for the mobile-optimised author page and the daily digest screen, outlining core content hierarchy, navigation, and reading flows for on‑the‑go users.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'ad-the-gazette-author-and-daily-digest-page-wireframes',
+            },
+            {
+              type: 'image',
+              lowRes: adTheGazetteAppAuthorAndDailyDigestFullFigmaSCLowRes,
+              highRes: adTheGazetteAppAuthorAndDailyDigestFullFigmaSCHighRes,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Screenshot of the full Figma file used to develop the wireframes for the mobile-optimised author page and daily digest screen.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'ad-the-gazette-author-and-daily-digest-page-full-figma-sc',
+            },
+            {
+              type: 'youtube-video',
+              videoId: 'NfMdB6w6Xz8',
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Video of the interactive prototype for the new daily word game feature, demonstrating the core gameplay loop, onboarding prompts, and completion state.',
+                    },
+                  ],
+                },
+              ],
+              alt: 'Video documentation of Gazette word game prototype',
+              id: 'ad-the-gazette-word-game-prototype',
+            },
+            {
+              type: 'pdf',
+              pages: adTheGazetteAppWordGamePrototypeFullFigmaSC,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Screenshots of the full Figma file used to build the word game prototype, including game screens, states, and micro-interactions designed to encourage repeat play.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'ad-the-gazette-word-game-prototype-full-figma-sc',
+            },
+            {
+              type: 'pdf',
+              pages: adTheGazetteAppWordGameShareCard,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Final share-card renders created after a user completes the word game, designed for social sharing and to encourage daily engagement with The Gazette App.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'ad-the-gazette-word-share-card',
+            },
+            {
+              type: 'image',
+              lowRes: adTheGazetteAppWordGameShareCardIllustratorSCLowRes,
+              highRes: adTheGazetteAppWordGameShareCardIllustratorSCHighRes,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Screenshot of the Adobe Illustrator file used to design the word game share card, detailing typography and layout grids.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'ad-the-gazette-word-share-card-illustrator-sc',
+            },
+          ],
+          id: 'the-gazette',
+        },
+      ],
+      id: 'axxs-digital',
+    },
+    sc: {
+      title: 'Scarborough Charter',
+      thumbnail: ScThumbnail,
+      date: 20250411,
+      keywords: [
+        'Book Design',
+        'Client Work',
+        'Illustration',
+      ],
+      tools: [
+        'Adobe Illustrator, Photoshop',
+      ],
+      desc: [
+        {
+          type: 'paragraph',
+          content: [
+            {
+              type: 'text',
+              value: 'Near the end of my third year of undergraduate studies, ',
+            },
+            {
+              type: 'link',
+              href: 'https://www.linkedin.com/in/shamika-pierre/',
+              label: 'Shamika Pierre',
+              download: false,
+              fileName: '',
+            },
+            {
+              type: 'text',
+              value: ' and I were commissioned by the Scarborough Charter, a national Canadian initiative that supports post-secondary institutions in addressing anti-Black racism and advancing Black inclusion, to design the front and back covers for its annual committee report.',
+            },
+          ],
+        },
+      ],
+      descExp: [ 
+      ],
+      collections: [
+        {
+          title: 'Committee Report',
+          medium: 'Book Cover Design',
+          thumbnailSmall: scCommitteeReportThumbnailSmall,
+          thumbnailLarge: scCommitteeReportThumbnailLarge,
+          desc: [
+            {
+              type: 'paragraph',
+              content: [
+                {
+                  type: 'text',
+                  value: 'The project required the design of a front and back cover for the Scarborough Charter’s annual committee report in a standard 8.5 × 11-inch format. The cover needed to reflect the Charter’s commitments to Black flourishing, inclusive excellence, mutuality, and institutional accountability, while remaining clear, professional, and adaptable for a formal publication.',
+                },
+              ],
+            },
+            {
+              type: 'new-block',
+              content: [
+                {
+                  type: 'subtitle-two',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Artist Statement',
+                    },
+                  ],
+                },
+                {
+                  type: 'quote',
+                  content: [
+                    {
+                      type: 'paragraph',
+                      content: [
+                        {
+                          type: 'text',
+                          value: 'Our design is about prosperity and black flourishing, themes we were inspired by the goals of the Scarborough Charter. The characters diving into the water filled with flowers is symbolizes the opportunities and Scarborough Charter’s commitment to empowering the Black student body.',
+                        },
+                      ],
+                    },
+                    {
+                      type: 'paragraph',
+                      content: [
+                        {
+                          type: 'text',
+                          value: 'Together, we have designed a bold, vibrant illustration that captures the creativity and ambition of our Black members. The cover celebrates all the possibilities that we all strive towards. ”',
+                        },
+                      ],
+                    },
+                  ],
+                },
+                
+                {
+                  type: 'source',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Gian Cambridge (Designer) and ',
+                    },
+                    {
+                      type: 'link',
+                      href: 'https://www.linkedin.com/in/shamika-pierre/',
+                      label: 'Shamika Pierre',
+                      download: false,
+                      fileName: '',
+                    },
+                    {
+                      type: 'text',
+                      value: ' (Illustrator), 2025',
+                    },
+                  ],
+                },
+              ],
+            }
+          ],
+          media: [
+            {
+              type: 'image',
+              lowRes: scCommitteeReportFrontCoverMockup1LowRes,
+              highRes: scCommitteeReportFrontCoverMockup1HighRes,
+              desc: [
+              ],
+              alt: '',
+              id: 'sc-committee-report-front-cover-mockup-1',
+            },
+            {
+              type: 'image',
+              lowRes: scCommitteeReportFrontCoverMockup2LowRes,
+              highRes: scCommitteeReportFrontCoverMockup2HighRes,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Photorealistic mockups showing the final front cover for the Scarborough Charter’s annual committee report at 8.5 × 11 inches.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'sc-committee-report-front-cover-mockup-2',
+            },
+            {
+              type: 'image',
+              lowRes: scCommitteeReportFrontAndBackCoversMockupLowRes,
+              highRes: scCommitteeReportFrontAndBackCoversMockupHighRes,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Photorealistic mockup of the final full cover spread, showing the front cover, spine, and back cover as a single continuous composition.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'sc-committee-report-front-and-back-covers-mockup',
+            },
+            {
+              type: 'pdf',
+              pages: scCommitteeReportFinalDigital,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Digital render of the final front cover, back cover, and complete cover spread, presenting the approved colour palette, illustration, typography, and layout system.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'sc-committee-report-final-digital',
+            },
+            {
+              type: 'image',
+              lowRes: scCommitteeReportFinalIllustratorSCLowRes,
+              highRes: scCommitteeReportFinalIllustratorSCHighRes,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Screenshot of the Adobe Illustrator file used to develop and prepare the final cover design for production.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'sc-committee-report-final-illustrator-sc',
+            },
+            {
+              type: 'pdf',
+              pages: scCommitteeReportFirstIterationDigital,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Digital render of the initial front cover, back cover, and complete cover spread. Following submission, Scarborough Charter representatives requested that the colour palette more closely reflect the organization’s established visual identity.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'sc-committee-report-first-iteration-digital',
+            },
+            {
+              type: 'image',
+              lowRes: scCommitteeReportFirstIterationIllustratorSC1LowRes,
+              highRes: scCommitteeReportFirstIterationIllustratorSC1HighRes,
+              desc: [
+              ],
+              alt: '',
+              id: 'sc-committee-report-first-iteration-illustrator-sc-1',
+            },
+            {
+              type: 'image',
+              lowRes: scCommitteeReportFirstIterationIllustratorSC2LowRes,
+              highRes: scCommitteeReportFirstIterationIllustratorSC2HighRes,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Screenshots from the Adobe Illustrator file used to develop the initial cover concept.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'sc-committee-report-first-iteration-illustrator-sc-2',
+            },
+            {
+              type: 'image',
+              lowRes: scCommitteeReportFirstIterationPhotoshopSCLowRes,
+              highRes: scCommitteeReportFirstIterationPhotoshopSCHighRes,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Screenshot of an Adobe Photoshop file used to develop the initial cover concept.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'sc-committee-report-first-iteration-photoshop-sc',
+            },
+            {
+              type: 'image',
+              lowRes: scCommitteeReportOriginalSketchLowRes,
+              highRes: scCommitteeReportOriginalSketchHighRes,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Scan of the original illustration created by ',
+                    },
+                    {
+                      type: 'link',
+                      href: 'https://www.linkedin.com/in/shamika-pierre/',
+                      label: 'Shamika Pierre',
+                      download: false,
+                      fileName: '',
+                    },
+                    {
+                      type: 'text',
+                      value: ' which informed the visual direction of the final cover design.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'sc-committee-report-original-sketch',
+            },
+          ],
+          id: 'committee-report',
+        },
+      ],
+      id: 'scarborough-charter',
+    },
     ss: {
       title: '7th Sense',
       thumbnail: SsThumbnail,
       date: 20260112,
       keywords: [
         '3D Modelling',
+        'App Design',
         'Brand Identity',
         'Motion Graphics',
         'Poster Design',
@@ -448,7 +1282,7 @@ const content = {
             },
             {
               type: 'text',
-              value: ' on a speculative design project envisioning a future where technology reduces psychological and physiological stress through advanced therapeutic systems. This work presents an artifact from that future.',
+              value: ' on a speculative design project envisioning a future where technology reduces psychological and physiological stress through advanced therapeutic systems. This work presents an artifact from this imagined future.',
             },
           ],
         },
@@ -457,7 +1291,7 @@ const content = {
           content: [
             {
               type: 'text',
-              value: 'The 7th Sense Project proposes that AI-driven analysis of physiological data, capable of predicting a user’s state of excitement or arousal, will shift from centralized servers to personal systems. This would allow users to define how their devices respond to these insights.',
+              value: 'The 7th Sense Project proposes that AI-driven physiological data analysis, capable of predicting a user’s state of excitement or arousal, will shift from centralized servers to personal systems. This would give users greater control over how their devices respond to these insights.',
             },
           ],
         },
@@ -485,7 +1319,7 @@ const content = {
               content: [
                 {
                   type: 'text',
-                  value: 'Media artifacts from an envisioned speculative future in which humanity’s relationship with technology becomes fluid and adaptive. In this future, technology responds to the user’s physiological needs in real time, mediated by a small pod, roughly the size of a watch case, that connects and synchronizes all devices within the user’s technological ecosystem, seamlessly and intuitively.',
+                  value: 'Media artefacts from an envisioned speculative future where humanity’s relationship with technology becomes fluid and adaptive. A small pod, roughly the size of a watch case, responds to users’ physiological needs in real time while connecting and synchronizing the devices within their technological ecosystem.',
                 },
               ],
             },
@@ -668,7 +1502,7 @@ const content = {
                   content: [
                     {
                       type: 'text',
-                      value: 'The concept presents three scenes showing how the therapeutic benefits of the 7th Sense, connected to biological metric trackers such as a wristband and invisible pressure-delivery devices distributed across the body, could enhance the user’s lifestyle.',
+                      value: 'The concept presents three scenes that show how the 7th Sense could enhance the user’s lifestyle through therapeutic support. Connected to biological-metric trackers, such as a wristband and discreet pressure-delivery devices distributed across the body, the system responds to the user’s physiological needs in real time.',
                     },
                   ],
                 },
@@ -726,15 +1560,15 @@ const content = {
               content: [
                 {
                   type: 'text',
-                  value: 'Technological ecosystem: a collection of devices that support and shape the user’s everyday lifestyle.',
+                  value: 'Technological ecosystem: A collection of devices that supports and shapes the user’s everyday lifestyle.',
                 },
                 {
                   type: 'text',
-                  value: 'Dock: a central hub that connects the 7th Sense to a preconfigured set of devices.',
+                  value: 'Dock: A central hub that connects the 7th Sense to a preconfigured set of devices.',
                 },
                 {
                   type: 'text',
-                  value: 'Physiological arousal: the degree of physical and emotional activation in the body, including excitement, excess energy, and any state that moves the user away from tranquility.',
+                  value: 'Physiological arousal: The degree of physical and emotional activation experienced by the body, including excitement, excess energy, and other states that move the user away from tranquillity.',
                 },
               ],
             },
@@ -834,7 +1668,7 @@ const content = {
                   content: [
                     {
                       type: 'text',
-                      value: 'UI design for user interaction with the 7th Sense through iOS Settings. Through Settings, users can configure relationships between devices in their ecosystem and manage them.',
+                      value: 'UI design for interacting with the 7th Sense through iOS Settings. Users can configure relationships between devices in their technological ecosystem and manage those connections from one centralized interface.',
                     },
                   ],
                 },
@@ -852,7 +1686,7 @@ const content = {
                   content: [
                     {
                       type: 'text',
-                      value: 'A potential application of the 7th Sense, titled Frequency Tuning, would curate social media feeds based on the user’s average physiological arousal over a specified period of time. This feature could be toggled on and off through the iOS Control Center.',
+                      value: 'A proposed 7th Sense application, Frequency Tuning, curates social media feeds based on a user’s average physiological arousal over a selected period. It can be switched on or off through the iOS Control Center.',
                     },
                   ],
                 },
@@ -934,7 +1768,7 @@ const content = {
               content: [
                 {
                   type: 'text',
-                  value: 'The 7th Sense color theory uses a cool-to-warm palette to express different emotional and energetic states. We chose colors that signal energy without framing that energy as good or bad, so the palette stays neutral in tone while still communicating intensity. Cyan represents calm, blue suggests engagement, purple signals excitement, and magenta conveys the highest level of energy.',
+                  value: 'The 7th Sense colour theory uses a cool-to-warm palette to represent varying emotional and energetic states. The colours communicate energy without framing it as positive or negative, allowing the palette to remain neutral while conveying intensity. Cyan represents calm, blue suggests engagement, purple signals excitement, and magenta represents the highest level of energy.',
                 },
               ],
             },
@@ -950,7 +1784,7 @@ const content = {
                   content: [
                     {
                       type: 'text',
-                      value: 'The selected color range for the 7th Sense project, with the reasoning behind the selection.',
+                      value: 'Selected colours for the 7th Sense project, illustrating the reasoning behind the palette and its relationship to the project’s emotional states.',
                     },
                   ],
                 },
@@ -1773,7 +2607,25 @@ const content = {
                   content: [
                     {
                       type: 'text',
-                      value: 'Screenshot of one of the Photoshop files used in the visual research.',
+                      value: 'Screenshot of one of the Adobe Photoshop files used in the visual research.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'spiral-vis-research-photoshop-screenshot',
+            },
+            {
+              type: 'image',
+              lowRes: spiralVisResearchInDesignScreenshotLowRes,
+              highRes: spiralVisResearchInDesignScreenshotHighRes,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Screenshot of the Adobe InDesign file used to format the visual research.',
                     },
                   ],
                 },
@@ -1800,6 +2652,7 @@ const content = {
         'Motion Graphics',
         'Photography',
         'Poster Design',
+        'Social Media',
       ],
       tools: [
         'Adobe After Effects, Illustrator, InDesign, Photoshop'
@@ -3165,16 +4018,257 @@ const content = {
       ],
       id: 'design-photography',
     },
-    // bhd: {
-    //   title: 'Beehive Design',
-    //   thumbnail: BhdThumbnail,
-    //   date: 20250527,
-    //   keywords: [
-    //     'Design Research',
-    //     'Client Work',
-    //   ],
-    //   id: 'beehive-design',
-    // },
+    bhd: {
+      title: 'Beehive Design',
+      thumbnail: BhdThumbnail,
+      date: 20250527,
+      keywords: [
+        'Design Research',
+        'Client Work',
+      ],
+      tools: [
+        'Adobe InDesign',
+      ],
+      desc: [
+        {
+          type: 'paragraph',
+          content: [
+            {
+              type: 'text',
+              value: 'During the summer break following my third year of undergraduate studies, I interned at Beehive Design, a Toronto-based multidisciplinary studio specializing in brand identity, digital design, and print communications.',
+            },
+          ],
+        },
+        {
+          type: 'paragraph',
+          content: [
+            {
+              type: 'text',
+              value: 'Under the guidance of ',
+            },
+            {
+              type: 'link',
+              href: 'https://www.linkedin.com/in/terry-lau-b4b98a/',
+              label: 'Terry Lau',
+              download: false,
+              fileName: '',
+            },
+            {
+              type: 'text',
+              value: ', I conducted research into potential thematic directions for the rebrand of Cecconi Simone, an award-winning interior design studio that had recently partnered with Beehive Design. This work involved exploring visual references, analysing interviews, examining brand positioning, and identifying conceptual territories that could inform the development of a refreshed identity.',
+            },
+          ],
+        },
+      ],
+      descExp: [ 
+      ],
+      collections: [
+        {
+          title: 'Cecconi Simone',
+          medium: 'Brand Research',
+          thumbnailSmall: bhdCecconiSimoneThumbnailSmall,
+          thumbnailLarge: bhdCecconiSimoneThumbnailLarge,
+          desc: [
+            {
+              type: 'paragraph',
+              content: [
+                {
+                  type: 'text',
+                  value: 'Research and interviews with Cecconi Simone’s founding partners, conducted by ',
+                },
+                {
+                  type: 'link',
+                  href: 'https://www.linkedin.com/in/terry-lau-b4b98a/',
+                  label: 'Terry Lau',
+                  download: false,
+                  fileName: '',
+                },
+                {
+                  type: 'text',
+                  value: ', revealed a significant transition for the studio. Although ',
+                },
+                {
+                  type: 'link',
+                  href: 'https://www.linkedin.com/in/elaine-cecconi-62264736/',
+                  label: 'Elaine Cecconi',
+                  download: false,
+                  fileName: '',
+                },
+                {
+                  type: 'text',
+                  value: ' and ',
+                },
+                {
+                  type: 'link',
+                  href: 'https://www.worldinteriorsnewsawards.com/anna-simone',
+                  label: 'Anna Simone',
+                  download: false,
+                  fileName: '',
+                },
+                {
+                  type: 'text',
+                  value: ' were considering retirement, they remained committed to mentoring the next generation of interior designers.',
+                },
+              ],
+            },
+            {
+              type: 'paragraph',
+              content: [
+                {
+                  type: 'text',
+                  value: 'The resulting brand strategy was centred on four philosophical pillars. These principles reflect Cecconi Simone’s approach to design and establish a future-facing identity that can inspire emerging designers and build trust with prospective clients.',
+                },
+              ],
+            },
+          ],
+          media: [
+            {
+              type: 'pdf',
+              pages: bhdCCResearchDocument,
+              desc: [
+                {
+                  type: 'paragraph',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Final research document.',
+                    },
+                  ],
+                },
+                {
+                  type: 'bullet-lead',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'The Four Pillars of Cecconi Simone',
+                    },
+                  ],
+                },
+                {
+                  type: 'bullet',
+                  content: [
+                    {
+                      type: 'bullet-item',
+                      content: [
+                        {
+                          type: 'bullet-item-lead',
+                          content: [
+                            {
+                              type: 'text',
+                              value: 'Kindness and respect',
+                            }
+                          ] 
+                        },
+                        {
+                          type: 'paragraph',
+                          content: [
+                            {
+                              type: 'text',
+                              value: 'Cecconi Simone designs for everyone who experiences a space, including residents, guests, clients, and stakeholders. Its work goes beyond functional requirements by considering people’s challenges, routines, and aspirations to create interiors that support and enhance everyday life.',
+                            }
+                          ]
+                        },
+                      ],
+                    },
+                    {
+                      type: 'bullet-item',
+                      content: [
+                        {
+                          type: 'bullet-item-lead',
+                          content: [
+                            {
+                              type: 'text',
+                              value: 'Resourcefulness',
+                            }
+                          ] 
+                        },
+                        {
+                          type: 'paragraph',
+                          content: [
+                            {
+                              type: 'text',
+                              value: 'The studio approaches constraints as opportunities for creative problem-solving. Resourcefulness involves finding cost-conscious, practical ways to apply an artist’s innovative mindset, producing solutions that respond meaningfully to the needs of each space and its users.',
+                            }
+                          ]
+                        },
+                      ],
+                    },
+                    {
+                      type: 'bullet-item',
+                      content: [
+                        {
+                          type: 'bullet-item-lead',
+                          content: [
+                            {
+                              type: 'text',
+                              value: 'Synergy',
+                            }
+                          ] 
+                        },
+                        {
+                          type: 'paragraph',
+                          content: [
+                            {
+                              type: 'text',
+                              value: 'Cecconi Simone values collaboration across the wider development ecosystem. Through communication between interior design, architecture, graphic design, industrial design, and other disciplines, the studio supports a more cohesive and holistic outcome for every project.',
+                            }
+                          ]
+                        },
+                      ],
+                    },
+                    {
+                      type: 'bullet-item',
+                      content: [
+                        {
+                          type: 'bullet-item-lead',
+                          content: [
+                            {
+                              type: 'text',
+                              value: 'Perseverance',
+                            }
+                          ] 
+                        },
+                        {
+                          type: 'paragraph',
+                          content: [
+                            {
+                              type: 'text',
+                              value: 'A patient, thoughtful, and measured design process allows new possibilities to emerge over time. Perseverance reflects the belief that sustained exploration leads to more considered outcomes that are kind, resourceful, and synergistic.',
+                            }
+                          ]
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'bhd-cecconi-simone-research-document',
+            },
+            {
+              type: 'image',
+              lowRes: bhdCCResearchDocumentInDesignSCLowRes,
+              highRes: bhdCCResearchDocumentInDesignSCHighRes,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Screenshot of the Adobe InDesign file used to format and organize the research document, including interview analysis, visual references, and thematic findings that informed the proposed rebrand direction for Cecconi Simone.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'bhd-cc-research-document-indesign-sc',
+            },
+          ],
+          id: 'cecconi-simone',
+        },
+      ],
+      id: 'beehive-design',
+    },
     scyu: {
       title: 'SensingChange',
       thumbnail: ScyuThumbnail,
@@ -3183,6 +4277,7 @@ const content = {
         'Brand Identity',
         'Client Work',
         'Coding',
+        'UI Design',
         'Website Design',
         'Website Development',
       ],
@@ -4128,43 +5223,41 @@ const content = {
                     },
                   ],
                 },
+                
                 {
-                  type: 'quote-block',
+                  type: 'quote',
                   content: [
                     {
-                      type: 'quote',
+                      type: 'paragraph',
                       content: [
                         {
-                          type: 'paragraph',
-                          content: [
-                            {
-                              type: 'text',
-                              value: 'As will be discussed in class, this year marks the 30th anniversary of the World Wide Web and much has changed since its founding, arguably for the worse. Today, the web is increasingly under the control of large platforms. The ease of creating and maintaining unique spaces online has been made more convoluted with each new layer of software added to the stack. Furthermore, that utopian vision of information sharing has largely been obfuscated by commerce-oriented software and the ubiquity of surveillance and data capture. As Mackenzie Wark states in her 2019 book, Capital is Dead, Is This Something Worse?: “Sure, there is still a landlord class that owns the land under our feet and a capitalist class that owns the factories, but maybe now there’s another kind of ruling class as well—one that owns neither of those things but instead owns the vector along which information is gathered and used.',
-                            },
-                          ],
+                          type: 'text',
+                          value: 'As will be discussed in class, this year marks the 30th anniversary of the World Wide Web and much has changed since its founding, arguably for the worse. Today, the web is increasingly under the control of large platforms. The ease of creating and maintaining unique spaces online has been made more convoluted with each new layer of software added to the stack. Furthermore, that utopian vision of information sharing has largely been obfuscated by commerce-oriented software and the ubiquity of surveillance and data capture. As Mackenzie Wark states in her 2019 book, Capital is Dead, Is This Something Worse?: “Sure, there is still a landlord class that owns the land under our feet and a capitalist class that owns the factories, but maybe now there’s another kind of ruling class as well—one that owns neither of those things but instead owns the vector along which information is gathered and used.',
                         },
+                      ],
+                    },
+                    {
+                      type: 'paragraph',
+                      content: [
                         {
-                          type: 'paragraph',
-                          content: [
-                            {
-                              type: 'text',
-                              value: 'This assignment will be a nostalgic attempt to develop an older form of website: a resource for information. As you learn the basics of HTML, CSS, and JS, you will develop a public website devoted to teaching a skill, creating an archive, or sharing an idea. Your emphasis should be on making information freely available.',
-                            },
-                          ],
+                          type: 'text',
+                          value: 'This assignment will be a nostalgic attempt to develop an older form of website: a resource for information. As you learn the basics of HTML, CSS, and JS, you will develop a public website devoted to teaching a skill, creating an archive, or sharing an idea. Your emphasis should be on making information freely available.',
                         },
+                      ],
+                    },
+                    {
+                      type: 'paragraph',
+                      content: [
                         {
-                          type: 'paragraph',
-                          content: [
-                            {
-                              type: 'text',
-                              value: 'What are you interested in? What skills can you share? What resources can you disseminate to a wider public? ”',
-                            },
-                          ],
+                          type: 'text',
+                          value: 'What are you interested in? What skills can you share? What resources can you disseminate to a wider public? ”',
                         },
                       ],
                     },
                   ],
                 },
+                  
+                
               ],
             },
             
@@ -4666,7 +5759,7 @@ const content = {
                       content: [
                         {
                           type: 'text',
-                          value: 'How can technological advancements in augmented reality enhance the effectiveness of science communication? ” ',
+                          value: 'How can technological advancements in augmented reality enhance the effectiveness of science communication? ” ',
                         },
                       ],
                     },
@@ -5024,13 +6117,574 @@ const content = {
       ],
       id: 'does-this-work',
     },
+    egl: {
+      title: 'Enginuitty Group Ltd',
+      thumbnail: EglThumbnail,
+      date: 20220328,
+      keywords: [
+        'Brand Identity',
+        'Client Work',
+        'Social Media',
+      ],
+      tools: [
+        'Adobe Illustrator, InDesign',
+      ],
+      desc: [
+        {
+          type: 'paragraph',
+          content: [
+            {
+              type: 'text',
+              value: 'Before beginning my undergraduate studies, I interned at Enginuitty Group Limited, a Trinidad and Tobago–based technology company that delivers digital transformation solutions to public and private sector clients across the Caribbean.',
+            },
+          ],
+        },
+        {
+          type: 'paragraph',
+          content: [
+            {
+              type: 'text',
+              value: 'Working under the guidance of ',
+            },
+            {
+              type: 'link',
+              href: 'https://www.linkedin.com/in/ayr%C3%AFdchandler/',
+              label: 'Ayrïd Chandler',
+              download: false,
+              fileName: '',
+            },
+            {
+              type: 'text',
+              value: ', ',
+            },
+            {
+              type: 'link',
+              href: 'https://www.linkedin.com/in/aliyah-emmanuel/',
+              label: 'Aliyah Emmanuel',
+              download: false,
+              fileName: '',
+            },
+            {
+              type: 'text',
+              value: ', and ',
+            },
+            {
+              type: 'link',
+              href: 'https://www.linkedin.com/in/shari-cumberbatch-2191b136/',
+              label: 'Shari Cumberbatch',
+              download: false,
+              fileName: '',
+            },
+            {
+              type: 'text',
+              value: ', I supported branding initiatives, prepared and formatted internal and client-facing documents, and designed social media graphics. Through this experience, I gained practical exposure to professional design workflows, brand consistency, and the role of visual communication in a technology-driven organization.',
+            },
+          ],
+        },
+      ],
+      descExp: [
+      ],
+      collections: [
+        {
+          title: 'Parlour',
+          medium: 'Brand Identity',
+          thumbnailSmall: eglParlourThumbnailSmall,
+          thumbnailLarge: eglParlourThumbnailLarge,
+          desc: [
+            {
+              type: 'paragraph',
+              content: [
+                {
+                  type: 'text',
+                  value: 'Parlour Caribbean is a multi-vendor e-commerce marketplace for Caribbean artisans and entrepreneurs selling locally and globally.',
+                },
+              ],
+            },
+            {
+              type: 'paragraph',
+              content: [
+                {
+                  type: 'text',
+                  value: 'My contributions included assisting in the development of the brand identity and creating social media graphics to support the platform’s launch and ongoing presence across web and social channels, helping establish a cohesive visual language that reflected the platform’s focus on community, connection, and Caribbean creativity.',
+                },
+              ],
+            },
+          ],
+          media: [
+            {
+              type: 'pdf',
+              pages: eglParlourBrandGuidelines,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Assisted ',
+                    },
+                    {
+                      type: 'link',
+                      href: 'https://www.linkedin.com/in/ayr%C3%AFdchandler/',
+                      label: 'Ayrïd Chandler',
+                      download: false,
+                      fileName: '',
+                    },
+                    {
+                      type: 'text',
+                      value: ', ',
+                    },
+                    {
+                      type: 'link',
+                      href: 'https://www.linkedin.com/in/aliyah-emmanuel/',
+                      label: 'Aliyah Emmanuel',
+                      download: false,
+                      fileName: '',
+                    },
+                    {
+                      type: 'text',
+                      value: ', and ',
+                    },
+                    {
+                      type: 'link',
+                      href: 'https://www.linkedin.com/in/shari-cumberbatch-2191b136/',
+                      label: 'Shari Cumberbatch',
+                      download: false,
+                      fileName: '',
+                    },
+                    {
+                      type: 'text',
+                      value: ' in formatting Parlour Caribbean’s brand guidelines document.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'egl-parlour-brand-guidelines',
+            },
+            {
+              type: 'image',
+              lowRes: eglParlourBrandGuidelinesInDesignSCLowRes,
+              highRes: eglParlourBrandGuidelinesInDesignSCHighRes,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Screenshot of the Adobe InDesign file used to structure and format Parlour Caribbean’s brand guidelines.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'egl-parlour-brand-guidelines-indesign-sc',
+            },
+            {
+              type: 'pdf',
+              pages: eglParlourSocialMediaPosts,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Social media posts designed for the launch of Parlour Caribbean.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'egl-parlour-social-media-posts',
+            },
+            {
+              type: 'pdf',
+              pages: eglParlourSocialMediaStories,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Social media stories created for the launch of Parlour Caribbean.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'egl-parlour-social-media-stories',
+            },
+            {
+              type: 'image',
+              lowRes: eglParlourSocialMediaPostsIllustratorSCLowRes,
+              highRes: eglParlourSocialMediaPostsIllustratorSCHighRes,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Screenshot of the Adobe Illustrator file used to design the social media posts and stories, highlighting vector assets, colour palettes, and layered compositions.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'egl-parlour-social-media-posts-illustrator-sc',
+            },
+          ],
+          id: 'parlour',
+        },
+        {
+          title: 'Paypr',
+          medium: 'Brand Identity',
+          thumbnailSmall: eglPayprThumbnailSmall,
+          thumbnailLarge: eglPayprThumbnailLarge,
+          desc: [
+            {
+              type: 'paragraph',
+              content: [
+                {
+                  type: 'text',
+                  value: 'PAYPR is TSTT’s (Telecommunications Services of Trinidad and Tobago) mobile e-wallet platform designed to enable secure, accessible digital payments and peer‑to‑peer transfers in Trinidad and Tobago.',
+                },
+              ],
+            },
+            {
+              type: 'paragraph',
+              content: [
+                {
+                  type: 'text',
+                  value: 'My contributions included the formatting of key brand documents to support the platform’s launch and ongoing presence across internal and external channels, helping establish a cohesive visual language that reflected the platform’s focus on security, accessibility, and digital innovation.',
+                },
+              ],
+            },
+
+          ],
+          media: [
+            {
+              type: 'pdf',
+              pages: eglPayprBrandAtAGlance,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Formatted the Brand at a Glance document for PAYPR, a concise reference sheet summarizing key brand elements and commonly used guidelines for quick access by internal and external teams.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'egl-paypr-brand-at-a-glance',
+            },
+            {
+              type: 'image',
+              lowRes: eglPayprBrandAtAGlanceIllustratorSCLowRes,
+              highRes: eglPayprBrandAtAGlanceIllustratorSCHighes,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Screenshot of the Adobe Illustrator file used to format PAYPR’s Brand at a Glance.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'egl-paypr-brand-at-a-glance-illustrator-sc',
+            },
+            {
+              type: 'pdf',
+              pages: eglPayprBrandGuidelines,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Formatted the master template for PAYPR’s brand guidelines, establishing a consistent layout system for presenting logo usage, colour palettes, typography, and brand applications.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'egl-paypr-brand-guidelines',
+            },
+            {
+              type: 'image',
+              lowRes: eglPayprBrandGuidelinesInDesignSCLowRes,
+              highRes: eglPayprBrandGuidelinesInDesignSCHighRes,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Screenshot of the Adobe InDesign file used to build PAYPR’s brand guidelines template, highlighting its typography, colour palette, and layout structure.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'egl-paypr-brand-guidelines-indesign-sc',
+            },
+          ],
+          id: 'paypr',
+        },
+        {
+          title: 'Rocket Science Ltd',
+          thumbnailSmall: eglRocketScienceThumbnailSmall,
+          thumbnailLarge: eglRocketScienceThumbnailLarge,
+          medium: 'Brand Identity',
+          desc: [
+            {
+              type: 'paragraph',
+              content: [
+                {
+                  type: 'text',
+                  value: 'Designed the logo, wordmark, and colour palette for Rocket Science Ltd., a Trinidad and Tobago–based technology solutions consultancy. The visual identity was developed to communicate forward-thinking problem-solving, technical expertise, and innovation through a distinctive, contemporary mark.',
+                },
+              ],
+            },
+          ],
+          media: [
+            {
+              type: 'pdf',
+              pages: eglRocketScienceLogo,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Final logo design for Rocket Science Limited, combining the trajectory of a rocket with the curvature of the moon to form an abstract “O.” The mark symbolizes innovation, ambition, movement, and progress.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'rocket-science-logo',
+            },
+            {
+              type: 'pdf',
+              pages: eglRocketScienceWordmark,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Final wordmark design for Rocket Science Ltd., created to complement the logo mark with a clear, confident, and contemporary typographic presence.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'rocket-science-wordmark',
+            },
+            {
+              type: 'image',
+              lowRes: eglRocketScienceIllustratorFileSCLowRes,
+              highRes: eglRocketScienceIllustratorFileSCHighRes,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Screenshot of the Adobe Illustrator file used to organize and prepare the final logo renders. The original logo-development file is no longer available.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'rocket-science-illustrator-file-sc',
+            },
+            {
+              type: 'pdf',
+              pages: eglRocketScienceWordmarkSketches,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Early sketches exploring possible directions for the Rocket Science Ltd. wordmark.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'rocket-science-wordmark-sketches',
+            },
+            {
+              type: 'image',
+              lowRes: eglRocketScienceSketchBrainstormLowRes,
+              highRes: eglRocketScienceSketchBrainstormHighRes,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Initial brainstorming sketches created during the wordmark ideation process, documenting early concepts.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'rocket-science-sketch-brainstorm',
+            },
+          ],
+          id: 'rocket-science-ltd',
+        },
+        {
+          title: 'MOH Vaccine Campaign',
+          thumbnailSmall: eglMOHVaccineThumbnailSmall,
+          thumbnailLarge: eglMOHVaccineThumbnailLarge,
+          medium: 'Social Media',
+          desc: [
+            {
+              type: 'paragraph',
+              content: [
+                {
+                  type: 'text',
+                  value: 'Designed a social media campaign for Trinidad and Tobago’s Ministry of Health encouraging vaccination as a collective step toward safely returning to the everyday experiences, connections, and moments that make life meaningful. The campaign used warm, people-centred imagery and clear messaging to communicate the shared social benefits of vaccination across multiple digital formats.',
+                },
+              ],
+            },
+            {
+              type: 'paragraph',
+              content: [
+                {
+                  type: 'text',
+                  value: 'Imagery was sourced through Adobe Stock.',
+                },
+              ],
+            },
+          ],
+          media: [
+            {
+              type: 'pdf',
+              pages: eglMOHVaccineSquarePostFormat,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Square-format social media posts designed for Instagram and Facebook feeds, using a 1:1 aspect ratio.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'moh-vaccine-square-post-format',
+            },
+            {
+              type: 'image',
+              lowRes: eglMOHVaccineSquarePostFormatIllustratorSCLowRes,
+              highRes: eglMOHVaccineSquarePostFormatIllustratorSCHighRes,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Screenshot of the Adobe Illustrator file for the square 1:1 social media posts.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'moh-vaccine-square-post-format-illustrator-sc',
+            },
+            {
+              type: 'pdf',
+              pages: eglMOHVaccinePortraitPostFormat,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Portrait-format social media posts designed for vertical feed placements, using a 4:5 aspect ratio.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'moh-vaccine-portrait-post-format',
+            },
+            {
+              type: 'image',
+              lowRes: eglMOHVaccinePortraitPostFormatIllustratorSCLowRes,
+              highRes: eglMOHVaccinePortraitPostFormatIllustratorSCHighRes,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Screenshot of the Adobe Illustrator file for the portrait 4:5 social media posts.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'moh-vaccine-portrait-post-format-illustrator-sc',
+            },
+            {
+              type: 'pdf',
+              pages: eglMOHVaccineStoryFormat,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Vertical social media story posts designed for full-screen mobile viewing, using a 9:16 aspect ratio.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'moh-vaccine-story-format',
+            },
+            {
+              type: 'image',
+              lowRes: eglMOHVaccineStoryFormatIllustratorSCLowRes,
+              highRes: eglMOHVaccineStoryFormatIllustratorSCHighRes,
+              desc: [
+                {
+                  type: 'caption',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Screenshot of the Adobe Illustrator file for the vertical 9:16 story posts.',
+                    },
+                  ],
+                },
+              ],
+              alt: '',
+              id: 'moh-vaccine-story-format-illustrator-sc',
+            },
+          ],
+          id: 'moh-vaccine-campaign',
+        },
+      ],
+      id: 'enginuitty-group-ltd',
+    }
   },
   notes: {
     b: {
       title: 'Birth',
       subtitle: 'Website Documentation',
       thumbnail: BThumbnail,
-      date: 20260826,
+      date: 20260902,
       keywords: [
         'Brand Identity',
         'Philosophy',
@@ -5090,11 +6744,16 @@ const content = {
                   type: 'quote-block',
                   content: [
                     {
-                      type: 'paragraph',
+                      type: 'quote',
                       content: [
                         {
-                          type: 'text',
-                          value: '“A place devoted to a special purpose.”',
+                          type: 'paragraph',
+                          content: [
+                            {
+                              type: 'text',
+                              value: 'A place devoted to a special purpose. ”',
+                            },
+                          ],
                         },
                       ],
                     },
@@ -5344,7 +7003,7 @@ const content = {
                           content: [
                             {
                               type: 'text',
-                              value: 'Navigation through cyberspace is achieved by interacting with a hypermedia navigator, a virtual control device that follows the user and always remains within arm’s reach. It is possible for the user to circumvent the cyberspace synthesizer and enter and traverse the space of the navigator, riding the links, as it were. ”',
+                              value: 'Navigation through cyberspace is achieved by interacting with a hypermedia navigator, a virtual control device that follows the user and always remains within arm’s reach. It is possible for the user to circumvent the cyberspace synthesizer and enter and traverse the space of the navigator, riding the links, as it were. ”',
                             },
                           ],
                         },
@@ -5691,7 +7350,165 @@ const content = {
           ],
           id: 'version-0p6'
         },
-
+        {
+          title: 'Version 0.7',
+          
+          blocks: [
+            {
+              title: 'Recursive Self-Improvement',
+              date: 20260902,
+              summary: [
+                'Completed and published all 10 projects planned for the portfolio’s version 1.0 archive.',
+                'Optimized the archive’s image assets by converting them to WebP, compressing them, and downscaling high-resolution files.',
+              ],
+              items: [
+                {
+                  type: 'media',
+                  media: [
+                    {
+                      type: 'image',
+                      lowRes: birthRecursiveSelfImprovementLowRes,
+                      highRes: birthRecursiveSelfImprovementHighRes,
+                      alt: '',
+                      desc: [],
+                      id: 'birth-recursive-self-improvement-lead'
+                    }
+                  ]
+                },
+                {
+                  type: 'paragraph',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'All 10 projected posts for version 1.0 are compiled and live! Hip hip, hooray.',
+                    },
+                  ],
+                },
+                {
+                  type: 'paragraph',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Now we can resume the fun stuff. The next steps are to learn Next.js, integrate it into the portfolio, and design the filter system for mobile. None of those things are particularly necessary for job applications, and they are much more enjoyable, so I’m going to take my time with them. That probably means the next update won’t be for a while, but trust me when I say it will come. By then, I’ll probably have another interesting philosophical concept to obsess over.',
+                    },
+                  ],
+                },
+                {
+                  type: 'paragraph',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'For now, I’m thinking about recursive self-improvement, or something similar: a self-rewriting, recursively improving architecture. While building this website, I’ve noticed that I do this a lot. Whenever I discover a more efficient solution, or something better suited to the overall concept, I go back and apply that change to anything and everything it could improve.',
+                    },
+                  ],
+                },
+                {
+                  type: 'paragraph',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Let’s use images as an example.',
+                    },
+                  ],
+                },
+                {
+                  type: 'paragraph',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'There are very few things I detest more than the sting that pure white (#FFFFFF) leaves on my eyes. I try to avoid using it whenever I’m working digitally, and only leave it on printed materials because pure white simply becomes the paper’s colour.',
+                    },
+                  ],
+                },
+                {
+                  type: 'paragraph',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'A professor I had a while ago, ',
+                    },
+                    {
+                      type: 'link',
+                      href: 'https://www.linkedin.com/in/acampea/',
+                      label: 'Anthony Campea',
+                      download: false,
+                      fileName: '',
+                    },
+                    {
+                      type: 'text',
+                      value: ', once gave some advice about exhibition design. He said that exhibitors use pure white or pure black for walls they want children to avoid. Because pure white does not exist in nature and is an entirely artificial phenomenon, it can feel frightening to them.',
+                    },
+                  ],
+                },
+                {
+                  type: 'paragraph',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'I think that, ever since then, the stubborn little kid inside me has raged whenever it sees pure white. So, when I discovered that most of the screenshots and scans I had taken contained it, I set up a Photoshop script to reduce the white output in all those images by 1/255.',
+                    },
+                  ],
+                },
+                {
+                  type: 'paragraph',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'The difference is entirely unnoticeable. I asked my mom about it, and she said the images looked exactly the same. But I know the experience of using the website is better because of it. The same goes for converting all the image files to WebP, compressing them by 10%, and downscaling the high-resolution versions to save storage space. Absolutely no one would notice the difference, but these small changes mean I’ll be able to run this archive for free for much longer.',
+                    },
+                  ],
+                },
+                {
+                  type: 'paragraph',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'That has to mean something.',
+                    },
+                  ],
+                },
+                {
+                  type: 'paragraph',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'I think recursive self-improvement is a habit that extends into my personal life, too, and it has probably destroyed relationships that were worth keeping. It makes for good work, though.',
+                    },
+                  ],
+                },
+                {
+                  type: 'paragraph',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'I read somewhere that this is how Venice was built to be incredibly culturally cohesive and holistic, especially in comparison with the stimulus frenzy of cities built around glass-windowed architecture. Downtown Toronto and Times Square in New York are two examples that come to mind.',
+                    },
+                  ],
+                },
+                {
+                  type: 'paragraph',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'I’m excited to see what philosophical concept I latch onto next.',
+                    },
+                  ],
+                },
+                {
+                  type: 'paragraph',
+                  content: [
+                    {
+                      type: 'text',
+                      value: 'Stay tuned.',
+                    },
+                  ],
+                },
+              ],
+              id: 'recursive-self-improvement',
+            },
+          ],
+          id: 'version-0p7'
+        },
       ],
       id: 'birth',
     },

@@ -1,7 +1,7 @@
 import micropublication4Page1LowRes from '../../assets/images/vs/micropublications/gc_vs-micropublication-4-1-1080.webp';
-import micropublication4Page1HighRes from '../../assets/images/vs/micropublications/gc_vs-micropublication-4-1-2160.webp';
+import micropublication4Page1HighRes from '../../assets/images/vs/micropublications/gc_vs-micropublication-4-1-1440.webp';
 import micropublication4Page2LowRes from '../../assets/images/vs/micropublications/gc_vs-micropublication-4-2-1080.webp';
-import micropublication4Page2HighRes from '../../assets/images/vs/micropublications/gc_vs-micropublication-4-2-2160.webp';
+import micropublication4Page2HighRes from '../../assets/images/vs/micropublications/gc_vs-micropublication-4-2-1440.webp';
 
 const vsMicropub4Pages = [
   {

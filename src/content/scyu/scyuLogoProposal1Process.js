@@ -1,13 +1,13 @@
 import scyuLogoProposal1IllustratorSC1LowRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-1-1080.webp';
-import scyuLogoProposal1IllustratorSC1HighRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-1-2160.webp';
+import scyuLogoProposal1IllustratorSC1HighRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-1-1440.webp';
 import scyuLogoProposal1IllustratorSC2LowRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-2-1080.webp';
-import scyuLogoProposal1IllustratorSC2HighRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-2-2160.webp';
+import scyuLogoProposal1IllustratorSC2HighRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-2-1440.webp';
 import scyuLogoProposal1IllustratorSC3LowRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-3-1080.webp';
-import scyuLogoProposal1IllustratorSC3HighRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-3-2160.webp';
+import scyuLogoProposal1IllustratorSC3HighRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-3-1440.webp';
 import scyuLogoProposal1IllustratorSC4LowRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-4-1080.webp';
-import scyuLogoProposal1IllustratorSC4HighRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-4-2160.webp';
+import scyuLogoProposal1IllustratorSC4HighRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-4-1440.webp';
 import scyuLogoProposal1IllustratorSC5LowRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-5-1080.webp';
-import scyuLogoProposal1IllustratorSC5HighRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-5-2160.webp';
+import scyuLogoProposal1IllustratorSC5HighRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-5-1440.webp';
 
 const scyuLogoProposal1Process = [
   {

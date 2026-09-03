@@ -78,11 +78,23 @@ function renderTextBlock(block, key) {
   else if(block.type === 'bullet'){
     return (
       <ul key={key} className="desc-bullet-list">
-        {block.content.map((part, j) => (
-          <li key={j}>{renderTextPart(part)}</li>
-        ))}
+        {block.content.map((part, j) => 
+          part.type === 'bullet-item' 
+          ? renderTextBlock(part, j)
+          : <li key={j}>{renderTextPart(part)}</li>
+        )}
       </ul>
     );
+  }
+  else if (block.type === 'bullet-item') {
+    return (
+      <li key={key}>
+        {block.content.map((qBlock, i) => renderTextBlock(qBlock, i))}
+      </li>
+    );
+  }
+  else if (block.type === 'bullet-item-lead') {
+    return <p key={key} className="lead">{content}</p>
   }
   else if (block.type === 'caption') {
     return <p key={key} className="desc-caption">{content}</p>;

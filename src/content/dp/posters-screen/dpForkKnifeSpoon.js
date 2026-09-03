@@ -1,7 +1,7 @@
 import dpForkKnifeSpoonCompetitionPosterLowRes from '../../../assets/images/dp/posters/gc_dp-fork-knife-spoon-1080.webp';
-import dpForkKnifeSpoonCompetitionPosterHighRes from '../../../assets/images/dp/posters/gc_dp-fork-knife-spoon-2160.webp';
+import dpForkKnifeSpoonCompetitionPosterHighRes from '../../../assets/images/dp/posters/gc_dp-fork-knife-spoon-1280.webp';
 import dpForkKnifeSpoonDeadlineExtendedLowRes from '../../../assets/images/dp/posters/gc_dp-fork-knife-spoon-deadline-extended-1080.webp';
-import dpForkKnifeSpoonDeadlineExtendedHighRes from '../../../assets/images/dp/posters/gc_dp-fork-knife-spoon-deadline-extended-2160.webp';
+import dpForkKnifeSpoonDeadlineExtendedHighRes from '../../../assets/images/dp/posters/gc_dp-fork-knife-spoon-deadline-extended-1280.webp';
 
 const dpForkKnifeSpoon = [
   {

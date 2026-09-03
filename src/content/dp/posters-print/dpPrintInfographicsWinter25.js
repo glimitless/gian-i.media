@@ -1,15 +1,15 @@
 import dpPrintWinter25InfographicsCageInfoLowRes from '../../../assets/images/dp/posters/gc_dp-printed-infographics-winter-25-cage-info-1080.webp';
-import dpPrintWinter25InfographicsCageInfoHighRes from '../../../assets/images/dp/posters/gc_dp-printed-infographics-winter-25-cage-info-2160.webp';
+import dpPrintWinter25InfographicsCageInfoHighRes from '../../../assets/images/dp/posters/gc_dp-printed-infographics-winter-25-cage-info-1280.webp';
 import dpPrintWinter25InfographicsAccessLowRes from '../../../assets/images/dp/posters/gc_dp-printed-infographics-winter-25-access-1080.webp';
-import dpPrintWinter25InfographicsAccessHighRes from '../../../assets/images/dp/posters/gc_dp-printed-infographics-winter-25-access-2160.webp';
+import dpPrintWinter25InfographicsAccessHighRes from '../../../assets/images/dp/posters/gc_dp-printed-infographics-winter-25-access-1280.webp';
 import dpPrintWinter25InfographicsResourcesLowRes from '../../../assets/images/dp/posters/gc_dp-printed-infographics-winter-25-resources-1080.webp';
-import dpPrintWinter25InfographicsResourcesHighRes from '../../../assets/images/dp/posters/gc_dp-printed-infographics-winter-25-resources-2160.webp';
+import dpPrintWinter25InfographicsResourcesHighRes from '../../../assets/images/dp/posters/gc_dp-printed-infographics-winter-25-resources-1280.webp';
 import dpPrintWinter25InfographicsTeamLowRes from '../../../assets/images/dp/posters/gc_dp-printed-infographics-winter-25-team-1080.webp';
-import dpPrintWinter25InfographicsTeamHighRes from '../../../assets/images/dp/posters/gc_dp-printed-infographics-winter-25-team-2160.webp';
+import dpPrintWinter25InfographicsTeamHighRes from '../../../assets/images/dp/posters/gc_dp-printed-infographics-winter-25-team-1280.webp';
 import dpPrintWinter25InfographicsFineLowRes from '../../../assets/images/dp/posters/gc_dp-printed-infographics-winter-25-fine-1080.webp';
-import dpPrintWinter25InfographicsFineHighRes from '../../../assets/images/dp/posters/gc_dp-printed-infographics-winter-25-fine-2160.webp';
+import dpPrintWinter25InfographicsFineHighRes from '../../../assets/images/dp/posters/gc_dp-printed-infographics-winter-25-fine-1280.webp';
 import dpPrintWinter25InfographicsFeedbackLowRes from '../../../assets/images/dp/posters/gc_dp-printed-infographics-winter-25-feedback-1080.webp';
-import dpPrintWinter25InfographicsFeedbackHighRes from '../../../assets/images/dp/posters/gc_dp-printed-infographics-winter-25-feedback-2160.webp';
+import dpPrintWinter25InfographicsFeedbackHighRes from '../../../assets/images/dp/posters/gc_dp-printed-infographics-winter-25-feedback-1280.webp';
 
 const dpPrintInfographicsWinter25 = [
   {

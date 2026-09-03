@@ -1,13 +1,13 @@
 import lcbDrawing1LowRes from '../../assets/images/vs/game-map/lcb-drawings-1080/gc_vs-game-map-drawing-1-1080.webp';
-import lcbDrawing1HighRes from '../../assets/images/vs/game-map/lcb-drawings-2160/gc_vs-game-map-drawing-1-2160.webp';
+import lcbDrawing1HighRes from '../../assets/images/vs/game-map/lcb-drawings-1600/gc_vs-game-map-drawing-1-1600.webp';
 import lcbDrawing2LowRes from '../../assets/images/vs/game-map/lcb-drawings-1080/gc_vs-game-map-drawing-2-1080.webp';
-import lcbDrawing2HighRes from '../../assets/images/vs/game-map/lcb-drawings-2160/gc_vs-game-map-drawing-2-2160.webp';
+import lcbDrawing2HighRes from '../../assets/images/vs/game-map/lcb-drawings-1600/gc_vs-game-map-drawing-2-1600.webp';
 import lcbDrawing3LowRes from '../../assets/images/vs/game-map/lcb-drawings-1080/gc_vs-game-map-drawing-3-1080.webp';
-import lcbDrawing3HighRes from '../../assets/images/vs/game-map/lcb-drawings-2160/gc_vs-game-map-drawing-3-2160.webp';
+import lcbDrawing3HighRes from '../../assets/images/vs/game-map/lcb-drawings-1600/gc_vs-game-map-drawing-3-1600.webp';
 import lcbDrawing4LowRes from '../../assets/images/vs/game-map/lcb-drawings-1080/gc_vs-game-map-drawing-4-1080.webp';
-import lcbDrawing4HighRes from '../../assets/images/vs/game-map/lcb-drawings-2160/gc_vs-game-map-drawing-4-2160.webp';
+import lcbDrawing4HighRes from '../../assets/images/vs/game-map/lcb-drawings-1600/gc_vs-game-map-drawing-4-1600.webp';
 import lcbDrawing5LowRes from '../../assets/images/vs/game-map/lcb-drawings-1080/gc_vs-game-map-drawing-5-1080.webp';
-import lcbDrawing5HighRes from '../../assets/images/vs/game-map/lcb-drawings-2160/gc_vs-game-map-drawing-5-2160.webp';
+import lcbDrawing5HighRes from '../../assets/images/vs/game-map/lcb-drawings-1600/gc_vs-game-map-drawing-5-1600.webp';
 
 const vsLCBDrawings = [
   {

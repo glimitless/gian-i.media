@@ -1,14 +1,14 @@
 import dpWinter25InfographicsIntro from '../../../assets/video/dp/gc_dp-infographics-intro.mp4';
 import dpWinter25InfographicsCageInfoLowRes from '../../../assets/images/dp/posters/gc_dp-infographics-winter-25-cage-info-1080.webp';
-import dpWinter25InfographicsCageInfoHighRes from '../../../assets/images/dp/posters/gc_dp-infographics-winter-25-cage-info-2160.webp';
+import dpWinter25InfographicsCageInfoHighRes from '../../../assets/images/dp/posters/gc_dp-infographics-winter-25-cage-info-1280.webp';
 import dpWinter25InfographicsAccessLowRes from '../../../assets/images/dp/posters/gc_dp-infographics-winter-25-access-1080.webp';
-import dpWinter25InfographicsAccessHighRes from '../../../assets/images/dp/posters/gc_dp-infographics-winter-25-access-2160.webp';
+import dpWinter25InfographicsAccessHighRes from '../../../assets/images/dp/posters/gc_dp-infographics-winter-25-access-1280.webp';
 import dpWinter25InfographicsResourcesLowRes from '../../../assets/images/dp/posters/gc_dp-infographics-winter-25-resources-1080.webp';
-import dpWinter25InfographicsResourcesHighRes from '../../../assets/images/dp/posters/gc_dp-infographics-winter-25-resources-2160.webp';
+import dpWinter25InfographicsResourcesHighRes from '../../../assets/images/dp/posters/gc_dp-infographics-winter-25-resources-1280.webp';
 import dpWinter25InfographicsTeamLowRes from '../../../assets/images/dp/posters/gc_dp-infographics-winter-25-team-1080.webp';
-import dpWinter25InfographicsTeamHighRes from '../../../assets/images/dp/posters/gc_dp-infographics-winter-25-team-2160.webp';
+import dpWinter25InfographicsTeamHighRes from '../../../assets/images/dp/posters/gc_dp-infographics-winter-25-team-1280.webp';
 import dpWinter25InfographicsFineLowRes from '../../../assets/images/dp/posters/gc_dp-infographics-winter-25-fine-1080.webp';
-import dpWinter25InfographicsFineHighRes from '../../../assets/images/dp/posters/gc_dp-infographics-winter-25-fine-2160.webp';
+import dpWinter25InfographicsFineHighRes from '../../../assets/images/dp/posters/gc_dp-infographics-winter-25-fine-1280.webp';
 
 const dpInfographicsWinter25 = [
   {

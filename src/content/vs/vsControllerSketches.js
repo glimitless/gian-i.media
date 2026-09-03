@@ -1,11 +1,11 @@
 import vsControllerSketchesPage1LowRes from '../../assets/images/vs/controller-prototype/sketches-1080/gc_vs-controller-sketches-page-1-1080.webp';
-import vsControllerSketchesPage1HighRes from '../../assets/images/vs/controller-prototype/sketches-2160/gc_vs-controller-sketches-page-1-2160.webp';
+import vsControllerSketchesPage1HighRes from '../../assets/images/vs/controller-prototype/sketches-1440/gc_vs-controller-sketches-page-1-1440.webp';
 import vsControllerSketchesPage2LowRes from '../../assets/images/vs/controller-prototype/sketches-1080/gc_vs-controller-sketches-page-2-1080.webp';
-import vsControllerSketchesPage2HighRes from '../../assets/images/vs/controller-prototype/sketches-2160/gc_vs-controller-sketches-page-2-2160.webp';
+import vsControllerSketchesPage2HighRes from '../../assets/images/vs/controller-prototype/sketches-1440/gc_vs-controller-sketches-page-2-1440.webp';
 import vsControllerSketchesPage3LowRes from '../../assets/images/vs/controller-prototype/sketches-1080/gc_vs-controller-sketches-page-3-1080.webp';
-import vsControllerSketchesPage3HighRes from '../../assets/images/vs/controller-prototype/sketches-2160/gc_vs-controller-sketches-page-3-2160.webp';
+import vsControllerSketchesPage3HighRes from '../../assets/images/vs/controller-prototype/sketches-1440/gc_vs-controller-sketches-page-3-1440.webp';
 import vsControllerSketchesPage4LowRes from '../../assets/images/vs/controller-prototype/sketches-1080/gc_vs-controller-sketches-page-4-1080.webp';
-import vsControllerSketchesPage4HighRes from '../../assets/images/vs/controller-prototype/sketches-2160/gc_vs-controller-sketches-page-4-2160.webp';
+import vsControllerSketchesPage4HighRes from '../../assets/images/vs/controller-prototype/sketches-1440/gc_vs-controller-sketches-page-4-1440.webp';
 
 const vsControllerSketchesPages = [
   {

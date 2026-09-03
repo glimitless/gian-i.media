@@ -1,7 +1,7 @@
 import dpPrintFall25InfographicsAccessLowRes from '../../../assets/images/dp/posters/gc_dp-printed-infographics-fall-25-access-1080.webp';
-import dpPrintFall25InfographicsAccessHighRes from '../../../assets/images/dp/posters/gc_dp-printed-infographics-fall-25-access-2160.webp';
+import dpPrintFall25InfographicsAccessHighRes from '../../../assets/images/dp/posters/gc_dp-printed-infographics-fall-25-access-1280.webp';
 import dpPrintFall25InfographicsTeamLowRes from '../../../assets/images/dp/posters/gc_dp-printed-infographics-fall-25-team-1080.webp';
-import dpPrintFall25InfographicsTeamHighRes from '../../../assets/images/dp/posters/gc_dp-printed-infographics-fall-25-team-2160.webp';
+import dpPrintFall25InfographicsTeamHighRes from '../../../assets/images/dp/posters/gc_dp-printed-infographics-fall-25-team-1280.webp';
 
 const dpPrintInfographicsFall25 = [
   {

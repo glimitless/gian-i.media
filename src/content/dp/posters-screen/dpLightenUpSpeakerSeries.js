@@ -1,9 +1,9 @@
 import dpLUFigurativelySpeakingLowRes from '../../../assets/images/dp/posters/gc_dp-lu-figuratively-speaking-1080.webp';
-import dpLUFigurativelySpeakingHighRes from '../../../assets/images/dp/posters/gc_dp-lu-figuratively-speaking-2160.webp';
+import dpLUFigurativelySpeakingHighRes from '../../../assets/images/dp/posters/gc_dp-lu-figuratively-speaking-1280.webp';
 import dpLUMaterialMemoryLowRes from '../../../assets/images/dp/posters/gc_dp-lu-material-memory-1080.webp';
-import dpLUMaterialMemoryHighRes from '../../../assets/images/dp/posters/gc_dp-lu-material-memory-2160.webp';
+import dpLUMaterialMemoryHighRes from '../../../assets/images/dp/posters/gc_dp-lu-material-memory-1280.webp';
 import dpLUOneLovelyHourLowRes from '../../../assets/images/dp/posters/gc_dp-lu-one-lovely-hour-1080.webp';
-import dpLUOneLovelyHourHighRes from '../../../assets/images/dp/posters/gc_dp-lu-one-lovely-hour-2160.webp';
+import dpLUOneLovelyHourHighRes from '../../../assets/images/dp/posters/gc_dp-lu-one-lovely-hour-1280.webp';
 
 const dpLightenUpSpeakerSeries = [
   {

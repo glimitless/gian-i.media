@@ -60,6 +60,7 @@
   min-height: 0;
   background-color: var(--imageModalBackground);
   display: flex;
+  align-items: center;
   align-content: center;
   justify-content: center;
 }

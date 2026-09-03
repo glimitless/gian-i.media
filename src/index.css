@@ -155,6 +155,9 @@ ol{
   padding-left: 3rem;
   list-style-type: circle;
 }
+.desc-bullet-list li .lead {
+  margin-bottom: 0.05rem;
+}
 .desc-bullet-list:not(:last-child){
   margin-bottom: 1.3rem;
 }
@@ -170,7 +173,7 @@ ol{
 .quote-block .quote-rule{
   width: 0.5rem;
   background-color: var(--surface);
-  margin-right: 1rem;
+  margin-right: 0.5rem;
   transition: background-color var(--bcTransitionDuration) var(--bcTransitionEase);
 }
 .quote-block .quote-content{
@@ -180,16 +183,18 @@ ol{
 .quote-block:not(:last-child){
   margin-bottom: 1.3rem;
 }
-.quote-block .quote {
-  list-style-type: "“ ";
-  padding-left: 0.888rem;
+.quote {
+  list-style-type: "“ ";
+  padding-left: 0.788rem;
+  margin-left: 0.5rem;
 }
-.quote-block .quote:not(:last-child), .quote-block .source:not(:last-child){
+.quote:not(:last-child), .quote-block .source:not(:last-child){
   margin-bottom: 1.1rem;
 }
-.quote-block .source {
+.source {
   list-style-type: "– ";
-  padding-left: 1.276rem;
+  padding-left: 1.275rem;
+  margin-left: 0.013rem;
 }
 .numbered-list{
   padding-left: 2.4rem;

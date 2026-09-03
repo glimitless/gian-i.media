@@ -1,15 +1,15 @@
 import scyuLogoProposal2IllustratorSC1LowRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-6-1080.webp';
-import scyuLogoProposal2IllustratorSC1HighRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-6-2160.webp';
+import scyuLogoProposal2IllustratorSC1HighRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-6-1440.webp';
 import scyuLogoProposal2IllustratorSC2LowRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-7-1080.webp';
-import scyuLogoProposal2IllustratorSC2HighRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-7-2160.webp';
+import scyuLogoProposal2IllustratorSC2HighRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-7-1440.webp';
 import scyuLogoProposal2IllustratorSC3LowRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-8-1080.webp';
-import scyuLogoProposal2IllustratorSC3HighRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-8-2160.webp';
+import scyuLogoProposal2IllustratorSC3HighRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-8-1440.webp';
 import scyuLogoProposal2IllustratorSC4LowRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-9-1080.webp';
-import scyuLogoProposal2IllustratorSC4HighRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-9-2160.webp';
+import scyuLogoProposal2IllustratorSC4HighRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-9-1440.webp';
 import scyuLogoProposal2IllustratorSC5LowRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-10-1080.webp';
-import scyuLogoProposal2IllustratorSC5HighRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-10-2160.webp';
+import scyuLogoProposal2IllustratorSC5HighRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-10-1440.webp';
 import scyuLogoProposal2IllustratorSC6LowRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-11-1080.webp';
-import scyuLogoProposal2IllustratorSC6HighRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-11-2160.webp';
+import scyuLogoProposal2IllustratorSC6HighRes from '../../assets/images/scyu/logo/gc_scyu-logo-process-illustrator-sc-11-1440.webp';
 
 
 const scyuLogoProposal2Process = [

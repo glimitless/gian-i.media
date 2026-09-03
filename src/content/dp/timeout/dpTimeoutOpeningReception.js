@@ -1,15 +1,15 @@
 import dpTimeoutOpeningReceptionImage1LowRes from '../../../assets/images/dp/timeout/gc_timeout-opening-reception-photos-1-1080.webp';
-import dpTimeoutOpeningReceptionImage1HighRes from '../../../assets/images/dp/timeout/gc_timeout-opening-reception-photos-1-2160.webp';
+import dpTimeoutOpeningReceptionImage1HighRes from '../../../assets/images/dp/timeout/gc_timeout-opening-reception-photos-1-1600.webp';
 import dpTimeoutOpeningReceptionImage2LowRes from '../../../assets/images/dp/timeout/gc_timeout-opening-reception-photos-2-1080.webp';
-import dpTimeoutOpeningReceptionImage2HighRes from '../../../assets/images/dp/timeout/gc_timeout-opening-reception-photos-2-2160.webp';
+import dpTimeoutOpeningReceptionImage2HighRes from '../../../assets/images/dp/timeout/gc_timeout-opening-reception-photos-2-1600.webp';
 import dpTimeoutOpeningReceptionImage3LowRes from '../../../assets/images/dp/timeout/gc_timeout-opening-reception-photos-3-1080.webp';
-import dpTimeoutOpeningReceptionImage3HighRes from '../../../assets/images/dp/timeout/gc_timeout-opening-reception-photos-3-2160.webp';
+import dpTimeoutOpeningReceptionImage3HighRes from '../../../assets/images/dp/timeout/gc_timeout-opening-reception-photos-3-1600.webp';
 import dpTimeoutOpeningReceptionImage4LowRes from '../../../assets/images/dp/timeout/gc_timeout-opening-reception-photos-4-1080.webp';
-import dpTimeoutOpeningReceptionImage4HighRes from '../../../assets/images/dp/timeout/gc_timeout-opening-reception-photos-4-2160.webp';
+import dpTimeoutOpeningReceptionImage4HighRes from '../../../assets/images/dp/timeout/gc_timeout-opening-reception-photos-4-1600.webp';
 import dpTimeoutOpeningReceptionImage5LowRes from '../../../assets/images/dp/timeout/gc_timeout-opening-reception-photos-5-1080.webp';
-import dpTimeoutOpeningReceptionImage5HighRes from '../../../assets/images/dp/timeout/gc_timeout-opening-reception-photos-5-2160.webp';
+import dpTimeoutOpeningReceptionImage5HighRes from '../../../assets/images/dp/timeout/gc_timeout-opening-reception-photos-5-1600.webp';
 import dpTimeoutOpeningReceptionImage6LowRes from '../../../assets/images/dp/timeout/gc_timeout-opening-reception-photos-6-1080.webp';
-import dpTimeoutOpeningReceptionImage6HighRes from '../../../assets/images/dp/timeout/gc_timeout-opening-reception-photos-6-2160.webp';
+import dpTimeoutOpeningReceptionImage6HighRes from '../../../assets/images/dp/timeout/gc_timeout-opening-reception-photos-6-1600.webp';
 
 const dpTimeoutOpeningReception = [
   {

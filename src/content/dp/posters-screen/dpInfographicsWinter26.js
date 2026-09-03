@@ -1,5 +1,5 @@
 import dpWinter26InfographicsTeamLowRes from '../../../assets/images/dp/posters/gc_dp-infographics-winter-26-team-1080.webp';
-import dpWinter26InfographicsTeamHighRes from '../../../assets/images/dp/posters/gc_dp-infographics-winter-26-team-2160.webp';
+import dpWinter26InfographicsTeamHighRes from '../../../assets/images/dp/posters/gc_dp-infographics-winter-26-team-1280.webp';
 
 const dpInfographicsWinter26 = [
   {

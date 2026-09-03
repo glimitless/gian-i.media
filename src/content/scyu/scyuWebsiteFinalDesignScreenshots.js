@@ -1,15 +1,15 @@
 import scyuWebsiteFinalDesignScreenshot1LowRes from '../../assets/images/scyu/website/gc_scyu-website-final-design-figma-sc-1-1080.webp';
-import scyuWebsiteFinalDesignScreenshot1HighRes from '../../assets/images/scyu/website/gc_scyu-website-final-design-figma-sc-1-2160.webp';
+import scyuWebsiteFinalDesignScreenshot1HighRes from '../../assets/images/scyu/website/gc_scyu-website-final-design-figma-sc-1-1920.webp';
 import scyuWebsiteFinalDesignScreenshot2LowRes from '../../assets/images/scyu/website/gc_scyu-website-final-design-figma-sc-2-1080.webp';
-import scyuWebsiteFinalDesignScreenshot2HighRes from '../../assets/images/scyu/website/gc_scyu-website-final-design-figma-sc-2-2160.webp';
+import scyuWebsiteFinalDesignScreenshot2HighRes from '../../assets/images/scyu/website/gc_scyu-website-final-design-figma-sc-2-1920.webp';
 import scyuWebsiteFinalDesignScreenshot3LowRes from '../../assets/images/scyu/website/gc_scyu-website-final-design-figma-sc-3-1080.webp';
-import scyuWebsiteFinalDesignScreenshot3HighRes from '../../assets/images/scyu/website/gc_scyu-website-final-design-figma-sc-3-2160.webp';
+import scyuWebsiteFinalDesignScreenshot3HighRes from '../../assets/images/scyu/website/gc_scyu-website-final-design-figma-sc-3-1920.webp';
 import scyuWebsiteFinalDesignScreenshot4LowRes from '../../assets/images/scyu/website/gc_scyu-website-final-design-figma-sc-4-1080.webp';
-import scyuWebsiteFinalDesignScreenshot4HighRes from '../../assets/images/scyu/website/gc_scyu-website-final-design-figma-sc-4-2160.webp';
+import scyuWebsiteFinalDesignScreenshot4HighRes from '../../assets/images/scyu/website/gc_scyu-website-final-design-figma-sc-4-1920.webp';
 import scyuWebsiteFinalDesignScreenshot5LowRes from '../../assets/images/scyu/website/gc_scyu-website-final-design-figma-sc-5-1080.webp';
-import scyuWebsiteFinalDesignScreenshot5HighRes from '../../assets/images/scyu/website/gc_scyu-website-final-design-figma-sc-5-2160.webp';
+import scyuWebsiteFinalDesignScreenshot5HighRes from '../../assets/images/scyu/website/gc_scyu-website-final-design-figma-sc-5-1920.webp';
 import scyuWebsiteFinalDesignScreenshot6LowRes from '../../assets/images/scyu/website/gc_scyu-website-final-design-figma-sc-6-1080.webp';
-import scyuWebsiteFinalDesignScreenshot6HighRes from '../../assets/images/scyu/website/gc_scyu-website-final-design-figma-sc-6-2160.webp';
+import scyuWebsiteFinalDesignScreenshot6HighRes from '../../assets/images/scyu/website/gc_scyu-website-final-design-figma-sc-6-1920.webp';
 
 
 const scyuWebsiteFinalDesignScreenshots = [
