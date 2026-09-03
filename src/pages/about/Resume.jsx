@@ -12,7 +12,7 @@ export function Resume() {
       </div>
       <div className="resume-block">
         <h2>Objective</h2>
-        <p>Science-driven designer transitioning into product design, focused on technological hardware and tangible interfaces. Translates complex concepts into clear, human-centered products that enhance everyday interactions and improve understanding of science and technology.</p>
+        <p>Science-driven graphic designer transitioning into product design, focused on technological hardware and tangible interfaces. Translates complex concepts into clear, human-centered products that enhance everyday interactions and improve understanding of science and technology.</p>
       </div>
       <ResumeBlock title="Education" items={resume.education} />
       <ResumeBlock title="Work Experience" items={resume.workExperience} />
