@@ -3150,7 +3150,7 @@ const content = {
                 },
                 {
                   type: 'text',
-                  value: ' recognized this as an opportunity to create a new sign that aligned with the visual identity we developed for the studio’s posters.',
+                  value: ' recognized this as an opportunity to create a new sign that aligned with the visual identity established by the studio’s posters.',
                 },
               ],
             },
