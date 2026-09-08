@@ -4277,6 +4277,7 @@ const content = {
         'Brand Identity',
         'Client Work',
         'Coding',
+        'Science Communication',
         'UI Design',
         'Website Design',
         'Website Development',
