@@ -2649,6 +2649,7 @@ const content = {
         'Brand Identity',
         'Client Work',
         'Clothing Design',
+        'Environmental Graphics',
         'Motion Graphics',
         'Photography',
         'Poster Design',
@@ -3132,7 +3133,7 @@ const content = {
           title: 'Signage',
           thumbnailSmall: dpSignageThumbnailSmall,
           thumbnailLarge: dpSignageThumbnailLarge,
-          medium: 'Brand Identity',
+          medium: 'Environmental Graphics',
           desc: [
             {
               type: 'paragraph',
