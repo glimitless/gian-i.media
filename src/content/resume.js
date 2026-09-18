@@ -3,7 +3,7 @@ const resume = {
       {
         name: 'BDES Graphic Design (Honours) with Distinction',
         institution: 'OCAD University',
-        date: 'September 2022 – April 2026',
+        date: 'September 2022 – May 2026',
         location: 'Toronto, Canada',
         items: [
           'Developed and enhanced skills in layout design, poster design, typography, website design, user experience, motion graphics, 3D modeling, video & photo editing, and Arduino prototyping.',
