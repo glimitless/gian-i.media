@@ -1076,8 +1076,8 @@
                     "src": "seventh-sense/gc-dk_ss-prospective-advertisement-1.mp4",
                     "controls": true,
                     "loop": true,
-                    "muted": false,
-                    "autoplay": false,
+                    "muted": true,
+                    "autoplay": true,
                     "id": "prospective-advertisement-1"
                   }
                 ]
@@ -1486,8 +1486,8 @@
                     "src": "seventh-sense/gc-dk_ss-prototyping-form-factor.mp4",
                     "controls": true,
                     "loop": true,
-                    "muted": false,
-                    "autoplay": false,
+                    "muted": true,
+                    "autoplay": true,
                     "id": "early-form-factor-experiment"
                   }
                 ]
@@ -1521,8 +1521,8 @@
                     "src": "seventh-sense/gc-dk_ss-sensor-experiment.mp4",
                     "controls": true,
                     "loop": true,
-                    "muted": false,
-                    "autoplay": false,
+                    "muted": true,
+                    "autoplay": true,
                     "id": "early-sensor-experiment"
                   }
                 ]
@@ -1626,8 +1626,8 @@
                     "src": "seventh-sense/gc-dk_ss-reactive-visual-experiment.mp4",
                     "controls": true,
                     "loop": true,
-                    "muted": false,
-                    "autoplay": false,
+                    "muted": true,
+                    "autoplay": true,
                     "id": "early-reactive-visual-experiment"
                   }
                 ]
@@ -3958,8 +3958,8 @@
                     "src": "design-photography/gc_dp-infographics-intro_valentines-day-variant.mp4",
                     "controls": true,
                     "loop": true,
-                    "muted": false,
-                    "autoplay": false,
+                    "muted": true,
+                    "autoplay": true,
                     "id": "dp-valentines-day-intro"
                   },
                   {
@@ -5852,8 +5852,8 @@
                     "src": "sensing-change/logo-proposal-animation.mp4",
                     "controls": true,
                     "loop": true,
-                    "muted": false,
-                    "autoplay": false,
+                    "muted": true,
+                    "autoplay": true,
                     "id": "scyu-logo-proposal-1-animation"
                   }
                 ]
@@ -6011,8 +6011,8 @@
                     "src": "sensing-change/gc_scyu-website-main-page-scroll.mp4",
                     "controls": true,
                     "loop": true,
-                    "muted": false,
-                    "autoplay": false,
+                    "muted": true,
+                    "autoplay": true,
                     "id": "scyu-website-main-page-scroll"
                   }
                 ]
@@ -6037,8 +6037,8 @@
                     "src": "sensing-change/gc_scyu-website-navigation-bar-scroll.mp4",
                     "controls": true,
                     "loop": true,
-                    "muted": false,
-                    "autoplay": false,
+                    "muted": true,
+                    "autoplay": true,
                     "id": "scyu-website-navigation-bar-scroll"
                   }
                 ]
@@ -6219,8 +6219,8 @@
                     "src": "sensing-change/gc_scyu-website-team-member-profile-hover.mp4",
                     "controls": true,
                     "loop": true,
-                    "muted": false,
-                    "autoplay": false,
+                    "muted": true,
+                    "autoplay": true,
                     "id": "scyu-website-team-member-profile-hover"
                   }
                 ]
@@ -6270,8 +6270,8 @@
                     "src": "sensing-change/gc_scyu-website-news-and-events-page.mp4",
                     "controls": true,
                     "loop": true,
-                    "muted": false,
-                    "autoplay": false,
+                    "muted": true,
+                    "autoplay": true,
                     "id": "scyu-website-news-and-events-page"
                   }
                 ]
