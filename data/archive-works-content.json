@@ -1627,7 +1627,7 @@
                     "controls": true,
                     "loop": true,
                     "muted": false,
-                    "autoplay": true,
+                    "autoplay": false,
                     "id": "early-reactive-visual-experiment"
                   }
                 ]
