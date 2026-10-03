@@ -1,0 +1,229 @@
+[
+  {
+    "type": "works",
+    "title": "AXXS Digital",
+    "thumbnail": "gc_ad-thumbnail.svg",
+    "alt": "Angular AXXS wordmark with lowercase digital set in a custom sans-serif typeface.",
+    "date": "20260712",
+    "keywords": [
+      "App Design",
+      "Brand Identity",
+      "Client Work",
+      "UI Design",
+      "UI Prototyping",
+      "Website Design"
+    ],
+    "tools": [
+      "Adobe Illustrator, InDesign",
+      "Figma"
+    ],
+    "id": "axxs-digital"
+  },
+  {
+    "type": "works",
+    "title": "Scarborough Charter",
+    "thumbnail": "gc_sc-thumbnail.svg",
+    "alt": "Interlocking teal hexagons forming a honeycomb beside Scarborough Charter committee names.",
+    "date": "20250411",
+    "keywords": [
+      "Book Design",
+      "Client Work",
+      "Illustration"
+    ],
+    "tools": [
+      "Adobe Illustrator, Photoshop"
+    ],
+    "id": "scarborough-charter"
+  },
+  {
+    "type": "works",
+    "title": "7th Sense",
+    "thumbnail": "gc_ss-thumbnail.svg",
+    "alt": "Line-art illustration of a figure moving through a dense urban streetscape.",
+    "date": "20260112",
+    "keywords": [
+      "3D Modelling",
+      "App Design",
+      "Brand Identity",
+      "Motion Graphics",
+      "Poster Design",
+      "Personal Work",
+      "Speculative Design",
+      "UI Design"
+    ],
+    "tools": [
+      "Adobe After Effects, Illustrator, Premiere Pro",
+      "Blender",
+      "Figma",
+      "FL Studio"
+    ],
+    "id": "seventh-sense"
+  },
+  {
+    "type": "works",
+    "title": "TIME: Unwinding the Spiral",
+    "thumbnail": "gc_tuts-thumbnail.svg",
+    "alt": "Publication grid layout with a large panel showing a spiral traced on a dotted globe.",
+    "date": "20260506",
+    "keywords": [
+      "3D Modelling",
+      "Book Design",
+      "Coding",
+      "Electronic Prototyping",
+      "Exhibition Design",
+      "Form Prototyping",
+      "Parametric Design",
+      "Personal Work",
+      "Philosophy"
+    ],
+    "tools": [
+      "Adobe Illustrator, InDesign, Photoshop",
+      "Arduino Prototyping",
+      "Cycling ’74 Max 9",
+      "Rhino 8"
+    ],
+    "id": "time-unwinding-the-spiral"
+  },
+  {
+    "type": "works",
+    "title": "Design Photography",
+    "thumbnail": "gc_dp-thumbnail.svg",
+    "alt": "Bold DESIGN PHOTOGRAPHY wordmark above stylized figures and camera motifs.",
+    "date": "20260424",
+    "keywords": [
+      "Advertising",
+      "Book Design",
+      "Brand Identity",
+      "Client Work",
+      "Clothing Design",
+      "Environmental Graphics",
+      "Motion Graphics",
+      "Photography",
+      "Poster Design",
+      "Social Media"
+    ],
+    "tools": [
+      "Adobe After Effects, Illustrator, InDesign, Photoshop"
+    ],
+    "id": "design-photography"
+  },
+  {
+    "type": "works",
+    "title": "Beehive Design",
+    "thumbnail": "gc_bhd-thumbnail.svg",
+    "alt": "Hand-drawn illustration of a person at a workbench surrounded by tools and sketches.",
+    "date": "20250527",
+    "keywords": [
+      "Design Research",
+      "Client Work"
+    ],
+    "tools": [
+      "Adobe InDesign"
+    ],
+    "id": "beehive-design"
+  },
+  {
+    "type": "works",
+    "title": "SensingChange",
+    "thumbnail": "gc_scyu-thumbnail.svg",
+    "alt": "Large SCYU letterforms above a scattered field of circular sensor dots.",
+    "date": "20250527",
+    "keywords": [
+      "Brand Identity",
+      "Client Work",
+      "Coding",
+      "Science Communication",
+      "UI Design",
+      "Website Design",
+      "Website Development"
+    ],
+    "tools": [
+      "Adobe Illustrator",
+      "Figma",
+      "HTML, CSS, JavaScript"
+    ],
+    "id": "sensing-change"
+  },
+  {
+    "type": "works",
+    "title": "Visualizing Science",
+    "thumbnail": "gc_vs-thumbnail.svg",
+    "alt": "Intricate line drawing of branching neural pathways and organic scientific forms.",
+    "date": "20250408",
+    "keywords": [
+      "Coding",
+      "Electronic Prototyping",
+      "Personal Work",
+      "Pixel Art",
+      "Poster Design",
+      "Publication Design",
+      "Science Communication",
+      "UI Design",
+      "Website Design",
+      "Website Development"
+    ],
+    "tools": [
+      "Adobe InDesign, Illustrator, Photoshop",
+      "Arduino Prototyping",
+      "Aseprite",
+      "HTML, CSS, JavaScript",
+      "Python",
+      "Tiled",
+      "Three.js"
+    ],
+    "id": "visualizing-science"
+  },
+  {
+    "type": "works",
+    "title": "Does This Work?",
+    "thumbnail": "gc_dtw-thumbnail.svg",
+    "alt": "Playful custom lettering spelling Does This Work? in stacked lines.",
+    "date": "20230428",
+    "keywords": [
+      "Book Design",
+      "Personal Work"
+    ],
+    "tools": [
+      "Adobe Photoshop, Illustator, InDesign, After Effects"
+    ],
+    "id": "does-this-work"
+  },
+  {
+    "type": "works",
+    "title": "Enginuitty Group Ltd.",
+    "thumbnail": "gc_egl-thumbnail.svg",
+    "alt": "Symmetrical emblem of mirrored pipes and geometric shapes forming a crest.",
+    "date": "20220328",
+    "keywords": [
+      "Brand Identity",
+      "Client Work",
+      "Social Media"
+    ],
+    "tools": [
+      "Adobe Illustrator, InDesign"
+    ],
+    "id": "enginuitty-group-ltd"
+  },
+  {
+    "type": "notes",
+    "title": "Birth",
+    "thumbnail": "gc_b-thumbnail.svg",
+    "alt": "Birth wordmark beneath an abstract mark of nested angular shapes.",
+    "date": "20260902",
+    "keywords": [
+      "Brand Identity",
+      "Philosophy",
+      "Website Design",
+      "Website Development"
+    ],
+    "tools": [
+      "Figma",
+      "HTML, CSS, JavaScript",
+      "Next.js",
+      "React.js",
+      "Tailwind CSS",
+      "TypeScript"
+    ],
+    "id": "birth"
+  }
+]

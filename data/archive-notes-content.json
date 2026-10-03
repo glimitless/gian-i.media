@@ -1,0 +1,1046 @@
+[
+  {
+    "id": "birth",
+    "sections": [
+      {
+        "id": "introduction",
+        "blocks": [
+          {
+            "id": "lets-start-here",
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "My name is Gian Immanuel Cambridge, or Gian-I for short. I am a multidisciplinary graphic designer transitioning into product design, with a deep interest in designing at the frontier of science and technology. What you’re reading here is the first note in what will hopefully grow into an archive of creativity throughout my career, spanning client work, personal projects, and reflections on the world we live in. Think of it as a vast, singular cloud of creativity — a dream space."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "When building a portfolio, we designers are often advised to make it representative of who we are and to develop a brand identity that remains consistent across our appearance, websites, and social media. I found this task quite daunting. With every completed project, book read, and connection made within the broader design community, my practice continued to evolve. As a result, I was unable to settle on a single concept that could accurately define me for nearly two or three years."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "Then I came across a somewhat vague definition of the word temple in the Merriam-Webster dictionary. At the time, my research focused on the Japanese use of empty space in design. I was reading ‘White’ by Kenya Hara and looking at images of Shinto shrines, particularly their empty, receptive spaces at the center, when I encountered the following definition:"
+                    }
+                  ]
+                },
+                {
+                  "type": "quote",
+                  "content": [
+                    {
+                      "type": "quote-content",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "value": "A place devoted to a special purpose. ”"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "Those words stayed with me."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "Creativity has been the most recurring source of solace. I have not accomplished a much yet, and what I have achieved has been accompanied by far more failures. When I was younger, I carried the belief that there was nothing I was particularly good at. That feeling held me back for a significant portion of my life. At some point, however, my mind began dreaming up prosperous futures on its own accord."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "Thank God for that."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "Those dreams made uncertain periods more bearable. They also helped me recognize that this current stage of my life, having recently graduated from my undergraduate program and now wrapping up a summer internship, is not an endpoint. It is a positive place from which to begin."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "By branding my practice as a temple and structuring the website as a navigational space through the vast cloud of creativity I hope to produce throughout my career, this project expresses gratitude to whatever force has made me creative; for the opportunities to exercise my imagination, and to stretch, test, and strengthen my imaginative muscle. Looking back, creativity has definitively been one of the key motivators that has carried me this far."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "As for the website, every update, whether an addition, fix, or improvement, will be documented in a post. These posts will also be shared on the dedicated Gian-I Media pages created on LinkedIn and Instagram. The first update will follow this short introduction and document version 0.5 of Gian-I Media, because, truthfully, the project is only about 50% complete."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "There is still much more to build, discover, and imagine."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "Onto the next."
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "version-0p5",
+        "blocks": [
+          {
+            "id": "learning-reactjs",
+            "items": [
+              [
+                {
+                  "type": "media",
+                  "content": [
+                    {
+                      "type": "image",
+                      "aspect": "1440/959",
+                      "src": "birth/version-0p5/gc_birth-learning-reactjs.webp",
+                      "width": 1440,
+                      "height": 959,
+                      "alt": "IDE window showing React and JavaScript source code for the Gian-I Media version 0.5 site.",
+                      "id": "birth-learning-reactjs-lead"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "During my internships at York University, working under "
+                    },
+                    {
+                      "type": "external-link",
+                      "href": "https://www.linkedin.com/in/grace-grothaus-aa98b7227/",
+                      "label": "Dr. Grace Grothaus"
+                    },
+                    {
+                      "type": "text",
+                      "value": " and "
+                    },
+                    {
+                      "type": "external-link",
+                      "href": "https://www.mdhosale.com/",
+                      "label": "Dr. Mark-David Hosdale"
+                    },
+                    {
+                      "type": "text",
+                      "value": ", and at AXXS Digital, working under "
+                    },
+                    {
+                      "type": "external-link",
+                      "href": "https://www.linkedin.com/in/andelhusbands/",
+                      "label": "Andel Husbands"
+                    },
+                    {
+                      "type": "text",
+                      "value": ", I was encouraged to incorporate React.js into my web development process. At AXXS Digital, in particular, I was unable to participate in the development of the Parlour website due to my lack of experience with React.js and its counterpart, Next.js. That missed opportunity sparked a strong desire to add React to my toolkit. With the long-overdue task of redesigning my portfolio on the horizon, it felt like the perfect chance to create my first React.js project and add it to my portfolio."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "The tutorial I used to get my bearings in React was "
+                    },
+                    {
+                      "type": "external-link",
+                      "href": "https://www.youtube.com/watch?v=TtPXvEcE11E",
+                      "label": "‘React Tutorial Full Course – Beginner to Pro (React 19, 2025)’"
+                    },
+                    {
+                      "type": "text",
+                      "value": " by SuperSimpleDev. It does an excellent job of not assuming prior knowledge, which helped me build an understanding of React that’s deeply rooted in JavaScript fundamentals. The only gap was asynchronous functions: they were introduced a couple of modules before they were fully explained. I had to watch a quick 15-minute explainer to properly understand how they work."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "For any web developers thinking of learning React, I highly recommend it. React effectively combines HTML and JavaScript to automate the reuse of components that appear on multiple pages—such as input forms, navigation bars, or custom search elements. Fun fact: this entire website is built using only a single HTML file. React.js, along with its extension React Router, is incredibly powerful and makes the website development process far less tedious."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "As of writing this, I’ve completed 8 out of the 10 modules in SuperSimpleDev’s course. The final two modules cover automated testing and deploying React to the web. I’ll likely watch them before I deploy version 0.5 of Gian-I Media. I plan to post any additional learnings in a later version prior to 1.0, most likely once I’ve had the chance to learn Next.js and integrate it into this website’s codebase."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "id": "general-structure",
+            "items": [
+              [
+                {
+                  "type": "media",
+                  "content": [
+                    {
+                      "type": "image",
+                      "aspect": "480/323",
+                      "src": "birth/version-0p5/gc_birth-general-structure.webp",
+                      "width": 1440,
+                      "height": 969,
+                      "alt": "Browser screenshot of Gian-I Media with the two main layout divisions—the navigator and synthesizer—highlighted.",
+                      "id": "birth-general-structure-lead"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "The structure of this website was inspired by the Hypermedia Navigator concept introduced by Marcos Novak in his 1991 essay ‘Liquid Architectures in Cyberspace.’"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "Novak writes:"
+                    }
+                  ]
+                },
+                {
+                  "type": "quote",
+                  "content": [
+                    {
+                      "type": "quote-content",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "value": "Some initial definitions are necessary before we proceed: cyberspace navigation refers to the traversal of information spaces; cyberspace synthesis refers to the reconciliation of different kinds of information into a coherent image; cyberspace rendition refers to the production of high-quality graphic presentation of that image. These are separate tasks."
+                            }
+                          ]
+                        },
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "value": "Navigation through cyberspace is achieved by interacting with a hypermedia navigator, a virtual control device that follows the user and always remains within arm’s reach. It is possible for the user to circumvent the cyberspace synthesizer and enter and traverse the space of the navigator, riding the links, as it were. ”"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "quote-source",
+                      "content": [
+                        {
+                          "type": "text",
+                          "value": "Page 229 of Cyberspace: First Steps, edited by Michael Benedikt. Article titled “Liquid Architectures in Cyberspace” by Marcos Novak."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "For the purposes of Gian-I Media, I treat the collective body of work I’ve accomplished over my career as a small pocket of cyberspace. Given its personal nature, I’ve retitled it a dream space. The header, sidebar, and footer together form the hypermedia navigator: fixed interface elements that always remain within the user’s reach. They allow the user to filter what will one day be a vast amount of content to arrive at the specific works that pique their interest."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "The area enclosed by the navigator presents the filtered content in a structured and organized manner, making it the synthesizer of the Gian-I Media dream space. The three links at the bottom of the navigator point the user to sources of the creativity found on this page: my resume, Instagram, and LinkedIn."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "id": "filtration-system",
+            "items": [
+              [
+                {
+                  "type": "media",
+                  "content": [
+                    {
+                      "type": "image",
+                      "aspect": "480/323",
+                      "src": "birth/version-0p5/gc_birth-filtration-system.webp",
+                      "width": 1440,
+                      "height": 969,
+                      "alt": "Browser screenshot of Gian-I Media with the four main filtering methods highlighted.",
+                      "id": "birth-filtration-system-lead"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "There are four methods of filtering content on Gian-I Media."
+                    }
+                  ]
+                },
+                {
+                  "type": "numbered-list",
+                  "content": [
+                    {
+                      "type": "numbered-list-item",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "value": "Sidebar navigation"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "value": "The first and least powerful method is through the sidebar. Its main purpose is to provide a direct link to the filter results page. Clicking either the Works or Notes page performs a preliminary filter between manifested projects and reflections on the world."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "numbered-list-item",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "value": "Search bar"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "value": "The second method is the search bar, which is useful if the user knows the name of the project they’re looking for. These name-based search results are applied on top of the content type, sort order, and keyword filters available through the third method."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "numbered-list-item",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "value": "Expanded search and filter controls"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "value": "The third method is accessed by expanding the search bar using the downward chevron button to its right. In this expanded view, the user can:"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "bullet-list",
+                          "content": [
+                            {
+                              "type": "bullet-item",
+                              "content": [
+                                {
+                                  "type": "paragraph",
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "value": "Modify which content types are shown"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "bullet-item",
+                              "content": [
+                                {
+                                  "type": "paragraph",
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "value": "Adjust the sort order"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "bullet-item",
+                              "content": [
+                                {
+                                  "type": "paragraph",
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "value": "Select keywords that curate the filtered results"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "numbered-list-item",
+                      "content": [
+                        {
+                          "type": "numbered-list-item-lead",
+                          "content": [
+                            {
+                              "type": "text",
+                              "value": "Keyword chaining from project cards"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "value": "The fourth method is only accessible on the filter results page. By clicking one of the keywords attached to an individual project, the user sees only projects that share that keyword. Multiple keywords can be chained together to produce increasingly specific searches."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "Filter settings persist as the user navigates until the website is reloaded. The projects that match the current filter configuration are shown as thumbnails in the navigation bar on the right side of the synthesizer’s content area."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "This website is intended to grow alongside my creative career, which is why a robust filtration system was built into its foundation. Even if the total body of content eventually reaches 150 projects, users should still be able to find the specific work that interests them."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "id": "next-steps",
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "Currently, only three of the eight works planned for the launch of Gian-I Media are live in version 0.5. Compiling the remaining five has taken more time than expected, and completing them is the most immediate step toward version 1.0."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "The filtration system for mobile resolutions also remains unresolved. Based on the current structure, implementing it will likely require reorganizing how the dream space navigator is presented to smartphone users."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "Another goal is to learn Next.js and integrate it into Gian-I Media to improve searchability and performance. From my perspective, this is the most exciting next step on the journey toward version 1.0."
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "version-0p6",
+        "blocks": [
+          {
+            "id": "putting-my-best-foot-forward",
+            "items": [
+              [
+                {
+                  "type": "media",
+                  "content": [
+                    {
+                      "type": "image",
+                      "aspect": "1440/959",
+                      "src": "birth/version-0p6/gc_birth-putting-my-best-foot-forward.webp",
+                      "width": 1440,
+                      "height": 959,
+                      "alt": "Gian-I Media works grid after version 0.6, showing six project thumbnails in the navigator layout.",
+                      "id": "birth-putting-my-best-foot-forward-lead"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "This update will be short and sweet, since I want to dedicate more time and resources to getting the next four projects online as soon as possible."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "The main addition in version 0.6 is three more projects—three more bodies of work to explore, organize, and filter through. With the total number of projects planned for version 1.0 now increased to ten, I’m roughly 60% of the way through the most time-consuming part of development: organizing the content. In reality, I’m probably a little further along than that, since this update includes some of the heavier projects I’ve worked on."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "One thing I’ve been thinking about while building this portfolio is the nostalgic quality of the process. I’ve spent a lot of time downloading hundreds of files from OneDrive and sorting through screenshots, photographs, renders, videos, and fragments of documentation to figure out which ones best represent each project and its development."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "Looking back through that material brings back the limitations I had to work around, the experiments that went nowhere, and the excitement of finally getting something to function. It’s rewarding to see how much I’ve learned, but the process also comes with a less comfortable feeling: “Do I really want to show this? Will anyone even look at it? Is there a point in spending so much time on a portfolio?”"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "I’m building this portfolio to apply for jobs, which is one of the most terrifying parts of pursuing a creative career. There’s something deeply vulnerable about presenting years of work, progress, and personal ambition, only to wonder whether it will be enough for someone else to recognize your potential."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "At the same time, I know that achieving a dream wouldn’t feel nearly as meaningful if it were easy. The uncertainty is part of the process. All I can really do is remind myself why I started, keep refining the work, and continue moving forward—even when the result is difficult to predict."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "For now, this is me putting my best foot forward."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "More soon."
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "version-0p7",
+        "blocks": [
+          {
+            "id": "recursive-self-improvement",
+            "items": [
+              [
+                {
+                  "type": "media",
+                  "content": [
+                    {
+                      "type": "image",
+                      "aspect": "1440/959",
+                      "src": "birth/version-0p7/gc_birth-recursive-self-improvement.webp",
+                      "width": 1440,
+                      "height": 959,
+                      "alt": "Gian-I Media works grid with all ten version 1.0 projects visible in the filtered thumbnail view.",
+                      "id": "birth-recursive-self-improvement-lead"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "All 10 projected posts for version 1.0 are compiled and live! Hip hip, hooray."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "Now we can resume the fun stuff. The next steps are to learn Next.js, integrate it into the portfolio, and design the filter system for mobile. None of those things are particularly necessary for job applications, and they are much more enjoyable, so I’m going to take my time with them. That probably means the next update won’t be for a while, but trust me when I say it will come. By then, I’ll probably have another interesting philosophical concept to obsess over."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "For now, I’m thinking about recursive self-improvement, or something similar: a self-rewriting, recursively improving architecture. While building this website, I’ve noticed that I do this a lot. Whenever I discover a more efficient solution, or something better suited to the overall concept, I go back and apply that change to anything and everything it could improve."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "Let’s use images as an example."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "There are very few things I detest more than the sting that pure white (#FFFFFF) leaves on my eyes. I try to avoid using it whenever I’m working digitally, and only leave it on printed materials because pure white simply becomes the paper’s colour."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "A professor I had a while ago, "
+                    },
+                    {
+                      "type": "external-link",
+                      "href": "https://www.linkedin.com/in/acampea/",
+                      "label": "Anthony Campea"
+                    },
+                    {
+                      "type": "text",
+                      "value": ", once gave some advice about exhibition design. He said that exhibitors use pure white or pure black for walls they want children to avoid. Because pure white does not exist in nature and is an entirely artificial phenomenon, it can feel frightening to them."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "I think that, ever since then, the stubborn little kid inside me has raged whenever it sees pure white. So, when I discovered that most of the screenshots and scans I had taken contained it, I set up a Photoshop script to reduce the white output in all those images by 1/255."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "The difference is entirely unnoticeable. I asked my mom about it, and she said the images looked exactly the same. But I know the experience of using the website is better because of it. The same goes for converting all the image files to WebP, compressing them by 10%, and downscaling the high-resolution versions to save storage space. Absolutely no one would notice the difference, but these small changes mean I’ll be able to run this archive for free for much longer."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "That has to mean something."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "I think recursive self-improvement is a habit that extends into my personal life, too, and it has probably destroyed relationships that were worth keeping. It makes for good work, though."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "I read somewhere that this is how Venice was built to be incredibly culturally cohesive and holistic, especially in comparison with the stimulus frenzy of cities built around glass-windowed architecture. Downtown Toronto and Times Square in New York are two examples that come to mind."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "I’m excited to see what philosophical concept I latch onto next."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "Stay tuned."
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "version-0p8",
+        "blocks": [
+          {
+            "id": "new-foundations",
+            "items": [
+              [
+                {
+                  "type": "media",
+                  "content": [
+                    {
+                      "type": "image",
+                      "aspect": "16/9",
+                      "src": "birth/version-0p8/gc_birth-new-foundations.webp",
+                      "width": 1600,
+                      "height": 900,
+                      "alt": "",
+                      "id": "birth-new-foundations-lead"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "Gian-I Media is officially a Next.js app, built with TypeScript and Tailwind CSS. That adds three new libraries and languages to the toolbox and marks a sharp step up in front-end development skill. The tutorials I used were "
+                    },
+                    {
+                      "type": "external-link",
+                      "href": "https://www.youtube.com/watch?v=1zBRA0HdeOM",
+                      "label": "TypeScript Full Course Tutorial for Beginners (2026)"
+                    },
+                    {
+                      "type": "text",
+                      "value": " by ProgrammingKnowledge, "
+                    },
+                    {
+                      "type": "external-link",
+                      "href": "https://www.youtube.com/watch?v=6biMWgD6_JY",
+                      "label": "Tailwind CSS v4 Full Course 2026 | Master Tailwind in One Hour"
+                    },
+                    {
+                      "type": "text",
+                      "value": " by JavaScript Mastery, and "
+                    },
+                    {
+                      "type": "external-link",
+                      "href": "https://www.youtube.com/watch?v=jZInNd6djz4",
+                      "label": "Next.js Tutorial 2026 (UPDATED) - Full Course - Start Your Next.js Journey Here"
+                    },
+                    {
+                      "type": "text",
+                      "value": " by ByteGrad. The Tailwind one is especially beginner-friendly; the others assume a fair amount of prerequisite knowledge. Something worth noting: I originally planned to learn only Next.js and fold it into my portfolio’s old architecture. Once the Next.js tutorial walked through the recommended TypeScript and Tailwind setup, it felt like the right moment to learn those too."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "What makes React so powerful is componentization. You reuse HTML and JavaScript behavior across the site with minimal duplication. Tailwind does the same for CSS. The library turns most styling concerns into utilities you add to an element’s class list, similar to inline styles but simpler and more consistent. You can also compose those utilities in one CSS file into reusable components, so you rarely leave your markup to chase styling. Paired with React, which already merges structure and logic, the whole build loop gets much simpler."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "TypeScript is essentially JavaScript with static type checking. In plain terms, you declare what kind of data each variable and constant holds. That catches a large share of bugs before compile time, because type mismatches surface early. It is easy to wonder why that was not part of JavaScript from the start, when so many other languages bake types in from day one."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "Next.js, the stack I have been focused on for the past month, addresses one of React’s main trade-offs: the client has to render much of the dynamic UI. Take my work pages: they share one layout but different images and copy. In plain HTML you would ship a separate file per page, sharing CSS and JavaScript across them. React lets you keep one layout and fill it from the URL or other input, but the browser still fetches data, resolves what to show, and paints the page. Next.js can fetch data and render on the server, so the client has more headroom for interaction."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "There’s still a lot to learn about Next.js’s deeper features, mostly because I have not had a project yet that forced me to practice them, but that will change soon."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "id": "stylistic-adjustments",
+            "items": [
+              [
+                {
+                  "type": "media",
+                  "content": [
+                    {
+                      "type": "image",
+                      "aspect": "3/2",
+                      "src": "birth/version-0p8/gc_birth-stylistic-adjustments.webp",
+                      "width": 1600,
+                      "height": 900,
+                      "alt": "",
+                      "id": "birth-stylistic-adjustments-lead"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "Gian-I Media’s layout has been adjusted, especially the space left for portfolio imagery in the original design. Header, sidebar, and footer use less white space; the two main content columns are wider; and the gap between columns is larger so the overview, imagery, and navigation each read as its own zone."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "Additionally, recent reading on aria labels, alt text, and related accessibility practices for screen-reader users has informed a few concrete updates. Images now carry meaningful alt text, buttons include aria-labels, and media breakpoints use responsive units so layout should hold up better when the browser’s root font size is increased. That behavior still needs more thorough testing. Accessibility had not received the attention it deserves until now, partly because I have strong vision, hearing, and motor ability which made the gaps easy to overlook."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "Much of this next update could have done in plain CSS, but Tailwind made the workflow so intuitive that it was hard not to use it. Color and transform transitions live in reusable utility layers on top of component styles. When I tweak them once, everything that depends on them updates together, so I am far less likely to leave one instance out of sync. That showed up clearly when the user changed color themes in the old site. Transitions felt jarring largely because many elements were not aligned."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "I want to revisit the dark-mode color scheme. In honesty, I used AI to derive a dark variant from a light palette I chose by hand. Something about the result still feels harsh to me, and I have not had time to refine it yet."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "id": "creative-technology",
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "During GradEx, a few friends published design manifestos alongside their thesis work (possibly a course requirement; I am not sure). I found that inspiring and have been brainstorming since. Nothing cohesive yet, but a few fragments are worth noting."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "The first comes from Apple’s design culture, repeated in interviews with Jony Ive and the late Steve Jobs: care for the product shows up in how it is made; the effort to make something as good as possible is something users can feel. That motivates my work, including this site, and gives me hope about building for everyday technology."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "The second is still forming. Nature is not purely purposeful; there is friction, randomness, a kind of change built in. We are a clear example: entirely biological in origin, yet always pushing beyond what came before, a tiny slice of Earth’s biomass that constantly strains against “natural” order. Or maybe that strain is part of the order; hard to say."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "I wonder whether general-purpose technology enables that kind of resistance, and whether it should mirror nature at all. I want to read and think more about that."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "id": "next-steps",
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "I’m still deciding how filters should work on mobile. A full-screen modal is appealing, but on desktop I like immediate feedback when you change a filter. Whether a phone screen can show filters and results at once without feeling cramped is an open question that needs more meditation."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "The tools used on each project should also be included in the filter set, not only as subtitles on individual work pages. That feels like something people will want to sort by. Showing keywords, tools, or both on the grid might need a toggle. That sounds like a satisfying side project."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "And a refined dark-mode palette. After that, we should be close to version 1.0."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "Stay tuned."
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,185 @@
+[
+  {
+    "id": "birth",
+    "content": {
+      "subtitle": "Portfolio Documentation",
+      "description": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "This note documents the creation of Gian-I Media, tracing its development from initial conceptualization through versions 0.5 to 1.0."
+              }
+            ]
+          }
+        ]
+      ],
+      "sections": [
+        {
+          "id": "introduction",
+          "content": {
+            "title": "Introduction",
+            "blocks": [
+              {
+                "id": "lets-start-here",
+                "content": {
+                  "title": "Let’s Start Here",
+                  "date": "20260811",
+                  "summary": [
+                    "Explores the temple-themed branding of Gian-I Media."
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "version-0p5",
+          "content": {
+            "title": "Version 0.5",
+            "blocks": [
+              {
+                "id": "learning-reactjs",
+                "content": {
+                  "title": "Learning React.js",
+                  "date": "20260811",
+                  "summary": [
+                    "Pursued React after internship feedback and missing the Parlour project.",
+                    "Built the entire site from one HTML file using React and React Router."
+                  ]
+                }
+              },
+              {
+                "id": "general-structure",
+                "content": {
+                  "title": "General Structure",
+                  "date": "20260811",
+                  "summary": [
+                    "Modeled the layout on Novak’s Hypermedia Navigator concept.",
+                    "Framed the portfolio as a dream space with a persistent filtering navigator."
+                  ]
+                }
+              },
+              {
+                "id": "filtration-system",
+                "content": {
+                  "title": "Filtration System",
+                  "date": "20260811",
+                  "summary": [
+                    "Implemented multiple filter layers to scale cleanly to a large and growing project archive.",
+                    "Filter settings persist across navigation until the page is reloaded."
+                  ]
+                }
+              },
+              {
+                "id": "next-steps",
+                "content": {
+                  "title": "Next Steps",
+                  "date": "20260811",
+                  "summary": [
+                    "Finish the remaining 5 works to move from v0.5 to v0.6.",
+                    "Redesign the filter UI for mobile resolutions.",
+                    "Learn and integrate Next.js to improve searchability and performance."
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "version-0p6",
+          "content": {
+            "title": "Version 0.6",
+            "blocks": [
+              {
+                "id": "putting-my-best-foot-forward",
+                "content": {
+                  "title": "Putting My Best Foot Forward",
+                  "date": "20260826",
+                  "summary": [
+                    "Added 3 new projects to the portfolio, bringing the archive to 6 total works.",
+                    "Increased the projected v1.0 archive to 10 total works."
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "version-0p7",
+          "content": {
+            "title": "Version 0.7",
+            "blocks": [
+              {
+                "id": "recursive-self-improvement",
+                "content": {
+                  "title": "Recursive Self-Improvement",
+                  "date": "20260902",
+                  "summary": [
+                    "Completed and published all 10 projects planned for the portfolio’s version 1.0 archive.",
+                    "Optimized the archive’s image assets by converting them to WebP, compressing them, and downscaling high-resolution files."
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "version-0p8",
+          "content": {
+            "title": "Version 0.8",
+            "blocks": [
+              {
+                "id": "new-foundations",
+                "content": {
+                  "title": "New Foundations",
+                  "date": "20261004",
+                  "summary": [
+                    "Rebuilt Gian-I Media on Next.js with TypeScript and Tailwind CSS.",
+                    "Adopted the full recommended stack after the Next.js tutorial bundled TypeScript and Tailwind into project setup."
+                  ]
+                }
+              },
+              {
+                "id": "stylistic-adjustments",
+                "content": {
+                  "title": "Stylistic Adjustments",
+                  "date": "20261004",
+                  "summary": [
+                    "Refined layout spacing and column proportions on work and note pages.",
+                    "Improved accessibility and smoothed theme transitions with Tailwind."
+                  ]
+                }
+              },
+              {
+                "id": "creative-technology",
+                "content": {
+                  "title": "Creative Technology",
+                  "date": "20261004",
+                  "summary": [
+                    "Started sketching a personal stance on design and technology after GradEx.",
+                    "Still forming; touches on craft, nature, and what technology is for."
+                  ]
+                }
+              },
+              {
+                "id": "next-steps",
+                "content": {
+                  "title": "Next Steps",
+                  "date": "20261004",
+                  "summary": [
+                    "Nail down mobile filter UX.",
+                    "Extend filtering to project tools and grid display options.",
+                    "Refine dark mode, then push toward version 1.0."
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

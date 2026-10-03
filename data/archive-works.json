@@ -1,0 +1,764 @@
+[
+  {
+    "id": "axxs-digital",
+    "content": {
+      "description": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "During the summer of 2026, I interned at AXXS Digital, a Caribbean-focused studio that combines brand communication, strategy, and software to help clients navigate complex business challenges and digital change."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "Reporting to "
+              },
+              {
+                "type": "external-link",
+                "href": "https://www.linkedin.com/in/andelhusbands/",
+                "label": "Andel Husbands"
+              },
+              {
+                "type": "text",
+                "value": ", I split my time between brand and product work: Parlour Caribbean’s rebrand and new features for The Gazette app. Across both projects, the aim was clear information hierarchy, cohesive visual systems, and interfaces tuned to Caribbean users and contexts."
+              }
+            ]
+          }
+        ]
+      ],
+      "collectionLinks": [
+        {
+          "title": "Parlour",
+          "medium": "Brand & UI Design",
+          "thumbnail": "axxs-digital/parlour/gc_ad-parlour-thumbnail.webp",
+          "alt": "Parlour wordmark beside a circular icon of a pink sun setting over teal waves.",
+          "id": "parlour"
+        },
+        {
+          "title": "The GazettE",
+          "medium": "UI Design",
+          "thumbnail": "axxs-digital/the-gazette/gc_ad-the-gazette-thumbnail.webp",
+          "alt": "The GazettE logo in black serif type with a red dot after the capital E.",
+          "id": "the-gazette"
+        }
+      ]
+    }
+  },
+  {
+    "id": "scarborough-charter",
+    "content": {
+      "description": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "Near the end of my third year, "
+              },
+              {
+                "type": "external-link",
+                "href": "https://www.linkedin.com/in/shamika-pierre/",
+                "label": "Shamika Pierre"
+              },
+              {
+                "type": "text",
+                "value": " and I were commissioned by the Scarborough Charter to design covers for its annual committee report. The Charter is a national Canadian framework through which universities and colleges commit to addressing anti-Black racism and fostering Black inclusion in higher education."
+              }
+            ]
+          }
+        ]
+      ],
+      "collectionLinks": [
+        {
+          "title": "Committee Report",
+          "medium": "Book Cover Design",
+          "thumbnail": "scarborough-charter/committee-report/gc_sc-committee-report-thumbnail.webp",
+          "alt": "Stacked Scarborough Charter committee report covers with a swimmer among teal waves and flowers.",
+          "id": "committee-report"
+        }
+      ]
+    }
+  },
+  {
+    "id": "seventh-sense",
+    "content": {
+      "description": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "I collaborated with "
+              },
+              {
+                "type": "external-link",
+                "href": "https://www.linkedin.com/in/daniakhan-/",
+                "label": "Dania Khan"
+              },
+              {
+                "type": "text",
+                "value": " on a speculative design project that imagines a future in which technology eases psychological and physiological stress through advanced therapeutic systems. We proposed decentralised AI that reads physiological arousal and lets users shape how their devices respond. The work shown (ads, system diagrams, and interface demonstrations) is an artefact from that world."
+              }
+            ]
+          }
+        ]
+      ],
+      "collectionLinks": [
+        {
+          "title": "Prospective Advertisements",
+          "medium": "Motion Graphics & Poster Design",
+          "thumbnail": "seventh-sense/prospective-advertisement-1/gc_ss-prospective-ad-1-thumbnail.webp",
+          "alt": "Diagram of a central hub connecting to therapeutic devices, phones, computers, and speakers.",
+          "id": "prospective-advertisements"
+        },
+        {
+          "title": "User Experience",
+          "medium": "Research & Prototyping",
+          "thumbnail": "seventh-sense/user-experience/gc_ss-user-experience-thumbnail.webp",
+          "alt": "Smartphone mockup with a glowing purple voice-assistant orb and grey UI placeholders.",
+          "id": "user-experience"
+        },
+        {
+          "title": "User Experience",
+          "medium": "Research & Prototyping",
+          "thumbnail": "seventh-sense/color-theory/gc_ss-color-theory-thumbnail.webp",
+          "alt": "Glowing purple circular icon with translucent white wave ribbons at the center.",
+          "id": "color-theory"
+        }
+      ]
+    }
+  },
+  {
+    "id": "time-unwinding-the-spiral",
+    "content": {
+      "description": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "This moment is unique yet familiar, because time doesn’t move in a straight line or a simple circle, but in a spiral: it revisits patterns from the past while moving outward into new forms. History echoes in culture, fashion, politics, and personal growth, but we meet old patterns as different people."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "“TIME: Unwinding the Spiral” explores time as a layered, evolving motion, where every moment is both new and deeply connected to what came before."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "That motion continues across the work in a consistent blue-and-pink palette, where blue reflects time’s cycles and pink reflects the emergence between them."
+              }
+            ]
+          }
+        ]
+      ],
+      "collectionLinks": [
+        {
+          "title": "Exhibition",
+          "medium": "Exhibition Design",
+          "thumbnail": "time-unwinding-the-spiral/exhibition/gc_spiral-exhibition-thumbnail.webp",
+          "alt": "Gallery table with geometric spiral prints, an iMac, and a blue glass spiral sculpture.",
+          "id": "exhibition"
+        },
+        {
+          "title": "Spiral Treatise",
+          "medium": "Philosophy",
+          "thumbnail": "time-unwinding-the-spiral/spiral-treatise/gc_spiral-treatise-thumbnail.webp",
+          "alt": "Tall plaque titled TIME: Unwinding the Spiral with text about time as a spiral.",
+          "id": "spiral-treatise"
+        },
+        {
+          "title": "Spiral Hourglass",
+          "medium": "Physical Artifact",
+          "thumbnail": "time-unwinding-the-spiral/spiral-hourglass/gc_spiral-hourglass-thumbnail.webp",
+          "alt": "Light blue frosted glass hourglass vessel with a twisted diagonal swirl pattern.",
+          "id": "spiral-hourglass"
+        },
+        {
+          "title": "Live Visualization",
+          "medium": "Interactive Installation",
+          "thumbnail": "time-unwinding-the-spiral/live-visualization/gc_spiral-live-vis-thumbnail.webp",
+          "alt": "White controller with delay and modulation gauges in front of a screen showing pink and blue motion trails.",
+          "id": "live-visualization"
+        },
+        {
+          "title": "Visual Research",
+          "medium": "Book",
+          "thumbnail": "time-unwinding-the-spiral/visual-research/gc_spiral-visual-research-thumbnail.webp",
+          "alt": "White spiral-bound book cover titled TIME: Unwinding the Spiral by Gian Cambridge.",
+          "id": "visual-research"
+        }
+      ]
+    }
+  },
+  {
+    "id": "design-photography",
+    "content": {
+      "description": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "Under sessional faculty and studio technician "
+              },
+              {
+                "type": "external-link",
+                "href": "https://www.linkedin.com/in/jogindersinghphotography/",
+                "label": "Joginder Singh"
+              },
+              {
+                "type": "text",
+                "value": ", I developed the brand identity and produced informational posters, motion graphics, and apparel for OCAD University’s Design Photography Studio (the Design Photo Cage), which lends photography equipment to undergraduate students in the Faculty of Design."
+              }
+            ]
+          }
+        ]
+      ],
+      "collectionLinks": [
+        {
+          "title": "Posters",
+          "medium": "Information Design",
+          "thumbnail": "design-photography/posters/gc_dp-posters-thumbnail.webp",
+          "alt": "Digital poster for the Fork Knife Spoon Design Photography competition on a teal wall screen.",
+          "id": "posters"
+        },
+        {
+          "title": "Signage",
+          "medium": "Environmental Graphics",
+          "thumbnail": "design-photography/signage/gc_dp-signage-thumbnail.webp",
+          "alt": "Teal storefront with a white DESIGN PHOTOGRAPHY sign above a closed grey shutter.",
+          "id": "signage"
+        },
+        {
+          "title": "Timeout",
+          "medium": "Exhibition",
+          "thumbnail": "design-photography/timeout/gc_dp-timeout-thumbnail.webp",
+          "alt": "Gallery board with pinned landscape photographs of pyramids, a cathedral altar, and a museum interior.",
+          "id": "timeout"
+        },
+        {
+          "title": "Orange Shirt Day",
+          "medium": "Clothing Design",
+          "thumbnail": "design-photography/orange-shirt-day/gc_dp-osd-thumbnail.webp",
+          "alt": "Orange shirt printed with tangram-style figures and the words Every Child Matters.",
+          "id": "orange-shirt-day"
+        }
+      ]
+    }
+  },
+  {
+    "id": "beehive-design",
+    "content": {
+      "description": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "The summer after my third year, I interned at Beehive Design, a Toronto multidisciplinary studio focused on brand identity, digital design, and print communications."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "Under "
+              },
+              {
+                "type": "external-link",
+                "href": "https://www.linkedin.com/in/terry-lau-b4b98a/",
+                "label": "Terry Lau"
+              },
+              {
+                "type": "text",
+                "value": ", I researched thematic directions for a potential Cecconi Simone rebrand. The award-winning interior firm had recently begun working with Beehive. The internship focused on visual research, interview analysis, brand positioning, and mapping conceptual territories for a refreshed identity."
+              }
+            ]
+          }
+        ]
+      ],
+      "collectionLinks": [
+        {
+          "title": "Cecconi Simone",
+          "medium": "Brand Research",
+          "thumbnail": "beehive-design/cecconi-simone/gc_bhd-cecconi-simone-thumbnail.webp",
+          "alt": "Research slide titled The Four Pillars of Cecconi Simone with interconnected principle descriptions.",
+          "id": "cecconi-simone"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sensing-change",
+    "content": {
+      "description": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "During the summer break of my third undergraduate year, I interned on SensingChange at York University, an interdisciplinary research-creation project on black carbon air pollution and critical artworks. The initiative merges art, science, and engineering to make invisible pollution visible through wearable sensors, illuminated garments, and public installations that respond to local air quality."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "With "
+              },
+              {
+                "type": "external-link",
+                "href": "https://www.linkedin.com/in/grace-grothaus-aa98b7227/",
+                "label": "Dr. Grace Grothaus"
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "external-link",
+                "href": "https://www.mdhosale.com/",
+                "label": "Dr. Mark-David Hosdale"
+              },
+              {
+                "type": "text",
+                "value": ", and "
+              },
+              {
+                "type": "external-link",
+                "href": "https://www.linkedin.com/in/raneelee/",
+                "label": "Ranee Lee"
+              },
+              {
+                "type": "text",
+                "value": ", I designed the visual identity and digital presence: logo, colour system, and the website launched during my internship. "
+              },
+              {
+                "type": "external-link",
+                "href": "https://myairwear.com/",
+                "label": "myairwear.com"
+              },
+              {
+                "type": "text",
+                "value": " remains the public hub. The placement was credited toward my degree under Professor "
+              },
+              {
+                "type": "external-link",
+                "href": "https://www.linkedin.com/in/richard-hunt-5898b48/",
+                "label": "Richard Hunt"
+              },
+              {
+                "type": "text",
+                "value": ", whose critique sharpened the identity and site."
+              }
+            ]
+          }
+        ]
+      ],
+      "collectionLinks": [
+        {
+          "title": "Logo",
+          "medium": "Brand Identity",
+          "thumbnail": "sensing-change/logo/gc_scyu-logo-thumbnail.webp",
+          "alt": "We Are Air Aware graphic with AIR set in stippled blue dots.",
+          "id": "logo"
+        },
+        {
+          "title": "Website",
+          "medium": "Design & Development",
+          "thumbnail": "sensing-change/website/gc_scyu-website-thumbnail.webp",
+          "alt": "Air Aware website hero with a dotted AIR headline and a wearable vest showing glowing lungs.",
+          "id": "website"
+        }
+      ]
+    }
+  },
+  {
+    "id": "visualizing-science",
+    "content": {
+      "description": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "This work gathers four projects from my second and third years. Each approaches its subject differently, but all reflect a growing interest in science communication, visualising complex ideas for non-specialist audiences."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "Fast-paced coursework left some pieces rushed or proof-of-concept; I include them here as markers in my development toward design grounded in research, technology, and accessible storytelling, early steps toward the question of where practice might lead."
+              }
+            ]
+          }
+        ]
+      ],
+      "collectionLinks": [
+        {
+          "title": "Controller Prototype",
+          "medium": "Interaction Design",
+          "thumbnail": "visualizing-science/controller-prototype/gc_vs-controller-prototype-thumbnail.webp",
+          "alt": "Arduino and breadboard prototype with a white sensor tower, green LED module, and flashlight.",
+          "id": "controller-prototype"
+        },
+        {
+          "title": "Planetary Archive",
+          "medium": "Website Development",
+          "thumbnail": "visualizing-science/planetary-archive/gc_vs-planetary-archive-thumbnail.webp",
+          "alt": "Tablet showing the Planetary Archive site with selectable planet icons on a star field.",
+          "id": "planetary-archive"
+        },
+        {
+          "title": "Game Map",
+          "medium": "Poster Design",
+          "thumbnail": "visualizing-science/game-map/gc_vs-game-map-thumbnail.webp",
+          "alt": "Pixel-art poster mapping the life cycle of a low-mass star along a cosmic path.",
+          "id": "game-map"
+        },
+        {
+          "title": "Micropublications",
+          "medium": "Design Research",
+          "thumbnail": "visualizing-science/micropublications/gc_vs-micropublications-thumbnail.webp",
+          "alt": "Triptych of a green-tinted city street, a glowing circuit board, and purple digital light trails.",
+          "id": "micropublications"
+        }
+      ]
+    }
+  },
+  {
+    "id": "does-this-work",
+    "content": {
+      "description": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "For the final assignment of my first year, we compiled work from Design Process 1 and 2 into a process book that honestly represented how we design, not as a portfolio, but as a record of method and intent."
+              }
+            ]
+          }
+        ]
+      ],
+      "descriptionEXP": [
+        [
+          {
+            "type": "subtitle-two",
+            "content": [
+              {
+                "type": "text",
+                "value": "Excerpt of Brief"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "A process-book should actually be a living document, a difficult, often messy accounting of not just what was done, but an embodiment of the how and why."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "In this last project, a process-book is NOT:"
+              }
+            ]
+          },
+          {
+            "type": "bullet-list",
+            "content": [
+              {
+                "type": "bullet-item",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "value": "A portfolio"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "bullet-item",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "value": "An imitation of editorial compositions you like"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "bullet-item",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "value": "Anything you have done before"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "So, what is a process-book in this studio? We have defined process in many ways over the past academic year — five distinct approaches to making, media, and conceptual thought — even a smattering of theory. What it comes down to is this: how are YOU working? What is significant to you? What principles, theories, approaches, media, tools, questions, materials are significant to you? So ultimately, your professors are out of the picture, we can’t offer you help here...this last effort is really ALL you."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "Your source content will be all your work produced in Design Process 1 and 2... everything, EVERYTHING. Writing, food scraps, receipts, text rants, internet rabbit holes... All of it. How you make sense of this in a book... how it is organized, how what is important to you makes its way into your composition, colour, material, type, scale... all of that is this project."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "This is not straightforward. It isn’t something that readily leads to visual research... because the subject of research... is your process. It will take some honesty, a resistance to easy themes and tropes, and some dedicated time to take risks with what a book is, could be, might be..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "Also to be avoided - telling us what we have told you... As in “...experiments are important to me...” — sure, but that is literally IN THE COURSE MATERIAL... and I already know what the course material says... I want to know what I don’t yet know, which is what and how you think about design as a process, and why too."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "Reflect, attempt, repeat...and always make. Making is our primary form of research, trust in the process and let it guide you to unexpected outcomes."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "What this process book must feature:"
+              }
+            ]
+          },
+          {
+            "type": "bullet-list",
+            "content": [
+              {
+                "type": "bullet-item",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "value": "Work from Design Process 1 and 2 ONLY"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "bullet-item",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "value": "A minimum of two languages... MINIMUM...anything is possible, but be sure to actually attempt typesetting, and provide translations"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "bullet-item",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "value": "Citations/works cited in MLA 9 format where appropriate and necessary"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "bullet-entry",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "value": "Content generated by you... this might mean new writing, sampling old writing, and yes, novel research."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      ],
+      "collectionLinks": [
+        {
+          "title": "Design Process",
+          "medium": "Book",
+          "thumbnail": "does-this-work/design-process/gc_dtw-dpb-thumbnail.webp",
+          "alt": "Black-and-white collage repeating Does This Work? among lightbulb outlines and newsprint textures.",
+          "id": "design-process"
+        }
+      ]
+    }
+  },
+  {
+    "id": "enginuitty-group-ltd",
+    "content": {
+      "description": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "Before undergraduate study, I interned at Enginuitty Group Limited, a Trinidad and Tobago technology company helping public and private sector clients across the Caribbean with digital transformation."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "Reporting to "
+              },
+              {
+                "type": "external-link",
+                "href": "https://www.linkedin.com/in/ayr%C3%AFdchandler/",
+                "label": "Ayrïd Chandler"
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "external-link",
+                "href": "https://www.linkedin.com/in/aliyah-emmanuel/",
+                "label": "Aliyah Emmanuel"
+              },
+              {
+                "type": "text",
+                "value": ", and "
+              },
+              {
+                "type": "external-link",
+                "href": "https://www.linkedin.com/in/shari-cumberbatch-2191b136/",
+                "label": "Shari Cumberbatch"
+              },
+              {
+                "type": "text",
+                "value": ", I supported branding, formatted documents for internal and client use, and designed social graphics, learning how a consultancy uses design for consistency, clarity, and project communication."
+              }
+            ]
+          }
+        ]
+      ],
+      "collectionLinks": [
+        {
+          "title": "Parlour",
+          "medium": "Brand Identity",
+          "thumbnail": "enginuitty-group-ltd/parlour/gc_egl-parlour-thumbnail.webp",
+          "alt": "Minimal shop icon with a pink scalloped awning, teal body, and pink base on navy blue.",
+          "id": "parlour"
+        },
+        {
+          "title": "Paypr",
+          "medium": "Brand Identity",
+          "thumbnail": "enginuitty-group-ltd/paypr/gc_egl-paypr-thumbnail.webp",
+          "alt": "Purple italic P logo with a green arrow cutout on a solid green background.",
+          "id": "paypr"
+        },
+        {
+          "title": "Rocket Science Ltd",
+          "medium": "Brand Identity",
+          "thumbnail": "enginuitty-group-ltd/rocket-science-ltd/gc_egl-rocket-science-thumbnai.webp",
+          "alt": "White rocket orbiting a grey crescent moon with a red exhaust trail on black.",
+          "id": "rocket-science-ltd"
+        },
+        {
+          "title": "MOH Vaccine Campaign",
+          "medium": "Social Media",
+          "thumbnail": "enginuitty-group-ltd/moh-vaccine-campaign/gc_moh-vaccinne-thumbnail.webp",
+          "alt": "Couple overlooking a green valley with Explore Together and Beat Covid Together vaccination messaging.",
+          "id": "moh-vaccine-campaign"
+        }
+      ]
+    }
+  }
+]
