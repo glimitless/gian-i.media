@@ -1622,12 +1622,12 @@
                 "content": [
                   {
                     "type": "video",
-                    "aspect": "16/9",
+                    "aspect": "27/32",
                     "src": "seventh-sense/gc-dk_ss-reactive-visual-experiment.mp4",
                     "controls": true,
                     "loop": true,
-                    "muted": false,
-                    "autoplay": false,
+                    "muted": true,
+                    "autoplay": true,
                     "id": "early-reactive-visual-experiment"
                   }
                 ]
