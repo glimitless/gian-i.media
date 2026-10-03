@@ -1482,7 +1482,7 @@
                 "content": [
                   {
                     "type": "video",
-                    "aspect": "16/9",
+                    "aspect": "4/5",
                     "src": "seventh-sense/gc-dk_ss-prototyping-form-factor.mp4",
                     "controls": true,
                     "loop": true,
@@ -1517,7 +1517,7 @@
                 "content": [
                   {
                     "type": "video",
-                    "aspect": "16/9",
+                    "aspect": "4/5",
                     "src": "seventh-sense/gc-dk_ss-sensor-experiment.mp4",
                     "controls": true,
                     "loop": true,
@@ -1622,7 +1622,7 @@
                 "content": [
                   {
                     "type": "video",
-                    "aspect": "27/32",
+                    "aspect": "27/9",
                     "src": "seventh-sense/gc-dk_ss-reactive-visual-experiment.mp4",
                     "controls": true,
                     "loop": true,
