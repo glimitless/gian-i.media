@@ -1076,7 +1076,7 @@
                     "src": "seventh-sense/gc-dk_ss-prospective-advertisement-1.mp4",
                     "controls": true,
                     "loop": true,
-                    "muted": true,
+                    "muted": false,
                     "autoplay": true,
                     "id": "prospective-advertisement-1"
                   }
@@ -1626,7 +1626,7 @@
                     "src": "seventh-sense/gc-dk_ss-reactive-visual-experiment.mp4",
                     "controls": true,
                     "loop": true,
-                    "muted": true,
+                    "muted": false,
                     "autoplay": true,
                     "id": "early-reactive-visual-experiment"
                   }
