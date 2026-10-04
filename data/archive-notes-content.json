@@ -826,7 +826,7 @@
                   "content": [
                     {
                       "type": "text",
-                      "value": "Gian-I Media is officially a Next.js app, built with TypeScript and Tailwind CSS. That adds three new libraries and languages to the toolbox and marks a sharp step up in front-end development skill. The tutorials I used were "
+                      "value": "Gian-I Media is officially a Next.js app, built with TypeScript and Tailwind CSS. That adds three libraries and languages to the toolbox and marks a sharp step up in front-end skill. The tutorials I used were "
                     },
                     {
                       "type": "external-link",
@@ -853,7 +853,7 @@
                     },
                     {
                       "type": "text",
-                      "value": " by ByteGrad. The Tailwind one is especially beginner-friendly; the others assume a fair amount of prerequisite knowledge. Something worth noting: I originally planned to learn only Next.js and fold it into my portfolio’s old architecture. Once the Next.js tutorial walked through the recommended TypeScript and Tailwind setup, it felt like the right moment to learn those too."
+                      "value": " by ByteGrad. The Tailwind one is especially beginner-friendly; the others assume more prerequisite knowledge. I originally planned to learn only Next.js and fold it into my portfolio’s old architecture. Once the Next.js tutorial covered the recommended TypeScript and Tailwind setup, I learned those too rather than deferring them for later."
                     }
                   ]
                 },
