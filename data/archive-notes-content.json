@@ -826,7 +826,7 @@
                   "content": [
                     {
                       "type": "text",
-                      "value": "Gian-I Media is officially a Next.js app, built with TypeScript and Tailwind CSS. That adds three libraries and languages to the toolbox and marks a sharp step up in front-end skill. The tutorials I used were "
+                      "value": "Gian-I Media is officially a Next.js app on Vercel, built with TypeScript and Tailwind CSS. That adds three libraries and languages to the toolbox and marks a sharp step up in front-end skill. The tutorials I used were "
                     },
                     {
                       "type": "external-link",
