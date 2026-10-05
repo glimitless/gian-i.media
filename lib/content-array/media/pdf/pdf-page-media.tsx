@@ -38,7 +38,7 @@ export default function PDFPageMedia({
     const isFull = quality === 'full';
     return (
       <Image
-        className={className ?? 'w-auto h-auto max-w-full max-h-full object-contain'} 
+        className={className ?? 'w-full h-full max-w-full max-h-full object-contain'} 
         src={`/images/${page.src}`}
         alt={page.alt}
         width={page.width}
@@ -54,7 +54,7 @@ export default function PDFPageMedia({
     return (
       <video 
         ref={videoRef}
-        className={`pdf-page-video w-full h-full object-contain ${className ?? ''}`}
+        className={`pdf-page-video w-full h-full max-w-full max-h-full object-contain ${className ?? ''}`}
         src={`/video/${page.src}`}
         controls={page.controls}
         loop={page.loop}
