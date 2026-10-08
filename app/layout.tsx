@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import type { ReactNode } from 'react';
 import './globals.css';
 import ThemeProvider from '@/lib/theme/theme-provider';
 import FilterProvider from '@/lib/filter/filter-provider';
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   description: 'Gian-I Media is a multidisciplinary creative studio specializing in graphic design, branding, digital experiences, and interactive media.',
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html
       lang="en"

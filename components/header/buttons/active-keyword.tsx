@@ -1,16 +1,16 @@
-import type { KeywordArgs } from '@/types/filter';
+import type { TagArgs } from '@/types/filter';
 import Checkmark from '@/assets/svg/icons/header/checkmark.svg';
 import X from '@/assets/svg/icons/header/x.svg';
 
 export default function ActiveKeyword(
-  {keyword, onToggleKeyword}
+  {keyword, onToggleTag}
   : {
-    keyword:KeywordArgs,
-    onToggleKeyword: (keyword: KeywordArgs) => void,
+    keyword:TagArgs,
+    onToggleTag: (keyword: TagArgs) => void,
   }
 ){
   function onClick(){
-    onToggleKeyword(keyword);
+    onToggleTag(keyword);
   }
 
   return (
