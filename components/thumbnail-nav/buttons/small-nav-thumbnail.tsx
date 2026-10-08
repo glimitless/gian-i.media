@@ -1,11 +1,11 @@
 import { GroupIdArgs } from '@/types/archive';
-import { TypeArgs } from '@/types/filter';
+import { ContentTypeArgs } from '@/types/filter';
 import { SvgIcon } from '@/types/svg';
 import Link from 'next/link';
 
 export default function SmallNavThumbnail(
   {active, thumbnail, title, id, type} 
-  : {active:boolean, thumbnail:SvgIcon, title:string, id:GroupIdArgs, type:TypeArgs}
+  : {active:boolean, thumbnail:SvgIcon, title:string, id:GroupIdArgs, type:ContentTypeArgs}
 ){
   const Icon = thumbnail;
 

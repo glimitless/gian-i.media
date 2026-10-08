@@ -2,7 +2,7 @@
 
 import { useMediaQueryContext } from '@/lib/navigator/navigator-provider';
 import { WorkCollectionLink, GroupIdArgs, IndividualIdArgs } from '@/types/archive';
-import { TypeArgs } from '@/types/filter';
+import { ContentTypeArgs } from '@/types/filter';
 import { useFilterContext } from '@/lib/filter/filter-provider';
 import SmallNavThumbnail from './buttons/small-nav-thumbnail';
 import LargeNavThumbnail from './buttons/large-nav-thumbnail';
@@ -12,7 +12,7 @@ type GroupParams = {
   id: GroupIdArgs,
   title: string,
   thumbnailRecord: string,
-  type: TypeArgs,
+  type: ContentTypeArgs,
 }
 type IndividualParams = {
   id: IndividualIdArgs,

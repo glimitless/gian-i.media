@@ -68,7 +68,7 @@ export default function PDFPageInput({
     <label className="btn-template pdf-page-input w-auto cursor-text gap-1 pl-[0.9rem] pr-[1.1rem]">
       <input
         ref={pageInputRef}
-        className="text-button h-8 w-auto field-sizing-content min-w-0 rounded-[0.5rem] bg-lmSurface dark:bg-dmSurface text-lmSecondary dark:text-dmSecondary whitespace-nowrap px-2 bg-color-transition-2 focus-visible:outline-none pb-1"
+        className="text-button h-8 w-auto field-sizing-content min-w-0 rounded-lg bg-lmSurface dark:bg-dmSurface text-lmSecondary dark:text-dmSecondary whitespace-nowrap px-2 bg-color-transition-2 focus-visible:outline-none pb-1"
         value={display}
         onChange={onChange}
         onBlur={onBlur}

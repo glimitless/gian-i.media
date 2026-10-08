@@ -26,7 +26,7 @@ export default function PDFDirectionControls({
         onClick={() => setCurrentPage(currentPage - 1)}
         aria-label="Previous page"
       >
-        <LeftArrowhead className="h-[1.7rem] w-auto text-lmSecondary dark:text-dmSecondary" />
+        <LeftArrowhead className="h-6 w-auto text-lmSecondary dark:text-dmSecondary" />
       </button>
       <button
         type="button"
@@ -34,7 +34,7 @@ export default function PDFDirectionControls({
         onClick={() => setCurrentPage(currentPage + 1)}
         aria-label="Next page"
       >
-        <RightArrowhead className="h-[1.7rem] w-auto text-lmSecondary dark:text-dmSecondary" />
+        <RightArrowhead className="h-6 w-auto text-lmSecondary dark:text-dmSecondary" />
       </button>
       <PDFPageInput 
         currentPage={currentPage}

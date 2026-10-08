@@ -16,8 +16,7 @@ export default async function WorkPage({ params }:WorkPageProps){
   const archiveIDRecord = findArchiveIDRecord(workId, type);
   const work = findArchiveWorkRecord(workId);
   if(!archiveIDRecord || !work) notFound();
-  
-  
+
   return (
     <div className="three-column-page-container">
       <div className="three-column-page-grid">
@@ -25,7 +24,7 @@ export default async function WorkPage({ params }:WorkPageProps){
           <div className="three-column-page-overview-container">
             <WorkOverviewContainer 
               title={archiveIDRecord.title} 
-              tools={archiveIDRecord.tools}
+              date={archiveIDRecord.date}
               overview={work.content.description}
             />
           </div>

@@ -1,7 +1,7 @@
-import { TypeArgs } from '@/types/filter';
+import { ContentTypeArgs } from '@/types/filter';
 import { useFilterContext } from '@/lib/filter/filter-provider';
 
-export default function ContentTypeOption({ type, active }:{ type:TypeArgs, active:TypeArgs }){
+export default function ContentTypeOption({ type, active }:{ type:ContentTypeArgs, active:ContentTypeArgs }){
   const { onToggleContentType } = useFilterContext();
 
   function onClick(){

@@ -1,27 +1,31 @@
-import InactiveKeywords from "./inactive-keywords";
+import InactiveTags from "./inactive-tags";
 import SearchBar from "../buttons/search-bar";
 import { useFilterContext } from "@/lib/filter/filter-provider";
 import { useState } from "react";
 
 
 export default function KeywordsSelected(){
-  const { inactiveKeywords } = useFilterContext();
+  const { inactiveTags, filterArguments } = useFilterContext();
+  const { tagType } = filterArguments;
   const [ keywordSearchQuery, setKeywordSearchQuery ] = useState<string>('');
-  const displayedInactiveKeywords = inactiveKeywords.filter((keyword) =>
+  const displayedInactiveTags = inactiveTags.filter((keyword) =>
     keyword.toLowerCase().includes(keywordSearchQuery.trim().toLowerCase())
   );
 
   return (
     <div className="w-full min-w-0 flex flex-row">
-      <div className="p-2">
+      <div className="p-2 flex flex-row h-16 w-auto gap-4">
         <SearchBar 
-          type="keyword"
+          variantProps={{
+            type: 'tag',
+            activeTagType: tagType,
+          }}
           value={keywordSearchQuery}
           setValue={setKeywordSearchQuery}
         />
       </div>
-      <InactiveKeywords 
-        displayedInactiveKeywords={displayedInactiveKeywords}
+      <InactiveTags 
+        displayedInactiveTags={displayedInactiveTags}
       />
     </div>
   )

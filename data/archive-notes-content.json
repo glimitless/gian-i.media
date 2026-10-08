@@ -1040,6 +1040,234 @@
             ]
           }
         ]
+      },
+      {
+        "id": "version-0p9",
+        "blocks": [
+          {
+            "id": "changes",
+            "items": [
+              [
+                {
+                  "type": "media",
+                  "content": [
+                    {
+                      "type": "image",
+                      "aspect": "3/2",
+                      "src": "birth/version-0p9/gc_birth-changes.webp",
+                      "width": 1600,
+                      "height": 1067,
+                      "alt": "",
+                      "id": "birth-changes-lead"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "This update did not take long, and I have about as little to say about it. Version 0.9 adds project tools to the filter set and refines the color palette for both light and dark mode. You may also notice that some filter control buttons now have active states. Those probably should have shipped earlier. What pushed them, along with moving active filter tags to the top row, was the header starting to feel crowded as more information piled in. The active states, together with the new tag placement, make it easier to see what is actually affecting the grid and what is not."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "The main goal for the palette was higher contrast without losing the pen-and-paper feel I was originally going for. I designed this portfolio as a living document, a canvas I can keep sketching on, so dropping that association was non-negotiable. I might tinker with the colors again later, but I am pretty satisfied with where we landed."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "The main goal for the palette was higher contrast without losing the pen-and-paper feel I was originally going for. I designed this portfolio as a living document, a canvas I can keep sketching on, so dropping that association was non-negotiable. I might tinker with the colors again later, but I am pretty satisfied with where we landed."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "What remains before version 1.0 is mostly the mobile filter system, plus whatever small refinements turn up along the way. Countdown starts now. I have run out of excuses to keep putting off mobile."
+                    }
+                  ]
+                }
+              ]
+            ] 
+          },
+          {
+            "id": "reflections",
+            "items": [
+              [
+                {
+                  "type": "pdf",
+                  "pages": [
+                    {
+                      "type": "image",
+                      "aspect": "319/359",
+                      "src": "birth/version-0p9/figma-sc/gc_birth-reflections-1.webp",
+                      "width": 1276,
+                      "height": 1436,
+                      "alt": "",
+                      "id": "gian-i-media-figma-sc-1"
+                    },
+                    {
+                      "type": "image",
+                      "aspect": "319/359",
+                      "src": "birth/version-0p9/figma-sc/gc_birth-reflections-2.webp",
+                      "width": 1276,
+                      "height": 1436,
+                      "alt": "",
+                      "id": "gian-i-media-figma-sc-2"
+                    },
+                    {
+                      "type": "image",
+                      "aspect": "319/359",
+                      "src": "birth/version-0p9/figma-sc/gc_birth-reflections-3.webp",
+                      "width": 1276,
+                      "height": 1436,
+                      "alt": "",
+                      "id": "gian-i-media-figma-sc-3"
+                    },
+                    {
+                      "type": "image",
+                      "aspect": "319/359",
+                      "src": "birth/version-0p9/figma-sc/gc_birth-reflections-4.webp",
+                      "width": 1276,
+                      "height": 1436,
+                      "alt": "",
+                      "id": "gian-i-media-figma-sc-4"
+                    },
+                    {
+                      "type": "image",
+                      "aspect": "319/359",
+                      "src": "birth/version-0p9/figma-sc/gc_birth-reflections-5.webp",
+                      "width": 1276,
+                      "height": 1436,
+                      "alt": "",
+                      "id": "gian-i-media-figma-sc-5"
+                    },
+                    {
+                      "type": "image",
+                      "aspect": "319/359",
+                      "src": "birth/version-0p9/figma-sc/gc_birth-reflections-6.webp",
+                      "width": 1276,
+                      "height": 1436,
+                      "alt": "",
+                      "id": "gian-i-media-figma-sc-6"
+                    },
+                    {
+                      "type": "image",
+                      "aspect": "319/359",
+                      "src": "birth/version-0p9/figma-sc/gc_birth-reflections-7.webp",
+                      "width": 1276,
+                      "height": 1436,
+                      "alt": "",
+                      "id": "gian-i-media-figma-sc-7"
+                    },
+                    {
+                      "type": "image",
+                      "aspect": "319/359",
+                      "src": "birth/version-0p9/figma-sc/gc_birth-reflections-8.webp",
+                      "width": 1276,
+                      "height": 1436,
+                      "alt": "",
+                      "id": "gian-i-media-figma-sc-8"
+                    },
+                    {
+                      "type": "image",
+                      "aspect": "319/359",
+                      "src": "birth/version-0p9/figma-sc/gc_birth-reflections-9.webp",
+                      "width": 1276,
+                      "height": 1436,
+                      "alt": "",
+                      "id": "gian-i-media-figma-sc-9"
+                    },
+                    {
+                      "type": "image",
+                      "aspect": "319/359",
+                      "src": "birth/version-0p9/figma-sc/gc_birth-reflections-10.webp",
+                      "width": 1276,
+                      "height": 1436,
+                      "alt": "",
+                      "id": "gian-i-media-figma-sc-10"
+                    },
+                    {
+                      "type": "image",
+                      "aspect": "319/359",
+                      "src": "birth/version-0p9/figma-sc/gc_birth-reflections-12.webp",
+                      "width": 1276,
+                      "height": 1436,
+                      "alt": "",
+                      "id": "gian-i-media-figma-sc-11"
+                    },
+                    {
+                      "type": "image",
+                      "aspect": "319/359",
+                      "src": "birth/version-0p9/figma-sc/gc_birth-reflections-13.webp",
+                      "width": 1276,
+                      "height": 1436,
+                      "alt": "",
+                      "id": "gian-i-media-figma-sc-12"
+                    },
+                    {
+                      "type": "image",
+                      "aspect": "319/359",
+                      "src": "birth/version-0p9/figma-sc/gc_birth-reflections-14.webp",
+                      "width": 1276,
+                      "height": 1436,
+                      "alt": "",
+                      "id": "gian-i-media-figma-sc-13"
+                    },
+                    {
+                      "type": "image",
+                      "aspect": "319/359",
+                      "src": "birth/version-0p9/figma-sc/gc_birth-reflections-15.webp",
+                      "width": 1276,
+                      "height": 1436,
+                      "alt": "",
+                      "id": "gian-i-media-figma-sc-14"
+                    }
+                  ],
+                  "id": "birth-reflections-lead"
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "With this side quest nearing the finish line, I wanted to share screenshots from the original Figma file for the project. A lot of what I drafted early on is still here, and it is fun to look back at the small details I only realized would not work after I had already built them. I can only hope my career follows a similar arc: slow and steady, with room to enjoy the process."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "Raising a glass to bigger and better things ahead."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "Stay tuned."
+                    }
+                  ]
+                }
+              ]
+            ] 
+          }
+        ]
       }
     ]
   }

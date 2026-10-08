@@ -14,7 +14,9 @@
       "Website Design"
     ],
     "tools": [
-      "Adobe Illustrator, InDesign",
+      "Adobe Creative Suite",
+      "Illustrator",
+      "InDesign",
       "Figma"
     ],
     "id": "axxs-digital"
@@ -31,7 +33,9 @@
       "Illustration"
     ],
     "tools": [
-      "Adobe Illustrator, Photoshop"
+      "Adobe Creative Suite",
+      "Illustrator",
+      "Photoshop"
     ],
     "id": "scarborough-charter"
   },
@@ -52,7 +56,10 @@
       "UI Design"
     ],
     "tools": [
-      "Adobe After Effects, Illustrator, Premiere Pro",
+      "Adobe Creative Suite",
+      "After Effects",
+      "Illustrator",
+      "Premiere Pro",
       "Blender",
       "Figma",
       "FL Studio"
@@ -77,8 +84,11 @@
       "Philosophy"
     ],
     "tools": [
-      "Adobe Illustrator, InDesign, Photoshop",
-      "Arduino Prototyping",
+      "Adobe Creative Suite",
+      "Photoshop",
+      "Illustrator",
+      "InDesign",
+      "Arduino",
       "Cycling ’74 Max 9",
       "Rhino 8"
     ],
@@ -103,7 +113,11 @@
       "Social Media"
     ],
     "tools": [
-      "Adobe After Effects, Illustrator, InDesign, Photoshop"
+      "Adobe Creative Suite",
+      "After Effects",
+      "Illustrator",
+      "InDesign",
+      "Photoshop"
     ],
     "id": "design-photography"
   },
@@ -118,7 +132,8 @@
       "Client Work"
     ],
     "tools": [
-      "Adobe InDesign"
+      "Adobe Creative Suite",
+      "InDesign"
     ],
     "id": "beehive-design"
   },
@@ -138,7 +153,8 @@
       "Website Development"
     ],
     "tools": [
-      "Adobe Illustrator",
+      "Adobe Creative Suite",
+      "Illustrator",
       "Figma",
       "HTML, CSS, JavaScript"
     ],
@@ -163,8 +179,11 @@
       "Website Development"
     ],
     "tools": [
-      "Adobe InDesign, Illustrator, Photoshop",
-      "Arduino Prototyping",
+      "Adobe Creative Suite",
+      "InDesign",
+      "Illustrator",
+      "Photoshop",
+      "Arduino",
       "Aseprite",
       "HTML, CSS, JavaScript",
       "Python",
@@ -184,7 +203,11 @@
       "Personal Work"
     ],
     "tools": [
-      "Adobe Photoshop, Illustator, InDesign, After Effects"
+      "Adobe Creative Suite",
+      "Photoshop",
+      "Illustator",
+      "InDesign",
+      "After Effects"
     ],
     "id": "does-this-work"
   },
@@ -200,7 +223,9 @@
       "Social Media"
     ],
     "tools": [
-      "Adobe Illustrator, InDesign"
+      "Adobe Creative Suite",
+      "Illustrator",
+      "InDesign"
     ],
     "id": "enginuitty-group-ltd"
   },
@@ -209,7 +234,7 @@
     "title": "Birth",
     "thumbnail": "gc_b-thumbnail.svg",
     "alt": "Birth wordmark beneath an abstract mark of nested angular shapes.",
-    "date": "20260903",
+    "date": "20261008",
     "keywords": [
       "Brand Identity",
       "Philosophy",
@@ -217,7 +242,9 @@
       "Website Development"
     ],
     "tools": [
+      "Adobe Creative Suite",
       "Figma",
+      "Illustator",
       "HTML, CSS, JavaScript",
       "Next.js",
       "React.js",

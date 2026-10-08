@@ -10,13 +10,13 @@ export default function ExpandHeader(){
 
   return (
     <button 
-      className="btn-template w-16 flex flex-row justify-center"
+      className={`btn-template ${headerExpand === 'hidden' ? '' : 'btn-template-active cursor-pointer'} w-16 flex flex-row justify-center`}
       type="button"
       aria-label="Expand filter options"
       onClick={onClick}
     >
       <DownArrowhead 
-        className={`w-[1.7rem] h-auto down-arrowhead-transition ${headerExpand === 'hidden' ? 'rotate-0' : 'rotate-180'}`} 
+        className={`w-6 h-auto down-arrowhead-transition ${headerExpand === 'hidden' ? 'rotate-0' : 'rotate-180'}`} 
       />
     </button>
   )

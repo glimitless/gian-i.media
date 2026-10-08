@@ -14,7 +14,7 @@ import { useMediaQueryContext } from '@/lib/navigator/navigator-provider';
 export default function Sidebar(){
   const { sidebarExpand, setSidebarExpand } = useSidebarContext();
   const { filterArguments, onToggleContentType } = useFilterContext();
-  const { type } = filterArguments;
+  const { contentType } = filterArguments;
   const { isBelowTablet } = useMediaQueryContext();
 
   if(isBelowTablet) return (<></>)
@@ -44,7 +44,7 @@ export default function Sidebar(){
               type: "works",
               svg: WorksIcon,
               href: '/',
-              activeContentType: type,
+              activeContentType: contentType,
               onToggleContentType: onToggleContentType,
             }}
             sidebarExpand={sidebarExpand}
@@ -54,7 +54,7 @@ export default function Sidebar(){
               type: "notes",
               svg: NotesIcon,
               href: '/',
-              activeContentType: type,
+              activeContentType: contentType,
               onToggleContentType: onToggleContentType,
             }}
             sidebarExpand={sidebarExpand}

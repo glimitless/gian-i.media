@@ -1,16 +1,19 @@
-import type { TypeArgs, SortOrderArgs } from '@/types/filter';
+import type { ContentTypeArgs, SortOrderArgs, TagTypeArgs } from '@/types/filter';
 import DownArrowhead from '@/assets/svg/icons/header/down-arrowhead.svg';
 import { useHeaderContext } from '@/lib/navigator/navigator-provider';
 
 type VariantProps = (
   {
     type:'type',
-    current:TypeArgs,
+    current:ContentTypeArgs,
   } | {
     type:'sort',
     current:SortOrderArgs,
   } | {
-    type:'keywords'
+    type:'tag'
+  } | {
+    type:'tag-type',
+    current:TagTypeArgs,
   }
 )
 
@@ -38,7 +41,6 @@ export default function ExpandFilterArguments({variantProps}:{variantProps:Varia
     setSelectedLevel2Option(variantProps.type);
   }
 
-
   let message:string;
   switch(variantProps.type){
     case 'type':
@@ -47,14 +49,17 @@ export default function ExpandFilterArguments({variantProps}:{variantProps:Varia
     case 'sort':
       message = `Sort by: ${variantProps.current}`;
       break;
-    case 'keywords':
-      message = 'Filter keywords';
+    case 'tag-type':
+      message = `Tag: ${variantProps.current.charAt(0).toUpperCase() + variantProps.current.slice(1)}`;
+      break;
+    case 'tag':
+      message = 'Filter tags';
       break;
   }
     
   return (
     <button 
-      className="btn-template px-4 shrink-0 gap-2"
+      className={`btn-template ${headerExpand === 'level-2' && selectedLevel2Option === variantProps.type ? 'btn-template-active cursor-pointer' : ''} px-4 shrink-0 gap-2`}
       onClick={onClick}
     >
       {message}

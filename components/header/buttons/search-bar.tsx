@@ -1,29 +1,38 @@
 import SearchIcon from '@/assets/svg/icons/header/search-icon.svg';
-import type { SearchQueryArgs, KeywordArgs } from '@/types/filter';
+import type { SearchQueryArgs, TagArgs, TagTypeArgs } from '@/types/filter';
 import type { ChangeEvent, KeyboardEvent } from 'react';
+
+type VariantProps = (
+  {
+    type: 'title'
+  } | {
+    type: 'tag',
+    activeTagType: TagTypeArgs,
+  }
+);
 
 export default function SearchBar(
   { 
-    type, value, setValue 
+    variantProps, value, setValue 
   } : {
-    type:('title' | 'keyword'), 
-    value:(SearchQueryArgs | KeywordArgs), 
-    setValue: ((searchQuery: SearchQueryArgs) => void | React.Dispatch<React.SetStateAction<KeywordArgs>>)}
+    variantProps:VariantProps,
+    value:(SearchQueryArgs | TagArgs), 
+    setValue: ((searchQuery: SearchQueryArgs) => void | React.Dispatch<React.SetStateAction<TagArgs>>)}
 ){
   let width:string;
   let placeholder:string;
-  switch (type) {
+  switch (variantProps.type) {
       case 'title':
-        width='w-96 @min-[78.5em]/content:w-128';
-        placeholder='Search Title';
+        width='w-80 @min-[69em]/viewport:w-96 @min-[99em]/viewport:w-112';
+        placeholder='Search title';
         break;
-      case 'keyword':
+      case 'tag':
         width='w-80';
-        placeholder='Search Keywords';
+        placeholder=`Search ${variantProps.activeTagType === 'all' ? 'keywords & tools' : variantProps.activeTagType}`;
         break;
       default:
         width='w-128';
-        placeholder='Search Title';
+        placeholder=`Search title`;
         break;
   }
 

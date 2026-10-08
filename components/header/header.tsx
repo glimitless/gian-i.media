@@ -1,13 +1,10 @@
 "use client";
 
 import type { HeaderExpand } from '@/types/navigator';
-import ColorModeSwitch from './buttons/color-mode-switch';
-import MobileHomeLinkContainer from './containers/mobile-home-link-container';
-import TitleSearchContainer from './containers/title-search-container';
 import MoreSearchOptions from './containers/more-search-options';
 import SelectedFilterArgument from './containers/selected-filter-argument';
 import { useHeaderContext } from '@/lib/navigator/navigator-provider';
-import { useMediaQueryContext } from '@/lib/navigator/navigator-provider';
+import HeaderFirstRow from './containers/header-first-row';
 
 const HEADER_HEIGHT: Record<HeaderExpand, string> = {
   'hidden': 'h-26',
@@ -17,7 +14,6 @@ const HEADER_HEIGHT: Record<HeaderExpand, string> = {
 
 export default function Header(){
   const { headerExpand } = useHeaderContext();
-  const { isBelowMobile, isBelowTablet } = useMediaQueryContext();
   const headerHeight = HEADER_HEIGHT[headerExpand];
 
   return (
@@ -28,25 +24,17 @@ export default function Header(){
         className="w-full h-full min-w-0 flex flex-col items-stretch p-0 gap-0 overflow-hidden"
       >
         <div
-          className="header-row p-2 justify-between"
+          className="header-row"
         > 
-          <div className="flex flex-row justify-start gap-4 h-full">
-            <div className="flex @min-[99em]/viewport:hidden">
-              {isBelowTablet && <MobileHomeLinkContainer isBelowMobile={isBelowMobile} />}
-            </div>
-            <div className="hidden @min-[59.5em]/viewport:flex">
-              {!isBelowMobile && <TitleSearchContainer />}
-            </div>
-          </div>
-          <ColorModeSwitch />
+          <HeaderFirstRow />
         </div>
         <div
-          className="header-row p-0 justify-start"
+          className="header-row"
         >
           <MoreSearchOptions />
         </div>
         <div
-          className="header-row p-0 justify-start"
+          className="header-row"
         >
           <SelectedFilterArgument />
         </div>

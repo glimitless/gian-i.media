@@ -31,7 +31,7 @@ export default function ColorModeSwitch(){
       onClick={onToggle}
     >
       <div
-        className={`w-12 h-12 bg-lmSurface dark:bg-dmSurface rounded-[0.5rem] flex justify-center items-center translate-x-0 dark:translate-x-16 color-theme-indicator-transition`}
+        className={`w-12 h-12 bg-lmSurface dark:bg-dmSurface rounded-lg flex justify-center items-center translate-x-0 dark:translate-x-16 color-theme-indicator-transition`}
       >
         <ColorModeSwitchIcon 
           className="h-7 w-auto text-lmSecondary dark:text-dmSecondary color-transition" 

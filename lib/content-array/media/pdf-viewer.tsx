@@ -115,7 +115,7 @@ export default function PDFViewer({ pages }: { pages: MediaPartArgs[] }) {
   return (
     <div className="pdf-viewer block">
       <div
-        className="w-full aspect-[5/4] min-h-0 min-w-0 bg-lmSurface dark:bg-dmSurface bcvg-transition mb-[0.6rem] flex justify-center items-center"
+        className="w-full aspect-[5/4] bg-lmSurface dark:bg-dmSurface bcvg-transition mb-[0.6rem] flex justify-center items-center"
         onClick={onPDFBackgroundClick}
       >
         <PDFPageMedia page={activePage} currentPage={currentPage} />

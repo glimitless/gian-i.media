@@ -135,7 +135,7 @@
                 "id": "new-foundations",
                 "content": {
                   "title": "New Foundations",
-                  "date": "20261003",
+                  "date": "20261004",
                   "summary": [
                     "Rebuilt Gian-I Media on Next.js with TypeScript and Tailwind CSS.",
                     "Adopted the full recommended stack after the Next.js tutorial bundled TypeScript and Tailwind into project setup."
@@ -146,7 +146,7 @@
                 "id": "stylistic-adjustments",
                 "content": {
                   "title": "Stylistic Adjustments",
-                  "date": "20261003",
+                  "date": "20261004",
                   "summary": [
                     "Refined layout spacing and column proportions on work and note pages.",
                     "Improved accessibility and smoothed theme transitions with Tailwind."
@@ -157,7 +157,7 @@
                 "id": "creative-technology",
                 "content": {
                   "title": "Creative Technology",
-                  "date": "20261003",
+                  "date": "20261004",
                   "summary": [
                     "Started sketching a personal stance on design and technology after GradEx.",
                     "Still forming; touches on craft, nature, and what technology is for."
@@ -168,11 +168,41 @@
                 "id": "next-steps",
                 "content": {
                   "title": "Next Steps",
-                  "date": "20261003",
+                  "date": "20261004",
                   "summary": [
                     "Nail down mobile filter UX.",
                     "Extend filtering to project tools and grid display options.",
                     "Refine dark mode, then push toward version 1.0."
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "version-0p9",
+          "content": {
+            "title": "Version 0.9",
+            "blocks": [
+              {
+                "id": "changes",
+                "content": {
+                  "title": "Changes",
+                  "date": "20261008",
+                  "summary": [
+                    "Light filter and visual polish as the portfolio inches toward version 1.0.",
+                    "A few bigger items are still waiting in the wings."
+                  ]
+                }
+              },
+              {
+                "id": "reflections",
+                "content": {
+                  "title": "Reflections",
+                  "date": "20261008",
+                  "summary": [
+                    "Early design artifacts and a moment to look back before moving on.",
+                    "Brief parting thoughts on what comes next."
                   ]
                 }
               }

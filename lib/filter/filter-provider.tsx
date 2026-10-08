@@ -1,7 +1,7 @@
 'use client';
 
 import type { ArchiveID, ArchiveIDRecord } from '@/types/archive';
-import type { FilterArguments, KeywordArgs, TypeArgs, SortOrderArgs, SearchQueryArgs } from '@/types/filter';
+import type { FilterArguments, TagArgs, ContentTypeArgs, SortOrderArgs, SearchQueryArgs, TagTypeArgs } from '@/types/filter';
 import filterArchive from './filter-archive';
 import { 
   createContext, 
@@ -16,33 +16,34 @@ import { useMediaQueryContext } from '../navigator/navigator-provider';
 import archiveIDsJson from '@/data/archive-ids.json';
 import { hydrateArchiveID } from '../archive/hydrate-archive-id';
 
-
-
 type FilterContextValue = {
   filterArguments: FilterArguments;
   setFilterArguments: React.Dispatch<React.SetStateAction<FilterArguments>>;
   filteredArchiveIDs: ArchiveID[];
-  inactiveKeywords: KeywordArgs[];
+  inactiveTags: TagArgs[];
   // resetFilter: () => void;
-  onToggleKeyword: (keyword: KeywordArgs) => void;
+  onToggleTagType: (type: TagTypeArgs) => void;
+  onToggleTag: (keyword: TagArgs) => void;
   onToggleTitleSearch: (searchQuery: SearchQueryArgs) => void;
-  onToggleContentType: (type: TypeArgs) => void;
+  onToggleContentType: (type: ContentTypeArgs) => void;
   onToggleSortOrder: (sortOrder: SortOrderArgs) => void;
 }
 
 const DEFAULT_FILTER_ARGUMENTS:FilterArguments = {
-  type: 'all',
-  keywords: [],
+  contentType: 'all',
+  tags: [],
+  tagType: 'keywords',
   searchQuery: '',
   sortOrder: 'Chronological',
 }
 const DISABLE_FILTER_ON_MOBILE = true;
 function isDefaultFilterArguments(args: FilterArguments): boolean {
   return (
-    args.type === DEFAULT_FILTER_ARGUMENTS.type &&
+    args.contentType === DEFAULT_FILTER_ARGUMENTS.contentType &&
     args.searchQuery === DEFAULT_FILTER_ARGUMENTS.searchQuery &&
     args.sortOrder === DEFAULT_FILTER_ARGUMENTS.sortOrder &&
-    args.keywords.length === 0
+    args.tags.length === 0 &&
+    args.tagType === DEFAULT_FILTER_ARGUMENTS.tagType
   );
 }
 
@@ -73,34 +74,66 @@ export default function FilterProvider({ children } : {children:ReactNode}){
     };
     reset();
   }, [isBelowMobile]);
+  const {
+    contentType,
+    searchQuery,
+    sortOrder,
+    tags,
+    tagType,
+  } = filterArguments;
+
   const filteredArchiveIDs = useMemo(
     () => {
+      const criteria = { contentType, searchQuery, sortOrder, tags };
       if (isBelowMobile && DISABLE_FILTER_ON_MOBILE) {
         return filterArchive(archiveIDs, DEFAULT_FILTER_ARGUMENTS);
       }
-      return filterArchive(archiveIDs, filterArguments);
+      return filterArchive(archiveIDs, criteria);
     },
-    [filterArguments, isBelowMobile, archiveIDs]
+    [contentType, searchQuery, sortOrder, tags, isBelowMobile, archiveIDs]
   );
 
-  const onToggleKeyword = useCallback((keyword:KeywordArgs) => {
+  const selectedTagSet = useMemo(() => new Set(tags), [tags]);
+  const { keywordSet, toolSet } = useMemo(() => {
+    const keywordSet = new Set<TagArgs>();
+    const toolSet = new Set<TagArgs>();
+    for (const ID of archiveIDs) {
+      for (const keyword of ID.keywords) keywordSet.add(keyword);
+      for (const tool of ID.tools) toolSet.add(tool);
+    }
+    return { keywordSet, toolSet };
+  }, [archiveIDs]);
+
+  const onToggleTag = useCallback((tag:TagArgs) => {
     setFilterArguments((prev) => ({
       ...prev,
-      keywords: prev.keywords.includes(keyword)
-        ? prev.keywords.filter((k) => k != keyword)
-        : [...prev.keywords, keyword],
+      tags: prev.tags.includes(tag)
+        ? prev.tags.filter((k) => k != tag)
+        : [...prev.tags, tag],
     }));
   }, []);
+  const onToggleTagType = useCallback((tagType:TagTypeArgs) => {
+    setFilterArguments((prev) => {
+      const tags =
+        tagType === 'all'
+          ? prev.tags
+          : prev.tags.filter((tag) =>
+            tagType === 'keywords' ? keywordSet.has(tag) : toolSet.has(tag)
+          );
+      
+      return { ...prev, tagType, tags };
+    })
+  }, [keywordSet, toolSet])
   const onToggleTitleSearch = useCallback((searchQuery:SearchQueryArgs) => {
     setFilterArguments((prev) => ({
       ...prev,
       searchQuery,
     }))
   }, []);
-  const onToggleContentType = useCallback((type:TypeArgs) => {
+  const onToggleContentType = useCallback((contentType:ContentTypeArgs) => {
     setFilterArguments((prev) => ({
       ...prev,
-      type,
+      contentType,
     }));
   }, []);
   const onToggleSortOrder = useCallback((sortOrder:SortOrderArgs) => {
@@ -109,23 +142,37 @@ export default function FilterProvider({ children } : {children:ReactNode}){
       sortOrder,
     }));
   }, []);
-  const inactiveKeywords:KeywordArgs[] = useMemo(() => {
-    const visible = new Set(
-      filteredArchiveIDs.flatMap((item) => item.keywords)
-    );
-    return[...visible]
-      .filter((keyword) => !filterArguments.keywords.includes(keyword))
-      .sort((a, b) => a.localeCompare(b));
-  }, [filteredArchiveIDs, filterArguments.keywords]);
+  const inactiveTags: TagArgs[] = useMemo(() => {
+    const includeKeywords = tagType === "all" || tagType === "keywords";
+    const includeTools = tagType === "all" || tagType === "tools";
+    const visible = new Set<TagArgs>();
+
+    for (const item of filteredArchiveIDs) {
+      if (includeKeywords) {
+        for (const keyword of item.keywords) visible.add(keyword);
+      }
+      if (includeTools) {
+        for (const tool of item.tools) visible.add(tool);
+      }
+    }
+
+    const inactive: TagArgs[] = [];
+    for (const tag of visible) {
+      if (!selectedTagSet.has(tag)) inactive.push(tag);
+    }
+    inactive.sort((a, b) => a.localeCompare(b));
+    return inactive;
+  }, [filteredArchiveIDs, selectedTagSet, tagType]);
   
   const value = useMemo(
     () => ({
       filterArguments,
       setFilterArguments,
       filteredArchiveIDs,
-      inactiveKeywords,
+      inactiveTags,
       // resetFilter,
-      onToggleKeyword,
+      onToggleTag,
+      onToggleTagType,
       onToggleTitleSearch,
       onToggleContentType,
       onToggleSortOrder,
@@ -133,9 +180,10 @@ export default function FilterProvider({ children } : {children:ReactNode}){
     [
       filterArguments, 
       filteredArchiveIDs, 
-      inactiveKeywords,
+      inactiveTags,
       // resetFilter,
-      onToggleKeyword,
+      onToggleTag,
+      onToggleTagType,
       onToggleTitleSearch,
       onToggleContentType,
       onToggleSortOrder,

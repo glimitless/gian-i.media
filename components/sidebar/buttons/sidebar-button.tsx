@@ -1,7 +1,7 @@
 import type { MouseEvent } from 'react';
 import type { SvgIcon } from '@/types/svg';
 import type { SidebarExpand } from '@/types/navigator';
-import type { TypeArgs } from '@/types/filter';
+import type { ContentTypeArgs } from '@/types/filter';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
@@ -14,8 +14,8 @@ type VariantProps = (
     type: ('works' | 'notes');
     svg: SvgIcon;
     href: string;
-    activeContentType: TypeArgs;
-    onToggleContentType: (type: TypeArgs) => void;
+    activeContentType: ContentTypeArgs;
+    onToggleContentType: (type: ContentTypeArgs) => void;
   } | {
     type: 'about';
     svg: SvgIcon;
@@ -64,9 +64,9 @@ export default function SidebarButton({variantProps, sidebarExpand} : {variantPr
 
   function onFilterLinkClick(
     event: MouseEvent<HTMLAnchorElement>,
-    contentType: Extract<TypeArgs, 'works' | 'notes'>,
-    onToggleContentType: (type: TypeArgs) => void,
-    activeContentType: TypeArgs,
+    contentType: Extract<ContentTypeArgs, 'works' | 'notes'>,
+    onToggleContentType: (type: ContentTypeArgs) => void,
+    activeContentType: ContentTypeArgs,
   ){
     if(pathname === '/' &&  (contentType === 'notes' || contentType === 'works')){
       onToggleContentType(contentType === activeContentType ? 'all' : contentType);

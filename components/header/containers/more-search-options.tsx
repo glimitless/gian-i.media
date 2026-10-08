@@ -1,10 +1,9 @@
 import { useFilterContext } from "@/lib/filter/filter-provider";
 import ExpandFilterArguments from "../buttons/expand-filter-arguments";
-import ActiveKeywords from "./active-keywords";
 
 export default function MoreSearchOptions(){
   const { filterArguments } = useFilterContext();
-  const { type, sortOrder } = filterArguments;
+  const { contentType, sortOrder, tagType } = filterArguments;
 
   return (
     <div 
@@ -14,7 +13,7 @@ export default function MoreSearchOptions(){
         <ExpandFilterArguments 
           variantProps={{
             type: 'type',
-            current: type,
+            current: contentType,
           }}
         />
         <ExpandFilterArguments 
@@ -23,13 +22,18 @@ export default function MoreSearchOptions(){
             current: sortOrder,
           }}
         />
+        <ExpandFilterArguments 
+          variantProps={{
+            type: 'tag-type',
+            current: tagType,
+          }}
+        />
         <ExpandFilterArguments
           variantProps={{
-            type: 'keywords',
+            type: 'tag',
           }} 
         />
       </div>
-      <ActiveKeywords />
     </div>
   )
 }

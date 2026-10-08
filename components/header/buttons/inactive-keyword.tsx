@@ -1,15 +1,15 @@
-import type { KeywordArgs } from '@/types/filter';
+import type { TagArgs } from '@/types/filter';
 import PlusIcon from '@/assets/svg/icons/header/plus.svg';
 
 export default function InactiveKeyword(
-  {keyword, onToggleKeyword}
+  { keyword, onToggleTag }
   : {
-    keyword:KeywordArgs,
-    onToggleKeyword: (keyword: KeywordArgs) => void,
+    keyword:TagArgs,
+    onToggleTag: (keyword: TagArgs) => void,
   }
 ){
   function onClick(){
-    onToggleKeyword(keyword);
+    onToggleTag(keyword);
   }
 
   return (

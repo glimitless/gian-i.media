@@ -9,7 +9,9 @@ export default function TitleSearchContainer(){
   return (
     <div className="flex flex-row h-16 w-auto gap-4">
       <SearchBar 
-        type="title"
+        variantProps={{
+          type: 'title'
+        }}
         value={searchQuery}
         setValue={onToggleTitleSearch}
       />

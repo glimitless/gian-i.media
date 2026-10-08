@@ -20,7 +20,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`h-full selection:bg-#af81b9 antialiased`}
       suppressHydrationWarning
     >
-      <body className="min-h-full selection:bg-[#ECB3CB] selection:text-[#222223] bg-lmBg dark:bg-dmBg">
+      <body className="min-h-full selection:bg-[#ECB3CB] selection:text-lmPrimary bg-lmBg dark:bg-dmBg">
         <ThemeProvider>
           <NavigatorProvider>
             <FilterProvider>
