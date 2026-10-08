@@ -190,7 +190,7 @@
                   "title": "Changes",
                   "date": "20261008",
                   "summary": [
-                    ""
+                    "Extended filtering to project tools, refined the light and dark palettes, and clarified active filter controls in the header."
                   ]
                 }
               },
@@ -200,7 +200,7 @@
                   "title": "Reflections",
                   "date": "20261008",
                   "summary": [
-                    ""
+                    "Shared screenshots from the original Figma file and looked back at early layout choices against the current build."
                   ]
                 }
               }
