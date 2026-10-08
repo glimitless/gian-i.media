@@ -1085,15 +1085,6 @@
                   "content": [
                     {
                       "type": "text",
-                      "value": "The main goal for the palette was higher contrast without losing the pen-and-paper feel I was originally going for. I designed this portfolio as a living document, a canvas I can keep sketching on, so dropping that association was non-negotiable. I might tinker with the colors again later, but I am pretty satisfied with where we landed."
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
                       "value": "What remains before version 1.0 is mostly the mobile filter system, plus whatever small refinements turn up along the way. Countdown starts now. I have run out of excuses to keep putting off mobile."
                     }
                   ]
