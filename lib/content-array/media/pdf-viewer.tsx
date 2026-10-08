@@ -92,7 +92,7 @@ export default function PDFViewer({ pages }: { pages: MediaPartArgs[] }) {
   )
 
   const singleImageModal = isOpen && isSinglePage && pages[0].type === 'image' && (
-    <div className="fixed inset-0 flex flex-col z-1 flex items-center justify-center bg-lmImageModalBackground dark:bg-dmImageModalBackground">
+    <div className="fixed inset-0 flex-col z-1 flex items-center justify-center bg-lmImageModalBackground dark:bg-dmImageModalBackground">
       <button
         type="button"
         className="absolute top-8 right-8 z-4 p-0 cursor-pointer opacity-75"
@@ -115,7 +115,7 @@ export default function PDFViewer({ pages }: { pages: MediaPartArgs[] }) {
   return (
     <div className="pdf-viewer block">
       <div
-        className="w-full aspect-[5/4] bg-lmSurface dark:bg-dmSurface bcvg-transition mb-[0.6rem] flex justify-center items-center"
+        className="w-full aspect-5/4 bg-lmSurface dark:bg-dmSurface bcvg-transition mb-[0.6rem] flex justify-center items-center"
         onClick={onPDFBackgroundClick}
       >
         <PDFPageMedia page={activePage} currentPage={currentPage} />
