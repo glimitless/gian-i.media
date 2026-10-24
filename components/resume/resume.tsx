@@ -10,7 +10,7 @@ export default function Resume() {
           <h3>Gian-I Cambridge</h3>
           <h3>
             <a
-              href="pdf/resume/gc_resume-oct-2026-digital.pdf"
+              href="pdf/resume/gc_resume-nov-2026-digital.pdf"
               download={true}
               className="text-link"
             >
@@ -22,7 +22,7 @@ export default function Resume() {
       <div className='block-page-content-container variant-1'>
         <div>
           <h2 className="block-header" >Objective</h2>
-          <p>Multidisciplinary graphic designer transitioning into product design, focused on technological hardware and tangible interfaces. Translates complex concepts into clear, human-centered products that enhance everyday interactions and improve understanding of science and technology.</p>
+          <p>Designer and aspiring software engineer, carrying a graphic design practice into websites, interfaces, and interactive systems. Translates complex concepts into clear, human-centered visual systems and software, enhancing everyday interactions and improving understanding of science and technology.</p>
         </div>
         <ResumeBlock block={resumeBlocksJson.education} />
         <ResumeBlock block={resumeBlocksJson.workExperience} />
