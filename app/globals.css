@@ -72,27 +72,27 @@
   /* Font variables */
   --font-main: "Zilla Slab", ui-slab, Georgia, serif;
   
-  --text-body: 1.5rem;
-  --text-body--line-height: 2.2rem;
+  --text-body: 1.75rem;
+  --text-body--line-height: 2.7rem;
   --text-body--font-weight: 400;
 
-  --text-title: 2.7rem;
-  --text-title--line-height: 3.5rem;
+  --text-title: 3.2rem;
+  --text-title--line-height: 4rem;
   --text-title--font-weight: 400;
 
-  --text-subtitle: 1.2rem;
-  --text-subtitle--line-height: 2.1rem;
+  --text-subtitle: 1.4rem;
+  --text-subtitle--line-height: 2.4rem;
   --text-subtitle--font-weight: 500;
 
-  --text-subtitleTwo: 1.8rem;
-  --text-subtitleTwo--line-height: 2.2rem;
+  --text-subtitleTwo: 2.2rem;
+  --text-subtitleTwo--line-height: 3rem;
   --text-subtitleTwo--font-weight: 500;
 
-  --text-button: 1.2rem;
+  --text-button: 1.3rem;
   --text-placeholder: 1.1rem;
 
-  --text-subtle: 1.1rem;
-  --text-subtle--line-height: 1.8rem;
+  --text-subtle: 1.4rem;
+  --text-subtle--line-height: 2.1rem;
 
   /* Transition variables */
   --duration-c: 0.18s;
@@ -127,10 +127,10 @@
 
   --hover-scale-factor: 0.96;
 
-  --page-layout-column-gap: 8em;
+  --page-layout-column-gap: 10em;
 
-  --page-layout-overview-column-width: 40em;
-  --page-layout-content-column-width: 56em;
+  --page-layout-overview-column-width: 48em;
+  --page-layout-content-column-width: 64em;
   --page-layout-content-column-width-2: 40em;
   --page-layout-navigation-column-width: 12em;
 }
