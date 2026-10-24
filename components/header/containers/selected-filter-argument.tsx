@@ -13,8 +13,9 @@ const CONTENT_TYPE_OPTIONS:ContentTypeArgs[] = [
 ];
 const TAG_TYPE_OPTIONS:TagTypeArgs[] = [
   'all',
+  'none',
   'keywords',
-  'tools',
+  'tools'
 ]
 const SORT_ORDER_OPTIONS:SortOrderArgs[] = [
   'Chronological',

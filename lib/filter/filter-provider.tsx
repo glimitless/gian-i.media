@@ -115,11 +115,13 @@ export default function FilterProvider({ children } : {children:ReactNode}){
   const onToggleTagType = useCallback((tagType:TagTypeArgs) => {
     setFilterArguments((prev) => {
       const tags =
-        tagType === 'all'
-          ? prev.tags
-          : prev.tags.filter((tag) =>
-            tagType === 'keywords' ? keywordSet.has(tag) : toolSet.has(tag)
-          );
+        tagType === 'none'
+          ? []
+          : tagType === 'all'
+            ? prev.tags
+            :  prev.tags.filter((tag) =>
+                tagType === 'keywords' ? keywordSet.has(tag) : toolSet.has(tag)
+              );
       
       return { ...prev, tagType, tags };
     })

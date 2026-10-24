@@ -23,8 +23,8 @@ export function useRootFontSizePx():number{
 }
 
 
-const TABLET_BREAKPOINT_EM = 99;
-const MOBILE_BREAKPOINT_EM = 63.5;
+const TABLET_BREAKPOINT_EM = 93.8;
+const MOBILE_BREAKPOINT_EM = 73.5;
 
 function useMediaQuery(query:string):boolean {
   const [matches, setMatches] = useState<boolean>(false);

@@ -72,27 +72,27 @@
   /* Font variables */
   --font-main: "Zilla Slab", ui-slab, Georgia, serif;
   
-  --text-body: 1.5rem;
-  --text-body--line-height: 2.2rem;
+  --text-body: 1.75rem;
+  --text-body--line-height: 2.7rem;
   --text-body--font-weight: 400;
 
-  --text-title: 2.7rem;
-  --text-title--line-height: 3.5rem;
+  --text-title: 3.2rem;
+  --text-title--line-height: 4rem;
   --text-title--font-weight: 400;
 
-  --text-subtitle: 1.2rem;
-  --text-subtitle--line-height: 2.1rem;
+  --text-subtitle: 1.4rem;
+  --text-subtitle--line-height: 2.4rem;
   --text-subtitle--font-weight: 500;
 
-  --text-subtitleTwo: 1.8rem;
-  --text-subtitleTwo--line-height: 2.2rem;
+  --text-subtitleTwo: 2.2rem;
+  --text-subtitleTwo--line-height: 3rem;
   --text-subtitleTwo--font-weight: 500;
 
-  --text-button: 1.2rem;
+  --text-button: 1.3rem;
   --text-placeholder: 1.1rem;
 
-  --text-subtle: 1.1rem;
-  --text-subtle--line-height: 1.8rem;
+  --text-subtle: 1.4rem;
+  --text-subtle--line-height: 2.1rem;
 
   /* Transition variables */
   --duration-c: 0.18s;
@@ -127,11 +127,11 @@
 
   --hover-scale-factor: 0.96;
 
-  --page-layout-column-gap: 8em;
+  --page-layout-column-gap: 10em;
 
-  --page-layout-overview-column-width: 40em;
-  --page-layout-content-column-width: 56em;
-  --page-layout-content-column-width-2: 40em;
+  --page-layout-overview-column-width: 48em;
+  --page-layout-content-column-width: 64em;
+  --page-layout-content-column-width-2: 48em;
   --page-layout-navigation-column-width: 12em;
 }
 
@@ -314,7 +314,7 @@
   .two-column-page-content-column{
     @apply h-auto overflow-scroll scrollbar-none-webkit col-1 pb-5;
   }
-  @container main (min-width: 56em){
+  @container main (min-width: 64em){
     .three-column-page-container, .two-column-page-container{
       @apply w-(--page-layout-content-column-width);
     }
@@ -322,7 +322,7 @@
       @apply w-(--page-layout-content-column-width) grid-cols-(--page-layout-content-column-width);
     }
   }
-  @container main (min-width: 60em){
+  @container main (min-width: 70em){
     .three-column-page-container, .two-column-page-container{
       width: calc(var(--page-layout-content-column-width-2) + var(--page-layout-column-gap) + var(--page-layout-navigation-column-width));
     }
@@ -337,7 +337,7 @@
       @apply w-(--page-layout-content-column-width-2) grid-cols-(--page-layout-content-column-width-2);
     }
   }
-  @container main (min-width: 76em){
+  @container main (min-width: 86em){
     .three-column-page-container, .two-column-page-container{
       width: calc(var(--page-layout-content-column-width) + var(--page-layout-column-gap) + var(--page-layout-navigation-column-width));
     }
@@ -349,7 +349,7 @@
       @apply w-(--page-layout-content-column-width) grid-cols-(--page-layout-content-column-width);
     }
   }
-  @container main (min-width: 124em){
+  @container main (min-width: 144em){
     .three-column-page-container{
       width: calc(var(--page-layout-overview-column-width) + var(--page-layout-column-gap) + var(--page-layout-content-column-width) + var(--page-layout-column-gap) + var(--page-layout-navigation-column-width));
     }

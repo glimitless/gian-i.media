@@ -28,11 +28,15 @@ export default function MoreSearchOptions(){
             current: tagType,
           }}
         />
-        <ExpandFilterArguments
-          variantProps={{
-            type: 'tag',
-          }} 
-        />
+        {tagType !== 'none' 
+          ? <ExpandFilterArguments
+              variantProps={{
+                type: 'tag',
+              }} 
+            /> 
+          : <></>
+        }
+        
       </div>
     </div>
   )
