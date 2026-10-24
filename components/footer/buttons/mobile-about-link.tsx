@@ -9,7 +9,7 @@ export function MobileAboutLink(){
   const isHome = pathname === '/';
 
   return (
-    <div>
+    <div className="@min-[93.8em]/viewport:hidden">
       <Link 
         href='/about'
         className={`btn-template ${pathname === '/about' && 'btn-template-active'} ${isHome ? 'w-auto justify-start pl-[1.1rem] pr-[1.2rem] gap-[1.2rem] ' : 'justify-center w-16'}`}

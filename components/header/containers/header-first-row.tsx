@@ -1,11 +1,9 @@
 import ColorModeSwitch from '../buttons/color-mode-switch';
 import MobileHomeLinkContainer from '../containers/mobile-home-link-container';
 import TitleSearchContainer from '../containers/title-search-container';
-import { useMediaQueryContext } from '@/lib/navigator/navigator-provider';
 import ActiveTags from './active-tags';
 
 export default function HeaderFirstRow(){
-  const { isBelowMobile, isBelowTablet } = useMediaQueryContext();
 
   return (
     <div className="w-full h-full p-0 flex flex-row gap-0 overflow-hidden">

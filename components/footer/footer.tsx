@@ -6,7 +6,10 @@ export default function Footer(){
     <footer
       className="flex h-26 flex-row bg-lmBg dark:bg-dmBg pr-5 pl-5 pt-5 pb-5 bg-transition-2 justify-between"
     >
-      <MobileAboutLink  />
+      <div>
+        <MobileAboutLink  />
+      </div>
+      
       <div className="flex flex-row gap-5">
         <ContactLink href="https://github.com/glimitless" label="GitHub" />
         <ContactLink href="https://www.instagram.com/gian.immanuel/" label="Instagram" />
