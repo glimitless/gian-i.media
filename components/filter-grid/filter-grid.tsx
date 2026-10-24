@@ -12,6 +12,9 @@ function buildDisplayTags(
   activeTagType: TagTypeArgs,
 ): TagArgs[] {
   const tags: TagArgs[] = [];
+  if(activeTagType === 'none'){
+    return tags;
+  }
   if (activeTagType === 'all' || activeTagType === 'keywords') {
     tags.push(...keywords);
   }
