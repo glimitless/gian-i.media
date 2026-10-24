@@ -7,7 +7,7 @@ export default function ContactLink({ href, label}:{href:string, label:string}){
       rel="noopener noreferrer"
     >
       {label}
-      <span className="hidden @min-[50em]/viewport:inline">{'\u00A0↗\uFE0E'}</span>
+      <span className="hidden @min-[41.5em]/viewport:inline">{'\u00A0↗\uFE0E'}</span>
     </a>
   )
 }
