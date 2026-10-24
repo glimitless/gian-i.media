@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       className={`h-full selection:bg-#af81b9 antialiased`}
       suppressHydrationWarning
     >
-      <body className="min-h-full selection:bg-[#ECB3CB] selection:text-lmPrimary bg-lmBg dark:bg-dmBg">
+      <body className="min-h-full selection:bg-[#F1BDC8] selection:text-lmPrimary bg-lmBg dark:bg-dmBg">
         <ThemeProvider>
           <NavigatorProvider>
             <FilterProvider>

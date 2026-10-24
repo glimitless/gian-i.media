@@ -1461,7 +1461,7 @@
                     "src": "seventh-sense/user-experience/gc-dk_ss-iphone-frequency-tuning-ux.webp",
                     "width": 1188,
                     "height": 1440,
-                    "alt": "Proposed 7th Sense app Frequency Tuning curates social feeds from average physiological arousal over a chosen period. It toggles on or off from iOS Control\u00A0Center.",
+                    "alt": "Proposed 7th Sense app Frequency Tuning curates social feeds from physiological arousal over a chosen period. It toggles from iOS Control Center.",
                     "id": "iphone-frequency-tuning-ui"
                   }
                 ]
@@ -1471,7 +1471,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "value": "Proposed 7th Sense app Frequency Tuning curates social feeds from average physiological arousal over a chosen period. It toggles on or off from iOS Control\u00A0Center."
+                    "value": "Proposed 7th Sense app Frequency Tuning curates social feeds from physiological arousal over a chosen period. It toggles from iOS Control Center."
                   }
                 ]
               }
@@ -3420,7 +3420,7 @@
                   },
                   {
                     "type": "text",
-                    "value": ", linking the studio’s earlier work to the new system. Typography, colour, and layout together gave Design Photography a flexible, recognisable voice across notices, events, and information graphics."
+                    "value": ", linking the studio’s earlier work to the new system. Typography, colour, and layout together gave Design Photography a flexible, recognisable voice across notices, events, and information graphics for everyday use around the studio."
                   }
                 ]
               }
@@ -4281,7 +4281,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "value": "This tied environmental graphics to digital communications. I also helped develop labels for equipment and services so students could better navigate the studio’s resources."
+                    "value": "This tied environmental graphics to digital communications. I also developed labels for equipment and services so students could better navigate the studio’s resources."
                   }
                 ]
               }
