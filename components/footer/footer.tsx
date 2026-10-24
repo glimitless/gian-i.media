@@ -8,6 +8,7 @@ export default function Footer(){
     >
       <MobileAboutLink  />
       <div className="flex flex-row gap-5">
+        <ContactLink href="https://github.com/glimitless" label="GitHub" />
         <ContactLink href="https://www.instagram.com/gian.immanuel/" label="Instagram" />
         <ContactLink href="https://www.linkedin.com/in/giancambridge/" label="LinkedIn" />
       </div>
