@@ -131,7 +131,7 @@
 
   --page-layout-overview-column-width: 48em;
   --page-layout-content-column-width: 64em;
-  --page-layout-content-column-width-2: 40em;
+  --page-layout-content-column-width-2: 48em;
   --page-layout-navigation-column-width: 12em;
 }
 
@@ -314,7 +314,7 @@
   .two-column-page-content-column{
     @apply h-auto overflow-scroll scrollbar-none-webkit col-1 pb-5;
   }
-  @container main (min-width: 56em){
+  @container main (min-width: 64em){
     .three-column-page-container, .two-column-page-container{
       @apply w-(--page-layout-content-column-width);
     }
@@ -322,7 +322,7 @@
       @apply w-(--page-layout-content-column-width) grid-cols-(--page-layout-content-column-width);
     }
   }
-  @container main (min-width: 60em){
+  @container main (min-width: 70em){
     .three-column-page-container, .two-column-page-container{
       width: calc(var(--page-layout-content-column-width-2) + var(--page-layout-column-gap) + var(--page-layout-navigation-column-width));
     }
@@ -337,7 +337,7 @@
       @apply w-(--page-layout-content-column-width-2) grid-cols-(--page-layout-content-column-width-2);
     }
   }
-  @container main (min-width: 76em){
+  @container main (min-width: 86em){
     .three-column-page-container, .two-column-page-container{
       width: calc(var(--page-layout-content-column-width) + var(--page-layout-column-gap) + var(--page-layout-navigation-column-width));
     }
@@ -349,7 +349,7 @@
       @apply w-(--page-layout-content-column-width) grid-cols-(--page-layout-content-column-width);
     }
   }
-  @container main (min-width: 124em){
+  @container main (min-width: 144em){
     .three-column-page-container{
       width: calc(var(--page-layout-overview-column-width) + var(--page-layout-column-gap) + var(--page-layout-content-column-width) + var(--page-layout-column-gap) + var(--page-layout-navigation-column-width));
     }
