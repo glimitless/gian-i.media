@@ -3,6 +3,8 @@
 import type { HeaderExpand, SelectedLevel2Option, SidebarExpand } from "@/types/navigator";
 import { useIsBelowMobileBreakpoint, useIsBelowTabletBreakpoint } from "../media-query/mediaQuery";
 import { useRootFontSizePx } from "../media-query/mediaQuery";
+import useHeaderExpandOnColumnScroll from "../hooks/useHeaderExpandOnColumnScroll";
+import { usePathname } from "next/navigation";
 import { 
   useState, 
   useMemo,
@@ -47,22 +49,33 @@ const SidebarContext = createContext<SidebarContextValue | null>(
 
 export default function NavigatorProvider({children} : {children:ReactNode}){
   const rootFontSizePx = useRootFontSizePx();
-  const [ headerExpand, setHeaderExpand ] = useState<HeaderExpand>('hidden');
+  const [ headerExpand, setHeaderExpand ] = useState<HeaderExpand>('level-1');
   const [ selectedLevel2Option, setSelectedLevel2Option ] = useState<SelectedLevel2Option>('');
   const [ sidebarExpand, setSidebarExpand ] = useState<SidebarExpand>('hidden');
   const isBelowMobile = useIsBelowMobileBreakpoint(rootFontSizePx);
   const isBelowTablet = useIsBelowTabletBreakpoint(rootFontSizePx);
+  const pathname = usePathname();
   const mainRef = useRef<HTMLDivElement | null>(null);
   const scrollMainToTop = useCallback(() => {
-    mainRef.current?.scrollTo({ top: 0, behavior: 'smooth' })
+    mainRef.current?.scrollTo({ top: 0, behavior: 'smooth' }) 
   }, []);
 
   useEffect(() => {
-    if (isBelowMobile && headerExpand !== 'hidden'){
-      const updateHeaderExpand = () => setHeaderExpand('hidden');
-      updateHeaderExpand();
+    if (!isBelowMobile) return;
+    const updateHeaderExpand = () => setHeaderExpand('level-1');
+    updateHeaderExpand();
+  }, [isBelowMobile]);
+  useEffect(() => {
+    const showLevel1 = () => {
+      setHeaderExpand((current) => current === 'hidden' ? 'level-1' : current);
     };
-  }, [isBelowMobile, headerExpand]);
+    showLevel1();
+  }, [pathname]);
+  useHeaderExpandOnColumnScroll(
+    setHeaderExpand,
+    mainRef,
+    rootFontSizePx,
+  )
 
   const headerValue = useMemo(
     () => ({

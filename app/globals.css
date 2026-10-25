@@ -455,7 +455,9 @@
 @utility header-transition{
   transition:
     background-color var(--duration-bc2) var(--ease-bc2),
-    height var(--duration-dim1) var(--ease-dim1);
+    height var(--duration-dim1) var(--ease-dim1),
+    padding-top var(--duration-dim1) var(--ease-dim1),
+    padding-bottom var(--duration-dim1) var(--ease-dim1);
 }
 @utility sidebar-transition{
   transition:

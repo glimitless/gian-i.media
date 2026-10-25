@@ -45,7 +45,7 @@ export default function FilterGrid() {
   }, [filteredArchiveIDs, activeTagType]);
 
   return (
-    <div className="grid w-full grid-rows-auto gap-x-28 gap-y-0 grid-cols-1 @min-[48em]/main:gap-y-5 @min-[53.4em]/main:grid-cols-2 @min-[83.6em]/main:grid-cols-3 @min-[113.8em]/main:grid-cols-4 @min-[144em]/main:grid-cols-5 @min-[174.2em]/main:grid-cols-6">
+    <div className="filter-grid grid w-full grid-rows-auto gap-x-28 gap-y-0 grid-cols-1 @min-[48em]/main:gap-y-5 @min-[53.4em]/main:grid-cols-2 @min-[83.6em]/main:grid-cols-3 @min-[113.8em]/main:grid-cols-4 @min-[144em]/main:grid-cols-5 @min-[174.2em]/main:grid-cols-6">
       {filteredArchiveIDs.map((ID) => (
         <FilterGridItem
           title={ID.title}
