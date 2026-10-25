@@ -206,6 +206,24 @@
               }
             ]
           }
+        },
+        {
+          "id": "version-0p925",
+          "content": {
+            "title": "Version 0.925",
+            "blocks": [
+              {
+                "id": "not-the-mobile-filter",
+                "content": {
+                  "title": "Not The Mobile Filter",
+                  "date": "20261025",
+                  "summary": [
+                    "A loosely tested collection of improvements, built over the weekend from a pile of small changes instead of the feature I had planned."
+                  ]
+                }
+              }
+            ]
+          }
         }
       ]
     }
