@@ -4,6 +4,7 @@ import type { HeaderExpand, SelectedLevel2Option, SidebarExpand } from "@/types/
 import { useIsBelowMobileBreakpoint, useIsBelowTabletBreakpoint } from "../media-query/mediaQuery";
 import { useRootFontSizePx } from "../media-query/mediaQuery";
 import useHeaderExpandOnColumnScroll from "../hooks/useHeaderExpandOnColumnScroll";
+import { usePathname } from "next/navigation";
 import { 
   useState, 
   useMemo,
@@ -53,6 +54,7 @@ export default function NavigatorProvider({children} : {children:ReactNode}){
   const [ sidebarExpand, setSidebarExpand ] = useState<SidebarExpand>('hidden');
   const isBelowMobile = useIsBelowMobileBreakpoint(rootFontSizePx);
   const isBelowTablet = useIsBelowTabletBreakpoint(rootFontSizePx);
+  const pathname = usePathname();
   const mainRef = useRef<HTMLDivElement | null>(null);
   const scrollMainToTop = useCallback(() => {
     mainRef.current?.scrollTo({ top: 0, behavior: 'smooth' })
@@ -63,6 +65,12 @@ export default function NavigatorProvider({children} : {children:ReactNode}){
     const updateHeaderExpand = () => setHeaderExpand('hidden');
     updateHeaderExpand();
   }, [isBelowMobile]);
+  useEffect(() => {
+    const showLevel1 = () => {
+      setHeaderExpand((current) => current === 'hidden' ? 'level-1' : current);
+    };
+    showLevel1();
+  }, [pathname]);
   useHeaderExpandOnColumnScroll(
     setHeaderExpand,
     mainRef,
