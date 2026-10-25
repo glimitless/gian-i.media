@@ -3,6 +3,7 @@
 import type { HeaderExpand, SelectedLevel2Option, SidebarExpand } from "@/types/navigator";
 import { useIsBelowMobileBreakpoint, useIsBelowTabletBreakpoint } from "../media-query/mediaQuery";
 import { useRootFontSizePx } from "../media-query/mediaQuery";
+import useHeaderExpandOnColumnScroll from "../hooks/useHeaderExpandOnColumnScroll";
 import { 
   useState, 
   useMemo,
@@ -63,6 +64,12 @@ export default function NavigatorProvider({children} : {children:ReactNode}){
       updateHeaderExpand();
     };
   }, [isBelowMobile, headerExpand]);
+  useHeaderExpandOnColumnScroll(
+    setHeaderExpand,
+    mainRef,
+    rootFontSizePx,
+    isBelowMobile
+  )
 
   const headerValue = useMemo(
     () => ({
