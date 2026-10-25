@@ -5,6 +5,7 @@ import type { HeaderExpand } from "@/types/navigator";
 
 const THREE_COLUMN_BREAKPOINT_EM = 144;
 const HEADER_HEIGHT_TRANSITION_MS = 440;
+const INTENTIONAL_SCROLL_EM = 6;
 const CONTENT_COLUMN_CLASSES = [
   'three-column-page-content-column',
   'two-column-page-content-column',
@@ -21,6 +22,7 @@ export default function useHeaderExpandOnColumnScroll(
   useEffect(() => {
     const lastScrollTop = new WeakMap<HTMLElement, number>();
     let ignoreDirectionUntil = 0;
+    let pendingDelta = 0;
     
     const onScroll = (event: Event) => {
       const target = event.target;
@@ -46,24 +48,32 @@ export default function useHeaderExpandOnColumnScroll(
       // Header height animates for 0.44s. The media column grows and shrinks
       // with it, and the browser adjusts scrollTop. Ignore that adjustment.
       if (performance.now() < ignoreDirectionUntil) return;
+      // A direction change starts over. The short reverse at the end of a
+      // touch scroll stays under the threshold.
+      if ((pendingDelta > 0 && delta < 0) || (pendingDelta < 0 && delta > 0)) {
+        pendingDelta = 0;
+      }
+      pendingDelta += delta;
+      if (Math.abs(pendingDelta) < INTENTIONAL_SCROLL_EM * rootFontSizePx) return;
       const main = mainRef.current;
       const isThreeColumn =
         !!main && main.clientWidth >= THREE_COLUMN_BREAKPOINT_EM * rootFontSizePx;
       // Scroll down hides the header only from level 1.
       // At the three-column breakpoint the media column is the scroller.
       const shouldHide =
-        delta > 0 && (isPageScroll || (isMediaColumn && isThreeColumn));
+        pendingDelta > 0 && (isPageScroll || (isMediaColumn && isThreeColumn));
       if (shouldHide) {
         setHeaderExpand((current) => {
           if (current !== 'level-1') return current;
           ignoreDirectionUntil = performance.now() + HEADER_HEIGHT_TRANSITION_MS;
+          pendingDelta = 0;
           return 'hidden';
         });
         return;
       }
       // Scroll up restores level 1 only while the header is hidden.
       // On mobile, NavigatorProvider forces hidden, so leave it alone.
-      if (delta > 0 || isBelowMobile) return;
+      if (pendingDelta > 0 || isBelowMobile) return;
       const shouldReveal =
         isPageScroll || (isMediaColumn && isThreeColumn);
       if (!shouldReveal) return;
@@ -71,6 +81,7 @@ export default function useHeaderExpandOnColumnScroll(
       setHeaderExpand((current) => {
         if (current !== 'hidden') return current;
         ignoreDirectionUntil = performance.now() + HEADER_HEIGHT_TRANSITION_MS;
+        pendingDelta = 0;
         return 'level-1';
       });
     };
