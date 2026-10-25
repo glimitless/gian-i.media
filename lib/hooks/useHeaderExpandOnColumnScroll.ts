@@ -10,6 +10,7 @@ const CONTENT_COLUMN_CLASSES = [
   'two-column-page-content-column',
 ];
 const MEDIA_COLUMN_CLASS = 'three-column-page-media-container';
+const FILTER_GRID_CLASS = 'filter-grid';
 
 export default function useHeaderExpandOnColumnScroll(
   setHeaderExpand: Dispatch<SetStateAction<HeaderExpand>>,
@@ -29,7 +30,12 @@ export default function useHeaderExpandOnColumnScroll(
         target.classList.contains(className)
       );
       const isMediaColumn = target.classList.contains(MEDIA_COLUMN_CLASS);
-      if (!isContentColumn && !isMediaColumn) return;
+      // The home page scrolls main. The filter grid sits inside that scroller.
+      const isFilterGrid =
+        target.classList.contains(FILTER_GRID_CLASS) ||
+        (target === mainRef.current && !!target.querySelector(`.${FILTER_GRID_CLASS}`));
+      const isPageScroll = isContentColumn || isFilterGrid;
+      if (!isPageScroll && !isMediaColumn) return;
 
       const top = target.scrollTop;
       const previous = lastScrollTop.get(target);
@@ -46,7 +52,7 @@ export default function useHeaderExpandOnColumnScroll(
       // Scroll down hides the header only from level 1.
       // At the three-column breakpoint the media column is the scroller.
       const shouldHide =
-        delta > 0 && (isContentColumn || (isMediaColumn && isThreeColumn));
+        delta > 0 && (isPageScroll || (isMediaColumn && isThreeColumn));
       if (shouldHide) {
         setHeaderExpand((current) => {
           if (current !== 'level-1') return current;
@@ -59,7 +65,7 @@ export default function useHeaderExpandOnColumnScroll(
       // On mobile, NavigatorProvider forces hidden, so leave it alone.
       if (delta > 0 || isBelowMobile) return;
       const shouldReveal =
-        isContentColumn || (isMediaColumn && isThreeColumn);
+        isPageScroll || (isMediaColumn && isThreeColumn);
       if (!shouldReveal) return;
 
       setHeaderExpand((current) => {
