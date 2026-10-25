@@ -57,7 +57,7 @@ export default function NavigatorProvider({children} : {children:ReactNode}){
   const pathname = usePathname();
   const mainRef = useRef<HTMLDivElement | null>(null);
   const scrollMainToTop = useCallback(() => {
-    mainRef.current?.scrollTo({ top: 0, behavior: 'smooth' })
+    mainRef.current?.scrollTo({ top: 0, behavior: 'smooth' }) 
   }, []);
 
   useEffect(() => {
