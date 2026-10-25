@@ -6,7 +6,6 @@ import FilterProvider from '@/lib/filter/filter-provider';
 import NavigatorProvider from '@/lib/navigator/navigator-provider';
 import Sidebar from '@/components/sidebar/sidebar';
 import Header from '@/components/header/header';
-import Footer from '@/components/footer/footer';
 import MainScroll from '@/components/main-scroll/main-scroll';
 
 export const metadata: Metadata = {
@@ -29,17 +28,15 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 <Sidebar />
                 <div className="@container/content self-stretch flex min-w-0 flex-1 flex-col">
                   <Header />
-                    <MainScroll>
-                      {children}
-                    </MainScroll>
-                  <Footer />
+                  <MainScroll>
+                    {children}
+                  </MainScroll>
                 </div>
               </div>
             </FilterProvider>
           </NavigatorProvider>
         </ThemeProvider>
       </body>
-      
     </html>
   );
 }
