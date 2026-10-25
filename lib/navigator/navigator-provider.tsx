@@ -62,7 +62,7 @@ export default function NavigatorProvider({children} : {children:ReactNode}){
 
   useEffect(() => {
     if (!isBelowMobile) return;
-    const updateHeaderExpand = () => setHeaderExpand('hidden');
+    const updateHeaderExpand = () => setHeaderExpand('level-1');
     updateHeaderExpand();
   }, [isBelowMobile]);
   useEffect(() => {
