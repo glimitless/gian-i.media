@@ -7,9 +7,10 @@ import { useHeaderContext } from '@/lib/navigator/navigator-provider';
 import HeaderFirstRow from './containers/header-first-row';
 
 const HEADER_HEIGHT: Record<HeaderExpand, string> = {
-  'hidden': 'h-26',
-  'level-1': 'h-46',
-  'level-2': 'h-66',
+  'hidden': 'h-0',
+  'level-1': 'h-26',
+  'level-2': 'h-46',
+  'level-3': 'h-66'
 }
 
 export default function Header(){

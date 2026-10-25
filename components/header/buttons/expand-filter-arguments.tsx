@@ -29,15 +29,15 @@ export default function ExpandFilterArguments({variantProps}:{variantProps:Varia
 
   function onClick(){
     const isThisOpen = 
-      headerExpand === 'level-2' && selectedLevel2Option === variantProps.type;
+      headerExpand === 'level-3' && selectedLevel2Option === variantProps.type;
 
     if(isThisOpen){
-      setHeaderExpand('level-1');
+      setHeaderExpand('level-2');
       // setSelectedLevel2Option('');
       return;
     }
 
-    setHeaderExpand('level-2');
+    setHeaderExpand('level-3');
     setSelectedLevel2Option(variantProps.type);
   }
 
@@ -59,12 +59,12 @@ export default function ExpandFilterArguments({variantProps}:{variantProps:Varia
     
   return (
     <button 
-      className={`btn-template ${headerExpand === 'level-2' && selectedLevel2Option === variantProps.type ? 'btn-template-active cursor-pointer' : ''} px-4 shrink-0 gap-2`}
+      className={`btn-template ${headerExpand === 'level-3' && selectedLevel2Option === variantProps.type ? 'btn-template-active cursor-pointer' : ''} px-4 shrink-0 gap-2`}
       onClick={onClick}
     >
       {message}
       <DownArrowhead 
-        className={`w-[0.8rem] h-auto ${headerExpand === 'level-2' && selectedLevel2Option === variantProps.type ? 'rotate-180' : 'rotate-0'} down-arrowhead-transition`} 
+        className={`w-[0.8rem] h-auto ${headerExpand === 'level-3' && selectedLevel2Option === variantProps.type ? 'rotate-180' : 'rotate-0'} down-arrowhead-transition`} 
       />
     </button>
   )

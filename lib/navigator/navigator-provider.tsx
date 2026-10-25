@@ -47,7 +47,7 @@ const SidebarContext = createContext<SidebarContextValue | null>(
 
 export default function NavigatorProvider({children} : {children:ReactNode}){
   const rootFontSizePx = useRootFontSizePx();
-  const [ headerExpand, setHeaderExpand ] = useState<HeaderExpand>('hidden');
+  const [ headerExpand, setHeaderExpand ] = useState<HeaderExpand>('level-1');
   const [ selectedLevel2Option, setSelectedLevel2Option ] = useState<SelectedLevel2Option>('');
   const [ sidebarExpand, setSidebarExpand ] = useState<SidebarExpand>('hidden');
   const isBelowMobile = useIsBelowMobileBreakpoint(rootFontSizePx);
