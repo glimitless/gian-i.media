@@ -1259,6 +1259,87 @@
             ] 
           }
         ]
+      },
+      {
+        "id": "version-0p925",
+        "blocks": [
+          {
+            "id": "not-the-mobile-filter",
+            "items": [
+              [
+                {
+                  "type": "media",
+                  "content": [
+                    {
+                      "type": "image",
+                      "aspect": "3/2",
+                      "src": "birth/version-0p925/gc_birth-not-the-mobile-filter.webp",
+                      "width": 1440,
+                      "height": 960,
+                      "alt": "Screenshot of Gian-I Cambridge's GitHub profile",
+                      "id": "glimitless-github-sc"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "I'm getting the chance to shadow some super talented programmers soon, which inspired me to burn the midnight oil this weekend, open this project back up, and try to make some improvements. I ended up completely ignoring my self-imposed plan to build a mobile filter system, and instead made a collection of smaller adjustments. They culminate in an experimental version 0.925, not properly tested at all, but with a ton of fun poured into it."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "The adjustments include a larger text size, wider columns, and more viewing space for the content. The extra space came from changing how the header and footer behave, though I still want to put more work into both."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "I'm also realizing that the way I use GitHub for personal projects is weird. Apparently, people commit all the progress, the good and the ugly, through branches. I used to commit only polished versions of the site. Now I'm turning this into a new social media of mine: music up, committing like crazy, with personality mixed in."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "Drop "
+                    },
+                    {
+                      "type": "external-link",
+                      "href": "https://www.linkedin.com/in/grace-grothaus-aa98b7227/",
+                      "label": "your boy"
+                    },
+                    {
+                      "type": "text",
+                      "value": " a follow if you want to stay tuned."
+                    }
+                  ]
+                },
+                
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "More soon."
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
       }
     ]
   }
