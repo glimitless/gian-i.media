@@ -17,7 +17,6 @@ export default function useHeaderExpandOnColumnScroll(
   setHeaderExpand: Dispatch<SetStateAction<HeaderExpand>>,
   mainRef: RefObject<HTMLElement | null>,
   rootFontSizePx: number,
-  isBelowMobile: boolean,
 ){
   useEffect(() => {
     const lastScrollTop = new WeakMap<HTMLElement, number>();
@@ -72,8 +71,7 @@ export default function useHeaderExpandOnColumnScroll(
         return;
       }
       // Scroll up restores level 1 only while the header is hidden.
-      // On mobile, NavigatorProvider forces hidden, so leave it alone.
-      if (pendingDelta > 0 || isBelowMobile) return;
+      if (pendingDelta > 0) return;
       const shouldReveal =
         isPageScroll || (isMediaColumn && isThreeColumn);
       if (!shouldReveal) return;
@@ -90,5 +88,5 @@ export default function useHeaderExpandOnColumnScroll(
     return () => {
       document.removeEventListener('scroll', onScroll, { capture: true });
     };
-  }, [setHeaderExpand, mainRef, rootFontSizePx, isBelowMobile]);
+  }, [setHeaderExpand, mainRef, rootFontSizePx]);
 }

@@ -59,16 +59,14 @@ export default function NavigatorProvider({children} : {children:ReactNode}){
   }, []);
 
   useEffect(() => {
-    if (isBelowMobile && headerExpand !== 'hidden'){
-      const updateHeaderExpand = () => setHeaderExpand('hidden');
-      updateHeaderExpand();
-    };
-  }, [isBelowMobile, headerExpand]);
+    if (!isBelowMobile) return;
+    const updateHeaderExpand = () => setHeaderExpand('hidden');
+    updateHeaderExpand();
+  }, [isBelowMobile]);
   useHeaderExpandOnColumnScroll(
     setHeaderExpand,
     mainRef,
     rootFontSizePx,
-    isBelowMobile
   )
 
   const headerValue = useMemo(
