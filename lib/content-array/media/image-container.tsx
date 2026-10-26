@@ -53,7 +53,7 @@ export default function ImageContainer({ children, aspect, src, width, height, a
       </button>
       {isImgOpen && (
         <div
-          className="fixed inset-0 z-1 flex items-center justify-center bg-lmImageModalBackground dark:bg-dmImageModalBackground"
+          className="fixed inset-0 z-6 flex items-center justify-center bg-lmImageModalBackground dark:bg-dmImageModalBackground"
           onClick={() => setIsImgOpen(false)}
         >
           <button
