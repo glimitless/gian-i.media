@@ -47,6 +47,13 @@ const SidebarContext = createContext<SidebarContextValue | null>(
   null,
 )
 
+export const HEADER_MARGIN: Record<HeaderExpand, string> = {
+  'hidden': 'mt-26',
+  'level-1': 'mt-26',
+  'level-2': 'mt-46',
+  'level-3': 'mt-66'
+};
+
 export default function NavigatorProvider({children} : {children:ReactNode}){
   const rootFontSizePx = useRootFontSizePx();
   const [ headerExpand, setHeaderExpand ] = useState<HeaderExpand>('level-1');

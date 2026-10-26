@@ -406,6 +406,10 @@
     scale var(--duration-sc) var(--ease-sc),
     color var(--duration-c) var(--ease-c);
 }
+@utility header-margin-transition{
+  transition:
+    margin-top var(--duration-dim1) var(--ease-dim1);
+}
 @utility color-theme-indicator-transition{
   transition: 
     background-color var(--duration-bc) var(--ease-bc),

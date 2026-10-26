@@ -5,7 +5,7 @@ import type { HeaderExpand } from "@/types/navigator";
 
 const THREE_COLUMN_BREAKPOINT_EM = 144;
 const HEADER_HEIGHT_TRANSITION_MS = 440;
-const INTENTIONAL_SCROLL_EM = 6;
+const INTENTIONAL_SCROLL_EM = 3;
 const CONTENT_COLUMN_CLASSES = [
   'three-column-page-content-column',
   'two-column-page-content-column',

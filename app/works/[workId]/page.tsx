@@ -5,6 +5,7 @@ import { findArchiveWorkRecord } from '@/lib/archive/archive-works';
 import WorkExpandedDescription from '@/components/work/work-expanded-description';
 import WorkCollectionsGrid from '@/components/work/work-collections-grid';
 import ThumbnailNav from '@/components/thumbnail-nav/thumbnail-nav';
+import HeaderMargin from '@/lib/navigator/header-margin';
 
 type WorkPageProps = {
   params: Promise< {workId:string }>
@@ -19,9 +20,10 @@ export default async function WorkPage({ params }:WorkPageProps){
 
   return (
     <div className="three-column-page-container">
-      <div className="three-column-page-grid">
+      <div className={`three-column-page-grid`}>
         <div className="three-column-page-content-column">
           <div className="three-column-page-overview-container">
+            <HeaderMargin />
             <WorkOverviewContainer 
               title={archiveIDRecord.title} 
               date={archiveIDRecord.date}
@@ -29,6 +31,7 @@ export default async function WorkPage({ params }:WorkPageProps){
             />
           </div>
           <div className="three-column-page-media-container">
+            <HeaderMargin isMediaColumn />
             <WorkCollectionsGrid 
               collections={work.content.collectionLinks} 
               workId={workId}

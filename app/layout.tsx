@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <FilterProvider>
               <div className="@container/viewport min-h-dvh h-dvh flex flex-row">
                 <Sidebar />
-                <div className="@container/content self-stretch flex min-w-0 flex-1 flex-col">
+                <div className="@container/content relative self-stretch flex min-w-0 flex-1 flex-col">
                   <Header />
                   <MainScroll>
                     {children}

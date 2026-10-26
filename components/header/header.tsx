@@ -11,7 +11,7 @@ const HEADER_HEIGHT: Record<HeaderExpand, string> = {
   'level-1': 'h-26 py-3',
   'level-2': 'h-46 py-3',
   'level-3': 'h-66 py-3'
-}
+};
 
 export default function Header(){
   const { headerExpand } = useHeaderContext();
@@ -19,7 +19,7 @@ export default function Header(){
 
   return (
     <header
-      className={`${headerHeight} w-full max-w-full min-h-0 min-w-0 overflow-hidden px-3 bg-lmBg dark:bg-dmBg header-transition`}
+      className={`${headerHeight} absolute z-4 w-full max-w-full min-h-0 min-w-0 overflow-hidden px-3 bg-lmBg dark:bg-dmBg header-transition`}
     >
       <div
         className="w-full h-full min-w-0 flex flex-col items-stretch gap-0 overflow-hidden p-0"
