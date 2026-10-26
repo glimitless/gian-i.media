@@ -92,21 +92,21 @@ export default function PDFViewer({ pages }: { pages: MediaPartArgs[] }) {
   )
 
   const singleImageModal = isOpen && isSinglePage && pages[0].type === 'image' && (
-    <div className="fixed inset-0 flex-col z-1 flex items-center justify-center bg-lmImageModalBackground dark:bg-dmImageModalBackground">
+    <div className="fixed inset-0 flex-col z-6 flex items-center justify-center bg-lmImageModalBackground dark:bg-dmImageModalBackground">
       <button
         type="button"
-        className="absolute top-8 right-8 z-4 p-0 cursor-pointer opacity-75"
+        className="absolute top-8 right-8 z-9 p-0 cursor-pointer opacity-75"
         aria-label="Close image modal"
         onClick={() => setIsOpen(false)}
       >
         <ImgModalX className="w-10 h-10 text-lmSecondary dark:text-dmSecondary" />
       </button>
-      {!isImgLoaded && <div className="absolute z-2 loader" />}
+      {!isImgLoaded && <div className="absolute z-7 loader" />}
       <PDFPageMedia
         page={pages[0]}
         quality="full"
         currentPage={0}
-        className={`${isImgLoaded ? 'opacity-100' : 'opacity-0'} z-3 max-w-[95vw] max-h-95vh`}
+        className={`${isImgLoaded ? 'opacity-100' : 'opacity-0'} z-8 max-w-[95vw] max-h-95vh`}
         onLoad={() => setIsImgLoaded(true)}
       />
     </div>

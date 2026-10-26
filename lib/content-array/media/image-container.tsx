@@ -58,13 +58,13 @@ export default function ImageContainer({ children, aspect, src, width, height, a
         >
           <button
             type="button"
-            className="absolute top-8 right-8 z-4 p-0 cursor-pointer opacity-75"
+            className="absolute top-8 right-8 z-9 p-0 cursor-pointer opacity-75"
             aria-label="Close image modal"
             onClick={() => setIsImgOpen(false)}
           >
             <ImgModalX className="w-10 h-10 text-lmSecondary dark:text-dmSecondary" />
           </button>
-          {!isImgLoaded && <div className="absolute z-2 loader" />}
+          {!isImgLoaded && <div className="absolute z-7 loader" />}
         
           <Image
             className={`${isImgLoaded ? 'opacity-100' : 'opacity-0'} z-3 w-auto h-auto max-w-[95vw] max-h-[95vh]`}
