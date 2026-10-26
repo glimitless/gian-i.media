@@ -5,8 +5,7 @@ import FilterGridItem from './containers/filter-grid-item';
 import type { TagArgs, TagTypeArgs } from '@/types/filter';
 import type { GroupIdArgs } from '@/types/archive';
 import { useMemo } from 'react';
-import { HEADER_MARGIN } from '@/lib/navigator/navigator-provider';
-import { useHeaderContext } from '@/lib/navigator/navigator-provider';
+import HeaderMargin from '@/lib/navigator/header-margin';
 
 function buildDisplayTags(
   keywords: TagArgs[],
@@ -32,7 +31,6 @@ function buildDisplayTags(
 export default function FilterGrid() {
   const { filterArguments, filteredArchiveIDs, onToggleTag } = useFilterContext();
   const { tagType: activeTagType, tags: activeTags } = filterArguments;
-  const { headerExpand } = useHeaderContext();
 
   const activeTagSet = useMemo(() => new Set(activeTags), [activeTags]);
 
@@ -48,20 +46,24 @@ export default function FilterGrid() {
   }, [filteredArchiveIDs, activeTagType]);
 
   return (
-    <div className={`filter-grid grid w-full grid-rows-auto gap-x-28 gap-y-0 grid-cols-1 @min-[48em]/main:gap-y-5 @min-[53.4em]/main:grid-cols-2 @min-[83.6em]/main:grid-cols-3 @min-[113.8em]/main:grid-cols-4 @min-[144em]/main:grid-cols-5 @min-[174.2em]/main:grid-cols-6 ${HEADER_MARGIN[headerExpand]} header-margin-transition`}>
-      {filteredArchiveIDs.map((ID) => (
-        <FilterGridItem
-          title={ID.title}
-          Thumbnail={ID.thumbnail}
-          date={ID.date}
-          tags={displayTagsById.get(ID.id) ?? []}
-          onToggleTag={onToggleTag}
-          activeTagSet={activeTagSet}
-          type={ID.type}
-          id={ID.id}
-          key={ID.id}
-        />
-      ))}
+    <div>
+      <HeaderMargin />
+      <div className={`filter-grid grid w-full grid-rows-auto gap-x-28 gap-y-0 grid-cols-1 @min-[48em]/main:gap-y-5 @min-[53.4em]/main:grid-cols-2 @min-[83.6em]/main:grid-cols-3 @min-[113.8em]/main:grid-cols-4 @min-[144em]/main:grid-cols-5 @min-[174.2em]/main:grid-cols-6`}>
+        {filteredArchiveIDs.map((ID) => (
+          <FilterGridItem
+            title={ID.title}
+            Thumbnail={ID.thumbnail}
+            date={ID.date}
+            tags={displayTagsById.get(ID.id) ?? []}
+            onToggleTag={onToggleTag}
+            activeTagSet={activeTagSet}
+            type={ID.type}
+            id={ID.id}
+            key={ID.id}
+          />
+        ))}
+      </div>
     </div>
+    
   );
 }
