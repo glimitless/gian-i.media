@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation';
 import { findArchiveWorkRecord, findArchiveWorkCollectionContent } from '@/lib/archive/archive-works';
 import WorkCollectionOverviewContainer from '@/components/work-collection/work-collection-overview-container';
 import renderContentBody from '@/lib/content-array/render-content-body';
+import HeaderMargin from '@/lib/navigator/header-margin';
 
 type WorkCollectionPageProps = {
   params: Promise<{workId:GroupIdArgs, collectionId:IndividualIdArgs}>
@@ -31,6 +32,7 @@ export default async function WorkCollectionPage({ params }:WorkCollectionPagePr
       <div className="three-column-page-grid">
         <div className="three-column-page-content-column">
         <div className="three-column-page-overview-container">
+          <HeaderMargin />
           <WorkCollectionOverviewContainer
             collectionTitle={archiveWorkCollectionLink.title}
             workTitle={archiveIDRecord.title}
@@ -39,6 +41,7 @@ export default async function WorkCollectionPage({ params }:WorkCollectionPagePr
           />
         </div>
         <div className="three-column-page-media-container space-y-15">
+          <HeaderMargin isMediaColumn />
           {renderContentBody(archiveWorkCollectionContent.content.items)}
         </div>
         </div>

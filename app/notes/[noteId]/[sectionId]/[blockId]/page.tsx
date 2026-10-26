@@ -4,6 +4,7 @@ import { findArchiveNoteSectionContent, findArchiveNoteRecord, getNoteSectionNei
 import type { GroupIdArgs, IndividualBlockIdArgs, IndividualIdArgs } from '@/types/archive';
 import { notFound } from 'next/navigation';
 import NoteSectionPageBody from '@/components/note-section/note-section-page-body';
+import HeaderMargin from '@/lib/navigator/header-margin';
 
 type NoteSectionPageProps =  {
   params: Promise<{noteId:GroupIdArgs, sectionId:IndividualIdArgs, blockId:IndividualBlockIdArgs}>
@@ -30,6 +31,7 @@ export default async function NoteSectionBlockPage({ params }:NoteSectionPagePro
     <div className="two-column-page-container">
       <div className="two-column-page-grid">
         <div className="two-column-page-content-column">
+          <HeaderMargin />
           <NoteSectionPageBody 
             blockId={blockId}
             noteTitle={archiveIDRecord.title}

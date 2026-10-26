@@ -4,6 +4,7 @@ import { findArchiveNoteRecord } from '@/lib/archive/archive-notes';
 import { GroupIdArgs } from '@/types/archive';
 import { notFound } from 'next/navigation';
 import NotePageBody from '@/components/note/note-page-body';
+import HeaderMargin from '@/lib/navigator/header-margin';
 
 type NotePageProps = {
   params: Promise<{noteId: GroupIdArgs}>
@@ -22,6 +23,7 @@ export default async function NotePage({ params } : NotePageProps){
     <div className="two-column-page-container">
       <div className="two-column-page-grid">
         <div className="two-column-page-content-column">
+          <HeaderMargin />
           <NotePageBody 
             title={archiveIDRecord.title}
             subtitle={archiveNoteRecord.content.subtitle}
