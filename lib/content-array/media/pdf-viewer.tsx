@@ -72,7 +72,7 @@ export default function PDFViewer({ pages }: { pages: MediaPartArgs[] }) {
   }, [isOpen, isSinglePage, pageCount])
 
   const multiPageModal = (isOpen && !isSinglePage) && (
-    <div className="fixed inset-0 flex flex-col z-1">
+    <div className="fixed inset-0 flex flex-col z-6">
       <div className="flex-1 min-h-0 flex items-center content-center justify-center bg-lmImageModalBackground dark:bg-dmImageModalBackground">
         <PDFPageMedia
           page={activePage}
