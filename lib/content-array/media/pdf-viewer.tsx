@@ -8,6 +8,14 @@ import PDFExpandModal from './pdf/pdf-expand-modal';
 import PDFPageMedia from './pdf/pdf-page-media';
 import clampPDFPage from './pdf/clamp-pdf-page';
 
+const PRERENDER_RADIUS = 2;
+
+function pageRenderRange(current: number, count: number){
+  const start = Math.max(0, current - PRERENDER_RADIUS);
+  const end = Math.min(count - 1, current + PRERENDER_RADIUS);
+  return Array.from({ length: end - start + 1 }, (_, index) => start + index);
+};
+
 export default function PDFViewer({ pages }: { pages: MediaPartArgs[] }) {
   const isSinglePage = pages.length === 1;
   const pageCount = pages.length;
@@ -73,12 +81,24 @@ export default function PDFViewer({ pages }: { pages: MediaPartArgs[] }) {
 
   const multiPageModal = (isOpen && !isSinglePage) && (
     <div className="fixed inset-0 flex flex-col z-6">
-      <div className="flex-1 min-h-0 flex items-center content-center justify-center bg-lmImageModalBackground dark:bg-dmImageModalBackground">
-        <PDFPageMedia
-          page={activePage}
-          quality='full'
-          currentPage={currentPage}
-        />
+      <div className="relative flex-1 min-h-0 bg-lmImageModalBackground dark:bg-dmImageModalBackground">
+        {pageRenderRange(currentPage, pageCount).map((index) => {
+          const isActive = index === currentPage;
+          return (
+            <div
+              key={index}
+              className={`absolute inset-0 flex items-center justify-center ${isActive ? '' : 'invisible pointer-events-none'}`}
+              aria-hidden={!isActive}
+              inert={!isActive}
+            >
+              <PDFPageMedia
+                page={pages[index]}
+                quality="full"
+                isActive={isActive}
+              />
+            </div>
+          );
+        })}
       </div>
       <div className="h-26 bg-lmSurface dark:bg-dmSurface flex flex-row justify-between pl-5 pr-5 pb-5 pt-5">
         <PDFDirectionControls
@@ -105,9 +125,9 @@ export default function PDFViewer({ pages }: { pages: MediaPartArgs[] }) {
       <PDFPageMedia
         page={pages[0]}
         quality="full"
-        currentPage={0}
         className={`${isImgLoaded ? 'opacity-100' : 'opacity-0'} z-8 max-w-[95vw] max-h-95vh`}
         onLoad={() => setIsImgLoaded(true)}
+        isActive={true}
       />
     </div>
   )
@@ -115,10 +135,25 @@ export default function PDFViewer({ pages }: { pages: MediaPartArgs[] }) {
   return (
     <div className="pdf-viewer block">
       <div
-        className="w-full aspect-5/4 bg-lmSurface dark:bg-dmSurface bcvg-transition mb-[0.6rem] flex justify-center items-center"
+        className="relative w-full aspect-5/4 bg-lmSurface dark:bg-dmSurface bcvg-transition mb-[0.6rem] flex justify-center items-center"
         onClick={onPDFBackgroundClick}
       >
-        <PDFPageMedia page={activePage} currentPage={currentPage} />
+        {pageRenderRange(currentPage, pageCount).map((index) => {
+          const isActive = index === currentPage;
+          return (
+            <div
+              key={index}
+              className={`absolute inset-0 flex items-center justify-center ${isActive ? '' : 'invisible pointer-events-none'}`}
+              aria-hidden={!isActive}
+              inert={!isActive}
+            >
+              <PDFPageMedia 
+                page={pages[index]} 
+                isActive={isActive}
+              />
+            </div>
+          )
+        })}
       </div>
       {!isSinglePage && (
         <div

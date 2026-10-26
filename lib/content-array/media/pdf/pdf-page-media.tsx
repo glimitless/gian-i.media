@@ -7,17 +7,17 @@ import { useEffect, useRef } from 'react';
 type PDFPageMediaProps = {
   page: MediaPartArgs;
   quality?: 'preview' | 'full';
-  currentPage: number;
   className?: string;
   onLoad?: () => void;
+  isActive: boolean;
 }
 
 export default function PDFPageMedia({
   page,
   quality = 'preview',
-  currentPage,
   className,
   onLoad,
+  isActive
 }: PDFPageMediaProps) {
   const skipVideoReset = useRef(true);
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -29,10 +29,10 @@ export default function PDFPageMedia({
     }
 
     const video = videoRef.current;
-    if (!video) return;
+    if (!video || isActive) return;
     video.pause();
     video.currentTime = 0;
-  }, [currentPage]);
+  }, [isActive]);
 
   if (page.type === 'image') {
     const isFull = quality === 'full';
