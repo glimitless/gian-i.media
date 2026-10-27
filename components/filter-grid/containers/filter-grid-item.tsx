@@ -38,7 +38,7 @@ function FilterGridItem({
       </Link>
       <p className="mt-3">{title}</p>
       <h3 className="">{formatDate(date)}</h3>
-      <h3 className="mt-[0.195rem] flex flex-wrap gap-x-[0.24rem]">
+      <h3 className="mt-[0.195rem] flex flex-wrap gap-x-[0.245rem]">
         {tags.map((tag, i) => (
           <span key={tag} className="whitespace-nowrap">
             <button

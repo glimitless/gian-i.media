@@ -1,20 +1,31 @@
-import ContactLink from "./buttons/contact-link";
+'use client';
+
 import { MobileAboutLink } from "./buttons/mobile-about-link";
+import ContactLinks from "./container/contact-links";
+import { useState, useEffect } from "react";
+import { useMediaQueryContext } from "@/lib/navigator/navigator-provider";
 
 export default function Footer(){
+  const [ isExpanded, setIsExpanded ] = useState<boolean>(false);
+  const { isBelowMobile } = useMediaQueryContext();
+
+
+  // useEffect(() => {
+
+  // }, [isBelowMobile])
+
   return (
     <footer
-      className="flex flex-row bg-lmBg dark:bg-dmBg pr-[0.4rem] pl-[0.4rem] pt-[0.4rem] pb-[0.4rem] bg-transition-2 justify-between"
+      className="flex flex-row bg-lmBg dark:bg-dmBg bg-transition-2 justify-between"
     >
-      <div>
+      <div className={`overflow-hidden whitespace-nowrap ${isExpanded ? 'w-0' : 'w-auto'}`}>
         <MobileAboutLink  />
       </div>
       
-      <div className="flex flex-row gap-5">
-        <ContactLink href="https://github.com/glimitless" label="GitHub" />
-        <ContactLink href="https://www.instagram.com/gian.immanuel/" label="Instagram" />
-        <ContactLink href="https://www.linkedin.com/in/giancambridge/" label="LinkedIn" />
-      </div>
+      <ContactLinks 
+        isExpanded={isExpanded}
+        setIsExpanded={setIsExpanded}
+      />
     </footer>
   )
 }
