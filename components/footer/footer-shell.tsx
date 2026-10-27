@@ -16,12 +16,13 @@ export default function FooterShell(){
   const isContentPage = pathname !== '/';
   const footerRef = useRef<HTMLDivElement>(null);
   const [footerHeight, setFooterHeight] = useState(0);
-  const reveal = useColumnFooterReveal(
+  useColumnFooterReveal(
     isContentPage,
     mainRef,
     rootFontSizePx,
     footerHeight,
     pathname,
+    footerRef,
   );
 
   useLayoutEffect(() => {
@@ -46,8 +47,6 @@ export default function FooterShell(){
     );
   }
 
-  const hidden = footerHeight - reveal;
-
   return (
     <div
       className="pointer-events-none absolute inset-x-0 bottom-0 z-10 overflow-hidden"
@@ -55,10 +54,9 @@ export default function FooterShell(){
     >
       <div
         ref={footerRef}
-        className={`${shellClass} pointer-events-auto`}
-        style={{ transform: `translateY(${hidden}px)` }}
-        inert={reveal === 0}
-        aria-hidden={reveal === 0}
+        className={`${shellClass} pointer-events-auto footer-column-reveal`}
+        inert
+        aria-hidden="true"
       >
         <Footer />
       </div>
