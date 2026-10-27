@@ -24,9 +24,6 @@ export default async function NoteSectionBlockPage({ params }:NoteSectionPagePro
   const archiveNoteSectionContent = findArchiveNoteSectionContent(noteId, sectionId);
   if(!archiveNoteSectionContent) notFound();
 
-
-  
-
   return (
     <div className="two-column-page-container">
       <div className="two-column-page-grid">
