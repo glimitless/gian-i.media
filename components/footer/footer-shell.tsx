@@ -2,35 +2,66 @@
 
 import Footer from "./footer";
 import { usePathname } from "next/navigation";
-import { useLayoutEffect } from "react";
+import { useLayoutEffect, useRef, useState } from "react";
 import { useHeaderContext } from "@/lib/navigator/navigator-provider";
 import { useRootFontSizePx } from "@/lib/media-query/mediaQuery";
-import useColumnScrolledToEnd from "@/lib/hooks/useColumnScrolledToEnd";
-import { contentScroller } from "@/lib/hooks/useColumnScrolledToEnd";
+import useColumnFooterReveal from "@/lib/hooks/useColumnScrolledToEnd";
+
+const shellClass = "pl-[0.85rem] pr-[0.85rem] pt-[0.85rem] pb-[0.85rem] bg-lmBg dark:bg-dmBg bg-transition-2";
 
 export default function FooterShell(){
   const pathname = usePathname();
   const { mainRef } = useHeaderContext();
   const rootFontSizePx = useRootFontSizePx();
   const isContentPage = pathname !== '/';
-  const atEnd = useColumnScrolledToEnd(isContentPage, mainRef, rootFontSizePx);
+  const footerRef = useRef<HTMLDivElement>(null);
+  const [footerHeight, setFooterHeight] = useState(0);
+  const reveal = useColumnFooterReveal(
+    isContentPage,
+    mainRef,
+    rootFontSizePx,
+    footerHeight,
+    pathname,
+  );
 
   useLayoutEffect(() => {
-    if(!isContentPage || !atEnd) return;
-    const main = mainRef.current;
-    if(!main) return;
-    const column = contentScroller(main, rootFontSizePx);
-    if(!column) return;
-    const distance = column.scrollHeight - column.scrollTop - column.clientHeight;
-    if(distance > 1) column.scrollTop += distance;
-  }, [isContentPage, atEnd, mainRef, rootFontSizePx]);
+    if (!isContentPage) return;
 
-  if(isContentPage && !atEnd) return null;
+    const footer = footerRef.current;
+    if (!footer) return;
+
+    const measure = () => setFooterHeight(footer.offsetHeight);
+    measure();
+
+    const observer = new ResizeObserver(measure);
+    observer.observe(footer);
+    return () => observer.disconnect();
+  }, [isContentPage, pathname]);
+
+  if (!isContentPage) {
+    return (
+      <div className={shellClass}>
+        <Footer />
+      </div>
+    );
+  }
+
+  const hidden = footerHeight - reveal;
 
   return (
-    <div className="pl-[0.85rem] pr-[0.85rem] pt-[0.85rem] pb-[0.85rem]">
-      <Footer />
+    <div
+      className="pointer-events-none absolute inset-x-0 bottom-0 z-10 overflow-hidden"
+      style={{ height: footerHeight }}
+    >
+      <div
+        ref={footerRef}
+        className={`${shellClass} pointer-events-auto`}
+        style={{ transform: `translateY(${hidden}px)` }}
+        inert={reveal === 0}
+        aria-hidden={reveal === 0}
+      >
+        <Footer />
+      </div>
     </div>
-  )
-  
+  );
 }
