@@ -17,7 +17,8 @@ export function getVerticalScrollParent(element: (Element | null | undefined)):(
 export function scrollToBlock(
   scrollParent: HTMLElement, 
   blockElement: Element, 
-  containerElement: Element
+  containerElement: Element,
+  offset = 0
 ):void {
   // Viewport positions of the scroll column, target block, and note wrapper.
   const parentRect = scrollParent.getBoundingClientRect();
@@ -26,7 +27,7 @@ export function scrollToBlock(
 
   // scrollTop that aligns the block's top with the top of the scroll column.
   const blockTop =
-    scrollParent.scrollTop + (blockRect.top - parentRect.top);
+    scrollParent.scrollTop + (blockRect.top - parentRect.top) - offset;
   // scrollTop coordinate of the note container's bottom edge (in content space).
   const containerBottom =
     scrollParent.scrollTop + (containerRect.bottom - parentRect.top);

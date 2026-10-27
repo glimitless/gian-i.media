@@ -29,7 +29,12 @@ export default function NoteSectionBlockScrollContainer({ blockId, blockIds, chi
     )
     if (!blockElement) return;
 
-    scrollToBlock(scrollParent, blockElement, container);
+    const headerMargin = scrollParent.querySelector(':scope > .header-margin-transition');
+    const headerMarginTop = headerMargin
+      ? parseFloat(getComputedStyle(headerMargin).marginTop)
+      : 0;
+
+    scrollToBlock(scrollParent, blockElement, container, headerMarginTop);
   }, [blockId, blockIds]);
 
   return (
