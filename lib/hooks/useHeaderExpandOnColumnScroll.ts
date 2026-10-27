@@ -42,6 +42,21 @@ export default function useHeaderExpandOnColumnScroll(
       const previous = lastScrollTop.get(target);
       lastScrollTop.set(target, top);
       if (previous === undefined) return;
+      if (top <= 0) {
+        pendingDelta = 0;
+        const main = mainRef.current;
+        const isThreeColumn =
+          !!main && main.clientWidth >= THREE_COLUMN_BREAKPOINT_EM * rootFontSizePx;
+        const shouldReveal = isPageScroll || (isMediaColumn && isThreeColumn);
+        if (!shouldReveal) return;
+
+        setHeaderExpand((current) => {
+          if (current !== 'hidden') return current;
+          ignoreDirectionUntil = performance.now() + HEADER_HEIGHT_TRANSITION_MS;
+          return 'level-1';
+        });
+        return;
+      }
       const delta = top - previous;
       if (delta === 0) return;
       // Header height animates for 0.44s. The media column grows and shrinks
