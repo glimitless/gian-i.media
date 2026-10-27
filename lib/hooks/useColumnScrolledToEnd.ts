@@ -22,7 +22,9 @@ function concealFooter(footer: HTMLElement, concealed: boolean){
 }
 
 function supportsScrollDrivenAnimation(){
-  return typeof CSS !== "undefined" && CSS.supports("animation-timeline", "scroll()");
+  return typeof CSS !== "undefined"
+    && typeof ScrollTimeline !== "undefined"
+    && CSS.supports("animation-timeline", "scroll()");
 }
 
 function revealProgress(column: HTMLElement, footerHeight: number){
@@ -48,6 +50,7 @@ export default function useColumnFooterReveal(
     if (!main) return;
 
     let observed: HTMLElement | null = null;
+    let scrollColumn: HTMLElement | null = null;
     const resizeObserver = new ResizeObserver(() => apply());
 
     const apply = () => {
@@ -70,10 +73,15 @@ export default function useColumnFooterReveal(
         footer.style.setProperty('animation-timeline', useMedia ? '--media-footer' : '--content-footer');
         footer.style.setProperty('animation-range', `${contentEnd}px ${maxScroll}px`);
       } else {
-        footer.style.animationName = 'none';
+        footer.style.setProperty('animation', 'none', 'important');
         footer.style.removeProperty('animation-timeline');
         footer.style.removeProperty('animation-range');
         footer.style.transform = `translateY(${footerHeight - revealed}px)`;
+      }
+      if (scrollColumn !== column) {
+        scrollColumn?.removeEventListener('scroll', onScroll);
+        column.addEventListener('scroll', onScroll, { passive: true });
+        scrollColumn = column;
       }
       concealFooter(footer, column.scrollTop <= contentEnd);
     };
@@ -85,6 +93,7 @@ export default function useColumnFooterReveal(
 
       const { contentEnd, revealed } = revealProgress(column, footerHeight);
       if (!supportsScrollDrivenAnimation()) {
+        footer.style.setProperty('animation', 'none', 'important');
         footer.style.transform = `translateY(${footerHeight - revealed}px)`;
       }
       concealFooter(footer, column.scrollTop <= contentEnd);
@@ -99,8 +108,10 @@ export default function useColumnFooterReveal(
     return () => {
       observer.disconnect();
       resizeObserver.disconnect();
+      scrollColumn?.removeEventListener('scroll', onScroll);
       document.documentElement.style.removeProperty('--footer-reveal-space');
       footerNode?.style.removeProperty('transform');
+      footerNode?.style.removeProperty('animation');
       window.removeEventListener('resize', apply);
       main.removeEventListener('scroll', onScroll, { capture: true });
     };
