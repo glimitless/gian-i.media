@@ -315,7 +315,7 @@
     @apply grid grid-cols-1 w-full h-full flex-1 min-h-0 overflow-hidden;
   }
   .two-column-page-content-column{
-    @apply h-auto overflow-scroll scrollbar-none-webkit col-1;
+    @apply overflow-scroll scrollbar-none-webkit col-1;
     padding-bottom: calc(1.25rem + var(--footer-reveal-space, 0px));
     scroll-timeline: --content-footer y;
   }
@@ -500,4 +500,9 @@ main{
   animation-timing-function: linear;
   animation-fill-mode: both;
   animation-timeline: --content-footer;
+}
+@supports not (animation-timeline: scroll()) {
+  .footer-column-reveal{
+    animation: none !important;
+  }
 }
