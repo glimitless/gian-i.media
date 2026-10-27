@@ -302,7 +302,7 @@
   .three-column-page-media-container{
     @apply row-2 pb-5;
   }
-  .three-column-page-navigation-column{
+  .three-column-page-navigation-column, .two-column-page-navigation-column{
     @apply hidden;
   }
   .two-column-page-container{
