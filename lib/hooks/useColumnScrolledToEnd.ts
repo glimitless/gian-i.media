@@ -3,9 +3,18 @@
 import { useEffect, useState, type RefObject } from "react";
 import { THREE_COLUMN_BREAKPOINT_EM } from "../media-query/mediaQuery";
 
-function isAtEnd(element: HTMLElement) {
-  return element.scrollTop + element.clientHeight >= element.scrollHeight - 1;
-}
+// function isAtEnd(element: HTMLElement) {
+//   return element.scrollTop + element.clientHeight >= element.scrollHeight - 1;
+// }
+
+export function contentScroller(main: HTMLElement, rootFontSizePx: number){
+  const media = main.querySelector<HTMLElement>('.three-column-page-media-container');
+  const isThreeColumn = main.clientWidth >= THREE_COLUMN_BREAKPOINT_EM * rootFontSizePx;
+  if (isThreeColumn && media) return media;
+  return main.querySelector<HTMLElement>(
+    '.two-column-page-content-column, .three-column-page-content-column'
+  );
+};
 
 export default function useColumnScrolledToEnd(
   enabled: boolean,
@@ -20,18 +29,21 @@ export default function useColumnScrolledToEnd(
     const main = mainRef.current;
     if (!main) return;
 
-    const scroller = () => {
-      const media = main.querySelector<HTMLElement>('.three-column-page-media-container');
-      const isThreeColumn = main.clientWidth >= THREE_COLUMN_BREAKPOINT_EM * rootFontSizePx;
-      if (isThreeColumn && media) return media;
-      return main.querySelector<HTMLElement>(
-        '.two-column-page-content-column, .three-column-page-content-column'
-      );
-    };
-
     const update = () => {
-      const column = scroller();
-      setAtEnd(!!column && isAtEnd(column));
+      const column = contentScroller(main, rootFontSizePx);
+      if(!column){
+        setAtEnd(false);
+        return;
+      }
+
+      const distance = column.scrollHeight - column.scrollTop - column.clientHeight;
+      setAtEnd((shown) => {
+        const footerHeight = shown
+          ? (main.querySelector('footer')?.parentElement?.offsetHeight ?? 0)
+          : 0;
+        return distance <= footerHeight + 1;
+      })
+      
     };
 
     update();
