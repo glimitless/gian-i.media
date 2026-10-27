@@ -52,11 +52,11 @@ export default function useColumnFooterReveal(
       document.documentElement.style.setProperty('--footer-reveal-space', `${footerHeight}px`);
 
       const useMedia = column.classList.contains('three-column-page-media-container');
-      footer.style.animationTimeline = useMedia ? '--media-footer' : '--content-footer';
+      footer.style.setProperty('animation-timeline', useMedia ? '--media-footer' : '--content-footer');
 
       const maxScroll = column.scrollHeight - column.clientHeight;
       const contentEnd = maxScroll - footerHeight;
-      footer.style.animationRange = `${contentEnd}px ${maxScroll}px`;
+      footer.style.setProperty('animation-range', `${contentEnd}px ${maxScroll}px`);
       concealFooter(footer, column.scrollTop <= contentEnd);
     };
 
