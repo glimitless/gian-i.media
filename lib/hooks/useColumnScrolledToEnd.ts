@@ -22,8 +22,9 @@ function concealFooter(footer: HTMLElement, concealed: boolean){
 }
 
 function supportsScrollDrivenAnimation(){
-  return typeof CSS !== "undefined"
-    && typeof ScrollTimeline !== "undefined"
+  return typeof window !== "undefined"
+    && "ScrollTimeline" in window
+    && typeof CSS !== "undefined"
     && CSS.supports("animation-timeline", "scroll()");
 }
 
