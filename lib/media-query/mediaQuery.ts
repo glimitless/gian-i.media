@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 
 const FALLBACK_ROOT_PX = 10;
 
-
 export function useRootFontSizePx():number{
   const [ rootFontSizePx, setRootFontSizePx ] = useState<number>(FALLBACK_ROOT_PX);
 
@@ -25,6 +24,7 @@ export function useRootFontSizePx():number{
 
 const TABLET_BREAKPOINT_EM = 93.8;
 const MOBILE_BREAKPOINT_EM = 73.5;
+export const THREE_COLUMN_BREAKPOINT_EM = 144;
 
 function useMediaQuery(query:string):boolean {
   const [matches, setMatches] = useState<boolean>(false);

@@ -292,6 +292,8 @@
   }
   .three-column-page-content-column{
     @apply gap-y-16 content-start overflow-scroll overscroll-y-contain scrollbar-none-webkit;
+    padding-bottom: var(--footer-reveal-space, 0px);
+    scroll-timeline: --content-footer y;
   }
   .three-column-page-overview-container, .three-column-page-media-container{
     @apply col-1;
@@ -301,6 +303,7 @@
   }
   .three-column-page-media-container{
     @apply row-2 pb-[0.85rem];
+    scroll-timeline: --media-footer y;
   }
   .three-column-page-navigation-column, .two-column-page-navigation-column{
     @apply hidden;
@@ -312,7 +315,9 @@
     @apply grid grid-cols-1 w-full h-full flex-1 min-h-0 overflow-hidden;
   }
   .two-column-page-content-column{
-    @apply h-auto overflow-scroll scrollbar-none-webkit col-1 pb-5;
+    @apply h-auto overflow-scroll scrollbar-none-webkit col-1;
+    padding-bottom: calc(1.25rem + var(--footer-reveal-space, 0px));
+    scroll-timeline: --content-footer y;
   }
   @container main (min-width: 64em){
     .three-column-page-container, .two-column-page-container{
@@ -361,9 +366,12 @@
       @apply grid-cols-[var(--page-layout-overview-column-width)_var(--page-layout-content-column-width)] gap-(--page-layout-column-gap) min-h-0 gap-y-0 overflow-hidden;
       width: calc(var(--page-layout-overview-column-width) + var(--page-layout-column-gap) + var(--page-layout-content-column-width));
       grid-template-rows: minmax(0,1fr);
+      padding-bottom: 0;
+      scroll-timeline: none;
     }
     .three-column-page-media-container{
       @apply row-1 col-2 self-stretch overflow-scroll scrollbar-none-webkit pt-5;
+      padding-bottom: calc(0.85rem + var(--footer-reveal-space, 0px));
     }
     .three-column-page-overview-container{
       @apply self-stretch min-h-0 overflow-scroll scrollbar-none-webkit pb-5;
@@ -477,4 +485,19 @@
   transition:
     color var(--duration-cvg) var(--ease-cvg),
     scale var(--duration-sc) var(--ease-sc);
+}
+
+main{
+  timeline-scope: --content-footer, --media-footer;
+}
+@keyframes footer-column-reveal{
+  from{ transform: translateY(100%); }
+  to{ transform: translateY(0); }
+}
+.footer-column-reveal{
+  animation-name: footer-column-reveal;
+  animation-duration: auto;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  animation-timeline: --content-footer;
 }

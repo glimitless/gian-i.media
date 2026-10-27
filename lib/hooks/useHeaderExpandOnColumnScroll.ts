@@ -2,8 +2,8 @@
 
 import { useEffect, type Dispatch, type RefObject, type SetStateAction } from "react";
 import type { HeaderExpand } from "@/types/navigator";
+import { THREE_COLUMN_BREAKPOINT_EM } from "../media-query/mediaQuery";
 
-const THREE_COLUMN_BREAKPOINT_EM = 144;
 const HEADER_HEIGHT_TRANSITION_MS = 440;
 const INTENTIONAL_SCROLL_EM = 2;
 const CONTENT_COLUMN_CLASSES = [
