@@ -2,7 +2,7 @@
 
 import type { ReactNode } from 'react';
 import { useHeaderContext } from '@/lib/navigator/navigator-provider';
-import FooterShell from '../footer/footer-shell';
+import { FooterPageShell } from '../footer/footer-shell';
 import { usePathname } from 'next/navigation';
 
 export default function MainScroll({ children } : { children:ReactNode } ){
@@ -17,7 +17,9 @@ export default function MainScroll({ children } : { children:ReactNode } ){
       <div className={`flex flex-1 flex-row items-start justify-center px-7 @min[64em]/viewport:px-5 ${pathname === '/' ? '' : 'h-full min-h-0'}`}>
         {children}
       </div>
-      <FooterShell />
+      {pathname === '/' &&
+        <FooterPageShell />
+      }
     </main>
   )
 }

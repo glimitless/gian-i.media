@@ -4,7 +4,7 @@ import { MobileAboutLink } from "./buttons/mobile-about-link";
 export default function Footer(){
   return (
     <footer
-      className="flex h-26 flex-row bg-lmBg dark:bg-dmBg pr-5 pl-5 pt-5 pb-5 bg-transition-2 justify-between"
+      className="flex flex-row bg-lmBg dark:bg-dmBg pr-[0.4rem] pl-[0.4rem] pt-[0.4rem] pb-[0.4rem] bg-transition-2 justify-between"
     >
       <div>
         <MobileAboutLink  />

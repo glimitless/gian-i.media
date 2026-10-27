@@ -219,7 +219,7 @@
 
   /* Block Content Layout */
   .block-page-body{
-    @apply w-full py-5;
+    @apply w-full pt-5;
   }
   .block-page-title-container{
     @apply w-full;
@@ -300,9 +300,9 @@
     @apply [align-items:start] pt-5;
   }
   .three-column-page-media-container{
-    @apply row-2 pb-5;
+    @apply row-2 pb-[0.85rem];
   }
-  .three-column-page-navigation-column{
+  .three-column-page-navigation-column, .two-column-page-navigation-column{
     @apply hidden;
   }
   .two-column-page-container{
