@@ -1,13 +1,20 @@
 'use client';
 
 import { useLayoutEffect, type RefObject } from "react";
-import { THREE_COLUMN_BREAKPOINT_EM } from "../media-query/mediaQuery";
 
-export function contentScroller(main: HTMLElement, rootFontSizePx: number){
+function isScrollContainer(element: HTMLElement | null){
+  if (!element) return false;
+  const { overflowY } = getComputedStyle(element);
+  return overflowY === 'scroll' || overflowY === 'auto';
+}
+
+// Container queries on `@container/main` choose the scroller. That box is
+// narrower than `main` by its horizontal padding, so a breakpoint check on
+// `main.clientWidth` targets the media column while the content column is
+// still the scrollport.
+export function contentScroller(main: HTMLElement){
   const media = main.querySelector<HTMLElement>('.three-column-page-media-container');
-  const isThreeColumn = main.clientWidth >= THREE_COLUMN_BREAKPOINT_EM * rootFontSizePx;
-
-  if (isThreeColumn && media) return media;
+  if (isScrollContainer(media)) return media;
 
   return main.querySelector<HTMLElement>(
     '.two-column-page-content-column, .three-column-page-content-column'
@@ -38,7 +45,6 @@ function revealProgress(column: HTMLElement, footerHeight: number){
 export default function useColumnFooterReveal(
   enabled: boolean,
   mainRef: RefObject<HTMLElement | null>,
-  rootFontSizePx: number,
   footerHeight: number,
   layoutKey: string,
   footerRef: RefObject<HTMLElement | null>,
@@ -70,7 +76,7 @@ export default function useColumnFooterReveal(
 
     const apply = () => {
       const footer = footerRef.current;
-      const column = contentScroller(main, rootFontSizePx);
+      const column = contentScroller(main);
       if (!column || !footer) return;
 
       if (observed !== column) {
@@ -84,12 +90,14 @@ export default function useColumnFooterReveal(
 
       document.documentElement.style.setProperty('--footer-reveal-space', `${footerHeight}px`);
 
-      const { maxScroll, contentEnd, revealed } = revealProgress(column, footerHeight);
+      const { contentEnd, revealed } = revealProgress(column, footerHeight);
       if (supportsScrollDrivenAnimation()) {
         const useMedia = column.classList.contains('three-column-page-media-container');
         footer.style.removeProperty('transform');
         footer.style.setProperty('animation-timeline', useMedia ? '--media-footer' : '--content-footer');
-        footer.style.setProperty('animation-range', `${contentEnd}px ${maxScroll}px`);
+        // Percent of the live scroll range. A px snapshot from scrollHeight
+        // stays put when the column's overflow changes on resize.
+        footer.style.setProperty('animation-range', `calc(100% - ${footerHeight}px) 100%`);
       } else {
         footer.style.setProperty('animation', 'none', 'important');
         footer.style.removeProperty('animation-timeline');
@@ -106,7 +114,7 @@ export default function useColumnFooterReveal(
 
     const onScroll = () => {
       const footer = footerRef.current;
-      const column = contentScroller(main, rootFontSizePx);
+      const column = scrollColumn;
       if (!column || !footer) return;
 
       const { contentEnd, revealed } = revealProgress(column, footerHeight);
@@ -117,13 +125,24 @@ export default function useColumnFooterReveal(
       concealFooter(footer, column.scrollTop <= contentEnd);
     };
 
+    let settleFrame = 0;
+    const onResize = () => {
+      apply();
+      // The container query can land one frame after the resize event.
+      cancelAnimationFrame(settleFrame);
+      settleFrame = requestAnimationFrame(() => {
+        settleFrame = requestAnimationFrame(apply);
+      });
+    };
+
     apply();
     const observer = new MutationObserver(apply);
     observer.observe(main, { childList: true, subtree: true });
-    window.addEventListener('resize', apply);
+    window.addEventListener('resize', onResize);
     main.addEventListener('scroll', onScroll, { capture: true, passive: true });
 
     return () => {
+      cancelAnimationFrame(settleFrame);
       observer.disconnect();
       resizeObserver.disconnect();
       contentObserver.disconnect();
@@ -131,8 +150,8 @@ export default function useColumnFooterReveal(
       document.documentElement.style.removeProperty('--footer-reveal-space');
       footerNode?.style.removeProperty('transform');
       footerNode?.style.removeProperty('animation');
-      window.removeEventListener('resize', apply);
+      window.removeEventListener('resize', onResize);
       main.removeEventListener('scroll', onScroll, { capture: true });
     };
-  }, [enabled, mainRef, rootFontSizePx, footerHeight, layoutKey, footerRef]);
+  }, [enabled, mainRef, footerHeight, layoutKey, footerRef]);
 }
