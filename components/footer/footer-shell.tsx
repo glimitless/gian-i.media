@@ -3,7 +3,7 @@
 import Footer from "./footer";
 import { usePathname } from "next/navigation";
 import { useLayoutEffect, useRef, useState } from "react";
-import { useHeaderContext } from "@/lib/navigator/navigator-provider";
+import { useHeaderContext, useMediaQueryContext } from "@/lib/navigator/navigator-provider";
 import useColumnFooterReveal from "@/lib/hooks/useColumnScrolledToEnd";
 
 const shellClass = "pl-[0.85rem] pr-[0.85rem] pt-[0.85rem] pb-[0.85rem] bg-lmBg dark:bg-dmBg bg-transition-2";
@@ -11,6 +11,7 @@ const shellClass = "pl-[0.85rem] pr-[0.85rem] pt-[0.85rem] pb-[0.85rem] bg-lmBg 
 export default function FooterShell(){
   const pathname = usePathname();
   const { mainRef } = useHeaderContext();
+  const { rootFontSizePx } = useMediaQueryContext();
   const isContentPage = pathname !== '/';
   const footerRef = useRef<HTMLDivElement>(null);
   const [footerHeight, setFooterHeight] = useState(0);
@@ -20,6 +21,7 @@ export default function FooterShell(){
     footerHeight,
     pathname,
     footerRef,
+    rootFontSizePx,
   );
 
   useLayoutEffect(() => {

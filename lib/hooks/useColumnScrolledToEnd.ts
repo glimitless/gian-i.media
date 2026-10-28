@@ -42,12 +42,18 @@ function revealProgress(column: HTMLElement, footerHeight: number){
   return { maxScroll, contentEnd, revealed };
 }
 
+function setRevealedSpace(revealed: number, rootFontSizePx: number){
+  const revealedRem = rootFontSizePx > 0 ? revealed / rootFontSizePx : 0;
+  document.documentElement.style.setProperty('--footer-revealed', `${revealedRem}rem`);
+}
+
 export default function useColumnFooterReveal(
   enabled: boolean,
   mainRef: RefObject<HTMLElement | null>,
   footerHeight: number,
   layoutKey: string,
   footerRef: RefObject<HTMLElement | null>,
+  rootFontSizePx: number,
 ){
   useLayoutEffect(() => {
     if (!enabled || footerHeight <= 0) return;
@@ -91,6 +97,7 @@ export default function useColumnFooterReveal(
       document.documentElement.style.setProperty('--footer-reveal-space', `${footerHeight}px`);
 
       const { contentEnd, revealed } = revealProgress(column, footerHeight);
+      setRevealedSpace(revealed, rootFontSizePx);
       if (supportsScrollDrivenAnimation()) {
         const useMedia = column.classList.contains('three-column-page-media-container');
         footer.style.removeProperty('transform');
@@ -118,6 +125,7 @@ export default function useColumnFooterReveal(
       if (!column || !footer) return;
 
       const { contentEnd, revealed } = revealProgress(column, footerHeight);
+      setRevealedSpace(revealed, rootFontSizePx);
       if (!supportsScrollDrivenAnimation()) {
         footer.style.setProperty('animation', 'none', 'important');
         footer.style.transform = `translateY(${footerHeight - revealed}px)`;
@@ -148,10 +156,11 @@ export default function useColumnFooterReveal(
       contentObserver.disconnect();
       scrollColumn?.removeEventListener('scroll', onScroll);
       document.documentElement.style.removeProperty('--footer-reveal-space');
+      document.documentElement.style.removeProperty('--footer-revealed');
       footerNode?.style.removeProperty('transform');
       footerNode?.style.removeProperty('animation');
       window.removeEventListener('resize', onResize);
       main.removeEventListener('scroll', onScroll, { capture: true });
     };
-  }, [enabled, mainRef, footerHeight, layoutKey, footerRef]);
+  }, [enabled, mainRef, footerHeight, layoutKey, footerRef, rootFontSizePx]);
 }

@@ -46,7 +46,7 @@ export default function ThumbnailNav(
                     workId={groupParams.id}
                     collectionId={individualParams.id}
                   />
-                  <div className="block flex-1 min-h-0 overflow-scroll overscroll-y-contain scrollbar-none-webkit pb-5">
+                  <div className="block flex-1 min-h-0 overflow-scroll overscroll-y-contain scrollbar-none-webkit pb-5 mb-(--footer-revealed,0rem)">
                     {individualParams.collectionLinks.map((collectionLink) => {
                       if (collectionLink.id !== individualParams.id) {
                         return (
@@ -77,7 +77,7 @@ export default function ThumbnailNav(
                   id={groupParams.id}
                 />
               }
-              <div className="block flex-1 min-h-0 overflow-scroll overscroll-y-contain scrollbar-none-webkit pb-5">
+              <div className="block flex-1 min-h-0 overflow-scroll overscroll-y-contain scrollbar-none-webkit pb-5 mb-(--footer-revealed,0rem)">
                 {filteredArchiveIDs.map((ID) => {
                   if (ID.id !== groupParams?.id) {
                     return <SmallNavThumbnail
