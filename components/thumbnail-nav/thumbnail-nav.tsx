@@ -35,7 +35,7 @@ export default function ThumbnailNav(
       <nav className="flex-1 grid grid-cols-[8rem_4rem] min-h-0">
         {!isBelowMobile &&
           <>
-            <div className="col-1 flex flex-col min-h-0 pt-5">
+            <div className="hidden @min-[72.5em]/viewport:flex col-1 flex-col min-h-0 pt-5">
               {(groupParams && individualParams) &&
                 <>
                   <LargeNavThumbnail
@@ -66,6 +66,7 @@ export default function ThumbnailNav(
                 </>
               }
             </div>
+
             <div className="col-2 flex flex-col min-h-0 pt-5">
               {(groupParams) &&
                 <SmallNavThumbnail

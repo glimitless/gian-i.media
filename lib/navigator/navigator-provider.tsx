@@ -1,7 +1,7 @@
 'use client';
 
 import type { HeaderExpand, SelectedLevel2Option, SidebarExpand } from "@/types/navigator";
-import { useIsBelowMobileBreakpoint, useIsBelowTabletBreakpoint } from "../media-query/mediaQuery";
+import { useIsBelowPhoneBreakpoint, useIsBelowMobileBreakpoint, useIsBelowTabletBreakpoint } from "../media-query/mediaQuery";
 import { useRootFontSizePx } from "../media-query/mediaQuery";
 import useHeaderExpandOnColumnScroll from "../hooks/useHeaderExpandOnColumnScroll";
 import { usePathname } from "next/navigation";
@@ -18,6 +18,7 @@ import {
 } from 'react';
 
 type MediaQueryContextValue = {
+  isBelowPhone:boolean;
   isBelowMobile:boolean;
   isBelowTablet:boolean;
   rootFontSizePx:number;
@@ -59,6 +60,7 @@ export default function NavigatorProvider({children} : {children:ReactNode}){
   const [ headerExpand, setHeaderExpand ] = useState<HeaderExpand>('level-1');
   const [ selectedLevel2Option, setSelectedLevel2Option ] = useState<SelectedLevel2Option>('');
   const [ sidebarExpand, setSidebarExpand ] = useState<SidebarExpand>('hidden');
+  const isBelowPhone = useIsBelowPhoneBreakpoint(rootFontSizePx);
   const isBelowMobile = useIsBelowMobileBreakpoint(rootFontSizePx);
   const isBelowTablet = useIsBelowTabletBreakpoint(rootFontSizePx);
   const pathname = usePathname();
@@ -110,11 +112,13 @@ export default function NavigatorProvider({children} : {children:ReactNode}){
   );
   const mediaQueryValue = useMemo(
     () => ({
+    isBelowPhone,
     isBelowMobile,
     isBelowTablet,
     rootFontSizePx,
   }),
   [
+    isBelowPhone,
     isBelowMobile,
     isBelowTablet,
     rootFontSizePx,
