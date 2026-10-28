@@ -1,8 +1,8 @@
 'use client';
 
 import type { RefObject } from 'react';
-import LeftArrowhead from '@/assets/svg/icons/pdf/left-arrowhead.svg';
-import RightArrowhead from '@/assets/svg/icons/pdf/right-arrowhead.svg';
+import LeftArrowhead from '@/public/svg/icons/pdf/left-arrowhead.svg';
+import RightArrowhead from '@/public/svg/icons/pdf/right-arrowhead.svg';
 import PDFPageInput from './pdf-page-input';
 
 type PDFDirectionControlProps = {

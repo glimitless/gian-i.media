@@ -1,6 +1,6 @@
 import { useTheme } from 'next-themes';
 import { useEffect, useState } from 'react';
-import ColorModeSwitchIcon from '@/assets/svg/icons/header/color-mode-switch-icon.svg';
+import ColorModeSwitchIcon from '@/public/svg/icons/header/color-mode-switch-icon.svg';
 
 export default function ColorModeSwitch(){
   const { setTheme, resolvedTheme } = useTheme();

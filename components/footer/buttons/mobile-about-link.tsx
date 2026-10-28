@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import AboutIcon from '@/assets/svg/icons/sidebar/gc_about-icon.svg'
+import AboutIcon from '@/public/svg/icons/sidebar/gc_about-icon.svg'
 import { usePathname } from 'next/navigation';
 
 export function MobileAboutLink(){

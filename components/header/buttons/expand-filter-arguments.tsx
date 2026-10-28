@@ -1,5 +1,5 @@
 import type { ContentTypeArgs, SortOrderArgs, TagTypeArgs } from '@/types/filter';
-import DownArrowhead from '@/assets/svg/icons/header/down-arrowhead.svg';
+import DownArrowhead from '@/public/svg/icons/header/down-arrowhead.svg';
 import { useHeaderContext } from '@/lib/navigator/navigator-provider';
 
 type VariantProps = (

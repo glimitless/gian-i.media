@@ -1,4 +1,4 @@
-import SearchIcon from '@/assets/svg/icons/header/search-icon.svg';
+import SearchIcon from '@/public/svg/icons/header/search-icon.svg';
 import type { SearchQueryArgs, TagArgs, TagTypeArgs } from '@/types/filter';
 import type { ChangeEvent, KeyboardEvent } from 'react';
 

@@ -3,7 +3,7 @@
 import type { ComponentProps, ReactElement } from 'react';
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
-import ImgModalX from '@/assets/svg/icons/image-modal/img-modal-x.svg';
+import ImgModalX from '@/public/svg/icons/image-modal/img-modal-x.svg';
 
 type ImageContainerProps = {
   children: ReactElement<ComponentProps<typeof Image>, typeof Image>;

@@ -1,7 +1,7 @@
 'use client';
 
-import MaximizeIcon from '@/assets/svg/icons/pdf/maximize.svg';
-import MinimizeIcon from '@/assets/svg/icons/pdf/minimize.svg';
+import MaximizeIcon from '@/public/svg/icons/pdf/maximize.svg';
+import MinimizeIcon from '@/public/svg/icons/pdf/minimize.svg';
 
 type PDFExpandModalProps = (
   { setIsOpen: (open: boolean) => void; variant: 'maximize' }

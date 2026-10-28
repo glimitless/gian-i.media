@@ -1,4 +1,4 @@
-import DownArrowhead from '@/assets/svg/icons/header/up-arrowhead.svg';
+import DownArrowhead from '@/public/svg/icons/header/up-arrowhead.svg';
 
 export default function ResumeBlockItemExpand(
   {name, institution, date, location, isItemExpanded, setIsItemExpanded}

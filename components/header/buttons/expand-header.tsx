@@ -1,4 +1,4 @@
-import DownArrowhead from '@/assets/svg/icons/header/down-arrowhead.svg';
+import DownArrowhead from '@/public/svg/icons/header/down-arrowhead.svg';
 import { useHeaderContext } from '@/lib/navigator/navigator-provider';
 
 export default function ExpandHeader(){

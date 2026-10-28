@@ -2,12 +2,12 @@
 
 import { useSidebarContext } from '@/lib/navigator/navigator-provider';
 import { useFilterContext } from '@/lib/filter/filter-provider';
-import TempleIcon from '@/assets/svg/icons/sidebar/gc_temple-icon.svg';
-import WorksIcon from '@/assets/svg/icons/sidebar/gc_works-icon.svg';
-import NotesIcon from '@/assets/svg/icons/sidebar/gc_notebook-icon.svg'
-import AboutIcon from '@/assets/svg/icons/sidebar/gc_about-icon.svg'
+import TempleIcon from '@/public/svg/icons/sidebar/gc_temple-icon.svg';
+import WorksIcon from '@/public/svg/icons/sidebar/gc_works-icon.svg';
+import NotesIcon from '@/public/svg/icons/sidebar/gc_notebook-icon.svg'
+import AboutIcon from '@/public/svg/icons/sidebar/gc_about-icon.svg'
 import SidebarButton from './buttons/sidebar-button';
-import NameWordmark from '@/assets/svg/icons/sidebar/gc_wordmark.svg';
+import NameWordmark from '@/public/svg/icons/sidebar/gc_wordmark.svg';
 import { useMediaQueryContext } from '@/lib/navigator/navigator-provider';
 
 

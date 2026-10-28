@@ -1,6 +1,6 @@
 import type { TagArgs } from '@/types/filter';
-import Checkmark from '@/assets/svg/icons/header/checkmark.svg';
-import X from '@/assets/svg/icons/header/x.svg';
+import Checkmark from '@/public/svg/icons/header/checkmark.svg';
+import X from '@/public/svg/icons/header/x.svg';
 
 export default function ActiveTag(
   { keyword, onToggleTag }

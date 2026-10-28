@@ -1,5 +1,5 @@
 import ContactLink from "../buttons/contact-link";
-import LeftArrowhead from '@/assets/svg/icons/pdf/left-arrowhead.svg';
+import LeftArrowhead from '@/public/svg/icons/pdf/left-arrowhead.svg';
 import { type SetStateAction, type Dispatch } from 'react';
 
 type MobileAboutLinkProps = {

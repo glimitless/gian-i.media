@@ -1,5 +1,5 @@
 import type { TagArgs } from '@/types/filter';
-import PlusIcon from '@/assets/svg/icons/header/plus.svg';
+import PlusIcon from '@/public/svg/icons/header/plus.svg';
 
 export default function InactiveKeyword(
   { keyword, onToggleTag }

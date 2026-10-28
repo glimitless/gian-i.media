@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import TempleIcon from '@/assets/svg/icons/sidebar/gc_temple-icon.svg';
+import TempleIcon from '@/public/svg/icons/sidebar/gc_temple-icon.svg';
 import type { MouseEvent } from 'react';
 import { useHeaderContext } from '@/lib/navigator/navigator-provider';
 

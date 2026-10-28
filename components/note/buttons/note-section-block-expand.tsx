@@ -1,5 +1,5 @@
 import { EightDigitDate } from '@/types/archive';
-import DownArrowhead from '@/assets/svg/icons/header/down-arrowhead.svg';
+import DownArrowhead from '@/public/svg/icons/header/down-arrowhead.svg';
 import formatDate from '@/lib/format-date/format-date';
 
 export function NoteSectionBlockExpand(

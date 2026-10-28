@@ -1,7 +1,7 @@
 'use client';
 
 import type { MediaPartArgs } from '@/types/content-body';
-import ImgModalX from '@/assets/svg/icons/image-modal/img-modal-x.svg';
+import ImgModalX from '@/public/svg/icons/image-modal/img-modal-x.svg';
 import { useEffect, useRef, useState } from 'react';
 import PDFDirectionControls from './pdf/pdf-direction-controls';
 import PDFExpandModal from './pdf/pdf-expand-modal';

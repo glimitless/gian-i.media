@@ -1,6 +1,6 @@
 import MobileHomeLink from '../buttons/mobile-home-link';
 import { usePathname } from 'next/navigation';
-import NameWordmark from '@/assets/svg/icons/sidebar/gc_wordmark.svg';
+import NameWordmark from '@/public/svg/icons/sidebar/gc_wordmark.svg';
 
 export default function MobileHomeLinkContainer(){
   const pathname = usePathname();
