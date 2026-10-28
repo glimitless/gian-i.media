@@ -189,16 +189,22 @@ function renderMediaPart(part: MediaPartArgs, key: number) {
 
   if (part.type === 'video') {
     return (
-      <video
+      <div
         key={key}
         style={{ aspectRatio: part.aspect }}
-        className="video-regular w-full h-auto"
-        src={`/video/${part.src}`}
-        controls={part.controls}
-        loop={part.loop}
-        muted={part.muted}
-        autoPlay={part.autoplay}
-      />
+        className="video-regular flex flex-col leading-none w-full h-auto bg-lmSurface dark:bg-dmSurface bcvg-transition-2"
+      >
+        <video
+          className="w-full h-auto"
+          src={`/video/${part.src}`}
+          controls={part.controls}
+          loop={part.loop}
+          muted={part.muted}
+          autoPlay={part.autoplay}
+          playsInline
+        />
+      </div>
+      
     )
   }
 
