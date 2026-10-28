@@ -30,7 +30,7 @@ export default function Footer(){
           </div>
         </div>
       </div>
-      <div className="hidden @min-[50em]/viewport:inline">
+      <div className="hidden @min-[50em]/viewport:block">
         <MobileAboutLink  />
       </div>
       

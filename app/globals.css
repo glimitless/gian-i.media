@@ -412,6 +412,13 @@
     background-color var(--duration-bcvg) var(--ease-bcvg),
     box-shadow var(--duration-bs) var(--ease-bs),
     scale var(--duration-sc) var(--ease-sc),
+    color var(--duration-c) var(--ease-c);
+}
+@utility contact-toggle-transition{
+  transition:
+    background-color var(--duration-bcvg) var(--ease-bcvg),
+    box-shadow var(--duration-bs) var(--ease-bs),
+    scale var(--duration-sc) var(--ease-sc),
     color var(--duration-c) var(--ease-c),
     min-width var(--duration-dim2) var(--ease-dim2);
 }
