@@ -2,7 +2,12 @@
 
 import { useEffect, type RefObject } from 'react';
 
-const BOTTOM_PAD_REM = 1.25;
+function footerRevealSpace(){
+  const value = parseFloat(
+    getComputedStyle(document.documentElement).getPropertyValue('--footer-reveal-space'),
+  );
+  return Number.isFinite(value) ? value : 0;
+}
 
 function scrollableAncestor(element: HTMLElement){
   let parent = element.parentElement;
@@ -21,26 +26,6 @@ function scrollableAncestor(element: HTMLElement){
   return null;
 }
 
-function bottomScrollMargin(target: HTMLElement){
-  const pad = BOTTOM_PAD_REM * parseFloat(getComputedStyle(document.documentElement).fontSize);
-  const scroller = scrollableAncestor(target);
-  const footerSpace = parseFloat(
-    getComputedStyle(document.documentElement).getPropertyValue('--footer-reveal-space'),
-  );
-
-  if(!scroller || !Number.isFinite(footerSpace) || footerSpace <= 0) return `${pad}px`;
-
-  const scrollerRect = scroller.getBoundingClientRect();
-  const footer = document.querySelector<HTMLElement>('.footer-column-reveal');
-  const footerCover = footer ? scrollerRect.bottom - footer.getBoundingClientRect().top : 0;
-  const maxScroll = scroller.scrollHeight - scroller.clientHeight;
-  const contentEnd = Math.max(0, maxScroll - footerSpace);
-  const nextScroll = scroller.scrollTop + Math.max(0, target.getBoundingClientRect().bottom + pad - scrollerRect.bottom);
-  const reserveFooter = footerCover > 1 || nextScroll > contentEnd;
-
-  return `${reserveFooter ? pad + footerSpace : pad}px`;
-}
-
 export default function useScrollIntoViewAfterExpand(
   isExpanded: boolean,
   transitionRef: RefObject<HTMLElement | null>,
@@ -54,14 +39,39 @@ export default function useScrollIntoViewAfterExpand(
 
     const scrollTarget = () => {
       const target = scrollTargetRef.current ?? grid;
-      const previousMargin = target.style.scrollMarginBottom;
-      target.style.scrollMarginBottom = bottomScrollMargin(target);
-      target.scrollIntoView({
-        behavior: 'smooth',
-        block: 'nearest',
-        inline: 'nearest',
-      });
-      target.style.scrollMarginBottom = previousMargin;
+      const scroller = scrollableAncestor(target);
+      const footerSpace = footerRevealSpace();
+
+      if(!scroller || footerSpace <= 0){
+        target.scrollIntoView({
+          behavior: 'smooth',
+          block: 'nearest',
+          inline: 'nearest',
+        });
+        return;
+      }
+
+      const scrollerRect = scroller.getBoundingClientRect();
+      const targetRect = target.getBoundingClientRect();
+      const maxScroll = scroller.scrollHeight - scroller.clientHeight;
+      const contentEnd = Math.max(0, maxScroll - footerSpace);
+      const revealed = Math.min(footerSpace, Math.max(0, scroller.scrollTop - contentEnd));
+      const visibleBottom = scrollerRect.bottom - revealed;
+
+      let belowDelta = Math.max(0, targetRect.bottom - visibleBottom);
+      if(belowDelta > 0 && scroller.scrollTop + belowDelta > contentEnd){
+        belowDelta += footerSpace - revealed;
+      }
+
+      const aboveDelta = Math.max(0, scrollerRect.top - targetRect.top);
+      let delta = 0;
+      if(belowDelta > 0 && aboveDelta > 0) delta = belowDelta < aboveDelta ? belowDelta : -aboveDelta;
+      else if(belowDelta > 0) delta = belowDelta;
+      else if(aboveDelta > 0) delta = -aboveDelta;
+
+      if(delta !== 0){
+        scroller.scrollBy({ top: delta, behavior: 'smooth' });
+      }
     };
 
     const onTransitionEnd = (event: TransitionEvent) => {

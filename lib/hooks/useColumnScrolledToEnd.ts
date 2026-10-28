@@ -52,7 +52,21 @@ export default function useColumnFooterReveal(
 
     let observed: HTMLElement | null = null;
     let scrollColumn: HTMLElement | null = null;
+    const watchedContent = new Set<Element>();
     const resizeObserver = new ResizeObserver(() => apply());
+    const contentObserver = new ResizeObserver(() => apply());
+
+    const watchContent = (column: HTMLElement) => {
+      const next = new Set<Element>(column.children);
+      for (const child of watchedContent) {
+        if (!next.has(child)) contentObserver.unobserve(child);
+      }
+      for (const child of next) {
+        if (!watchedContent.has(child)) contentObserver.observe(child);
+      }
+      watchedContent.clear();
+      for (const child of next) watchedContent.add(child);
+    };
 
     const apply = () => {
       const footer = footerRef.current;
@@ -63,7 +77,10 @@ export default function useColumnFooterReveal(
         if (observed) resizeObserver.unobserve(observed);
         resizeObserver.observe(column);
         observed = column;
+        watchedContent.clear();
+        contentObserver.disconnect();
       }
+      watchContent(column);
 
       document.documentElement.style.setProperty('--footer-reveal-space', `${footerHeight}px`);
 
@@ -109,6 +126,7 @@ export default function useColumnFooterReveal(
     return () => {
       observer.disconnect();
       resizeObserver.disconnect();
+      contentObserver.disconnect();
       scrollColumn?.removeEventListener('scroll', onScroll);
       document.documentElement.style.removeProperty('--footer-reveal-space');
       footerNode?.style.removeProperty('transform');
