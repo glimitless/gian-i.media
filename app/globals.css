@@ -374,7 +374,7 @@
       padding-bottom: calc(0.85rem + var(--footer-reveal-space, 0px));
     }
     .three-column-page-overview-container{
-      @apply self-stretch min-h-0 overflow-scroll scrollbar-none-webkit pb-5;
+      @apply self-stretch min-h-0 overflow-scroll scrollbar-none-webkit pb-5 mb-(--footer-revealed,0rem);
     }
   }
 
