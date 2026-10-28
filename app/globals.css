@@ -412,7 +412,8 @@
     background-color var(--duration-bcvg) var(--ease-bcvg),
     box-shadow var(--duration-bs) var(--ease-bs),
     scale var(--duration-sc) var(--ease-sc),
-    color var(--duration-c) var(--ease-c);
+    color var(--duration-c) var(--ease-c),
+    min-width var(--duration-dim2) var(--ease-dim2);
 }
 @utility header-margin-transition{
   transition:
@@ -475,6 +476,12 @@
   transition:
     background-color var(--duration-bcvg) var(--ease-bcvg),
     width var(--duration-dim2) var(--ease-dim2);
+}
+@utility footer-expand-transition{
+  transition:
+    grid-template-columns var(--duration-dim2) var(--ease-dim2),
+    width var(--duration-dim2) var(--ease-dim2),
+    rotate var(--duration-dim2) var(--ease-dim2);
 }
 @utility check-x-transition{
   transition:

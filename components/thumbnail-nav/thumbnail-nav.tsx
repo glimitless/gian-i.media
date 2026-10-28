@@ -30,12 +30,12 @@ export default function ThumbnailNav(
   const { isBelowMobile } = useMediaQueryContext();
 
   return (
-    <div className="flex flex-col h-full min-h-0">
+    <div>
       <HeaderMargin />
-      <nav className="flex-1 grid grid-cols-[8rem_4rem] min-h-0">
+      <nav className="grid grid-cols-[8rem_4rem] h-full min-h-0">
         {!isBelowMobile &&
           <>
-            <div className="col-1 flex flex-col min-h-0 pt-5">
+            <div className="hidden @min-[72.5em]/viewport:flex col-1 flex-col min-h-0 pt-5">
               {(groupParams && individualParams) &&
                 <>
                   <LargeNavThumbnail
@@ -46,7 +46,7 @@ export default function ThumbnailNav(
                     workId={groupParams.id}
                     collectionId={individualParams.id}
                   />
-                  <div className="block flex-1 min-h-0 overflow-scroll overscroll-y-contain scrollbar-none-webkit pb-5">
+                  <div className="block flex-1 min-height-0 overflow-scroll overscroll-y-contain scrollbar-none-webkit pb-5">
                     {individualParams.collectionLinks.map((collectionLink) => {
                       if (collectionLink.id !== individualParams.id) {
                         return (
@@ -66,6 +66,7 @@ export default function ThumbnailNav(
                 </>
               }
             </div>
+
             <div className="col-2 flex flex-col min-h-0 pt-5">
               {(groupParams) &&
                 <SmallNavThumbnail
@@ -76,7 +77,7 @@ export default function ThumbnailNav(
                   id={groupParams.id}
                 />
               }
-              <div className="block flex-1 min-h-0 overflow-scroll overscroll-y-contain scrollbar-none-webkit pb-5">
+              <div className="block flex-1 min-height-0 overflow-scroll overscroll-y-contain scrollbar-none-webkit pb-5">
                 {filteredArchiveIDs.map((ID) => {
                   if (ID.id !== groupParams?.id) {
                     return <SmallNavThumbnail

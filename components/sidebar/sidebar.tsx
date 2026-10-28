@@ -20,7 +20,7 @@ export default function Sidebar(){
   if(isBelowTablet) return (<></>)
   return (
     <nav 
-      className={`${sidebarExpand === 'hidden' ? 'w-26' : 'w-81'} bg-lmSurface dark:bg-dmSurface flex flex-col pr-3 pl-3 pt-3 pb-3 sidebar-transition @max-[93.8em]/viewport:hidden`}
+      className={`${sidebarExpand === 'hidden' ? 'w-26' : 'w-81'} bg-lmSurface dark:bg-dmSurface flex flex-col pr-3 pl-3 pt-3 pb-3 sidebar-transition @max-[92.8em]/viewport:hidden`}
     >
       <div className="p-2 overflow-hidden flex flex-col justify-between w-full h-full ">
         <div 

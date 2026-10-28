@@ -22,8 +22,9 @@ export function useRootFontSizePx():number{
 }
 
 
-const TABLET_BREAKPOINT_EM = 93.8;
-const MOBILE_BREAKPOINT_EM = 73.5;
+const TABLET_BREAKPOINT_EM = 92.8;
+const MOBILE_BREAKPOINT_EM = 72.5;
+const PHONE_BREAKPOINT_EM = 50;
 export const THREE_COLUMN_BREAKPOINT_EM = 144;
 
 function useMediaQuery(query:string):boolean {
@@ -49,3 +50,8 @@ export function useIsBelowTabletBreakpoint(rootFontSizePx: number) {
 export function useIsBelowMobileBreakpoint(rootFontSizePx: number) {
   return useMediaQuery(`(max-width: ${(MOBILE_BREAKPOINT_EM * rootFontSizePx) - 1}px)`);
 }
+
+export function useIsBelowPhoneBreakpoint(rootFontSizePx: number) {
+  return useMediaQuery(`(max-width: ${(PHONE_BREAKPOINT_EM * rootFontSizePx) - 1}px)`);
+}
+
