@@ -4,10 +4,13 @@ import type { ReactNode } from 'react';
 import { useHeaderContext } from '@/lib/navigator/navigator-provider';
 import FooterShell from '../footer/footer-shell';
 import { usePathname } from 'next/navigation';
+import useTransferMainScroll from '@/lib/hooks/useTransferMainScroll';
 
 export default function MainScroll({ children } : { children:ReactNode } ){
   const { mainRef } = useHeaderContext();
   const pathname = usePathname();
+  
+  useTransferMainScroll();
 
   return (
     <main
