@@ -17,10 +17,12 @@ export default function MainScroll({ children } : { children:ReactNode } ){
       className="main-scroll relative flex flex-1 min-h-0 flex-col overflow-scroll bg-lmBg dark:bg-dmBg scrollbar-none-webkit bg-transition-2"
       ref={mainRef}
     >
-      <div className={`@container/main flex flex-1 flex-row justify-center px-7 @min-[64em]/viewport:px-5 ${pathname === '/' ? 'items-start' : 'min-h-0 items-stretch'}`}>
-        {children}
+      <div className="flex w-full flex-1 flex-col">
+        <div className={`@container/main flex flex-1 flex-row justify-center px-7 @min-[64em]/viewport:px-5 ${pathname === '/' ? 'items-start' : 'min-h-0 items-stretch'}`}>
+          {children}
+        </div>
+        <FooterShell />
       </div>
-      <FooterShell />
     </main>
   )
 }
