@@ -488,7 +488,8 @@
   transition:
     grid-template-columns var(--duration-dim2) var(--ease-dim2),
     width var(--duration-dim2) var(--ease-dim2),
-    rotate var(--duration-dim2) var(--ease-dim2);
+    rotate var(--duration-dim2) var(--ease-dim2),
+    color var(--duration-c) var(--ease-c);
 }
 @utility check-x-transition{
   transition:
