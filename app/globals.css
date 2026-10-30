@@ -466,7 +466,8 @@
 /* Transitions for specific elements */
 @utility down-arrowhead-transition{
   transition:
-    rotate var(--duration-dim1) var(--ease-dim1);
+    rotate var(--duration-dim1) var(--ease-dim1),
+    color var(--duration-c) var(--ease-c);
 }
 @utility down-arrowhead-transition-2{
   transition:
