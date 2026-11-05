@@ -24,19 +24,13 @@ export default function Header(){
       <div
         className="w-full h-full min-w-0 flex flex-col items-stretch gap-0 overflow-hidden p-0"
       >
-        <div
-          className="header-row"
-        > 
+        <div className="header-row"> 
           <HeaderFirstRow />
         </div>
-        <div
-          className="header-row"
-        >
+        <div className="header-row">
           <MoreSearchOptions />
         </div>
-        <div
-          className="header-row"
-        >
+        <div className="header-row">
           <SelectedFilterArgument />
         </div>
        </div>
