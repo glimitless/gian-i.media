@@ -1,6 +1,6 @@
 'use client';
 
-import type { HeaderExpand, SelectedLevel2Option, SidebarExpand } from "@/types/navigator";
+import type { HeaderExpand, SelectedLevel2Option, SidebarExpand, MobileHeaderExpand } from "@/types/navigator";
 import { useIsBelowPhoneBreakpoint, useIsBelowMobileBreakpoint, useIsBelowTabletBreakpoint } from "../media-query/mediaQuery";
 import { useRootFontSizePx } from "../media-query/mediaQuery";
 import useHeaderExpandOnColumnScroll from "../hooks/useHeaderExpandOnColumnScroll";
@@ -39,6 +39,14 @@ const HeaderContext = createContext<HeaderContextValue | null>(
   null,
 )
 
+type MobileHeaderContextValue = {
+  mobileHeaderExpand:MobileHeaderExpand;
+  setMobileHeaderExpand:React.Dispatch<React.SetStateAction<MobileHeaderExpand>>;
+}
+const MobileHeaderContext = createContext<MobileHeaderContextValue | null>(
+  null,
+)
+
 type SidebarContextValue = {
   sidebarExpand:SidebarExpand;
   setSidebarExpand:React.Dispatch<React.SetStateAction<SidebarExpand>>;
@@ -58,6 +66,7 @@ export const HEADER_MARGIN: Record<HeaderExpand, string> = {
 export default function NavigatorProvider({children} : {children:ReactNode}){
   const rootFontSizePx = useRootFontSizePx();
   const [ headerExpand, setHeaderExpand ] = useState<HeaderExpand>('level-1');
+  const [ mobileHeaderExpand, setMobileHeaderExpand ] = useState<MobileHeaderExpand>('hidden');
   const [ selectedLevel2Option, setSelectedLevel2Option ] = useState<SelectedLevel2Option>('');
   const [ sidebarExpand, setSidebarExpand ] = useState<SidebarExpand>('hidden');
   const isBelowPhone = useIsBelowPhoneBreakpoint(rootFontSizePx);
@@ -101,6 +110,16 @@ export default function NavigatorProvider({children} : {children:ReactNode}){
       scrollMainToTop,
     ]
   );
+  const mobileHeaderValue = useMemo(
+    () => ({
+      mobileHeaderExpand,
+      setMobileHeaderExpand
+    }),
+    [
+      mobileHeaderExpand,
+      setMobileHeaderExpand
+    ]
+  )
   const sidebarValue = useMemo(
     () => ({
       sidebarExpand,
@@ -128,9 +147,11 @@ export default function NavigatorProvider({children} : {children:ReactNode}){
   return (
     <MediaQueryContext.Provider value={mediaQueryValue}>
       <HeaderContext.Provider value={headerValue}>
-        <SidebarContext.Provider value={sidebarValue}>
-          {children}
-        </SidebarContext.Provider>
+        <MobileHeaderContext.Provider value={mobileHeaderValue}>
+          <SidebarContext.Provider value={sidebarValue}>
+            {children}
+          </SidebarContext.Provider>
+        </MobileHeaderContext.Provider>
       </HeaderContext.Provider>
     </MediaQueryContext.Provider>
   )
@@ -151,6 +172,16 @@ export function useHeaderContext(): HeaderContextValue {
   if(!context) {
     throw new Error(
       'useHeaderContext() must be called within NavigatorProvider'
+    );
+  }
+  return context;
+}
+
+export function useMobileHeaderContext(): MobileHeaderContextValue {
+  const context = useContext(MobileHeaderContext);
+  if(!context) {
+    throw new Error(
+      'useMobileHeaderContext() must be called within NavigatorProvider'
     );
   }
   return context;
