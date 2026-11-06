@@ -4,9 +4,7 @@ import type { SortOrderArgs } from "@/types/filter";
 
 export default function MobileSortOrderOptions({ sortOrder } : { sortOrder:SortOrderArgs }){
   return (
-    <div
-      className="mobile-filter-option-container"
-    >
+    <div className="mobile-filter-option-container">
       <h2>Content Type</h2>
       <div className="mobile-filter-options">
         {SORT_ORDER_OPTIONS.map((option, i) => {

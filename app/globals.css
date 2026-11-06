@@ -166,7 +166,7 @@
     @apply underline text-lmSecondary dark:text-dmSecondary hover:text-lmSecondaryActive hover:dark:text-dmSecondaryActive color-transition;
   }
   .mobile-filter-option-container{
-    @apply w-full block space-y-4;
+    @apply w-full block space-y-4 py-5;
   }
   .mobile-filter-options{
     @apply w-full flex flex-row flex-wrap gap-4;

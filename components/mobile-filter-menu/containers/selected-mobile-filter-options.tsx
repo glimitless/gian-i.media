@@ -3,6 +3,7 @@ import { useFilterContext } from '@/lib/filter/filter-provider';
 import MobileContentTypeOptions from './mobile-content-type-options';
 import MobileSortOrderOptions from './mobile-sort-order-options';
 import MobileTagTypeOptions from './mobile-tag-type-options';
+import MobileTagOptions from './mobile-tag-options';
 
 export default function SelectedMobileFilterOptions(){
   const { mobileHeaderExpand, mobileSelectedLevel2Option } = useMobileHeaderContext();
@@ -17,7 +18,7 @@ export default function SelectedMobileFilterOptions(){
         className={`w-full px-5 ${mobileHeaderExpand === 'level-2' ? 'h-full' : 'h-0'} selected-mobile-filter-option-transition overflow-scroll scrollbar-none-webkit`}
       >
         <div
-          className="py-5"
+          className="block"
         >
           {mobileSelectedLevel2Option === 'type' &&
             <MobileContentTypeOptions contentType={contentType} />
@@ -27,6 +28,9 @@ export default function SelectedMobileFilterOptions(){
           }
           {mobileSelectedLevel2Option === 'tag-type' && 
             <MobileTagTypeOptions tagType={tagType} />
+          }
+          {mobileSelectedLevel2Option === 'tag' && 
+            <MobileTagOptions tagType={tagType} />
           }
         </div>
       </div>
