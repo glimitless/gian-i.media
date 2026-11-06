@@ -7,8 +7,8 @@ import MobileTagOptions from './mobile-tag-options';
 
 export default function SelectedMobileFilterOptions(){
   const { mobileHeaderExpand, mobileSelectedLevel2Option } = useMobileHeaderContext();
-  const { filterArguments } = useFilterContext();
-  const { contentType, sortOrder, tagType } = filterArguments;
+  const { filterArguments, inactiveTags, onToggleTag } = useFilterContext();
+  const { contentType, sortOrder, tagType, tags } = filterArguments;
 
   return (
     <div
@@ -30,7 +30,12 @@ export default function SelectedMobileFilterOptions(){
             <MobileTagTypeOptions tagType={tagType} />
           }
           {mobileSelectedLevel2Option === 'tag' && 
-            <MobileTagOptions tagType={tagType} />
+            <MobileTagOptions 
+              tagType={tagType} 
+              inactiveTags={inactiveTags}
+              onToggleTag={onToggleTag}
+              tags={tags}
+            />
           }
         </div>
       </div>
