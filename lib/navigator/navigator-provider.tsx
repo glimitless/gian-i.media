@@ -42,6 +42,8 @@ const HeaderContext = createContext<HeaderContextValue | null>(
 type MobileHeaderContextValue = {
   mobileHeaderExpand:MobileHeaderExpand;
   setMobileHeaderExpand:React.Dispatch<React.SetStateAction<MobileHeaderExpand>>;
+  mobileSelectedLevel2Option:SelectedLevel2Option;
+  setMobileSelectedLevel2Option:React.Dispatch<React.SetStateAction<SelectedLevel2Option>>;
 }
 const MobileHeaderContext = createContext<MobileHeaderContextValue | null>(
   null,
@@ -68,6 +70,7 @@ export default function NavigatorProvider({children} : {children:ReactNode}){
   const [ headerExpand, setHeaderExpand ] = useState<HeaderExpand>('level-1');
   const [ mobileHeaderExpand, setMobileHeaderExpand ] = useState<MobileHeaderExpand>('hidden');
   const [ selectedLevel2Option, setSelectedLevel2Option ] = useState<SelectedLevel2Option>('');
+  const [ mobileSelectedLevel2Option, setMobileSelectedLevel2Option ] = useState<SelectedLevel2Option>('')
   const [ sidebarExpand, setSidebarExpand ] = useState<SidebarExpand>('hidden');
   const isBelowPhone = useIsBelowPhoneBreakpoint(rootFontSizePx);
   const isBelowMobile = useIsBelowMobileBreakpoint(rootFontSizePx);
@@ -113,11 +116,15 @@ export default function NavigatorProvider({children} : {children:ReactNode}){
   const mobileHeaderValue = useMemo(
     () => ({
       mobileHeaderExpand,
-      setMobileHeaderExpand
+      setMobileHeaderExpand,
+      mobileSelectedLevel2Option,
+      setMobileSelectedLevel2Option
     }),
     [
       mobileHeaderExpand,
-      setMobileHeaderExpand
+      setMobileHeaderExpand,
+      mobileSelectedLevel2Option,
+      setMobileSelectedLevel2Option
     ]
   )
   const sidebarValue = useMemo(
