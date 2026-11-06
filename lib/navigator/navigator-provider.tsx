@@ -82,9 +82,15 @@ export default function NavigatorProvider({children} : {children:ReactNode}){
   }, []);
 
   useEffect(() => {
-    if (!isBelowMobile) return;
-    const updateHeaderExpand = () => setHeaderExpand('level-1');
-    updateHeaderExpand();
+    const updateHeaders = () => {
+        setHeaderExpand((current) =>
+        current === 'hidden' || current === 'level-1' ? current : 'level-1',
+      );
+      setMobileHeaderExpand((current) =>
+        current === 'hidden' ? current : 'hidden',
+      );
+    }
+    updateHeaders()
   }, [isBelowMobile]);
   useEffect(() => {
     const showLevel1 = () => {
