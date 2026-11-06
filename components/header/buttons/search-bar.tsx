@@ -23,7 +23,7 @@ export default function SearchBar(
   let placeholder:string;
   switch (variantProps.type) {
       case 'title':
-        width='w-80 @min-[69em]/viewport:w-96 @min-[99em]/viewport:w-112';
+        width='w-full @min-[72.5em]/viewport:w-96 @min-[99em]/viewport:w-112';
         placeholder='Search title';
         break;
       case 'tag':
@@ -49,7 +49,7 @@ export default function SearchBar(
     <div className={`search-bar btn-template justify-start ${width} gap-0`}>
       <label className="flex flex-1 min-w-0 h-full items-center pr-5">
         <span className="h-full flex items-center justify-center px-5 cursor-text">
-          <SearchIcon className="h-[1.64rem] w-auto"/>
+          <SearchIcon className="h-[1.64rem] w-auto color-transition"/>
         </span>
         <input
           className="search-bar-template"

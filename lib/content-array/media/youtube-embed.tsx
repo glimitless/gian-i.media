@@ -34,7 +34,6 @@ export default function YoutubeEmbed({ videoId, title, aspect }: { videoId: stri
         className="h-full w-full object-cover"
         width={0}
         height={0}
-        sizes="100vw"
       />
       <span
         aria-hidden

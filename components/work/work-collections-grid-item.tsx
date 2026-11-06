@@ -26,7 +26,6 @@ export default function WorkCollectionsGridItem(
           alt={alt}
           width={0}
           height={0}
-          sizes="100vw"
         />
       </Link>
       <p className="mt-3 mb-0">{title}</p>

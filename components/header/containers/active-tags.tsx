@@ -9,7 +9,7 @@ export default function ActiveTags(){
 
   return (
     <div 
-      className="flex flex-1 flex-row min-w-0 items-center p-2 gap-2 overflow-x-auto overflow-y-hidden scrollbar-none-webkit"
+      className="hidden @min-[72.5em]/viewport:flex flex-1 flex-row min-w-0 items-center p-2 gap-2 overflow-x-auto overflow-y-hidden scrollbar-none-webkit"
       ref={scrollRef}
     >
       {tags.map((tag) => {

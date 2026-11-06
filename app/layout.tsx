@@ -7,6 +7,7 @@ import NavigatorProvider from '@/lib/navigator/navigator-provider';
 import Sidebar from '@/components/sidebar/sidebar';
 import Header from '@/components/header/header';
 import MainScroll from '@/components/main-scroll/main-scroll';
+import MobileFilterMenu from '@/components/mobile-filter-menu/mobile-filter-menu';
 
 export const metadata: Metadata = {
   title: 'Gian-I Media',
@@ -24,7 +25,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <ThemeProvider>
           <NavigatorProvider>
             <FilterProvider>
-              <div className="@container/viewport min-h-dvh h-dvh flex flex-row">
+              <div className="@container/viewport min-h-dvh h-dvh flex flex-row relative">
+                <MobileFilterMenu />
                 <Sidebar />
                 <div className="@container/content relative self-stretch flex min-w-0 flex-1 flex-col">
                   <Header />

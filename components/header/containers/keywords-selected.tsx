@@ -1,15 +1,17 @@
 import InactiveTags from "./inactive-tags";
 import SearchBar from "../buttons/search-bar";
 import { useFilterContext } from "@/lib/filter/filter-provider";
-import { useState } from "react";
+import { useState, useMemo } from "react";
 
 
 export default function KeywordsSelected(){
   const { inactiveTags, filterArguments } = useFilterContext();
   const { tagType } = filterArguments;
   const [ keywordSearchQuery, setKeywordSearchQuery ] = useState<string>('');
-  const displayedInactiveTags = inactiveTags.filter((keyword) =>
-    keyword.toLowerCase().includes(keywordSearchQuery.trim().toLowerCase())
+  const displayedInactiveTags = useMemo(
+    () => inactiveTags.filter((keyword) =>
+      keyword.toLowerCase().includes(keywordSearchQuery.trim().toLowerCase())
+    ), [inactiveTags, keywordSearchQuery]
   );
 
   return (

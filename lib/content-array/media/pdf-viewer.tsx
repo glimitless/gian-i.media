@@ -3,6 +3,7 @@
 import type { MediaPartArgs } from '@/types/content-body';
 import ImgModalX from '@/public/svg/icons/image-modal/img-modal-x.svg';
 import { useEffect, useRef, useState } from 'react';
+import { createPortal } from 'react-dom';
 import PDFDirectionControls from './pdf/pdf-direction-controls';
 import PDFExpandModal from './pdf/pdf-expand-modal';
 import PDFPageMedia from './pdf/pdf-page-media';
@@ -79,8 +80,8 @@ export default function PDFViewer({ pages }: { pages: MediaPartArgs[] }) {
     }
   }, [isOpen, isSinglePage, pageCount])
 
-  const multiPageModal = (isOpen && !isSinglePage) && (
-    <div className="fixed inset-0 flex flex-col z-6">
+  const multiPageModal = (isOpen && !isSinglePage) && createPortal(
+    <div className="fixed inset-0 flex flex-col z-11">
       <div className="relative flex-1 min-h-0 bg-lmImageModalBackground dark:bg-dmImageModalBackground">
         {pageRenderRange(currentPage, pageCount).map((index) => {
           const isActive = index === currentPage;
@@ -93,7 +94,6 @@ export default function PDFViewer({ pages }: { pages: MediaPartArgs[] }) {
             >
               <PDFPageMedia
                 page={pages[index]}
-                quality="full"
                 isActive={isActive}
               />
             </div>
@@ -108,11 +108,12 @@ export default function PDFViewer({ pages }: { pages: MediaPartArgs[] }) {
         />
         <PDFExpandModal setIsOpen={setIsOpen} variant="minimize" />
       </div>
-    </div>
+    </div>,
+    document.body,
   )
 
-  const singleImageModal = isOpen && isSinglePage && pages[0].type === 'image' && (
-    <div className="fixed inset-0 flex-col z-6 flex items-center justify-center bg-lmImageModalBackground dark:bg-dmImageModalBackground">
+  const singleImageModal = isOpen && isSinglePage && pages[0].type === 'image' && createPortal(
+    <div className="fixed inset-0 flex-col z-11 flex items-center justify-center bg-lmImageModalBackground dark:bg-dmImageModalBackground">
       <button
         type="button"
         className="absolute top-8 right-8 z-9 p-0 cursor-pointer opacity-75"
@@ -124,12 +125,12 @@ export default function PDFViewer({ pages }: { pages: MediaPartArgs[] }) {
       {!isImgLoaded && <div className="absolute z-7 loader" />}
       <PDFPageMedia
         page={pages[0]}
-        quality="full"
         className={`${isImgLoaded ? 'opacity-100' : 'opacity-0'} z-8 max-w-[95vw] max-h-95vh`}
         onLoad={() => setIsImgLoaded(true)}
         isActive={true}
       />
-    </div>
+    </div>,
+    document.body,
   )
 
   return (

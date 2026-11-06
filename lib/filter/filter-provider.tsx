@@ -29,6 +29,24 @@ type FilterContextValue = {
   onToggleSortOrder: (sortOrder: SortOrderArgs) => void;
 }
 
+export const CONTENT_TYPE_OPTIONS:ContentTypeArgs[] = [
+  'all',
+  'works',
+  'notes',
+];
+export const TAG_TYPE_OPTIONS:TagTypeArgs[] = [
+  'all',
+  'none',
+  'keywords',
+  'tools'
+]
+export const SORT_ORDER_OPTIONS:SortOrderArgs[] = [
+  'Alphabetical',
+  'Reverse Alphabetical',
+  'Chronological',
+  'Reverse Chronological',
+  
+];
 const DEFAULT_FILTER_ARGUMENTS:FilterArguments = {
   contentType: 'all',
   tags: [],
@@ -36,7 +54,7 @@ const DEFAULT_FILTER_ARGUMENTS:FilterArguments = {
   searchQuery: '',
   sortOrder: 'Chronological',
 }
-const DISABLE_FILTER_ON_MOBILE = true;
+const DISABLE_FILTER_ON_MOBILE = false;
 function isDefaultFilterArguments(args: FilterArguments): boolean {
   return (
     args.contentType === DEFAULT_FILTER_ARGUMENTS.contentType &&

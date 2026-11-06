@@ -117,6 +117,10 @@
   --ease-dim2: ease-out;
   --duration-dim3: 0.44s;
   --ease-dim3: ease-out;
+  --duration-dim4: 0.62s;
+  --ease-dim4: ease-out;
+  --duration-dim5: 0.52s;
+  --ease-dim5: ease-out;
   --duration-o1: 0.175s;
   --ease-o1: ease-out;
 
@@ -162,6 +166,12 @@
   }
   .text-link{
     @apply underline text-lmSecondary dark:text-dmSecondary hover:text-lmSecondaryActive hover:dark:text-dmSecondaryActive color-transition;
+  }
+  .mobile-filter-option-container{
+    @apply w-full block space-y-4 py-5;
+  }
+  .mobile-filter-options{
+    @apply w-full flex flex-row flex-wrap gap-4;
   }
 
   /* Button templates */
@@ -405,6 +415,9 @@
 @utility hover-scale{
   scale: var(--hover-scale-factor);
 }
+@utility scrollbar-none-webkit{
+  @apply scrollbar-none [&::-webkit-scrollbar]:hidden;
+}
 
 /* Transition utilities */
 @utility btn-template-transition{
@@ -459,14 +472,22 @@
 @utility bcvg-transition{
   transition: background-color var(--duration-bcvg) var(--ease-bcvg);
 }
-@utility scrollbar-none-webkit{
-  @apply scrollbar-none [&::-webkit-scrollbar]:hidden;
-}
+
 
 /* Transitions for specific elements */
 @utility down-arrowhead-transition{
   transition:
     rotate var(--duration-dim1) var(--ease-dim1),
+    color var(--duration-c) var(--ease-c);
+}
+@utility down-arrowhead-transition-2{
+  transition:
+    rotate var(--duration-dim4) var(--ease-dim4),
+    color var(--duration-c) var(--ease-c);
+}
+@utility down-arrowhead-transition-3{
+  transition:
+    rotate var(--duration-dim5) var(--ease-dim5),
     color var(--duration-c) var(--ease-c);
 }
 @utility down-arrowhead-transition-2{
@@ -479,6 +500,15 @@
     height var(--duration-dim1) var(--ease-dim1),
     padding-top var(--duration-dim1) var(--ease-dim1),
     padding-bottom var(--duration-dim1) var(--ease-dim1);
+}
+@utility mobile-filter-menu-transition{
+  transition: 
+    background-color var(--duration-bcvg) var(--ease-bcvg),
+    height var(--duration-dim4) var(--ease-dim4);
+}
+@utility selected-mobile-filter-option-transition{
+  transition:
+    grid-template-rows var(--duration-dim5) var(--ease-dim5);
 }
 @utility sidebar-transition{
   transition:
