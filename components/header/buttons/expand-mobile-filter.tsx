@@ -9,7 +9,7 @@ export default function ExpandMobileFilter(){
 
   return (
     <button
-      className="btn-template btn-template-transition w-16 flex flex-row justify-center @min-[72.5em]/viewport:hidden"
+      className={`btn-template ${mobileHeaderExpand === 'hidden' ? '' : 'btn-template-active'} btn-template-transition w-16 flex flex-row justify-center @min-[72.5em]/viewport:hidden`}
       onClick={onClick}
     >
       <DownArrowhead 
