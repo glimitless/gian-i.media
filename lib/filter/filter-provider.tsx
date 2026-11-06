@@ -9,10 +9,8 @@ import {
   useCallback,
   useMemo,
   useState,
-  useEffect,
   type ReactNode,
 } from 'react';
-import { useMediaQueryContext } from '../navigator/navigator-provider';
 import archiveIDsJson from '@/data/archive-ids.json';
 import { hydrateArchiveID } from '../archive/hydrate-archive-id';
 
@@ -21,7 +19,8 @@ type FilterContextValue = {
   setFilterArguments: React.Dispatch<React.SetStateAction<FilterArguments>>;
   filteredArchiveIDs: ArchiveID[];
   inactiveTags: TagArgs[];
-  // resetFilter: () => void;
+  isDefault: boolean;
+  resetFilter: () => void;
   onToggleTagType: (type: TagTypeArgs) => void;
   onToggleTag: (keyword: TagArgs) => void;
   onToggleTitleSearch: (searchQuery: SearchQueryArgs) => void;
@@ -45,7 +44,6 @@ export const SORT_ORDER_OPTIONS:SortOrderArgs[] = [
   'Reverse Alphabetical',
   'Chronological',
   'Reverse Chronological',
-  
 ];
 const DEFAULT_FILTER_ARGUMENTS:FilterArguments = {
   contentType: 'all',
@@ -54,7 +52,6 @@ const DEFAULT_FILTER_ARGUMENTS:FilterArguments = {
   searchQuery: '',
   sortOrder: 'Chronological',
 }
-const DISABLE_FILTER_ON_MOBILE = false;
 function isDefaultFilterArguments(args: FilterArguments): boolean {
   return (
     args.contentType === DEFAULT_FILTER_ARGUMENTS.contentType &&
@@ -73,25 +70,14 @@ export default function FilterProvider({ children } : {children:ReactNode}){
   const [ filterArguments, setFilterArguments ] = useState<FilterArguments>(
     DEFAULT_FILTER_ARGUMENTS,
   );
+  const isDefault = useMemo(() => isDefaultFilterArguments(filterArguments), [filterArguments])
   const archiveIDs = useMemo(
     () => ((archiveIDsJson as ArchiveIDRecord[]).map(hydrateArchiveID)),
     []
   );
-
-  const { isBelowMobile } = useMediaQueryContext();
-  // const resetFilter = useCallback(() => {
-  //   setFilterArguments({ ...DEFAULT_FILTER_ARGUMENTS });
-  // }, []);
-  useEffect(() => {
-    if (!isBelowMobile) return;
-    const reset = () => {
-      setFilterArguments((prev) => {
-        if(isDefaultFilterArguments(prev)) return prev;
-        return { ...DEFAULT_FILTER_ARGUMENTS };
-      })
-    };
-    reset();
-  }, [isBelowMobile]);
+  const resetFilter = useCallback(() => {
+    setFilterArguments({ ...DEFAULT_FILTER_ARGUMENTS });
+  }, []);
   const {
     contentType,
     searchQuery,
@@ -103,12 +89,9 @@ export default function FilterProvider({ children } : {children:ReactNode}){
   const filteredArchiveIDs = useMemo(
     () => {
       const criteria = { contentType, searchQuery, sortOrder, tags };
-      if (isBelowMobile && DISABLE_FILTER_ON_MOBILE) {
-        return filterArchive(archiveIDs, DEFAULT_FILTER_ARGUMENTS);
-      }
       return filterArchive(archiveIDs, criteria);
     },
-    [contentType, searchQuery, sortOrder, tags, isBelowMobile, archiveIDs]
+    [contentType, searchQuery, sortOrder, tags, archiveIDs]
   );
 
   const selectedTagSet = useMemo(() => new Set(tags), [tags]);
@@ -190,7 +173,8 @@ export default function FilterProvider({ children } : {children:ReactNode}){
       setFilterArguments,
       filteredArchiveIDs,
       inactiveTags,
-      // resetFilter,
+      isDefault,
+      resetFilter,
       onToggleTag,
       onToggleTagType,
       onToggleTitleSearch,
@@ -201,7 +185,8 @@ export default function FilterProvider({ children } : {children:ReactNode}){
       filterArguments, 
       filteredArchiveIDs, 
       inactiveTags,
-      // resetFilter,
+      isDefault,
+      resetFilter,
       onToggleTag,
       onToggleTagType,
       onToggleTitleSearch,
