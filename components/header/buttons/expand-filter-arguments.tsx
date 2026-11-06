@@ -84,7 +84,7 @@ export default function ExpandFilterArguments({variantProps, mobile = false}:{va
     >
       {message}
       <DownArrowhead 
-        className={`w-[0.8rem] h-auto ${headerExpand === 'level-3' && selectedLevel2Option === variantProps.type ? 'rotate-180' : 'rotate-0'} down-arrowhead-transition`} 
+        className={`w-[0.8rem] h-auto ${mobile ? mobileHeaderExpand === 'level-2' && mobileSelectedLevel2Option === variantProps.type ? 'rotate-180' : 'rotate-0' : headerExpand === 'level-3' && selectedLevel2Option === variantProps.type ? 'rotate-180' : 'rotate-0'} ${mobile ? 'down-arrowhead-transition-2' : 'down-arrowhead-transition'}`} 
       />
     </button>
   )

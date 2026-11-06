@@ -10,7 +10,7 @@ export default function ResultsContainer(){
       className="p-5"
     >
       <h2 
-        className="underline"
+        className="underline cursor-pointer"
         onClick={() => setMobileHeaderExpand('hidden')}
       >
         {filteredArchiveIDs.length} results

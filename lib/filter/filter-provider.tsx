@@ -29,6 +29,23 @@ type FilterContextValue = {
   onToggleSortOrder: (sortOrder: SortOrderArgs) => void;
 }
 
+export const CONTENT_TYPE_OPTIONS:ContentTypeArgs[] = [
+  'all',
+  'works',
+  'notes',
+];
+export const TAG_TYPE_OPTIONS:TagTypeArgs[] = [
+  'all',
+  'none',
+  'keywords',
+  'tools'
+]
+export const SORT_ORDER_OPTIONS:SortOrderArgs[] = [
+  'Chronological',
+  'Reverse Chronological',
+  'Alphabetical',
+  'Reverse Alphabetical',
+];
 const DEFAULT_FILTER_ARGUMENTS:FilterArguments = {
   contentType: 'all',
   tags: [],

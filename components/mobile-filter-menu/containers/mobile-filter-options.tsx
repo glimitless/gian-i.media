@@ -26,12 +26,14 @@ export default function MobileFilterOptions(){
               type: 'type',
               current: contentType,
             }}
+            mobile
           />
           <ExpandFilterArguments 
             variantProps={{
               type: 'sort',
               current: sortOrder,
             }}
+            mobile
           />
         </span>
         <span className="flex flex-row gap-4">
@@ -40,12 +42,14 @@ export default function MobileFilterOptions(){
               type: 'tag-type',
               current: tagType,
             }}
+            mobile
           />
           {tagType !== 'none' 
             ? <ExpandFilterArguments
                 variantProps={{
                   type: 'tag',
                 }} 
+                mobile
               /> 
             : <></>
           }

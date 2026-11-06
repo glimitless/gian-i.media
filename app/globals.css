@@ -493,6 +493,10 @@
     background-color var(--duration-bcvg) var(--ease-bcvg),
     height var(--duration-dim4) var(--ease-dim4);
 }
+@utility selected-mobile-filter-option-transition{
+  transition:
+    height var(--duration-dim4) var(--ease-dim4);
+}
 @utility sidebar-transition{
   transition:
     background-color var(--duration-bcvg) var(--ease-bcvg),

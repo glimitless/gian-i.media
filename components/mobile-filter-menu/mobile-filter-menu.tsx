@@ -4,6 +4,7 @@ import { useMobileHeaderContext } from '@/lib/navigator/navigator-provider'
 import MobileFilterHeader from './containers/mobile-filter-header';
 import ResultsContainer from './containers/results-container';
 import MobileFilterOptions from './containers/mobile-filter-options';
+import SelectedMobileFilterOptions from './containers/selected-mobile-filter-options';
 
 export default function MobileFilterMenu(){
   const { mobileHeaderExpand } = useMobileHeaderContext();
@@ -13,6 +14,7 @@ export default function MobileFilterMenu(){
       <MobileFilterHeader />
       <ResultsContainer />
       <MobileFilterOptions />
+      <SelectedMobileFilterOptions />
     </div>
   )
 }

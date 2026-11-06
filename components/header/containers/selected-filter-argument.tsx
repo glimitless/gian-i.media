@@ -1,28 +1,11 @@
 import { useHeaderContext } from "@/lib/navigator/navigator-provider";
-import { useFilterContext } from "@/lib/filter/filter-provider";
-import type { ContentTypeArgs, SortOrderArgs, TagTypeArgs } from "@/types/filter";
+import { useFilterContext, CONTENT_TYPE_OPTIONS, SORT_ORDER_OPTIONS, TAG_TYPE_OPTIONS } from "@/lib/filter/filter-provider";
+
 import ContentTypeOption from "../buttons/content-type-option";
 import SortOrderOption from "../buttons/sort-order-option";
 import KeywordsSelected from "./keywords-selected";
 import TagTypeOption from "../buttons/tag-type-option";
 
-const CONTENT_TYPE_OPTIONS:ContentTypeArgs[] = [
-  'all',
-  'works',
-  'notes',
-];
-const TAG_TYPE_OPTIONS:TagTypeArgs[] = [
-  'all',
-  'none',
-  'keywords',
-  'tools'
-]
-const SORT_ORDER_OPTIONS:SortOrderArgs[] = [
-  'Chronological',
-  'Reverse Chronological',
-  'Alphabetical',
-  'Reverse Alphabetical',
-];
 
 
 export default function SelectedFilterArgument(){
