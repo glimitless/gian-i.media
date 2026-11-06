@@ -6,7 +6,6 @@ import { useEffect, useRef } from 'react';
 
 type PDFPageMediaProps = {
   page: MediaPartArgs;
-  quality?: 'preview' | 'full';
   className?: string;
   onLoad?: () => void;
   isActive: boolean;
@@ -14,7 +13,6 @@ type PDFPageMediaProps = {
 
 export default function PDFPageMedia({
   page,
-  quality = 'preview',
   className,
   onLoad,
   isActive
@@ -35,7 +33,6 @@ export default function PDFPageMedia({
   }, [isActive, page]);
 
   if (page.type === 'image') {
-    const isFull = quality === 'full';
     return (
       <Image
         className={className ?? 'w-full h-full max-w-full max-h-full object-contain'} 
@@ -43,8 +40,6 @@ export default function PDFPageMedia({
         alt={page.alt}
         width={page.width}
         height={page.height}
-        quality={isFull ? 90 : 60}
-        sizes={isFull ? `${page.width * 3}px` : '100vw'}
         onLoad={onLoad}
       />
     )

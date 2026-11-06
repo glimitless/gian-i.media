@@ -181,7 +181,6 @@ function renderMediaPart(part: MediaPartArgs, key: number) {
           alt={part.alt}
           width={0}
           height={0}
-          sizes="100vw"
         />
       </ImageContainer>
     )

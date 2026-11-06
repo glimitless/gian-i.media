@@ -94,7 +94,6 @@ export default function PDFViewer({ pages }: { pages: MediaPartArgs[] }) {
             >
               <PDFPageMedia
                 page={pages[index]}
-                quality="full"
                 isActive={isActive}
               />
             </div>
@@ -126,7 +125,6 @@ export default function PDFViewer({ pages }: { pages: MediaPartArgs[] }) {
       {!isImgLoaded && <div className="absolute z-7 loader" />}
       <PDFPageMedia
         page={pages[0]}
-        quality="full"
         className={`${isImgLoaded ? 'opacity-100' : 'opacity-0'} z-8 max-w-[95vw] max-h-95vh`}
         onLoad={() => setIsImgLoaded(true)}
         isActive={true}

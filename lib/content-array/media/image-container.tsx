@@ -75,8 +75,6 @@ export default function ImageContainer({ children, aspect, src, width, height, a
             onLoad={() => setIsImgLoaded(true)}
             width={width}
             height={height}
-            quality={90}
-            sizes={`${(width*3).toString()}px`}
           />
         
           
