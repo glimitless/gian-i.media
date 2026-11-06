@@ -4,7 +4,7 @@ import { useMobileHeaderContext } from '@/lib/navigator/navigator-provider';
 export default function ExpandMobileFilter(){
   const { mobileHeaderExpand, setMobileHeaderExpand } = useMobileHeaderContext();
   function onClick(){
-    setMobileHeaderExpand((prev) => prev === 'hidden' ? 'expanded' : 'hidden')
+    setMobileHeaderExpand((prev) => prev === 'hidden' ? 'level-1' : 'hidden')
   }
 
   return (
