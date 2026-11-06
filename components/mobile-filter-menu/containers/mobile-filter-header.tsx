@@ -3,7 +3,7 @@ import MobileHomeLinkContainer from "@/components/header/containers/mobile-home-
 
 export default function MobileFilterHeader(){
   return (
-    <div className="w-full p-7 flex flex-row justify-between">
+    <div className="w-full p-5 flex flex-row justify-between">
       <MobileHomeLinkContainer />
       <ColorModeSwitch />
     </div>

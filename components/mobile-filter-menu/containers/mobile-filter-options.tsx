@@ -7,7 +7,7 @@ export default function MobileFilterOptions(){
 
   return (
     <div
-      className="w-full p-5 flex flex-col "
+      className="w-full px-5 pt-6 pb-5 flex flex-col "
     >
       <div className="w-full max-w-180">
         <SearchBar 
