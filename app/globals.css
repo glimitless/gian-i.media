@@ -72,7 +72,7 @@
   /* Font variables */
   --font-main: "Zilla Slab", ui-slab, Georgia, serif;
   
-  --text-body: 1.75rem;
+  --text-body: 1.8rem;
   --text-body--line-height: 2.7rem;
   --text-body--font-weight: 400;
 
@@ -325,7 +325,7 @@
     @apply grid grid-cols-1 w-full h-full flex-1 min-h-0 overflow-hidden;
   }
   .two-column-page-content-column{
-    @apply overflow-scroll scrollbar-none-webkit col-1;
+    @apply content-start overflow-scroll scrollbar-none-webkit col-1;
     padding-bottom: calc(1.25rem + var(--footer-reveal-space, 0px));
     scroll-timeline: --content-footer y;
   }

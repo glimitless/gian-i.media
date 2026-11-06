@@ -1340,6 +1340,179 @@
             ]
           }
         ]
+      },
+      {
+        "id": "version-1p0",
+        "blocks": [
+          {
+            "id": "findings",
+            "items": [
+              [
+                {
+                  "type": "pdf",
+                  "pages": [
+                    {
+                      "type": "image",
+                      "aspect": "851/958",
+                      "src": "birth/version-1p0/gc_birth-findings-1.webp",
+                      "width": 851,
+                      "height": 958,
+                      "alt": "",
+                      "id": "birth-findings-sc-1"
+                    },
+                    {
+                      "type": "image",
+                      "aspect": "847/954",
+                      "src": "birth/version-1p0/gc_birth-findings-2.webp",
+                      "width": 847,
+                      "height": 954,
+                      "alt": "",
+                      "id": "birth-findings-sc-2"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "You know that feeling when you finish an experiment that feels promising, and you show it to your friends with a “hey, check this out”? Surprisingly, that’s how I feel about version 1.0. I’m giddy to show it to people. Historically, the longer I take on a project, the more defensive I become about it, and the more I dread critique or presenting a prototype to a client for fear of having my ideas shot down. Not with this one. Maybe it’s because I already know some of its weaknesses and plan to improve them, or maybe I’m maturing. Who’s to say."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "The changes from version 0.9 include:"
+                    }
+                  ]
+                },
+                {
+                  "type": "numbered-list",
+                  "content": [
+                    {
+                      "type": "numbered-list-item",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "value": "The header now disappears when you scroll down through a page’s main content, and reappears when you scroll up."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "numbered-list-item",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "value": "The footer only appears after you scroll to the end of a page’s main content."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "numbered-list-item",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "value": "The long-awaited, long-procrastinated mobile filter has been implemented."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "numbered-list-item",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "value": "A reset button has been added for the filter. It only appears in the header after a change has been made to the default filter settings."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "numbered-list-item",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "value": "Text and column sizes have been increased to improve readability."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "The main reason for 1, 2, and 5 was to give the content more room to shine. That touches on a weakness I’d noticed a while back but hadn’t addressed, for reasons I’ll get to. This portfolio works well as an archive, but it doesn’t curate a concise selection of highlight work the way a traditional portfolio is supposed to. I mostly avoided that because I don’t feel I have the work yet to break into the industry I want to build a career in: the design and development of everyday technologies that can enrich people’s lives."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "When I started this portfolio, I wanted to enter that sector through physical product design. I’ve since pivoted to software design and development, but I only found that destination late in undergrad. On top of that, I only started design in undergrad, coming from a business and technology background, so there was hardly enough time to prepare an ideal selection of work for the tech design and development industry."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "I guess that’s what these next two years will be about. My father has a saying that I’m probably butchering, though I remember the gist: it isn’t about where you are now, but where you’ll be down the line. Focus on your destination rather than a place where you can merely survive. In my case, this downtime has greatly refined my perspective, and now it’s about learning as much as I can to prepare for the right opportunity when it comes."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "At some point I’ll change the landing page to present featured work, most likely as a full-screen video carousel that progresses with scroll position. The filter grid will become a tab titled Archive, linked from the landing page with something like “See the full archive.” This site will really start to shine in that format. In the meantime I’ll work and study, and collect two to four pieces that fit both my career goals and the video carousel. I’m not sure yet what those projects will be."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "Until next time."
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
       }
     ]
   }

@@ -224,6 +224,25 @@
               }
             ]
           }
+        },
+        {
+          "id": "version-1p0",
+          "content": {
+            "title": "Version 1.0",
+            "blocks": [
+              {
+                "id": "findings",
+                "content": {
+                  "title": "Findings",
+                  "date": "20261106",
+                  "summary": [
+                    "Added a scroll-aware header and footer, the mobile filter, a reset button, and larger type.",
+                    "Saw the site as an archive more than a curated portfolio, and planned a featured landing page."
+                  ]
+                }
+              }
+            ]
+          }
         }
       ]
     }

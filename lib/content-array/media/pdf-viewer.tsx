@@ -95,6 +95,7 @@ export default function PDFViewer({ pages }: { pages: MediaPartArgs[] }) {
               <PDFPageMedia
                 page={pages[index]}
                 isActive={isActive}
+                className={pages[index].type === 'image' ? 'absolute top-1/2 left-1/2 h-auto w-auto max-h-full max-w-full -translate-x-1/2 -translate-y-1/2 object-contain' : undefined}
               />
             </div>
           );
