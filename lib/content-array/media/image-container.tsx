@@ -3,6 +3,7 @@
 import type { ComponentProps, ReactElement } from 'react';
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import ImgModalX from '@/public/svg/icons/image-modal/img-modal-x.svg';
 
 type ImageContainerProps = {
@@ -51,7 +52,7 @@ export default function ImageContainer({ children, aspect, src, width, height, a
       >
         {children}
       </button>
-      {isImgOpen && (
+      {isImgOpen && createPortal(
         <div
           className="fixed inset-0 z-11 flex items-center justify-center bg-lmImageModalBackground dark:bg-dmImageModalBackground"
           onClick={() => setIsImgOpen(false)}
@@ -79,7 +80,8 @@ export default function ImageContainer({ children, aspect, src, width, height, a
           />
         
           
-        </div>
+        </div>,
+        document.body,
       )}
     </>
   )
