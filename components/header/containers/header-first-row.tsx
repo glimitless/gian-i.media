@@ -6,7 +6,7 @@ import ActiveTags from './active-tags';
 export default function HeaderFirstRow(){
 
   return (
-    <div className="w-full h-full p-0 flex flex-row gap-0 overflow-hidden">
+    <div className="w-full h-full p-0 flex flex-row justify-between gap-0 overflow-hidden">
       <div className="flex flex-row justify-start gap-4 h-full p-2">
         <div className="flex @min-[92.8em]/viewport:hidden">
           <MobileHomeLinkContainer />
