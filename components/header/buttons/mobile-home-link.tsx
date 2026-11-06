@@ -2,14 +2,16 @@ import Link from 'next/link';
 import TempleIcon from '@/public/svg/icons/sidebar/gc_temple-icon.svg';
 import type { MouseEvent } from 'react';
 import { useHeaderContext } from '@/lib/navigator/navigator-provider';
+import { useMobileHeaderContext } from '@/lib/navigator/navigator-provider';
 
 export default function MobileHomeLink({isHome}:{isHome:boolean}){
   const { scrollMainToTop } = useHeaderContext();
+  const { mobileHeaderExpand } = useMobileHeaderContext()
 
   function onClick(event:MouseEvent<HTMLAnchorElement>){
     if(isHome){
       event.preventDefault();
-      scrollMainToTop();
+      if(mobileHeaderExpand === 'hidden') scrollMainToTop();
     }
   }
 
