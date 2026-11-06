@@ -36,7 +36,7 @@ const DEFAULT_FILTER_ARGUMENTS:FilterArguments = {
   searchQuery: '',
   sortOrder: 'Chronological',
 }
-const DISABLE_FILTER_ON_MOBILE = true;
+const DISABLE_FILTER_ON_MOBILE = false;
 function isDefaultFilterArguments(args: FilterArguments): boolean {
   return (
     args.contentType === DEFAULT_FILTER_ARGUMENTS.contentType &&

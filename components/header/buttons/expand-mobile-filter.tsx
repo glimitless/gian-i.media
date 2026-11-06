@@ -13,7 +13,7 @@ export default function ExpandMobileFilter(){
       onClick={onClick}
     >
       <DownArrowhead 
-        className={`w-6 h-auto down-arrowhead-transition ${mobileHeaderExpand === 'hidden' ? 'rotate-0' : 'rotate-180'}`} 
+        className={`w-6 h-auto down-arrowhead-transition-2 ${mobileHeaderExpand === 'hidden' ? 'rotate-0' : 'rotate-180'}`} 
       />
     </button>
   )

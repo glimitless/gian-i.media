@@ -474,6 +474,11 @@
 }
 @utility down-arrowhead-transition-2{
   transition:
+    rotate var(--duration-dim4) var(--ease-dim4),
+    color var(--duration-c) var(--ease-c);
+}
+@utility down-arrowhead-transition-2{
+  transition:
     rotate var(--duration-dim3) var(--ease-dim3);
 }
 @utility header-transition{
