@@ -1,6 +1,6 @@
 import SearchBar from "@/components/header/buttons/search-bar";
 import { useFilterContext } from "@/lib/filter/filter-provider";
-import ExpandFilterArguments from "@/components/header/buttons/expand-filter-arguments";
+import { ExpandMobileFilterArguments } from "@/components/header/buttons/expand-filter-arguments";
 
 export default function MobileFilterOptions(){
   const { filterArguments, onToggleTitleSearch } = useFilterContext();
@@ -21,35 +21,31 @@ export default function MobileFilterOptions(){
       </div>
       <div className="flex flex-row flex-wrap gap-4">
         <span className="flex flex-row gap-4">
-          <ExpandFilterArguments 
+          <ExpandMobileFilterArguments
             variantProps={{
               type: 'type',
               current: contentType,
             }}
-            mobile
           />
-          <ExpandFilterArguments 
+          <ExpandMobileFilterArguments
             variantProps={{
               type: 'sort',
               current: sortOrder,
             }}
-            mobile
           />
         </span>
         <span className="flex flex-row gap-4">
-          <ExpandFilterArguments 
+          <ExpandMobileFilterArguments
             variantProps={{
               type: 'tag-type',
               current: tagType,
             }}
-            mobile
           />
           {tagType !== 'none' 
-            ? <ExpandFilterArguments
+            ? <ExpandMobileFilterArguments
                 variantProps={{
                   type: 'tag',
-                }} 
-                mobile
+                }}
               /> 
             : <></>
           }
