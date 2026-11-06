@@ -19,33 +19,38 @@ export default function MobileFilterOptions(){
           setValue={onToggleTitleSearch}
         />
       </div>
-      <div className="flex flex-row gap-4">
-        <ExpandFilterArguments 
-          variantProps={{
-            type: 'type',
-            current: contentType,
-          }}
-        />
-        <ExpandFilterArguments 
-          variantProps={{
-            type: 'sort',
-            current: sortOrder,
-          }}
-        />
-        <ExpandFilterArguments 
-          variantProps={{
-            type: 'tag-type',
-            current: tagType,
-          }}
-        />
-        {tagType !== 'none' 
-          ? <ExpandFilterArguments
-              variantProps={{
-                type: 'tag',
-              }} 
-            /> 
-          : <></>
-        }
+      <div className="flex flex-row flex-wrap gap-4">
+        <span className="flex flex-row gap-4">
+          <ExpandFilterArguments 
+            variantProps={{
+              type: 'type',
+              current: contentType,
+            }}
+          />
+          <ExpandFilterArguments 
+            variantProps={{
+              type: 'sort',
+              current: sortOrder,
+            }}
+          />
+        </span>
+        <span className="flex flex-row gap-4">
+          <ExpandFilterArguments 
+            variantProps={{
+              type: 'tag-type',
+              current: tagType,
+            }}
+          />
+          {tagType !== 'none' 
+            ? <ExpandFilterArguments
+                variantProps={{
+                  type: 'tag',
+                }} 
+              /> 
+            : <></>
+          }
+        </span>
+        
       </div>
     </div>
   )
