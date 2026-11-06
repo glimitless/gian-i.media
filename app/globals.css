@@ -119,6 +119,8 @@
   --ease-dim3: ease-out;
   --duration-dim4: 0.62s;
   --ease-dim4: ease-out;
+  --duration-dim5: 0.52s;
+  --ease-dim5: ease-out;
   --duration-o1: 0.175s;
   --ease-o1: ease-out;
 
@@ -483,6 +485,11 @@
     rotate var(--duration-dim4) var(--ease-dim4),
     color var(--duration-c) var(--ease-c);
 }
+@utility down-arrowhead-transition-3{
+  transition:
+    rotate var(--duration-dim5) var(--ease-dim5),
+    color var(--duration-c) var(--ease-c);
+}
 @utility down-arrowhead-transition-2{
   transition:
     rotate var(--duration-dim3) var(--ease-dim3);
@@ -501,7 +508,7 @@
 }
 @utility selected-mobile-filter-option-transition{
   transition:
-    height var(--duration-dim4) var(--ease-dim4);
+    grid-template-rows var(--duration-dim5) var(--ease-dim5);
 }
 @utility sidebar-transition{
   transition:

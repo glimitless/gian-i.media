@@ -11,32 +11,32 @@ export default function SelectedMobileFilterOptions(){
   const { contentType, sortOrder, tagType, tags } = filterArguments;
 
   return (
-    <div
-      className='w-full flex-1 overflow-hidden pt-3'
-    >
+    <div className='flex w-full min-h-0 flex-1 flex-col overflow-hidden pt-3'>
       <div
-        className={`w-full px-5 ${mobileHeaderExpand === 'level-2' ? 'h-full' : 'h-0'} selected-mobile-filter-option-transition overflow-scroll scrollbar-none-webkit`}
+        className={`grid w-full min-h-0 max-h-full ${mobileHeaderExpand === 'level-2' ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'} selected-mobile-filter-option-transition`}
       >
-        <div
-          className="block"
-        >
-          {mobileSelectedLevel2Option === 'type' &&
-            <MobileContentTypeOptions contentType={contentType} />
-          }
-          {mobileSelectedLevel2Option === 'sort' && 
-            <MobileSortOrderOptions sortOrder={sortOrder} />
-          }
-          {mobileSelectedLevel2Option === 'tag-type' && 
-            <MobileTagTypeOptions tagType={tagType} />
-          }
-          {mobileSelectedLevel2Option === 'tag' && 
-            <MobileTagOptions 
-              tagType={tagType} 
-              inactiveTags={inactiveTags}
-              onToggleTag={onToggleTag}
-              tags={tags}
-            />
-          }
+        <div className="min-h-0 overflow-hidden">
+          <div className="max-h-full overflow-y-auto px-5 scrollbar-none-webkit">
+            <div className="block">
+              {mobileSelectedLevel2Option === 'type' &&
+                <MobileContentTypeOptions contentType={contentType} />
+              }
+              {mobileSelectedLevel2Option === 'sort' &&
+                <MobileSortOrderOptions sortOrder={sortOrder} />
+              }
+              {mobileSelectedLevel2Option === 'tag-type' &&
+                <MobileTagTypeOptions tagType={tagType} />
+              }
+              {mobileSelectedLevel2Option === 'tag' &&
+                <MobileTagOptions
+                  tagType={tagType}
+                  inactiveTags={inactiveTags}
+                  onToggleTag={onToggleTag}
+                  tags={tags}
+                />
+              }
+            </div>
+          </div>
         </div>
       </div>
     </div>
