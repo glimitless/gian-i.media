@@ -10,10 +10,10 @@ export default function ResultsContainer(){
       className="p-5"
     >
       <h2 
-        className="underline cursor-pointer"
+        className="underline cursor-pointer w-fit"
         onClick={() => setMobileHeaderExpand('hidden')}
       >
-        {filteredArchiveIDs.length} results
+        {filteredArchiveIDs.length} result{filteredArchiveIDs.length != 1 && 's'}
       </h2>
     </div>
   )

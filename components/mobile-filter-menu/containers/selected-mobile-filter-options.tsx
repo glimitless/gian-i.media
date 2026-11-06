@@ -1,11 +1,13 @@
 import { useMobileHeaderContext } from '@/lib/navigator/navigator-provider';
 import { useFilterContext } from '@/lib/filter/filter-provider';
-import ContentTypeOption from './content-type-option';
+import MobileContentTypeOptions from './mobile-content-type-options';
+import MobileSortOrderOptions from './mobile-sort-order-options';
+import MobileTagTypeOptions from './mobile-tag-type-options';
 
 export default function SelectedMobileFilterOptions(){
   const { mobileHeaderExpand, mobileSelectedLevel2Option } = useMobileHeaderContext();
   const { filterArguments } = useFilterContext();
-  const { contentType } = filterArguments;
+  const { contentType, sortOrder, tagType } = filterArguments;
 
   return (
     <div
@@ -18,7 +20,13 @@ export default function SelectedMobileFilterOptions(){
           className="py-5"
         >
           {mobileSelectedLevel2Option === 'type' &&
-            <ContentTypeOption contentType={contentType} />
+            <MobileContentTypeOptions contentType={contentType} />
+          }
+          {mobileSelectedLevel2Option === 'sort' && 
+            <MobileSortOrderOptions sortOrder={sortOrder} />
+          }
+          {mobileSelectedLevel2Option === 'tag-type' && 
+            <MobileTagTypeOptions tagType={tagType} />
           }
         </div>
       </div>

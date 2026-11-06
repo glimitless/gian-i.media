@@ -41,10 +41,11 @@ export const TAG_TYPE_OPTIONS:TagTypeArgs[] = [
   'tools'
 ]
 export const SORT_ORDER_OPTIONS:SortOrderArgs[] = [
-  'Chronological',
-  'Reverse Chronological',
   'Alphabetical',
   'Reverse Alphabetical',
+  'Chronological',
+  'Reverse Chronological',
+  
 ];
 const DEFAULT_FILTER_ARGUMENTS:FilterArguments = {
   contentType: 'all',

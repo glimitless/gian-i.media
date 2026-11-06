@@ -5,10 +5,10 @@ import ContentTypeOption from '@/components/header/buttons/content-type-option';
 export default function MobileContentTypeOptions({ contentType }: { contentType: ContentTypeArgs }) {
   return (
     <div
-      className="w-full block space-y-4"
+      className="mobile-filter-option-container"
     >
       <h2>Content Type</h2>
-      <div className="w-full flex flex-row gap-4">
+      <div className="mobile-filter-options">
         {CONTENT_TYPE_OPTIONS.map((option, i) => {
           return (
             <ContentTypeOption
@@ -19,7 +19,6 @@ export default function MobileContentTypeOptions({ contentType }: { contentType:
           )
         })}
       </div>
-
     </div>
   )
 }
