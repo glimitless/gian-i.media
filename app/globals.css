@@ -39,6 +39,17 @@
        url('../fonts//zilla-slab-v12-latin-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 
+@property --selection-bg {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #DB99B8;
+}
+@property --selection-text {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #222223;
+}
+
 @theme {
   /* Color variables */
   --color-lmBg: #F0EEE9;
@@ -142,6 +153,19 @@
 @layer base {
   html{
     font-size:10px;
+    --selection-bg: #DB99B8;
+    --selection-text: #222223;
+    transition:
+      --selection-bg var(--duration-bc) var(--ease-bc),
+      --selection-text var(--duration-c) var(--ease-c);
+  }
+  html.dark {
+    --selection-bg: #802D54;
+    --selection-text: #EBE7E1;
+  }
+  ::selection {
+    background-color: var(--selection-bg);
+    color: var(--selection-text);
   }
   body{
     @apply font-main;
