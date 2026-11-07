@@ -461,6 +461,11 @@
 @utility bg-transition{
   transition: background-color var(--duration-bc) var(--ease-bc);
 }
+@utility bg-color-transition{
+  transition:
+    background-color var(--duration-bc) var(--ease-bc),
+    color var(--duration-c) var(--ease-c);
+}
 @utility bg-transition-2{
   transition: background-color var(--duration-bc2) var(--ease-bc2);
 }
