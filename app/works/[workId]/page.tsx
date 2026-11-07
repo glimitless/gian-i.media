@@ -6,6 +6,15 @@ import WorkExpandedDescription from '@/components/work/work-expanded-description
 import WorkCollectionsGrid from '@/components/work/work-collections-grid';
 import ThumbnailNav from '@/components/thumbnail-nav/thumbnail-nav';
 import HeaderMargin from '@/lib/navigator/header-margin';
+import archiveIDsJson from '@/data/archive-ids.json';
+
+export const dynamicParams = false;
+
+export function generateStaticParams(){
+  return archiveIDsJson
+    .filter((item) => item.type === 'works')
+    .map((item) => ({ workId: item.id }))
+}
 
 type WorkPageProps = {
   params: Promise< {workId:string }>

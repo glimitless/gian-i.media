@@ -6,6 +6,18 @@ import { findArchiveWorkRecord, findArchiveWorkCollectionContent } from '@/lib/a
 import WorkCollectionOverviewContainer from '@/components/work-collection/work-collection-overview-container';
 import renderContentBody from '@/lib/content-array/render-content-body';
 import HeaderMargin from '@/lib/navigator/header-margin';
+import archiveWorksJson from '@/data/archive-works.json';
+
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return archiveWorksJson.flatMap((work) => 
+    work.content.collectionLinks.map((collection) => ({
+      workId: work.id,
+      collectionId: collection.id
+    }))
+  );
+}
 
 type WorkCollectionPageProps = {
   params: Promise<{workId:GroupIdArgs, collectionId:IndividualIdArgs}>
