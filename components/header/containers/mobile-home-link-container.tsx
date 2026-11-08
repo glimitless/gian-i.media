@@ -17,7 +17,7 @@ export default function MobileHomeLinkContainer(){
       {isHome && 
         <ExpandMobileFilter />
       }
-      {(!isDefault && isBelowMobile) && 
+      {(!isDefault && isBelowMobile && isHome) && 
         <div className="inline @min-[72.5em]/viewport:hidden">
           <ResetFilter resetFilter={resetFilter} />
         </div>
