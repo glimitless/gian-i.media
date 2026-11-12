@@ -10,7 +10,7 @@ export default function Resume() {
           <h3>Gian-I Cambridge</h3>
           <h3>
             <a
-              href="pdf/resume/gc_resume-nov-2026-digital.pdf"
+              href="pdf/resume/gc_resume-nov-2026-digital-2.pdf"
               download={true}
               className="text-link"
             >
