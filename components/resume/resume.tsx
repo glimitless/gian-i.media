@@ -46,6 +46,10 @@ export default function Resume() {
           <h3>Intermediate in</h3>
           <ul className="block-list variant-1 mb-5">
             <li>
+              <p>Programming & Scripting</p>
+              <h3>Python</h3>
+            </li>
+            <li>
               <p>2D and 3D Drafting</p>
               <h3>AutoCAD, Rhino 8</h3>
             </li>
