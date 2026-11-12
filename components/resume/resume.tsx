@@ -50,6 +50,10 @@ export default function Resume() {
               <h3>Python</h3>
             </li>
             <li>
+              <p>AI-Assisted Development</p>
+              <h3>Claude Code</h3>
+            </li>
+            <li>
               <p>2D and 3D Drafting</p>
               <h3>AutoCAD, Rhino 8</h3>
             </li>
