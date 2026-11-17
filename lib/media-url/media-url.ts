@@ -9,6 +9,5 @@ type mediaTypes = keyof typeof MEDIA_TYPES;
 
 export default function mediaURL(src: string, type: mediaTypes): string {
   if (!MEDIA_BASE_URL) return '';
-  console.log(`${MEDIA_BASE_URL}/${MEDIA_TYPES[type]}/${src}`)
   return `${MEDIA_BASE_URL}/${MEDIA_TYPES[type]}/${src}`
 }
