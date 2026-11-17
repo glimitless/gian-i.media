@@ -51,7 +51,7 @@ export default function PDFPageMedia({
       <video 
         ref={videoRef}
         className={`pdf-page-video w-full h-full max-w-full max-h-full object-contain ${className ?? ''}`}
-        src={mediaURL(page.src, 'video')}
+        src={`/video/${page.src}`}
         controls={page.controls}
         loop={page.loop}
         muted={page.muted}

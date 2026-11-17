@@ -1,7 +1,6 @@
 const MEDIA_BASE_URL = process.env.NEXT_PUBLIC_MEDIA_BASE_URL?.replace(/\/+$/, '')
 const MEDIA_TYPES = {
   'image': 'images',
-  'video': 'videos',
   'pdf': 'pdfs'
 }
 
