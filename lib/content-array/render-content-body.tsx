@@ -239,7 +239,7 @@ function renderTextPart(part: TextPartArgs, key: number | string): ReactNode {
   else if (part.type === 'download-link') {
     return <a
       key={key}
-      href={part.href}
+      href={mediaURL(part.href, part.mediaType, true)}
       download={true}
       className="text-link">
       {part.label + ' ↓\uFE0E'}

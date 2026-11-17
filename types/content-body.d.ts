@@ -1,7 +1,9 @@
+import type { mediaTypes } from "@/lib/media-url/media-url";
+
 export type TextPartArgs = (
   { type: 'text'; value: string;} 
   | { type: 'external-link'; href: string; label: string; } 
-  | { type: 'download-link'; href: string; label: string; fileName: string; }
+  | { type: 'download-link'; mediaType: mediaTypes, href: string; label: string; fileName: string; }
 );
 type InnerTextBlockArgs = (
   { type: 'paragraph'; content: TextPartArgs[] }

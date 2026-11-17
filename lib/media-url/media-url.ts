@@ -5,9 +5,9 @@ const MEDIA_TYPES = {
   'pdf': 'pdfs'
 }
 
-type mediaTypes = keyof typeof MEDIA_TYPES;
+export type mediaTypes = keyof typeof MEDIA_TYPES;
 
-export default function mediaURL(src: string, type: mediaTypes): string {
+export default function mediaURL(src: string, type: mediaTypes, download:boolean = false): string {
   if (!MEDIA_BASE_URL) return '';
-  return `${MEDIA_BASE_URL}/${MEDIA_TYPES[type]}/${src}`
+  return `${MEDIA_BASE_URL}/${MEDIA_TYPES[type]}/${src}${download ? '?download' : ''}`
 }

@@ -1,5 +1,6 @@
 import resumeBlocksJson from '@/data/resume-blocks.json';
 import ResumeBlock from './containers/resume-block';
+import mediaURL from '@/lib/media-url/media-url';
 
 export default function Resume() {
   return (
@@ -10,7 +11,7 @@ export default function Resume() {
           <h3>Gian-I Cambridge</h3>
           <h3>
             <a
-              href="pdf/resume/gc_resume-nov-2026-digital-2.pdf"
+              href={mediaURL('resume/gc_resume-nov-2026-digital-2.pdf', 'pdf', true)}
               download={true}
               className="text-link"
             >
