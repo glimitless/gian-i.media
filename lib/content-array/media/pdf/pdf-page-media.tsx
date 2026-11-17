@@ -3,6 +3,7 @@
 import type { MediaPartArgs } from '@/types/content-body';
 import Image from 'next/image';
 import { useEffect, useRef } from 'react';
+import mediaURL from '@/lib/media-url/media-url';
 
 type PDFPageMediaProps = {
   page: MediaPartArgs;
@@ -36,7 +37,7 @@ export default function PDFPageMedia({
     return (
       <Image
         className={className ?? 'w-full h-full max-w-full max-h-full object-contain'} 
-        src={`/images/${page.src}`}
+        src={mediaURL(page.src, 'image')}
         alt={page.alt}
         width={page.width}
         height={page.height}
@@ -50,7 +51,7 @@ export default function PDFPageMedia({
       <video 
         ref={videoRef}
         className={`pdf-page-video w-full h-full max-w-full max-h-full object-contain ${className ?? ''}`}
-        src={`/video/${page.src}`}
+        src={mediaURL(page.src, 'video')}
         controls={page.controls}
         loop={page.loop}
         muted={page.muted}
