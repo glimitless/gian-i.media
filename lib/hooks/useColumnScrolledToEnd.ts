@@ -23,9 +23,6 @@ export function contentScroller(main: HTMLElement){
 
 function concealFooter(footer: HTMLElement, concealed: boolean){
   if (footer.inert !== concealed) footer.inert = concealed;
-
-  if (concealed) footer.setAttribute('aria-hidden', 'true');
-  else footer.removeAttribute('aria-hidden');
 }
 
 function supportsScrollDrivenAnimation(){

@@ -1,4 +1,4 @@
-import { TagArgs } from "@/types/filter";
+import type { TagArgs } from "@/types/filter";
 import InactiveKeyword from "../buttons/inactive-keyword";
 import useHorizontalWheelScroll from '@/lib/hooks/useHorizontalWheelScroll';
 import { useFilterContext } from "@/lib/filter/filter-provider";

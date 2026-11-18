@@ -69,7 +69,7 @@ export default function ImageContainer({ children, aspect, src, width, height, a
         
           <Image
             className={`${isImgLoaded ? 'opacity-100' : 'opacity-0'} z-3 w-auto h-auto max-w-[95vw] max-h-[95vh]`}
-            src={`/images/${src}`}
+            src={src}
             alt={alt}
             onClick={(e) => e.stopPropagation()}
             onLoad={() => setIsImgLoaded(true)}

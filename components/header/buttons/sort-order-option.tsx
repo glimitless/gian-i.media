@@ -1,4 +1,4 @@
-import { SortOrderArgs } from '@/types/filter';
+import type { SortOrderArgs } from '@/types/filter';
 import { useFilterContext } from '@/lib/filter/filter-provider';
 
 export default function SortOrderOption({ sortOrder, active }:{ sortOrder:SortOrderArgs, active:SortOrderArgs }){

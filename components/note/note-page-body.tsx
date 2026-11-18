@@ -1,6 +1,6 @@
 import type { ContentBlockArgs } from '@/types/content-body';
 import renderContentBody from '@/lib/content-array/render-content-body';
-import { GroupIdArgs, NoteSectionRecord } from '@/types/archive';
+import type { GroupIdArgs, NoteSectionRecord } from '@/types/archive';
 import NoteSections from './containers/note-sections';
 
 export default function NotePageBody(

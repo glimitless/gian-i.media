@@ -1,5 +1,5 @@
 import SearchBar from '@/components/header/buttons/search-bar';
-import { TagArgs, TagTypeArgs } from '@/types/filter';
+import type { TagArgs, TagTypeArgs } from '@/types/filter';
 import { useState, useMemo } from 'react';
 import InactiveKeyword from '@/components/header/buttons/inactive-keyword';
 import ActiveTag from '@/components/header/buttons/active-tag';

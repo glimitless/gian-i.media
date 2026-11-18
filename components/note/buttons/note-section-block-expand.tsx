@@ -1,4 +1,4 @@
-import { EightDigitDate } from '@/types/archive';
+import type { EightDigitDate } from '@/types/archive';
 import DownArrowhead from '@/public/svg/icons/header/down-arrowhead.svg';
 import formatDate from '@/lib/format-date/format-date';
 

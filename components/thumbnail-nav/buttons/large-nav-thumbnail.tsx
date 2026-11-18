@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import type { GroupIdArgs, IndividualIdArgs } from '@/types/archive';
+import mediaURL from '@/lib/media-url/media-url';
 
 export default function LargeNavThumbnail(
   {active, thumbnail, title, alt, workId, collectionId} :
@@ -22,7 +23,7 @@ export default function LargeNavThumbnail(
     >
       <Image 
         className="w-32 h-32"
-        src={`/images/${thumbnail}`}
+        src={mediaURL(thumbnail, 'image')}
         width={80}
         height={80}
         alt={alt}

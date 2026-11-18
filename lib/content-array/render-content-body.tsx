@@ -1,8 +1,9 @@
-import { type ReactNode, Fragment } from 'react';
 import ImageContainer from './media/image-container';
 import PDFViewer from './media/pdf-viewer';
 import YoutubeEmbed from './media/youtube-embed';
 import Image from 'next/image';
+import mediaURL from '../media-url/media-url';
+import { type ReactNode, Fragment } from 'react';
 import type { ContentBlockArgs, MediaPartArgs, TextPartArgs } from '@/types/content-body';
 
 export default function renderContentBody(contentBody: ContentBlockArgs[][]) {
@@ -166,18 +167,19 @@ function renderTextParts(parts: TextPartArgs[], key: number): ReactNode {
 }
 function renderMediaPart(part: MediaPartArgs, key: number) {
   if (part.type === 'image') {
+    const imgSrc = mediaURL(part.src, 'image')
     return (
       <ImageContainer
         key={key}
         aspect={part.aspect}
-        src={part.src}
+        src={imgSrc}
         alt={part.alt}
         width={part.width}
         height={part.height}
       >
         <Image
           className="w-full h-auto max-h-full max-w-full"
-          src={`/images/${part.src}`}
+          src={imgSrc}
           alt={part.alt}
           width={0}
           height={0}
@@ -195,7 +197,7 @@ function renderMediaPart(part: MediaPartArgs, key: number) {
       >
         <video
           className="w-full h-auto"
-          src={`/video/${part.src}`}
+          src={mediaURL(part.src, 'video')}
           controls={part.controls}
           loop={part.loop}
           muted={part.muted}
@@ -237,7 +239,7 @@ function renderTextPart(part: TextPartArgs, key: number | string): ReactNode {
   else if (part.type === 'download-link') {
     return <a
       key={key}
-      href={part.href}
+      href={mediaURL(part.href, part.mediaType, true)}
       download={true}
       className="text-link">
       {part.label + ' ↓\uFE0E'}

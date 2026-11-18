@@ -1,4 +1,4 @@
-import { GroupIdArgs, IndividualBlockIdArgs, IndividualIdArgs } from '@/types/archive';
+import type { GroupIdArgs, IndividualBlockIdArgs, IndividualIdArgs } from '@/types/archive';
 import Link from 'next/link';
 
 

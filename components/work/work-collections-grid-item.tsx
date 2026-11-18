@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import type { WorkWorkCollectionLinkThumbnail, GroupIdArgs, IndividualIdArgs } from '@/types/archive';
+import mediaURL from '@/lib/media-url/media-url';
 
 export default function WorkCollectionsGridItem(
   { thumbnail, alt, workId, collectionId, title, medium} 
@@ -22,7 +23,7 @@ export default function WorkCollectionsGridItem(
       >
         <Image 
           className="w-full h-auto"
-          src={`/images/${thumbnail}`}
+          src={mediaURL(thumbnail, 'image')}
           alt={alt}
           width={0}
           height={0}

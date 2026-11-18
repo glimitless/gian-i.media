@@ -1949,8 +1949,9 @@
                 "content": [
                   {
                     "type": "download-link",
+                    "mediaType": "pdf",
                     "label": "Download the PDF version",
-                    "href": "/pdf/spiral-treatise/gc_spiral-treatise.pdf",
+                    "href": "spiral-treatise/gc_spiral-treatise.pdf",
                     "fileName": "gc_spiral-treatise.pdf"
                   }
                 ]

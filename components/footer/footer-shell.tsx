@@ -55,7 +55,6 @@ export default function FooterShell(){
         ref={footerRef}
         className={`${shellClass} pointer-events-auto footer-column-reveal`}
         inert
-        aria-hidden="true"
       >
         <Footer />
       </div>
