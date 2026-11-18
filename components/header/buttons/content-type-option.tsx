@@ -1,4 +1,4 @@
-import { ContentTypeArgs } from '@/types/filter';
+import type { ContentTypeArgs } from '@/types/filter';
 import { useFilterContext } from '@/lib/filter/filter-provider';
 
 export default function ContentTypeOption({ type, active }:{ type:ContentTypeArgs, active:ContentTypeArgs }){

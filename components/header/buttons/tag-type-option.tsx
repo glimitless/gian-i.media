@@ -1,4 +1,4 @@
-import { TagTypeArgs } from '@/types/filter';
+import type { TagTypeArgs } from '@/types/filter';
 import { useFilterContext } from '@/lib/filter/filter-provider';
 
 export default function TagTypeOption({ tagType, active }:{ tagType:TagTypeArgs, active:TagTypeArgs }){

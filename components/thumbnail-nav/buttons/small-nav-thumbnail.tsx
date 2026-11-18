@@ -1,6 +1,6 @@
-import { GroupIdArgs } from '@/types/archive';
-import { ContentTypeArgs } from '@/types/filter';
-import { SvgIcon } from '@/types/svg';
+import type { GroupIdArgs } from '@/types/archive';
+import type { ContentTypeArgs } from '@/types/filter';
+import type { SvgIcon } from '@/types/svg';
 import Link from 'next/link';
 
 export default function SmallNavThumbnail(

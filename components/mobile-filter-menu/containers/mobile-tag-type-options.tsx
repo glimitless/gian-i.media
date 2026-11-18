@@ -1,6 +1,6 @@
 import TagTypeOption from "@/components/header/buttons/tag-type-option"
 import { TAG_TYPE_OPTIONS } from "@/lib/filter/filter-provider"
-import { TagTypeArgs } from "@/types/filter"
+import type { TagTypeArgs } from "@/types/filter"
 
 export default function MobileTagTypeOptions({ tagType } : { tagType: TagTypeArgs }){
   return (

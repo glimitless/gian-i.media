@@ -1,4 +1,4 @@
-import { GroupIdArgs, IndividualIdArgs, NoteSectionBlockLink } from '@/types/archive';
+import type { GroupIdArgs, IndividualIdArgs, NoteSectionBlockLink } from '@/types/archive';
 import NoteSectionBlock from './note-section-block';
 
 export default function NoteSectionBlocks(

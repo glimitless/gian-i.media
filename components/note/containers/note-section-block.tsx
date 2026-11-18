@@ -1,7 +1,7 @@
 'use client';
 
 import { NoteSectionBlockExpand } from '../buttons/note-section-block-expand';
-import { EightDigitDate, GroupIdArgs, IndividualBlockIdArgs, IndividualIdArgs } from '@/types/archive';
+import type { EightDigitDate, GroupIdArgs, IndividualBlockIdArgs, IndividualIdArgs } from '@/types/archive';
 import { useState, useRef } from 'react';
 import useScrollIntoViewAfterExpand from '@/lib/hooks/useScrollIntoViewAfterExpand';
 import NoteSectionBlockReadLink from '../buttons/note-section-block-read-link';

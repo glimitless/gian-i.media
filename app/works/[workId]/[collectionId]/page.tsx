@@ -1,6 +1,6 @@
 import ThumbnailNav from '@/components/thumbnail-nav/thumbnail-nav';
 import { findArchiveIDRecord } from '@/lib/archive/archive-ids';
-import { GroupIdArgs, IndividualIdArgs } from '@/types/archive';
+import type { GroupIdArgs, IndividualIdArgs } from '@/types/archive';
 import { notFound } from 'next/navigation';
 import { findArchiveWorkRecord, findArchiveWorkCollectionContent } from '@/lib/archive/archive-works';
 import WorkCollectionOverviewContainer from '@/components/work-collection/work-collection-overview-container';

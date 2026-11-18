@@ -1,7 +1,7 @@
 import type { SvgIcon } from '@/types/svg';
 import type { TagArgs, ContentTypeArgs } from '@/types/filter';
 import Link from 'next/link';
-import { EightDigitDate, GroupIdArgs } from '@/types/archive';
+import type { EightDigitDate, GroupIdArgs } from '@/types/archive';
 import formatDate from '@/lib/format-date/format-date';
 import { memo } from 'react';
 

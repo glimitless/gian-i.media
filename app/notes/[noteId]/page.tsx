@@ -1,7 +1,7 @@
 import ThumbnailNav from '@/components/thumbnail-nav/thumbnail-nav';
 import { findArchiveIDRecord } from '@/lib/archive/archive-ids';
 import { findArchiveNoteRecord } from '@/lib/archive/archive-notes';
-import { GroupIdArgs } from '@/types/archive';
+import type { GroupIdArgs } from '@/types/archive';
 import { notFound } from 'next/navigation';
 import NotePageBody from '@/components/note/note-page-body';
 import HeaderMargin from '@/lib/navigator/header-margin';

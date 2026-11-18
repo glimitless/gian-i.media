@@ -1,5 +1,5 @@
 import { CONTENT_TYPE_OPTIONS } from '@/lib/filter/filter-provider';
-import { ContentTypeArgs } from '@/types/filter';
+import type { ContentTypeArgs } from '@/types/filter';
 import ContentTypeOption from '@/components/header/buttons/content-type-option';
 
 export default function MobileContentTypeOptions({ contentType }: { contentType: ContentTypeArgs }) {
