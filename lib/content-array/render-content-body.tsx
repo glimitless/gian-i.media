@@ -197,7 +197,7 @@ function renderMediaPart(part: MediaPartArgs, key: number) {
       >
         <video
           className="w-full h-auto"
-          src={`/video/${part.src}`}
+          src={mediaURL(part.src, 'video')}
           controls={part.controls}
           loop={part.loop}
           muted={part.muted}
