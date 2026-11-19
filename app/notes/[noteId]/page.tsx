@@ -5,14 +5,15 @@ import type { GroupIdArgs } from '@/types/archive';
 import { notFound } from 'next/navigation';
 import NotePageBody from '@/components/note/note-page-body';
 import HeaderMargin from '@/lib/navigator/header-margin';
-import archiveIDsJson from '@/data/archive-ids.json';
+import archiveNoteIDsJson from '@/data/notes/archive-note-ids.json';
 
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return archiveIDsJson
-    .filter((item) => item.type === 'notes')
-    .map((item) => ({ noteId: item.id }));
+  return archiveNoteIDsJson
+    .map((note) => ({
+      noteId: note.id
+    }))
 }
 
 type NotePageProps = {
