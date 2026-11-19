@@ -1,0 +1,293 @@
+{
+  "id": "committee-report",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "This project called for front and back covers for the Scarborough Charter’s annual committee report in a standard 8.5 × 11-inch format. The design needed to reflect the Charter’s commitments to Black flourishing, inclusive excellence, mutuality, and institutional accountability: clear, professional, and suited to a formal publication."
+            }
+          ]
+        }
+      ]
+    ],
+    "items": [
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "5/4",
+              "src": "scarborough-charter/committee-report/gc_sc-committee-report-front-cover-mockup-1.webp",
+              "width": 1440,
+              "height": 1152,
+              "alt": "Photorealistic mockups of the final front cover for the Scarborough Charter committee report (8.5 × 11 in.) (view 1 of 2).",
+              "id": "sc-committee-report-front-cover-mockup-1"
+            }
+          ]
+        },
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "5/4",
+              "src": "scarborough-charter/committee-report/gc_sc-committee-report-front-cover-mockup-2.webp",
+              "width": 1440,
+              "height": 1152,
+              "alt": "Photorealistic mockups of the final front cover for the Scarborough Charter committee report (8.5 × 11 in.) (view 2 of 2).",
+              "id": "sc-committee-report-front-cover-mockup-2"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Photorealistic mockups of the final front cover for the Scarborough Charter committee report (8.5 × 11 in.)."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "5/4",
+              "src": "scarborough-charter/committee-report/gc_sc-committee-report-front-and-back-cover-mockup.webp",
+              "width": 1440,
+              "height": 1152,
+              "alt": "Mockup of the full cover spread (front, spine, and back as one composition).",
+              "id": "sc-committee-report-front-and-back-covers-mockup"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Mockup of the full cover spread (front, spine, and back as one composition)."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "160/207",
+              "src": "scarborough-charter/committee-report/gc_sc-committee-report-front-cover-digital.webp",
+              "width": 1280,
+              "height": 1656,
+              "alt": "Final cover spread render with approved colour, illustration, typography, and layout (view 1 of 3).",
+              "id": "committe-report-final-digital-front-cover"
+            },
+            {
+              "type": "image",
+              "aspect": "160/207",
+              "src": "scarborough-charter/committee-report/gc_sc-committee-report-back-cover-digital.webp",
+              "width": 1280,
+              "height": 1656,
+              "alt": "Final cover spread render with approved colour, illustration, typography, and layout (view 2 of 3).",
+              "id": "committe-report-final-digital-back-cover"
+            },
+            {
+              "type": "image",
+              "aspect": "360/233",
+              "src": "scarborough-charter/committee-report/gc_sc-committee-report-front-and-back-cover-digital.webp",
+              "width": 1440,
+              "height": 932,
+              "alt": "Final cover spread render with approved colour, illustration, typography, and layout (view 3 of 3).",
+              "id": "committe-report-final-digital-back-cover"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Final cover spread render with approved colour, illustration, typography, and layout."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "scarborough-charter/committee-report/gc_sc-committee-report-cover-final-illustrator-sc.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Screenshot: Illustrator artwork for the final cover, prepared for production.",
+              "id": "sc-committee-report-final-illustrator-sc"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Illustrator file for the final cover, prepared for production."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "160/207",
+              "src": "scarborough-charter/committee-report/gc_sc-committee-report-first-iteration-front-cover.webp",
+              "width": 1280,
+              "height": 1656,
+              "alt": "Digital render of the initial cover spread. After submission, Scarborough Charter representatives asked that the palette align more closely with the organisation’s established identity (view 1 of 3).",
+              "id": "committe-report-first-iteration-digital-front-cover"
+            },
+            {
+              "type": "image",
+              "aspect": "160/207",
+              "src": "scarborough-charter/committee-report/gc_sc-committee-report-first-iteration-back-cover.webp",
+              "width": 1280,
+              "height": 1656,
+              "alt": "Digital render of the initial cover spread. After submission, Scarborough Charter representatives asked that the palette align more closely with the organisation’s established identity (view 2 of 3).",
+              "id": "committe-report-first-iteration-digital-back-cover"
+            },
+            {
+              "type": "image",
+              "aspect": "360/233",
+              "src": "scarborough-charter/committee-report/gc_sc-committee-report-first-iteration-front-and-back-cover.webp",
+              "width": 1440,
+              "height": 932,
+              "alt": "Digital render of the initial cover spread. After submission, Scarborough Charter representatives asked that the palette align more closely with the organisation’s established identity (view 3 of 3).",
+              "id": "committe-report-first-iteration-digital-full-spread"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Digital render of the initial cover spread. After submission, Scarborough Charter representatives asked that the palette align more closely with the organisation’s established identity."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "scarborough-charter/committee-report/gc_sc-committee-report-cover-first-iteration-illustrator-sc.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Illustrator artwork for the initial cover concept (view 1 of 2).",
+              "id": "sc-committee-report-first-iteration-illustrator-sc-1"
+            }
+          ]
+        },
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "scarborough-charter/committee-report/gc_sc-committee-report-cover-first-iteration-illustrator-sc-2.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Illustrator artwork for the initial cover concept (view 2 of 2).",
+              "id": "sc-committee-report-first-iteration-illustrator-sc-2"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Illustrator file for the initial cover concept."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "scarborough-charter/committee-report/gc_sc-committee-report-cover-sketch-photoshop-sc.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Screenshot: Photoshop artwork for the initial cover concept.",
+              "id": "sc-committee-report-first-iteration-photoshop-sc"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Photoshop file for the initial cover concept."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "240/169",
+              "src": "scarborough-charter/committee-report/gc_sc-committee-report-original-sketch.webp",
+              "width": 1440,
+              "height": 1014,
+              "alt": "Scan of the original illustration by , which informed the visual direction of the final cover.",
+              "id": "sc-committee-report-original-sketch"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Scan of the original illustration by "
+            },
+            {
+              "type": "external-link",
+              "href": "https://www.linkedin.com/in/shamika-pierre/",
+              "label": "Shamika Pierre"
+            },
+            {
+              "type": "text",
+              "value": ", which informed the visual direction of the final cover."
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

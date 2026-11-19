@@ -1,0 +1,73 @@
+{
+  "id": "time-unwinding-the-spiral",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "This moment is unique yet familiar, because time doesn't move in a straight line or a simple circle, but in a spiral: it revisits patterns from the past while moving outward into new forms. History echoes in culture, fashion, politics, and growth, but we meet old patterns as different people."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "“TIME: Unwinding the Spiral” explores time as a layered, evolving motion, where every moment is both new and deeply connected to what came before."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "That motion continues across the work in a consistent blue-and-pink palette, where blue reflects time’s cycles and pink reflects the emergence between them."
+            }
+          ]
+        }
+      ]
+    ],
+    "collectionLinks": [
+      {
+        "title": "Exhibition",
+        "medium": "Exhibition Design",
+        "thumbnail": "time-unwinding-the-spiral/exhibition/gc_spiral-exhibition-thumbnail.webp",
+        "alt": "Gallery table with geometric spiral prints, an iMac, and a blue glass spiral sculpture.",
+        "id": "exhibition"
+      },
+      {
+        "title": "Spiral Treatise",
+        "medium": "Philosophy",
+        "thumbnail": "time-unwinding-the-spiral/spiral-treatise/gc_spiral-treatise-thumbnail.webp",
+        "alt": "Tall plaque titled TIME: Unwinding the Spiral with text about time as a spiral.",
+        "id": "spiral-treatise"
+      },
+      {
+        "title": "Spiral Hourglass",
+        "medium": "Physical Artifact",
+        "thumbnail": "time-unwinding-the-spiral/spiral-hourglass/gc_spiral-hourglass-thumbnail.webp",
+        "alt": "Light blue frosted glass hourglass vessel with a twisted diagonal swirl pattern.",
+        "id": "spiral-hourglass"
+      },
+      {
+        "title": "Live Visualization",
+        "medium": "Interactive Installation",
+        "thumbnail": "time-unwinding-the-spiral/live-visualization/gc_spiral-live-vis-thumbnail.webp",
+        "alt": "White controller with delay and modulation gauges in front of a screen showing pink and blue motion trails.",
+        "id": "live-visualization"
+      },
+      {
+        "title": "Visual Research",
+        "medium": "Book",
+        "thumbnail": "time-unwinding-the-spiral/visual-research/gc_spiral-visual-research-thumbnail.webp",
+        "alt": "White spiral-bound book cover titled TIME: Unwinding the Spiral by Gian Cambridge.",
+        "id": "visual-research"
+      }
+    ]
+  }
+}

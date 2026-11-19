@@ -1,0 +1,96 @@
+{
+  "id": "color-theory",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "The 7th Sense palette moves from cool to warm to represent shifting emotional and energetic states. The colours convey intensity without labelling it positive or negative: cyan for calm, blue for engagement, purple for excitement, and magenta for peak energy."
+            }
+          ]
+        }
+      ]
+    ],
+    "items": [
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "48/31",
+              "src": "seventh-sense/color-theory/gc-dk_ss-color-theory.webp",
+              "width": 1440,
+              "height": 930,
+              "alt": "7th Sense colour palette and its tie to emotional states.",
+              "id": "color-theory-reasoning"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "7th Sense colour palette and its tie to emotional states."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1/1",
+              "src": "seventh-sense/color-theory/gc-dk_ss-full-color-research.webp",
+              "width": 2160,
+              "height": 2160,
+              "alt": "Full colour research that informed the selected colour range.",
+              "id": "full-color-theory-research"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Full colour research that informed the selected colour range."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "video",
+              "aspect": "27/9",
+              "src": "seventh-sense/gc-dk_ss-reactive-visual-experiment.mp4",
+              "poster": "seventh-sense/gc-dk_ss-reactive-visual-experiment-poster.webp",
+              "controls": true,
+              "loop": true,
+              "muted": true,
+              "id": "early-reactive-visual-experiment"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Video example of the selected colour range in relation to physical exertion."
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

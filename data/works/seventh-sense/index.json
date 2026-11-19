@@ -1,0 +1,50 @@
+{
+  "id": "seventh-sense",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "I collaborated with "
+            },
+            {
+              "type": "external-link",
+              "href": "https://www.linkedin.com/in/daniakhan-/",
+              "label": "Dania Khan"
+            },
+            {
+              "type": "text",
+              "value": " on a speculative design project that imagines a future in which technology eases psychological and physiological stress through advanced therapeutic systems. We proposed decentralised AI that reads physiological arousal and lets users shape how their devices respond. The work shown (ads, system diagrams, and interface demonstrations) is an artefact from that world."
+            }
+          ]
+        }
+      ]
+    ],
+    "collectionLinks": [
+      {
+        "title": "Prospective Advertisements",
+        "medium": "Motion Graphics & Poster Design",
+        "thumbnail": "seventh-sense/prospective-advertisement-1/gc_ss-prospective-ad-1-thumbnail.webp",
+        "alt": "Diagram of a central hub connecting to therapeutic devices, phones, computers, and speakers.",
+        "id": "prospective-advertisements"
+      },
+      {
+        "title": "User Experience",
+        "medium": "Research & Prototyping",
+        "thumbnail": "seventh-sense/user-experience/gc_ss-user-experience-thumbnail.webp",
+        "alt": "Smartphone mockup with a glowing purple voice-assistant orb and grey UI placeholders.",
+        "id": "user-experience"
+      },
+      {
+        "title": "User Experience",
+        "medium": "Research & Prototyping",
+        "thumbnail": "seventh-sense/color-theory/gc_ss-color-theory-thumbnail.webp",
+        "alt": "Glowing purple circular icon with translucent white wave ribbons at the center.",
+        "id": "color-theory"
+      }
+    ]
+  }
+}

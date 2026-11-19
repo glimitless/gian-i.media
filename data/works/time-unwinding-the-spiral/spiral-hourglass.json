@@ -1,0 +1,147 @@
+{
+  "id": "spiral-hourglass",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "A possible structure of time, as defined by the spiral treatise. Rather than a definitive form, the piece invites viewers to reconsider time beyond linear frameworks."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "Modeled in Rhino 8 with Grasshopper and SLA 3D printed in clear resin."
+            }
+          ]
+        }
+      ]
+    ],
+    "items": [
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1/1",
+              "src": "time-unwinding-the-spiral/spiral-hourglass/gc_hourglass-full-and-empty.webp",
+              "width": 1440,
+              "height": 1440,
+              "alt": "Printed Model.",
+              "id": "hourglass-full-and-empty"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Printed Model"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "One side full, one side empty."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1/1",
+              "src": "time-unwinding-the-spiral/spiral-hourglass/gc_hourglass-full-into-empty.webp",
+              "width": 1440,
+              "height": 1440,
+              "alt": "Printed Model.",
+              "id": "hourglass-full-into-empty"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Printed Model"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Full side pouring into the empty."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "time-unwinding-the-spiral/spiral-hourglass/gc_hourglass-rhino-file-screenshot.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Screenshot: Rhino Grasshopper file for the hourglass.",
+              "id": "hourglass-rhino-screenshot"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Rhino Grasshopper file for the hourglass."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1/1",
+              "src": "time-unwinding-the-spiral/spiral-hourglass/gc_hourglass-concept-sketches.webp",
+              "width": 1440,
+              "height": 1440,
+              "alt": "Early conceptual sketches for the hourglass.",
+              "id": "hourglass-conceptual-sketches"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Early conceptual sketches for the hourglass."
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "id": "exhibition",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "Exhibited at OCAD University’s GradEx 111."
+            }
+          ]
+        }
+      ]
+    ],
+    "items": [
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1280/1657",
+              "src": "time-unwinding-the-spiral/exhibition/gc_full-gradex-setup.webp",
+              "width": 1280,
+              "height": 1657,
+              "alt": "Full OCADU GradEx 111 setup.",
+              "id": "spiral-exhibition-full-setup"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Full OCADU GradEx 111 setup."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "160/207",
+              "src": "time-unwinding-the-spiral/exhibition/gc_gradex-snapshot-1.webp",
+              "width": 1280,
+              "height": 1656,
+              "alt": "Snapshots from the opening night of GradEx 111 (view 1 of 3).",
+              "id": "spiral-exhibition-snapshot-1"
+            },
+            {
+              "type": "image",
+              "aspect": "4/5",
+              "src": "time-unwinding-the-spiral/exhibition/gc_gradex-snapshot-2.webp",
+              "width": 1280,
+              "height": 1600,
+              "alt": "Snapshots from the opening night of GradEx 111 (view 2 of 3).",
+              "id": "spiral-exhibition-snapshot-2"
+            },
+            {
+              "type": "image",
+              "aspect": "4/5",
+              "src": "time-unwinding-the-spiral/exhibition/gc_gradex-snapshot-3.webp",
+              "width": 1280,
+              "height": 1600,
+              "alt": "Snapshots from the opening night of GradEx 111 (view 3 of 3).",
+              "id": "spiral-exhibition-snapshot-3"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Snapshots from the opening night of GradEx 111."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1/1",
+              "src": "time-unwinding-the-spiral/exhibition/gc_original-gradex-setup.webp",
+              "width": 1440,
+              "height": 1440,
+              "alt": "Original setup for GradEx 111 (view 1 of 2).",
+              "id": "spiral-exhibition-original-setup-angle-1"
+            }
+          ]
+        },
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1/1",
+              "src": "time-unwinding-the-spiral/exhibition/gc_original-gradex-setup-different-angle.webp",
+              "width": 1440,
+              "height": 1440,
+              "alt": "Original setup for GradEx 111 (view 2 of 2).",
+              "id": "spiral-exhibition-original-setup-angle-2"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Original setup for GradEx 111."
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "I first imagined a white room where blue (cyclical time) and pink (between cycles) carried the narrative. Given GradEx foot traffic, I added graphic excerpts from visual research on the walls to catch attention immediately."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1440/1433",
+              "src": "time-unwinding-the-spiral/exhibition/gc_live-vis-and-a-sneak-of-treatise.webp",
+              "width": 1440,
+              "height": 1433,
+              "alt": "Intended experience of the live visualisation (view 1 of 2).",
+              "id": "spiral-exhibition-live-visualization-user-experience-1"
+            }
+          ]
+        },
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1/1",
+              "src": "time-unwinding-the-spiral/exhibition/gc_live-vis-interaction.webp",
+              "width": 1440,
+              "height": 1440,
+              "alt": "Intended experience of the live visualisation (view 2 of 2).",
+              "id": "spiral-exhibition-live-visualization-user-experience-2"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Intended experience of the live visualisation."
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "The visualisation shows a viewer afterimage shifting between now and a user-set maximum delay. Delay and modulation speed are tuned with the controller knobs, inviting agency over time while asking how much control we really have."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "4/5",
+              "src": "time-unwinding-the-spiral/exhibition/gc_book-treatise-and-hourglass.webp",
+              "width": 1280,
+              "height": 1600,
+              "alt": "Setup for the Spiral Treatise, visual research, instructions on how to read the research, and the spiral hourglass, spiral exhibition hourglass book treatise.",
+              "id": "spiral-exhibition-hourglass-book-treatise"
+            }
+          ]
+        },
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1/1",
+              "src": "time-unwinding-the-spiral/exhibition/gc_spiral-hourglass-gradex.webp",
+              "width": 1440,
+              "height": 1440,
+              "alt": "Setup for the Spiral Treatise, visual research, instructions on how to read the research, and the spiral hourglass, spiral exhibition hourglass.",
+              "id": "spiral-exhibition-hourglass"
+            }
+          ]
+        },
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1/1",
+              "src": "time-unwinding-the-spiral/exhibition/gc_spiral-research-guidance-card-1.webp",
+              "width": 1440,
+              "height": 1440,
+              "alt": "Setup for the Spiral Treatise, visual research, instructions on how to read the research, and the spiral hourglass, spiral exhibition reading instructions 1.",
+              "id": "spiral-exhibition-reading-instructions-1"
+            },
+            {
+              "type": "image",
+              "aspect": "1/1",
+              "src": "time-unwinding-the-spiral/exhibition/gc_spiral-research-guidance-card-2.webp",
+              "width": 1440,
+              "height": 1440,
+              "alt": "Setup for the Spiral Treatise, visual research, instructions on how to read the research, and the spiral hourglass, spiral exhibition reading instructions 2.",
+              "id": "spiral-exhibition-reading-instructions-2"
+            },
+            {
+              "type": "image",
+              "aspect": "1/1",
+              "src": "time-unwinding-the-spiral/exhibition/gc_spiral-research-guidance-card-3.webp",
+              "width": 1440,
+              "height": 1440,
+              "alt": "Setup for the Spiral Treatise, visual research, instructions on how to read the research, and the spiral hourglass, spiral exhibition reading instructions 3.",
+              "id": "spiral-exhibition-reading-instructions-3"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Setup for the Spiral Treatise, visual research, instructions on how to read the research, and the spiral hourglass."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1/1",
+              "src": "time-unwinding-the-spiral/exhibition/gc_spiral-business-cards.webp",
+              "width": 1440,
+              "height": 1440,
+              "alt": "Business cards designed for the exhibition.",
+              "id": "spiral-exhibition-business-cards"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Business cards designed for the exhibition."
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

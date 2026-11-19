@@ -1,0 +1,215 @@
+{
+  "id": "user-experience",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "7th Sense was envisioned as an extension of the body, an autonomous bridge between the psychological and the technological. The UI and UX work here centres on one question: how can the relationship between the user and 7th Sense feel as fluid, seamless, and intuitive as possible?"
+            }
+          ]
+        }
+      ]
+    ],
+    "items": [
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "720/341",
+              "src": "seventh-sense/user-experience/gc-dk_ss-expanded-system-diagram.webp",
+              "width": 2160,
+              "height": 1023,
+              "alt": "Expanded system diagram of how components connect.",
+              "id": "prospective-advertisement-2"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Expanded system diagram of how components connect."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "8/7",
+              "src": "seventh-sense/user-experience/gc-dk_ss-taxonomy.webp",
+              "width": 2160,
+              "height": 1890,
+              "alt": "Taxonomy of industries impacted by 7th Sense functionality.",
+              "id": "taxonomy"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Taxonomy of industries impacted by 7th Sense functionality."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "455/256",
+              "src": "seventh-sense/user-experience/gc-dk_ss-iphone-control-center-ux.webp",
+              "width": 1820,
+              "height": 1024,
+              "alt": "7th Sense in iOS and macOS Control Center: manage active, preconfigured relationships between devices.",
+              "id": "iphone-control-center-ui"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "7th Sense in iOS and macOS Control Center: manage active, preconfigured relationships between devices."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "44/45",
+              "src": "seventh-sense/user-experience/gc-dk_ss-ios-settings-ux.webp",
+              "width": 1408,
+              "height": 1440,
+              "alt": "7th Sense in iOS Settings: configure device relationships and manage connections from one centralised interface.",
+              "id": "iphone-settings-ui"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "7th Sense in iOS Settings: configure device relationships and manage connections from one centralised interface."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "33/40",
+              "src": "seventh-sense/user-experience/gc-dk_ss-iphone-frequency-tuning-ux.webp",
+              "width": 1188,
+              "height": 1440,
+              "alt": "Proposed 7th Sense app Frequency Tuning curates social feeds from physiological arousal over a chosen period. It toggles from iOS Control Center.",
+              "id": "iphone-frequency-tuning-ui"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Proposed 7th Sense app Frequency Tuning curates social feeds from physiological arousal over a chosen period. It toggles from iOS Control Center."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "video",
+              "aspect": "4/5",
+              "src": "seventh-sense/gc-dk_ss-prototyping-form-factor.mp4",
+              "poster": "seventh-sense/gc-dk_ss-prototyping-form-factor-poster.webp",
+              "controls": true,
+              "loop": true,
+              "muted": true,
+              "id": "early-form-factor-experiment"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Early form factor experiment."
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Watch-case experiment: dock on a smart device or attach to a wristband. We kept refining this direction."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "video",
+              "aspect": "4/5",
+              "src": "seventh-sense/gc-dk_ss-sensor-experiment.mp4",
+              "poster": "seventh-sense/gc-dk_ss-sensor-experiment-poster.webp",
+              "controls": true,
+              "loop": true,
+              "muted": true,
+              "id": "early-sensor-experiment"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Early physical sensor experiment."
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Early proposal: sensors for stress-related biometrics (heart rate, blood pressure), similar to Apple Watch or Oura Ring. This video shows the 7th Sense avatar interpreting that data in real time, turning internal states into visible behaviour."
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

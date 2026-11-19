@@ -1,0 +1,82 @@
+{
+  "id": "spiral-treatise",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "The spiral treatise argues that time does not move in a straight line or a simple circle, but in a spiral: it revisits similar patterns while moving forward, so nothing repeats exactly. Each moment is both new and tied to the past; change happens through repetition, not in spite of it."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "download-link",
+              "mediaType": "pdf",
+              "label": "Download the PDF version",
+              "href": "spiral-treatise/gc_spiral-treatise.pdf",
+              "fileName": "gc_spiral-treatise.pdf"
+            }
+          ]
+        }
+      ]
+    ],
+    "items": [
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "64/129",
+              "src": "time-unwinding-the-spiral/spiral-treatise/gc_spiral-treatise-scan.webp",
+              "width": 1280,
+              "height": 2580,
+              "alt": "Scan of the Spiral Treatise.",
+              "id": "spiral-treatise-scan"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Scan of the Spiral Treatise."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1/1",
+              "src": "time-unwinding-the-spiral/spiral-treatise/gc_treatise-exhibition-setup.webp",
+              "width": 1440,
+              "height": 1440,
+              "alt": "Exhibition setup for GradEx 111.",
+              "id": "spiral-treatise-exhibition-setup"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Exhibition setup for GradEx 111."
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}
