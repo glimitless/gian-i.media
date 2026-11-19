@@ -1,0 +1,241 @@
+{
+  "id": "the-gazette",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "The Gazette is a Caribbean news aggregator and storytelling platform that brings local journalism, culture, and community updates together in one mobile experience."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "During my AXXS Digital internship, I designed three features for the app: a mobile-optimised author page for on-the-go reading and discovery; a daily digest of the most relevant news from the past 24 hours; and a daily word game meant to increase organic opens by giving users a reason to launch the app beyond push notifications."
+            }
+          ]
+        }
+      ]
+    ],
+    "items": [
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "288/245",
+              "src": "axxs-digital/the-gazette/gc_ad-the-gazette-app-author-page-and-daily-digest-wireframes.webp",
+              "width": 1440,
+              "height": 1225,
+              "alt": "Wireframes for the mobile-optimised author page and daily digest: hierarchy, navigation, and reading flow on the go.",
+              "id": "ad-the-gazette-author-and-daily-digest-page-wireframes"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Wireframes for the mobile-optimised author page and daily digest: hierarchy, navigation, and reading flow on the go."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1600/1361",
+              "src": "axxs-digital/the-gazette/gc_ad-the-gazette-app-author-page-and-daily-digest-full-figma-file-snapshot.webp",
+              "width": 1600,
+              "height": 1361,
+              "alt": "Screenshot: Figma screen for mobile author page and daily digest wireframes.",
+              "id": "ad-the-gazette-author-and-daily-digest-page-full-figma-sc"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Figma file for mobile author page and daily digest wireframes."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "youtube-embed",
+              "aspect": "16/9",
+              "videoId": "NfMdB6w6Xz8",
+              "title": "Video documentation of Gazette word game prototype",
+              "alt": "Video documentation of Gazette word game prototype",
+              "id": "ad-the-gazette-word-game-prototype"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Interactive prototype for the daily word game: gameplay, onboarding, and completion."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "1600/1171",
+              "src": "axxs-digital/the-gazette/gc_ad-the-gazette-app-word-game-prototype-full-figma-file-sc-1.webp",
+              "width": 1600,
+              "height": 1171,
+              "alt": "Figma screen for the word game prototype: screens, states, and micro-interactions for repeat play, the gazette word game prototype full figma screenshot 1.",
+              "id": "the-gazette-word-game-prototype-full-figma-sc-1"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/1171",
+              "src": "axxs-digital/the-gazette/gc_ad-the-gazette-app-word-game-prototype-full-figma-file-sc-2.webp",
+              "width": 1600,
+              "height": 1171,
+              "alt": "Figma screen for the word game prototype: screens, states, and micro-interactions for repeat play, the gazette word game prototype full figma screenshot 2.",
+              "id": "the-gazette-word-game-prototype-full-figma-sc-2"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/1171",
+              "src": "axxs-digital/the-gazette/gc_ad-the-gazette-app-word-game-prototype-full-figma-file-sc-3.webp",
+              "width": 1600,
+              "height": 1171,
+              "alt": "Figma screen for the word game prototype: screens, states, and micro-interactions for repeat play, the gazette word game prototype full figma screenshot 3.",
+              "id": "the-gazette-word-game-prototype-full-figma-sc-3"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/1171",
+              "src": "axxs-digital/the-gazette/gc_ad-the-gazette-app-word-game-prototype-full-figma-file-sc-4.webp",
+              "width": 1600,
+              "height": 1171,
+              "alt": "Figma screen for the word game prototype: screens, states, and micro-interactions for repeat play, the gazette word game prototype full figma screenshot 4.",
+              "id": "the-gazette-word-game-prototype-full-figma-sc-4"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/1171",
+              "src": "axxs-digital/the-gazette/gc_ad-the-gazette-app-word-game-prototype-full-figma-file-sc-5.webp",
+              "width": 1600,
+              "height": 1171,
+              "alt": "Figma screen for the word game prototype: screens, states, and micro-interactions for repeat play, the gazette word game prototype full figma screenshot 5.",
+              "id": "the-gazette-word-game-prototype-full-figma-sc-5"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/1171",
+              "src": "axxs-digital/the-gazette/gc_ad-the-gazette-app-word-game-prototype-full-figma-file-sc-6.webp",
+              "width": 1600,
+              "height": 1171,
+              "alt": "Figma screen for the word game prototype: screens, states, and micro-interactions for repeat play, the gazette word game prototype full figma screenshot 6.",
+              "id": "the-gazette-word-game-prototype-full-figma-sc-6"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/1171",
+              "src": "axxs-digital/the-gazette/gc_ad-the-gazette-app-word-game-prototype-full-figma-file-sc-7.webp",
+              "width": 1600,
+              "height": 1171,
+              "alt": "Figma screen for the word game prototype: screens, states, and micro-interactions for repeat play, the gazette word game prototype full figma screenshot 7.",
+              "id": "the-gazette-word-game-prototype-full-figma-sc-7"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Figma file for the word game prototype: screens, states, and micro-interactions for repeat play."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "256/455",
+              "src": "axxs-digital/the-gazette/gc_ad-the-gazette-app-word-game-share-card-correct-variant.webp",
+              "width": 1280,
+              "height": 2275,
+              "alt": "Share-card renders after completing the word game, built for social sharing and daily engagement with The Gazette app (view 1 of 2).",
+              "id": "word-game-share-card-correct-variant"
+            },
+            {
+              "type": "image",
+              "aspect": "256/455",
+              "src": "axxs-digital/the-gazette/gc_ad-the-gazette-app-word-game-share-card-incorrect-variant.webp",
+              "width": 1280,
+              "height": 2275,
+              "alt": "Share-card renders after completing the word game, built for social sharing and daily engagement with The Gazette app (view 2 of 2).",
+              "id": "word-game-share-card-incorrect-variant"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Share-card renders after completing the word game, built for social sharing and daily engagement with The Gazette app."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "axxs-digital/the-gazette/gc_ad-the-gazette-app-word-game-share-card-illustrator-sc.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Screenshot: Illustrator artwork for the word game share card: type and layout grids.",
+              "id": "ad-the-gazette-word-share-card-illustrator-sc"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Illustrator file for the word game share card: type and layout grids."
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

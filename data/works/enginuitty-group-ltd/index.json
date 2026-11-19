@@ -1,0 +1,84 @@
+{
+  "id": "enginuitty-group-ltd",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "Before undergraduate study, I interned at Enginuitty Group Limited, a Trinidad and Tobago technology company helping public and private sector clients across the Caribbean with digital transformation."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "Reporting to "
+            },
+            {
+              "type": "external-link",
+              "href": "https://www.linkedin.com/in/ayr%C3%AFdchandler/",
+              "label": "Ayrïd Chandler"
+            },
+            {
+              "type": "text",
+              "value": ", "
+            },
+            {
+              "type": "external-link",
+              "href": "https://www.linkedin.com/in/aliyah-emmanuel/",
+              "label": "Aliyah Emmanuel"
+            },
+            {
+              "type": "text",
+              "value": ", and "
+            },
+            {
+              "type": "external-link",
+              "href": "https://www.linkedin.com/in/shari-cumberbatch-2191b136/",
+              "label": "Shari Cumberbatch"
+            },
+            {
+              "type": "text",
+              "value": ", I supported branding, formatted documents for internal and client use, and designed social graphics. Through this process I learned how a consultancy uses design for consistency, clarity, and project communication."
+            }
+          ]
+        }
+      ]
+    ],
+    "collectionLinks": [
+      {
+        "title": "Parlour",
+        "medium": "Brand Identity",
+        "thumbnail": "enginuitty-group-ltd/parlour/gc_egl-parlour-thumbnail.webp",
+        "alt": "Minimal shop icon with a pink scalloped awning, teal body, and pink base on navy blue.",
+        "id": "parlour"
+      },
+      {
+        "title": "Paypr",
+        "medium": "Brand Identity",
+        "thumbnail": "enginuitty-group-ltd/paypr/gc_egl-paypr-thumbnail.webp",
+        "alt": "Purple italic P logo with a green arrow cutout on a solid green background.",
+        "id": "paypr"
+      },
+      {
+        "title": "Rocket Science Ltd",
+        "medium": "Brand Identity",
+        "thumbnail": "enginuitty-group-ltd/rocket-science-ltd/gc_egl-rocket-science-thumbnai.webp",
+        "alt": "White rocket orbiting a grey crescent moon with a red exhaust trail on black.",
+        "id": "rocket-science-ltd"
+      },
+      {
+        "title": "MOH Vaccine Campaign",
+        "medium": "Social Media",
+        "thumbnail": "enginuitty-group-ltd/moh-vaccine-campaign/gc_moh-vaccinne-thumbnail.webp",
+        "alt": "Couple overlooking a green valley with Explore Together and Beat Covid Together vaccination messaging.",
+        "id": "moh-vaccine-campaign"
+      }
+    ]
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "id": "version-0p7",
+  "blocks": [
+    {
+      "id": "recursive-self-improvement",
+      "items": [
+        [
+          {
+            "type": "media",
+            "content": [
+              {
+                "type": "image",
+                "aspect": "1440/959",
+                "src": "birth/version-0p7/gc_birth-recursive-self-improvement.webp",
+                "width": 1440,
+                "height": 959,
+                "alt": "Gian-I Media works grid with all ten version 1.0 projects visible in the filtered thumbnail view.",
+                "id": "birth-recursive-self-improvement-lead"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "All 10 projected posts for version 1.0 are compiled and live! Hip hip, hooray."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "Now we can resume the fun stuff. The next steps are to learn Next.js, integrate it into the portfolio, and design the filter system for mobile. None of those things are particularly necessary for job applications, and they are much more enjoyable, so I’m going to take my time with them. That probably means the next update won’t be for a while, but trust me when I say it will come. By then, I’ll probably have another interesting philosophical concept to obsess over."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "For now, I’m thinking about recursive self-improvement, or something similar: a self-rewriting, recursively improving architecture. While building this website, I’ve noticed that I do this a lot. Whenever I discover a more efficient solution, or something better suited to the overall concept, I go back and apply that change to anything and everything it could improve."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "Let’s use images as an example."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "There are very few things I detest more than the sting that pure white (#FFFFFF) leaves on my eyes. I try to avoid using it whenever I’m working digitally, and only leave it on printed materials because pure white simply becomes the paper’s colour."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "A professor I had a while ago, "
+              },
+              {
+                "type": "external-link",
+                "href": "https://www.linkedin.com/in/acampea/",
+                "label": "Anthony Campea"
+              },
+              {
+                "type": "text",
+                "value": ", once gave some advice about exhibition design. He said that exhibitors use pure white or pure black for walls they want children to avoid. Because pure white does not exist in nature and is an entirely artificial phenomenon, it can feel frightening to them."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "I think that, ever since then, the stubborn little kid inside me has raged whenever it sees pure white. So, when I discovered that most of the screenshots and scans I had taken contained it, I set up a Photoshop script to reduce the white output in all those images by 1/255."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "The difference is entirely unnoticeable. I asked my mom about it, and she said the images looked exactly the same. But I know the experience of using the website is better because of it. The same goes for converting all the image files to WebP, compressing them by 10%, and downscaling the high-resolution versions to save storage space. Absolutely no one would notice the difference, but these small changes mean I’ll be able to run this archive for free for much longer."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "That has to mean something."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "I think recursive self-improvement is a habit that extends into my personal life, too, and it has probably destroyed relationships that were worth keeping. It makes for good work, though."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "I read somewhere that this is how Venice was built to be incredibly culturally cohesive and holistic, especially in comparison with the stimulus frenzy of cities built around glass-windowed architecture. Downtown Toronto and Times Square in New York are two examples that come to mind."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "I’m excited to see what philosophical concept I latch onto next."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "Stay tuned."
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "id": "prospective-advertisements",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "Media artefacts from a speculative future in which humanity’s relationship with technology becomes fluid and adaptive. A pod roughly the size of a watch case responds to users’ physiological needs in real time while connecting and synchronising the devices in their ecosystem."
+            }
+          ]
+        }
+      ]
+    ],
+    "items": [
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "video",
+              "aspect": "16/9",
+              "src": "seventh-sense/gc-dk_ss-prospective-advertisement-1.mp4",
+              "poster": "seventh-sense/gc-dk_ss-prospective-advertisement-1-poster.webp",
+              "controls": true,
+              "loop": true,
+              "muted": false,
+              "id": "prospective-advertisement-1"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Video advertisement from this envisioned future."
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "3D animation modelled and rendered in Blender. Type in Adobe Illustrator, animated in Adobe After Effects. Audio in FL Studio and Adobe Premiere Pro."
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Song: "
+            },
+            {
+              "type": "external-link",
+              "href": "https://www.youtube.com/watch?v=bpZ3dAhyNr0",
+              "label": "Joseph William Morgan - The Awakening"
+            },
+            {
+              "type": "text",
+              "value": " Voice-over was recorded in FL Studio and assembled in Adobe Premiere Pro."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "seventh-sense/prospective-advertisement-1/gc-dk_ss-prospective-ad-1-blender-screenshot-1.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Blender files to create the 3D animation (view 1 of 2).",
+              "id": "prospective-ad-1-blender-file-1"
+            }
+          ]
+        },
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "seventh-sense/prospective-advertisement-1/gc-dk_ss-prospective-ad-1-blender-screenshot-2.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Blender files to create the 3D animation (view 2 of 2).",
+              "id": "prospective-ad-1-blender-file-2"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Blender files to create the 3D animation."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "seventh-sense/prospective-advertisement-1/gc-dk_pros-ad-1-illustrator-sc-1.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Illustrator artwork for logo and text elements (view 1 of 2).",
+              "id": "prospective-ad-1-illustrator-file-1"
+            }
+          ]
+        },
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "seventh-sense/prospective-advertisement-1/gc-dk_pros-ad-1-illustrator-sc-2.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Illustrator artwork for logo and text elements (view 2 of 2).",
+              "id": "prospective-ad-1-illustrator-file-2"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Illustrator files for logo and text elements."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "seventh-sense/prospective-advertisement-1/gc-dk_ss-prospective-ad-1-after-effects-screenshot.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "After Effects file for text animation composited over the 3D render.",
+              "id": "prospective-ad-1-after-effects-file"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "After Effects file for text animation composited over the 3D render."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "seventh-sense/prospective-advertisement-1/gc-dk_pros-ad-1-fl-sc.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Screenshot: FL Studio project for the voice-over.",
+              "id": "prospective-ad-1-fl-studio-file"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "FL Studio project for the voice-over."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "16/9",
+              "src": "seventh-sense/prospective-advertisement-1/gc-dk_pros-ad-1-prem-sc.webp",
+              "width": 1600,
+              "height": 900,
+              "alt": "Screenshot: Premiere Pro timeline for combining video, voice-over, and music.",
+              "id": "prospective-ad-1-premiere-pro-file"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Premiere Pro file combining video, voice-over, and music."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "360/233",
+              "src": "seventh-sense/prospective-advertisement-2/gc-dk_ss-prospective-ad-2.webp",
+              "width": 1440,
+              "height": 932,
+              "alt": "Poster advertisement from this envisioned future.",
+              "id": "prospective-advertisement-2"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Poster advertisement from this envisioned future."
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Three scenes show 7th Sense enhancing lifestyle through therapeutic support. Linked to biometric trackers (wristband, discreet pressure devices), the system responds to physiology in real time."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "seventh-sense/prospective-advertisement-2/gc-dk_ss-prospective-ad-2-illustrator-screenshot.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Illustrator file for the poster advertisement.",
+              "id": "prospective-ad-2-illustrator-file"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Illustrator file for the poster advertisement."
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

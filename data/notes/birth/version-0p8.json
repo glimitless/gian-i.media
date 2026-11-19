@@ -1,0 +1,241 @@
+{
+  "id": "version-0p8",
+  "blocks": [
+    {
+      "id": "new-foundations",
+      "items": [
+        [
+          {
+            "type": "media",
+            "content": [
+              {
+                "type": "image",
+                "aspect": "16/9",
+                "src": "birth/version-0p8/gc_birth-new-foundations.webp",
+                "width": 1600,
+                "height": 900,
+                "alt": "",
+                "id": "birth-new-foundations-lead"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "Gian-I Media is officially a Next.js app on Vercel, built with TypeScript and Tailwind CSS. That adds three libraries and languages to the toolbox and marks a sharp step up in front-end skill. The tutorials I used were "
+              },
+              {
+                "type": "external-link",
+                "href": "https://www.youtube.com/watch?v=1zBRA0HdeOM",
+                "label": "TypeScript Full Course Tutorial for Beginners (2026)"
+              },
+              {
+                "type": "text",
+                "value": " by ProgrammingKnowledge, "
+              },
+              {
+                "type": "external-link",
+                "href": "https://www.youtube.com/watch?v=6biMWgD6_JY",
+                "label": "Tailwind CSS v4 Full Course 2026 | Master Tailwind in One Hour"
+              },
+              {
+                "type": "text",
+                "value": " by JavaScript Mastery, and "
+              },
+              {
+                "type": "external-link",
+                "href": "https://www.youtube.com/watch?v=jZInNd6djz4",
+                "label": "Next.js Tutorial 2026 (UPDATED) - Full Course - Start Your Next.js Journey Here"
+              },
+              {
+                "type": "text",
+                "value": " by ByteGrad. The Tailwind one is especially beginner-friendly; the others assume more prerequisite knowledge. I originally planned to learn only Next.js and fold it into my portfolio’s old architecture. Once the Next.js tutorial covered the recommended TypeScript and Tailwind setup, I learned those too rather than deferring them for later."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "What makes React so powerful is componentization. You reuse HTML and JavaScript behavior across the site with minimal duplication. Tailwind does the same for CSS. The library turns most styling concerns into utilities you add to an element’s class list, similar to inline styles but simpler and more consistent. You can also compose those utilities in one CSS file into reusable components, so you rarely leave your markup to chase styling. Paired with React, which already merges structure and logic, the whole build loop gets much simpler."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "TypeScript is essentially JavaScript with static type checking. In plain terms, you declare what kind of data each variable and constant holds. That catches a large share of bugs before compile time, because type mismatches surface early. It is easy to wonder why that was not part of JavaScript from the start, when so many other languages bake types in from day one."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "Next.js, the stack I have been focused on for the past month, addresses one of React’s main trade-offs: the client has to render much of the dynamic UI. Take my work pages: they share one layout but different images and copy. In plain HTML you would ship a separate file per page, sharing CSS and JavaScript across them. React lets you keep one layout and fill it from the URL or other input, but the browser still fetches data, resolves what to show, and paints the page. Next.js can fetch data and render on the server, so the client has more headroom for interaction."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "There’s still a lot to learn about Next.js’s deeper features, mostly because I have not had a project yet that forced me to practice them, but that will change soon."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "id": "stylistic-adjustments",
+      "items": [
+        [
+          {
+            "type": "media",
+            "content": [
+              {
+                "type": "image",
+                "aspect": "3/2",
+                "src": "birth/version-0p8/gc_birth-stylistic-adjustments.webp",
+                "width": 1600,
+                "height": 900,
+                "alt": "",
+                "id": "birth-stylistic-adjustments-lead"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "Gian-I Media’s layout has been adjusted, especially the space left for portfolio imagery in the original design. Header, sidebar, and footer use less white space; the two main content columns are wider; and the gap between columns is larger so the overview, imagery, and navigation each read as its own zone."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "Additionally, recent reading on aria labels, alt text, and related accessibility practices for screen-reader users has informed a few concrete updates. Images now carry meaningful alt text, buttons include aria-labels, and media breakpoints use responsive units so layout should hold up better when the browser’s root font size is increased. That behavior still needs more thorough testing. Accessibility had not received the attention it deserves until now, partly because I have strong vision, hearing, and motor ability which made the gaps easy to overlook."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "Much of this next update could have done in plain CSS, but Tailwind made the workflow so intuitive that it was hard not to use it. Color and transform transitions live in reusable utility layers on top of component styles. When I tweak them once, everything that depends on them updates together, so I am far less likely to leave one instance out of sync. That showed up clearly when the user changed color themes in the old site. Transitions felt jarring largely because many elements were not aligned."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "I want to revisit the dark-mode color scheme. In honesty, I used AI to derive a dark variant from a light palette I chose by hand. Something about the result still feels harsh to me, and I have not had time to refine it yet."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "id": "creative-technology",
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "During GradEx, a few friends published design manifestos alongside their thesis work (possibly a course requirement; I am not sure). I found that inspiring and have been brainstorming since. Nothing cohesive yet, but a few fragments are worth noting."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "The first comes from Apple’s design culture, repeated in interviews with Jony Ive and the late Steve Jobs: care for the product shows up in how it is made; the effort to make something as good as possible is something users can feel. That motivates my work, including this site, and gives me hope about building for everyday technology."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "The second is still forming. Nature is not purely purposeful; there is friction, randomness, a kind of change built in. We are a clear example: entirely biological in origin, yet always pushing beyond what came before, a tiny slice of Earth’s biomass that constantly strains against “natural” order. Or maybe that strain is part of the order; hard to say."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "I wonder whether general-purpose technology enables that kind of resistance, and whether it should mirror nature at all. I want to read and think more about that."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "id": "next-steps",
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "I’m still deciding how filters should work on mobile. A full-screen modal is appealing, but on desktop I like immediate feedback when you change a filter. Whether a phone screen can show filters and results at once without feeling cramped is an open question that needs more meditation."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "The tools used on each project should also be included in the filter set, not only as subtitles on individual work pages. That feels like something people will want to sort by. Showing keywords, tools, or both on the grid might need a toggle. That sounds like a satisfying side project."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "And a refined dark-mode palette. After that, we should be close to version 1.0."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "Stay tuned."
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ]
+}

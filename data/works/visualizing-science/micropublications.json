@@ -1,0 +1,253 @@
+{
+  "id": "micropublications",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "In Research Methods for Graphic Design (third year), the course deliverables were double-sided 11″ × 17″ micropublications exploring a research question that could sustain multiple methods and matter to design practice."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "After Micropublication 1, I focused on the question: “How can technological advancements in augmented reality enhance the effectiveness of science communication?” It grew from my interest in how emerging tools can reshape how scientific information is shared, combining future-oriented interface design with science communication."
+            }
+          ]
+        }
+      ]
+    ],
+    "items": [
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "288/445",
+              "src": "visualizing-science/micropublications/gc_vs-micropublication-1-1.webp",
+              "width": 1440,
+              "height": 2225,
+              "alt": "Page 1 of 2: Micropublication 1.",
+              "id": "vs-micropub-1-page-1"
+            },
+            {
+              "type": "image",
+              "aspect": "288/445",
+              "src": "visualizing-science/micropublications/gc_vs-micropublication-1-2.webp",
+              "width": 1440,
+              "height": 2225,
+              "alt": "Page 2 of 2: Micropublication 1.",
+              "id": "vs-micropub-1-page-2"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Micropublication 1"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "This exercise narrowed the semester’s research focus. My question crystallised in conversation with course instructor "
+            },
+            {
+              "type": "external-link",
+              "href": "https://www.linkedin.com/in/ali-qadeer-138002402/",
+              "label": "Ali Qadeer"
+            },
+            {
+              "type": "text",
+              "value": ". We reviewed earlier projects and saw science communication as a recurring thread, which clarified my research direction."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "288/445",
+              "src": "visualizing-science/micropublications/gc_vs-micropublication-2-1.webp",
+              "width": 1440,
+              "height": 2225,
+              "alt": "Page 1 of 2: Micropublication 2.",
+              "id": "vs-micropub-2-page-1"
+            },
+            {
+              "type": "image",
+              "aspect": "288/445",
+              "src": "visualizing-science/micropublications/gc_vs-micropublication-2-2.webp",
+              "width": 1440,
+              "height": 2225,
+              "alt": "Page 2 of 2: Micropublication 2.",
+              "id": "vs-micropub-2-page-2"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Micropublication 2"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Annotated image archive for our research question, mapping the conceptual and visual field around it."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "320/207",
+              "src": "visualizing-science/micropublications/gc_vs-micropublication-3-1.webp",
+              "width": 1600,
+              "height": 1035,
+              "alt": "Page 1 of 2: Micropublication 3.",
+              "id": "vs-micropub-3-page-1"
+            },
+            {
+              "type": "image",
+              "aspect": "320/207",
+              "src": "visualizing-science/micropublications/gc_vs-micropublication-3-2.webp",
+              "width": 1600,
+              "height": 1035,
+              "alt": "Page 2 of 2: Micropublication 3.",
+              "id": "vs-micropub-3-page-2"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Micropublication 3"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Text-only archive parallel to Micropublication 2."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "288/445",
+              "src": "visualizing-science/micropublications/gc_vs-micropublication-4-1.webp",
+              "width": 1440,
+              "height": 2225,
+              "alt": "Page 1 of 2: Micropublication 4.",
+              "id": "vs-micropub-4-page-1"
+            },
+            {
+              "type": "image",
+              "aspect": "288/445",
+              "src": "visualizing-science/micropublications/gc_vs-micropublication-4-2.webp",
+              "width": 1440,
+              "height": 2225,
+              "alt": "Page 2 of 2: Micropublication 4.",
+              "id": "vs-micropub-4-page-2"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Micropublication 4"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Proposal for two expert semi-structured interviews on our research questions."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "320/207",
+              "src": "visualizing-science/micropublications/gc_vs-micropublication-5-1.webp",
+              "width": 1600,
+              "height": 1035,
+              "alt": "Page 1 of 2: Micropublication 5.",
+              "id": "vs-micropub-5-page-1"
+            },
+            {
+              "type": "image",
+              "aspect": "288/445",
+              "src": "visualizing-science/micropublications/gc_vs-micropublication-5-2.webp",
+              "width": 1440,
+              "height": 2225,
+              "alt": "Page 2 of 2: Micropublication 5.",
+              "id": "vs-micropub-5-page-2"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Micropublication 5"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Documented learning a skill tied to our research topic and graphic design practice."
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

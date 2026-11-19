@@ -1,0 +1,418 @@
+{
+  "id": "version-0p5",
+  "blocks": [
+    {
+      "id": "learning-reactjs",
+      "items": [
+        [
+          {
+            "type": "media",
+            "content": [
+              {
+                "type": "image",
+                "aspect": "1440/959",
+                "src": "birth/version-0p5/gc_birth-learning-reactjs.webp",
+                "width": 1440,
+                "height": 959,
+                "alt": "IDE window showing React and JavaScript source code for the Gian-I Media version 0.5 site.",
+                "id": "birth-learning-reactjs-lead"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "During my internships at York University, working under "
+              },
+              {
+                "type": "external-link",
+                "href": "https://www.linkedin.com/in/grace-grothaus-aa98b7227/",
+                "label": "Dr. Grace Grothaus"
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "external-link",
+                "href": "https://www.mdhosale.com/",
+                "label": "Dr. Mark-David Hosdale"
+              },
+              {
+                "type": "text",
+                "value": ", and at AXXS Digital, working under "
+              },
+              {
+                "type": "external-link",
+                "href": "https://www.linkedin.com/in/andelhusbands/",
+                "label": "Andel Husbands"
+              },
+              {
+                "type": "text",
+                "value": ", I was encouraged to incorporate React.js into my web development process. At AXXS Digital, in particular, I was unable to participate in the development of the Parlour website due to my lack of experience with React.js and its counterpart, Next.js. That missed opportunity sparked a strong desire to add React to my toolkit. With the long-overdue task of redesigning my portfolio on the horizon, it felt like the perfect chance to create my first React.js project and add it to my portfolio."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "The tutorial I used to get my bearings in React was "
+              },
+              {
+                "type": "external-link",
+                "href": "https://www.youtube.com/watch?v=TtPXvEcE11E",
+                "label": "‘React Tutorial Full Course – Beginner to Pro (React 19, 2025)’"
+              },
+              {
+                "type": "text",
+                "value": " by SuperSimpleDev. It does an excellent job of not assuming prior knowledge, which helped me build an understanding of React that’s deeply rooted in JavaScript fundamentals. The only gap was asynchronous functions: they were introduced a couple of modules before they were fully explained. I had to watch a quick 15-minute explainer to properly understand how they work."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "For any web developers thinking of learning React, I highly recommend it. React effectively combines HTML and JavaScript to automate the reuse of components that appear on multiple pages—such as input forms, navigation bars, or custom search elements. Fun fact: this entire website is built using only a single HTML file. React.js, along with its extension React Router, is incredibly powerful and makes the website development process far less tedious."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "As of writing this, I’ve completed 8 out of the 10 modules in SuperSimpleDev’s course. The final two modules cover automated testing and deploying React to the web. I’ll likely watch them before I deploy version 0.5 of Gian-I Media. I plan to post any additional learnings in a later version prior to 1.0, most likely once I’ve had the chance to learn Next.js and integrate it into this website’s codebase."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "id": "general-structure",
+      "items": [
+        [
+          {
+            "type": "media",
+            "content": [
+              {
+                "type": "image",
+                "aspect": "480/323",
+                "src": "birth/version-0p5/gc_birth-general-structure.webp",
+                "width": 1440,
+                "height": 969,
+                "alt": "Browser screenshot of Gian-I Media with the two main layout divisions—the navigator and synthesizer—highlighted.",
+                "id": "birth-general-structure-lead"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "The structure of this website was inspired by the Hypermedia Navigator concept introduced by Marcos Novak in his 1991 essay ‘Liquid Architectures in Cyberspace.’"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "Novak writes:"
+              }
+            ]
+          },
+          {
+            "type": "quote",
+            "content": [
+              {
+                "type": "quote-content",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "value": "Some initial definitions are necessary before we proceed: cyberspace navigation refers to the traversal of information spaces; cyberspace synthesis refers to the reconciliation of different kinds of information into a coherent image; cyberspace rendition refers to the production of high-quality graphic presentation of that image. These are separate tasks."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "value": "Navigation through cyberspace is achieved by interacting with a hypermedia navigator, a virtual control device that follows the user and always remains within arm’s reach. It is possible for the user to circumvent the cyberspace synthesizer and enter and traverse the space of the navigator, riding the links, as it were. ”"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "quote-source",
+                "content": [
+                  {
+                    "type": "text",
+                    "value": "Page 229 of Cyberspace: First Steps, edited by Michael Benedikt. Article titled “Liquid Architectures in Cyberspace” by Marcos Novak."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "For the purposes of Gian-I Media, I treat the collective body of work I’ve accomplished over my career as a small pocket of cyberspace. Given its personal nature, I’ve retitled it a dream space. The header, sidebar, and footer together form the hypermedia navigator: fixed interface elements that always remain within the user’s reach. They allow the user to filter what will one day be a vast amount of content to arrive at the specific works that pique their interest."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "The area enclosed by the navigator presents the filtered content in a structured and organized manner, making it the synthesizer of the Gian-I Media dream space. The three links at the bottom of the navigator point the user to sources of the creativity found on this page: my resume, Instagram, and LinkedIn."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "id": "filtration-system",
+      "items": [
+        [
+          {
+            "type": "media",
+            "content": [
+              {
+                "type": "image",
+                "aspect": "480/323",
+                "src": "birth/version-0p5/gc_birth-filtration-system.webp",
+                "width": 1440,
+                "height": 969,
+                "alt": "Browser screenshot of Gian-I Media with the four main filtering methods highlighted.",
+                "id": "birth-filtration-system-lead"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "There are four methods of filtering content on Gian-I Media."
+              }
+            ]
+          },
+          {
+            "type": "numbered-list",
+            "content": [
+              {
+                "type": "numbered-list-item",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "value": "Sidebar navigation"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "value": "The first and least powerful method is through the sidebar. Its main purpose is to provide a direct link to the filter results page. Clicking either the Works or Notes page performs a preliminary filter between manifested projects and reflections on the world."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "numbered-list-item",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "value": "Search bar"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "value": "The second method is the search bar, which is useful if the user knows the name of the project they’re looking for. These name-based search results are applied on top of the content type, sort order, and keyword filters available through the third method."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "numbered-list-item",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "value": "Expanded search and filter controls"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "value": "The third method is accessed by expanding the search bar using the downward chevron button to its right. In this expanded view, the user can:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "bullet-list",
+                    "content": [
+                      {
+                        "type": "bullet-item",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "content": [
+                              {
+                                "type": "text",
+                                "value": "Modify which content types are shown"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "bullet-item",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "content": [
+                              {
+                                "type": "text",
+                                "value": "Adjust the sort order"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "bullet-item",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "content": [
+                              {
+                                "type": "text",
+                                "value": "Select keywords that curate the filtered results"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "numbered-list-item",
+                "content": [
+                  {
+                    "type": "numbered-list-item-lead",
+                    "content": [
+                      {
+                        "type": "text",
+                        "value": "Keyword chaining from project cards"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "value": "The fourth method is only accessible on the filter results page. By clicking one of the keywords attached to an individual project, the user sees only projects that share that keyword. Multiple keywords can be chained together to produce increasingly specific searches."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "Filter settings persist as the user navigates until the website is reloaded. The projects that match the current filter configuration are shown as thumbnails in the navigation bar on the right side of the synthesizer’s content area."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "This website is intended to grow alongside my creative career, which is why a robust filtration system was built into its foundation. Even if the total body of content eventually reaches 150 projects, users should still be able to find the specific work that interests them."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "id": "next-steps",
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "Currently, only three of the eight works planned for the launch of Gian-I Media are live in version 0.5. Compiling the remaining five has taken more time than expected, and completing them is the most immediate step toward version 1.0."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "The filtration system for mobile resolutions also remains unresolved. Based on the current structure, implementing it will likely require reorganizing how the dream space navigator is presented to smartphone users."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "Another goal is to learn Next.js and integrate it into Gian-I Media to improve searchability and performance. From my perspective, this is the most exciting next step on the journey toward version 1.0."
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "id": "live-visualization",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "A speculative visualization of the individual’s influence on the flow of time, as outlined in the spiral treatise. An afterimage of the viewer modulates between the present and a user-defined delay into the past; delay and modulation speed are adjustable on the controller. The work offers a sense of agency over time while asking how much control we truly have."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "The controller case was modeled in Rhino 8 with Grasshopper and PLA 3D printed in white filament; a clear acrylic layer protects the laser-cut clock hands. The live visualization runs in Max 9 with Arduino code."
+            }
+          ]
+        }
+      ]
+    ],
+    "items": [
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1/1",
+              "src": "time-unwinding-the-spiral/live-visualization/gc_spiral-live-vis-full-setup.webp",
+              "width": 1440,
+              "height": 1440,
+              "alt": "Full setup.",
+              "id": "spiral-live-vis-full-setup"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Full setup."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "video",
+              "aspect": "4/5",
+              "src": "time-unwinding-the-spiral/gc_spiral-live-vis-video-doc-1.mp4",
+              "poster": "time-unwinding-the-spiral/gc_spiral-live-vis-video-doc-1-poster.webp",
+              "controls": true,
+              "loop": true,
+              "muted": true,
+              "id": "spiral-live-vis-video-doc-1"
+            }
+          ]
+        },
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "video",
+              "aspect": "4/5",
+              "src": "time-unwinding-the-spiral/gc_spiral-live-vis-video-doc-2.mp4",
+              "poster": "time-unwinding-the-spiral/gc_spiral-live-vis-video-doc-2-poster.webp",
+              "controls": true,
+              "loop": true,
+              "muted": true,
+              "id": "spiral-live-vis-video-doc-2"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Video documentation of live visualization."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "575/719",
+              "src": "time-unwinding-the-spiral/live-visualization/gc_spiral-live-vis-max-patch.webp",
+              "width": 1150,
+              "height": 1438,
+              "alt": "Screenshot: Max patch behind the abstracted live video feed.",
+              "id": "spiral-live-vis-max-patch"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Max patch behind the abstracted live video feed."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "time-unwinding-the-spiral/live-visualization/gc_spiral-live-vis-arduino-code.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Screenshot: Arduino code that reads the controller and sends data to the Max patch.",
+              "id": "spiral-live-vis-arduino-code"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Arduino code that reads the controller and sends data to the Max patch."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1/1",
+              "src": "time-unwinding-the-spiral/live-visualization/gc_insde-visualization-controller.webp",
+              "width": 1440,
+              "height": 1440,
+              "alt": "Interior of the controller case.",
+              "id": "spiral-live-vis-inside-controller"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Interior of the controller case"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Arduino Nano BLE Sense, two potentiometers, and two servos. Clock arms modelled in Rhino 8 with Grasshopper and 3D printed in black resin. Ticks laser-cut and engraved in white acrylic, then filled with black Sharpie."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "time-unwinding-the-spiral/live-visualization/gc_controller-case-rhino-screenshot-1.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "the Rhino 8 & Grasshopper files of the controller case (view 1 of 3).",
+              "id": "spiral-live-vis-controller-case-rhino-screenshot-1"
+            }
+          ]
+        },
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "time-unwinding-the-spiral/live-visualization/gc_controller-case-rhino-screenshot-2.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "the Rhino 8 & Grasshopper files of the controller case (view 2 of 3).",
+              "id": "spiral-live-vis-controller-case-rhino-screenshot-2"
+            }
+          ]
+        },
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "time-unwinding-the-spiral/live-visualization/gc_custom-servo-piece_rhino-screenshot.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "the Rhino 8 & Grasshopper files of the controller case (view 3 of 3).",
+              "id": "spiral-live-vis-servo-attachment-rhino-screenshot"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Screenshots of the Rhino 8 & Grasshopper files of the controller case."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1440/1091",
+              "src": "time-unwinding-the-spiral/live-visualization/gc-live-vis-controller-sketch.webp",
+              "width": 1440,
+              "height": 1091,
+              "alt": "Original controller sketch; form inspired by clocks and frequency meters.",
+              "id": "spiral-live-vis-controller-sketch"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Original controller sketch; form inspired by clocks and frequency meters."
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

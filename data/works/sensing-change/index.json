@@ -1,0 +1,88 @@
+{
+  "id": "sensing-change",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "During the summer break of my third undergraduate year, I interned on SensingChange at York University, an interdisciplinary research-creation project on black carbon air pollution and critical artworks. The initiative merges art, science, and engineering to make invisible pollution visible through wearable sensors, illuminated garments, and public installations that respond to local air quality."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "With "
+            },
+            {
+              "type": "external-link",
+              "href": "https://www.linkedin.com/in/grace-grothaus-aa98b7227/",
+              "label": "Dr. Grace Grothaus"
+            },
+            {
+              "type": "text",
+              "value": ", "
+            },
+            {
+              "type": "external-link",
+              "href": "https://www.mdhosale.com/",
+              "label": "Dr. Mark-David Hosdale"
+            },
+            {
+              "type": "text",
+              "value": ", and "
+            },
+            {
+              "type": "external-link",
+              "href": "https://www.linkedin.com/in/raneelee/",
+              "label": "Ranee Lee"
+            },
+            {
+              "type": "text",
+              "value": ", I designed the visual identity and digital presence: logo, colour system, and the website launched during my internship. "
+            },
+            {
+              "type": "external-link",
+              "href": "https://myairwear.com/",
+              "label": "myairwear.com"
+            },
+            {
+              "type": "text",
+              "value": " remains the public hub. The placement was credited toward my degree under Professor "
+            },
+            {
+              "type": "external-link",
+              "href": "https://www.linkedin.com/in/richard-hunt-5898b48/",
+              "label": "Richard Hunt"
+            },
+            {
+              "type": "text",
+              "value": ", whose critique sharpened the identity and site."
+            }
+          ]
+        }
+      ]
+    ],
+    "collectionLinks": [
+      {
+        "title": "Logo",
+        "medium": "Brand Identity",
+        "thumbnail": "sensing-change/logo/gc_scyu-logo-thumbnail.webp",
+        "alt": "We Are Air Aware graphic with AIR set in stippled blue dots.",
+        "id": "logo"
+      },
+      {
+        "title": "Website",
+        "medium": "Design & Development",
+        "thumbnail": "sensing-change/website/gc_scyu-website-thumbnail.webp",
+        "alt": "Air Aware website hero with a dotted AIR headline and a wearable vest showing glowing lungs.",
+        "id": "website"
+      }
+    ]
+  }
+}

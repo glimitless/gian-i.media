@@ -1,0 +1,447 @@
+{
+  "id": "controller-prototype",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "In Interaction Experience/Design (third year), we re-examined daily interactions with an everyday device and designed a tangible interface to enhance or replace part of that interaction. I focused on projectors: presenters often point at slides, but those gestures are not responsive; highlighting text, manipulating 3D models, or triggering embedded media still requires reaching the host computer or a helper."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "The controller, initially conceived as a glove, was meant to let presenters interact gesturally with projected content, supporting clearer, more engaging classroom presentations."
+            }
+          ]
+        }
+      ]
+    ],
+    "items": [
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "youtube-embed",
+              "aspect": "16/9",
+              "videoId": "avNqEMY-xfo",
+              "title": "Video documentation of the final controller proof of concept",
+              "alt": "Video documentation of the final controller proof of concept",
+              "id": "final-video-documentation"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Video documentation of the final proof of concept."
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Proof of concept uses my ‘Graphic Design 2’ planetary archive: familiar content to demo the controller and a presentation approach for younger audiences."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "5/4",
+              "src": "visualizing-science/controller-prototype/gc_vs-proof-of-concept-full-setup.webp",
+              "width": 1440,
+              "height": 1152,
+              "alt": "Full setup for the final proof of concept.",
+              "id": "poc-final-setup"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Full setup for the final proof of concept."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "5/4",
+              "src": "visualizing-science/controller-prototype/gc_vs-proof-of-concept-controller.webp",
+              "width": 1440,
+              "height": 1152,
+              "alt": "Final proof-of-concept controller setup.",
+              "id": "poc-controller-setup"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Final proof-of-concept controller setup"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "DARKBEAM 940 nm flashlight (the wavelength the PixArt sensor detects) and an Arduino Nano BLE Sense with three tactile push-buttons."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "4/3",
+              "src": "visualizing-science/controller-prototype/gc_vs-proof-of-concept-ir-camera.webp",
+              "width": 1440,
+              "height": 1080,
+              "alt": "Final proof-of-concept IR light sensor setup.",
+              "id": "poc-ir-camera-setup"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Final proof-of-concept IR light sensor setup."
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "PixArt sensor desoldered from a Wii Remote on Arduino Uno. The remote targets Nintendo Wii only; for Windows I repurposed the hardware with Integrated Media Technician "
+            },
+            {
+              "type": "external-link",
+              "href": "https://www.linkedin.com/in/gerald-grison/",
+              "label": "Gerald Grison"
+            },
+            {
+              "type": "text",
+              "value": " and course instructor "
+            },
+            {
+              "type": "external-link",
+              "href": "https://www.linkedin.com/in/colin-harry/",
+              "label": "Colin Harry"
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "youtube-embed",
+              "aspect": "16/9",
+              "videoId": "wk1-1Sf6Y8M",
+              "title": "Video documentation of controller prototype",
+              "alt": "Video documentation of controller prototype",
+              "id": "first-functional-prototype-documentation-1"
+            }
+          ]
+        },
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "youtube-embed",
+              "aspect": "16/9",
+              "videoId": "qTODlyTveBg",
+              "title": "Video documentation of controller prototype",
+              "alt": "Video documentation of controller prototype",
+              "id": "first-functional-prototype-documentation-2"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "Video documentation of the first functional prototype of the controller."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "5/4",
+              "src": "visualizing-science/controller-prototype/gc_vs-first-code-prototype-full-setup.webp",
+              "width": 1440,
+              "height": 1152,
+              "alt": "Setup for the first functional prototype.",
+              "id": "ffp-full-setup"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Setup for the first functional prototype."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "5/4",
+              "src": "visualizing-science/controller-prototype/gc_vs-first-wiring-attempt-and-form-prototype.webp",
+              "width": 1440,
+              "height": 1152,
+              "alt": "First wiring for the IR sensor and controller, with a controller form prototype.",
+              "id": "fwa-and-fp"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "First wiring for the IR sensor and controller, with a controller form prototype."
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "I first planned to mount the IR light inside the controller case (visible on the first wiring attempt). Testing showed the PixArt sensor accepts only 940 nm IR, which my part did not emit. Without a compatible IR LED, I used a 940 nm flashlight for the proof of concept."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "5/4",
+              "src": "visualizing-science/controller-prototype/gc_vs-first-wiring-attempt-ir-camera-angle-1.webp",
+              "width": 1440,
+              "height": 1152,
+              "alt": "First wiring attempt for the IR light sensor (view 1 of 2).",
+              "id": "fwa-ir-camera-angle-1"
+            }
+          ]
+        },
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1440/1151",
+              "src": "visualizing-science/controller-prototype/gc_vs-first-wiring-attempt-ir-camera-angle-2.webp",
+              "width": 1440,
+              "height": 1151,
+              "alt": "First wiring attempt for the IR light sensor (view 2 of 2).",
+              "id": "fwa-ir-camera-angle-2"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "First wiring attempt for the IR light sensor."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "5/4",
+              "src": "visualizing-science/controller-prototype/gc_vs-first-wiring-attempt-controller-form-angle-1.webp",
+              "width": 1440,
+              "height": 1152,
+              "alt": "Controller form prototype inspired by the Wii Remote; IR sensor repurposed from it (view 1 of 2).",
+              "id": "fp-angle-1"
+            }
+          ]
+        },
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "5/4",
+              "src": "visualizing-science/controller-prototype/gc_vs-first-wiring-attempt-controller-form-angle-2.webp",
+              "width": 1440,
+              "height": 1152,
+              "alt": "Controller form prototype inspired by the Wii Remote; IR sensor repurposed from it (view 2 of 2).",
+              "id": "fp-angle-2"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Controller form prototype inspired by the Wii Remote; IR sensor repurposed from it."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "5/4",
+              "src": "visualizing-science/controller-prototype/gc_vs-first-wiring-attempt-controller-wiring-angle-1.webp",
+              "width": 1440,
+              "height": 1152,
+              "alt": "First wiring attempt for the controller (view 1 of 2).",
+              "id": "fwa-controller-angle-1"
+            }
+          ]
+        },
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "5/4",
+              "src": "visualizing-science/controller-prototype/gc_vs-first-wiring-attempt-controller-wiring-angle-2.webp",
+              "width": 1440,
+              "height": 1152,
+              "alt": "First wiring attempt for the controller (view 2 of 2).",
+              "id": "fwa-controller-angle-2"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "First wiring attempt for the controller."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "5/4",
+              "src": "visualizing-science/controller-prototype/sketches/gc_vs-controller-sketches-page-1.webp",
+              "width": 1440,
+              "height": 1152,
+              "alt": "Page 1 of 4: Scans of the sketches outlining my initial ideation for this project.",
+              "id": "vs-controller-sketches-page-1"
+            },
+            {
+              "type": "image",
+              "aspect": "5/4",
+              "src": "visualizing-science/controller-prototype/sketches/gc_vs-controller-sketches-page-2.webp",
+              "width": 1440,
+              "height": 1152,
+              "alt": "Page 2 of 4: Scans of the sketches outlining my initial ideation for this project.",
+              "id": "vs-controller-sketches-page-2"
+            },
+            {
+              "type": "image",
+              "aspect": "5/4",
+              "src": "visualizing-science/controller-prototype/sketches/gc_vs-controller-sketches-page-3.webp",
+              "width": 1440,
+              "height": 1152,
+              "alt": "Page 3 of 4: Scans of the sketches outlining my initial ideation for this project.",
+              "id": "vs-controller-sketches-page-3"
+            },
+            {
+              "type": "image",
+              "aspect": "5/4",
+              "src": "visualizing-science/controller-prototype/sketches/gc_vs-controller-sketches-page-4.webp",
+              "width": 1440,
+              "height": 1152,
+              "alt": "Page 4 of 4: Scans of the sketches outlining my initial ideation for this project.",
+              "id": "vs-controller-sketches-page-4"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Scans of the sketches outlining my initial ideation for this project."
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

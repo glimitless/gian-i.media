@@ -1,0 +1,52 @@
+{
+  "id": "axxs-digital",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "During the summer of 2026, I interned at AXXS Digital, a Caribbean-focused studio that combines brand communication, strategy, and software to help clients navigate complex business challenges and digital change."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "Reporting to "
+            },
+            {
+              "type": "external-link",
+              "href": "https://www.linkedin.com/in/andelhusbands/",
+              "label": "Andel Husbands"
+            },
+            {
+              "type": "text",
+              "value": ", I split my time between brand and product work: Parlour Caribbean’s rebrand and new features for The Gazette app. Across both projects, the aim was clear information hierarchy, cohesive visual systems, and interfaces tuned to Caribbean users and contexts."
+            }
+          ]
+        }
+      ]
+    ],
+    "collectionLinks": [
+      {
+        "title": "Parlour",
+        "medium": "Brand & UI Design",
+        "thumbnail": "axxs-digital/parlour/gc_ad-parlour-thumbnail.webp",
+        "alt": "Parlour wordmark beside a circular icon of a pink sun setting over teal waves.",
+        "id": "parlour"
+      },
+      {
+        "title": "The GazettE",
+        "medium": "UI Design",
+        "thumbnail": "axxs-digital/the-gazette/gc_ad-the-gazette-thumbnail.webp",
+        "alt": "The GazettE logo in black serif type with a red dot after the capital E.",
+        "id": "the-gazette"
+      }
+    ]
+  }
+}

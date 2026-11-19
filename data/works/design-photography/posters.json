@@ -1,0 +1,870 @@
+{
+  "id": "posters",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "When Design Photo received a 28-by-49-inch monitor to promote its services, "
+            },
+            {
+              "type": "external-link",
+              "href": "https://www.linkedin.com/in/jogindersinghphotography/",
+              "label": "Joginder Singh"
+            },
+            {
+              "type": "text",
+              "value": " saw it as the foundation for a visual identity we could refine over time. With limited shift time for student monitors, we needed a modular template that any staff member with basic design sensibilities could adapt, distinctive enough to read as Design Photography yet aligned with OCAD University, including Gotham from the 2011 rebrand."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "The palette centred on red from "
+            },
+            {
+              "type": "external-link",
+              "href": "https://www.ocadu.ca/news/lighten-open-access-wall-studio",
+              "label": "Lighten Up! The Open Access Wall Studio"
+            },
+            {
+              "type": "text",
+              "value": ", linking the studio’s earlier work to the new system. Typography, colour, and layout together gave Design Photography a flexible, recognisable voice across notices, events, and information graphics for everyday use."
+            }
+          ]
+        }
+      ]
+    ],
+    "items": [
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "4/5",
+              "src": "design-photography/posters/gc_dp-posters-context-1.webp",
+              "width": 1280,
+              "height": 1600,
+              "alt": "28 × 49 in. display monitor (view 1 of 2).",
+              "id": "dp-posters-context-1"
+            }
+          ]
+        },
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "4/5",
+              "src": "design-photography/posters/gc_dp-posters-context-2.webp",
+              "width": 960,
+              "height": 1200,
+              "alt": "28 × 49 in. display monitor (view 2 of 2).",
+              "id": "dp-posters-context-1-2"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "28 × 49 in. display monitor"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Monitor for Design Photography posters by the express elevator (floors 1–5), visible to students heading to the open area or queuing for equipment."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "video",
+              "aspect": "16/9",
+              "src": "design-photography/gc_dp-infographics-intro.mp4",
+              "poster": "design-photography/gc_dp-infographics-intro-poster.webp",
+              "controls": true,
+              "loop": true,
+              "muted": true,
+              "id": "dp-winter-25-infographics-intro"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/print-infographics/gc_dp-infographics-winter-25-cage-info.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Winter 2025 studio infographics, dp winter 25 infographics cage info.",
+              "id": "dp-winter-25-infographics-cage-info"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/print-infographics/gc_dp-infographics-winter-25-access.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Winter 2025 studio infographics, dp winter 25 infographics access.",
+              "id": "dp-winter-25-infographics-access"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/print-infographics/gc_dp-infographics-winter-25-resources.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Winter 2025 studio infographics, dp winter 25 infographics resources.",
+              "id": "dp-winter-25-infographics-resources"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/print-infographics/gc_dp-infographics-winter-25-team.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Winter 2025 studio infographics, dp winter 25 infographics team.",
+              "id": "dp-winter-25-infographics-team"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/print-infographics/gc_dp-infographics-winter-25-fine.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Winter 2025 studio infographics, dp winter 25 infographics fine.",
+              "id": "dp-winter-25-infographics-fine"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Winter 2025 studio infographics"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Infographics on studio hours, access rules, and equipment, plus an intro animation modelled on a studio lighting sequence."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/print-infographics/gc_dp-infographics-fall-25-access.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Fall 2025 infographic updates (view 1 of 2).",
+              "id": "dp-fall-2025-infographics-access"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/print-infographics/gc_dp-infographics-fall-25-team.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Fall 2025 infographic updates (view 2 of 2).",
+              "id": "dp-fall-25-infographics-team"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Fall 2025 infographic updates"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Updated infographic content and layouts for the Fall 2025 semester."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/print-infographics/gc_dp-infographics-winter-26-team.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Winter 2026 infographic updates.",
+              "id": "dp-winter-26-infographics-team"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Winter 2026 infographic updates"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Updated infographic content and layouts for the Winter 2026 semester."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "256/455",
+              "src": "design-photography/posters/listen-up/gc_dp-lu-figuratively-speaking.webp",
+              "width": 1280,
+              "height": 2275,
+              "alt": "Posters promoting ‘Listen Up! A Talk Series’ (view 1 of 3).",
+              "id": "dp-lu-figuratively-speaking"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/listen-up/gc_dp-lu-one-lovely-hour.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Posters promoting ‘Listen Up! A Talk Series’ (view 2 of 3).",
+              "id": "dp-lu-one-lovely-hour"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/listen-up/gc_dp-lu-material-memory.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Posters promoting ‘Listen Up! A Talk Series’ (view 3 of 3).",
+              "id": "dp-lu-material-memory"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Posters promoting ‘Listen Up! A Talk Series’."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "4/5",
+              "src": "design-photography/posters/listen-up/gc_dp-lu-instagram-figuratively-speaking-1.webp",
+              "width": 1280,
+              "height": 1600,
+              "alt": "Listen Up! Instagram adaptations, dp lu material memory instagram 1.",
+              "id": "dp-lu-material-memory-instagram-1"
+            },
+            {
+              "type": "image",
+              "aspect": "4/5",
+              "src": "design-photography/posters/listen-up/gc_dp-lu-instagram-figuratively-speaking-2.webp",
+              "width": 1280,
+              "height": 1600,
+              "alt": "Listen Up! Instagram adaptations, dp lu material memory instagram 2.",
+              "id": "dp-lu-material-memory-instagram-2"
+            },
+            {
+              "type": "image",
+              "aspect": "4/5",
+              "src": "design-photography/posters/listen-up/gc_dp-lu-instagram-one-lovely-hour-1.webp",
+              "width": 1280,
+              "height": 1600,
+              "alt": "Listen Up! Instagram adaptations, dp lu one lovely hour instagram 1.",
+              "id": "dp-lu-one-lovely-hour-instagram-1"
+            },
+            {
+              "type": "image",
+              "aspect": "4/5",
+              "src": "design-photography/posters/listen-up/gc_dp-lu-instagram-one-lovely-hour-2.webp",
+              "width": 1280,
+              "height": 1600,
+              "alt": "Listen Up! Instagram adaptations, dp lu one lovely hour instagram 2.",
+              "id": "dp-lu-one-lovely-hour-instagram-2"
+            },
+            {
+              "type": "image",
+              "aspect": "4/5",
+              "src": "design-photography/posters/listen-up/gc_dp-lu-instagram-material-memory-1.webp",
+              "width": 1280,
+              "height": 1600,
+              "alt": "Listen Up! Instagram adaptations, dp lu material memory instagram 1.",
+              "id": "dp-lu-material-memory-instagram-1"
+            },
+            {
+              "type": "image",
+              "aspect": "4/5",
+              "src": "design-photography/posters/listen-up/gc_dp-lu-instagram-material-memory-2.webp",
+              "width": 1280,
+              "height": 1600,
+              "alt": "Listen Up! Instagram adaptations, dp lu material memory instagram 2.",
+              "id": "dp-lu-material-memory-instagram-2"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Listen Up! Instagram adaptations"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Listen Up! posters reformatted for Instagram (max portrait 4:5); display originals were 9:16 and would crop without adjustment."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/closing-soon/gc_dp-closing-fall-25-aman-1.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Winter 2025 access deadline, dp closing soon aman 1.",
+              "id": "dp-closing-soon-aman-1"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/closing-soon/gc_dp-closing-fall-25-aman-2.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Winter 2025 access deadline, dp closing soon aman 2.",
+              "id": "dp-closing-soon-aman-2"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/closing-soon/gc_dp-closing-fall-25-aman-3.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Winter 2025 access deadline, dp closing soon aman 3.",
+              "id": "dp-closing-soon-aman-3"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/closing-soon/gc_dp-closing-fall-25-aman-4.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Winter 2025 access deadline, dp closing soon aman 4.",
+              "id": "dp-closing-soon-aman-4"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/closing-soon/gc_dp-closing-fall-25-aman-5.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Winter 2025 access deadline, dp closing soon aman 5.",
+              "id": "dp-closing-soon-aman-5"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/closing-soon/gc_dp-closing-fall-25-gian-1.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Winter 2025 access deadline, dp closing soon gian 1.",
+              "id": "dp-closing-soon-gian-1"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/closing-soon/gc_dp-closing-fall-25-gian-2.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Winter 2025 access deadline, dp closing soon gian 2.",
+              "id": "dp-closing-soon-gian-2"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/closing-soon/gc_dp-closing-fall-25-gian-3.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Winter 2025 access deadline, dp closing soon gian 3.",
+              "id": "dp-closing-soon-gian-3"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/closing-soon/gc_dp-closing-fall-25-gian-4.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Winter 2025 access deadline, dp closing soon gian 4.",
+              "id": "dp-closing-soon-gian-4"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/closing-soon/gc_dp-closing-fall-25-gian-5.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Winter 2025 access deadline, dp closing soon gian 5.",
+              "id": "dp-closing-soon-gian-5"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/closing-soon/gc_dp-closing-fall-25-rojin-1.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Winter 2025 access deadline, dp closing soon rojin 1.",
+              "id": "dp-closing-soon-rojin-1"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/closing-soon/gc_dp-closing-fall-25-rojin-2.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Winter 2025 access deadline, dp closing soon rojin 2.",
+              "id": "dp-closing-soon-rojin-2"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/closing-soon/gc_dp-closing-fall-25-rojin-3.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Winter 2025 access deadline, dp closing soon rojin 3.",
+              "id": "dp-closing-soon-rojin-3"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/closing-soon/gc_dp-closing-fall-25-rojin-4.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Winter 2025 access deadline, dp closing soon rojin 4.",
+              "id": "dp-closing-soon-rojin-4"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/closing-soon/gc_dp-closing-fall-25-rojin-5.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Winter 2025 access deadline, dp closing soon rojin 5.",
+              "id": "dp-closing-soon-rojin-5"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Winter 2025 access deadline"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Posters for the last day of Design Photography access, Winter 2025."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/listen-up/gc_dp-fork-knife-spoon.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Posters promoting the ‘Fork Knife Spoon’ photography competition (view 1 of 2).",
+              "id": "dp-fork-knife-spoon-competition-poster"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/listen-up/gc_dp-fork-knife-spoon-deadline-extended.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Posters promoting the ‘Fork Knife Spoon’ photography competition (view 2 of 2).",
+              "id": "dp-fork-knife-spoon-deadline-extended"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Posters promoting the ‘Fork Knife Spoon’ photography competition."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "video",
+              "aspect": "16/9",
+              "src": "design-photography/gc_dp-infographics-intro_valentines-day-variant.mp4",
+              "poster": "design-photography/gc_dp-infographics-intro_valentines-day-variant-poster.webp",
+              "controls": true,
+              "loop": true,
+              "muted": true,
+              "id": "dp-valentines-day-intro"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/listen-up/gc_dp-holiday-posters-baisakhi.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Holiday-themed posters for the Design Photography display system (view 1 of 2).",
+              "id": "dp-baisakhi-poster"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/listen-up/gc_dp-holiday-posters-easter.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Holiday-themed posters for the Design Photography display system (view 2 of 2).",
+              "id": "dp-easter-poster"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Holiday-themed posters for the Design Photography display system."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "design-photography/posters/gc_dp-screen-posters-indesign-screenshot.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Digital poster template.",
+              "id": "dp-posters-process-context-1"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Digital poster template"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "InDesign template for Design Photography digital posters."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1440/1079",
+              "src": "design-photography/posters/gc_dp-infographics-printed-context.webp",
+              "width": 1440,
+              "height": 1079,
+              "alt": "Reception-desk print infographics.",
+              "id": "dp-posters-context-2"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Reception-desk print infographics"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Digital infographics also printed tabloid (11 × 17 in.) at reception so staff could explain procedures and access to queued students."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/print-infographics/gc_dp-printed-infographics-winter-25-cage-info.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Winter 2025 print infographics, dp print winter 25 infographics cage info.",
+              "id": "dp-print-winter-25-infographics-cage-info"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/print-infographics/gc_dp-printed-infographics-winter-25-access.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Winter 2025 print infographics, dp print winter 25 infographics access.",
+              "id": "dp-print-winter-25-infographics-access"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/print-infographics/gc_dp-printed-infographics-winter-25-resources.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Winter 2025 print infographics, dp print winter 25 infographics resources.",
+              "id": "dp-print-winter-25-infographics-resources"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/print-infographics/gc_dp-printed-infographics-winter-25-team.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Winter 2025 print infographics, dp print winter 25 infographics team.",
+              "id": "dp-print-winter-25-infographics-team"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/print-infographics/gc_dp-printed-infographics-winter-25-fine.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Winter 2025 print infographics, dp print winter 25 infographics fine.",
+              "id": "dp-print-winter-25-infographics-fine"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/print-infographics/gc_dp-printed-infographics-winter-25-feedback.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Winter 2025 print infographics, dp print winter 25 infographics fine.",
+              "id": "dp-print-winter-25-infographics-fine"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Winter 2025 print infographics"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Winter 2025 studio information as tabloid print series."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/print-infographics/gc_dp-printed-infographics-fall-25-access.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Fall 2025 print updates (view 1 of 2).",
+              "id": "dp-fall-2025-infographics-access"
+            },
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/print-infographics/gc_dp-printed-infographics-fall-25-team.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Fall 2025 print updates (view 2 of 2).",
+              "id": "dp-fall-25-infographics-team"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Fall 2025 print updates"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Revised printed infographics for Fall 2025."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "320/569",
+              "src": "design-photography/posters/print-infographics/gc_dp-printed-infographics-winter-26-team.webp",
+              "width": 1280,
+              "height": 2276,
+              "alt": "Winter 2026 print updates.",
+              "id": "dp-winter-26-infographics-team"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Winter 2026 print updates"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Revised printed infographics for Winter 2026."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "design-photography/posters/gc_dp-printed-posters-indesign-screenshot.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Print-production template.",
+              "id": "dp-posters-process-context-2"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Print-production template"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "InDesign files adapting digital infographics to tabloid print."
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

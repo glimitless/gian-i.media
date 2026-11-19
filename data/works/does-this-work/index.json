@@ -1,0 +1,220 @@
+{
+  "id": "does-this-work",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "For the final assignment of my first year, we compiled work from Design Process 1 and 2 into a process book that honestly represented how we design, not as a portfolio, but as a record of method and intent."
+            }
+          ]
+        }
+      ]
+    ],
+    "descriptionEXP": [
+      [
+        {
+          "type": "subtitle-two",
+          "content": [
+            {
+              "type": "text",
+              "value": "Excerpt of Brief"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "A process-book should actually be a living document, a difficult, often messy accounting of not just what was done, but an embodiment of the how and why."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "In this last project, a process-book is NOT:"
+            }
+          ]
+        },
+        {
+          "type": "bullet-list",
+          "content": [
+            {
+              "type": "bullet-item",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "A portfolio"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "bullet-item",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "An imitation of editorial compositions you like"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "bullet-item",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "Anything you have done before"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "So, what is a process-book in this studio? We have defined process in many ways over the past academic year — five distinct approaches to making, media, and conceptual thought — even a smattering of theory. What it comes down to is this: how are YOU working? What is significant to you? What principles, theories, approaches, media, tools, questions, materials are significant to you? So ultimately, your professors are out of the picture, we can’t offer you help here...this last effort is really ALL you."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "Your source content will be all your work produced in Design Process 1 and 2... everything, EVERYTHING. Writing, food scraps, receipts, text rants, internet rabbit holes... All of it. How you make sense of this in a book... how it is organized, how what is important to you makes its way into your composition, colour, material, type, scale... all of that is this project."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "This is not straightforward. It isn’t something that readily leads to visual research... because the subject of research... is your process. It will take some honesty, a resistance to easy themes and tropes, and some dedicated time to take risks with what a book is, could be, might be..."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "Also to be avoided - telling us what we have told you... As in “...experiments are important to me...” — sure, but that is literally IN THE COURSE MATERIAL... and I already know what the course material says... I want to know what I don’t yet know, which is what and how you think about design as a process, and why too."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "Reflect, attempt, repeat...and always make. Making is our primary form of research, trust in the process and let it guide you to unexpected outcomes."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "What this process book must feature:"
+            }
+          ]
+        },
+        {
+          "type": "bullet-list",
+          "content": [
+            {
+              "type": "bullet-item",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "Work from Design Process 1 and 2 ONLY"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "bullet-item",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "A minimum of two languages... MINIMUM...anything is possible, but be sure to actually attempt typesetting, and provide translations"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "bullet-item",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "Citations/works cited in MLA 9 format where appropriate and necessary"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "bullet-entry",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "value": "Content generated by you... this might mean new writing, sampling old writing, and yes, novel research."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    ],
+    "collectionLinks": [
+      {
+        "title": "Design Process",
+        "medium": "Book",
+        "thumbnail": "does-this-work/design-process/gc_dtw-dpb-thumbnail.webp",
+        "alt": "Black-and-white collage repeating Does This Work? among lightbulb outlines and newsprint textures.",
+        "id": "design-process"
+      }
+    ]
+  }
+}

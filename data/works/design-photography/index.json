@@ -1,0 +1,57 @@
+{
+  "id": "design-photography",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "Under sessional faculty and studio technician "
+            },
+            {
+              "type": "external-link",
+              "href": "https://www.linkedin.com/in/jogindersinghphotography/",
+              "label": "Joginder Singh"
+            },
+            {
+              "type": "text",
+              "value": ", I developed the brand identity and produced informational posters, motion graphics, and apparel for OCAD University’s Design Photography Studio (the Design Photo Cage), which lends photography equipment to undergraduate students in the Faculty of Design."
+            }
+          ]
+        }
+      ]
+    ],
+    "collectionLinks": [
+      {
+        "title": "Posters",
+        "medium": "Information Design",
+        "thumbnail": "design-photography/posters/gc_dp-posters-thumbnail.webp",
+        "alt": "Digital poster for the Fork Knife Spoon Design Photography competition on a teal wall screen.",
+        "id": "posters"
+      },
+      {
+        "title": "Signage",
+        "medium": "Environmental Graphics",
+        "thumbnail": "design-photography/signage/gc_dp-signage-thumbnail.webp",
+        "alt": "Teal storefront with a white DESIGN PHOTOGRAPHY sign above a closed grey shutter.",
+        "id": "signage"
+      },
+      {
+        "title": "Timeout",
+        "medium": "Exhibition",
+        "thumbnail": "design-photography/timeout/gc_dp-timeout-thumbnail.webp",
+        "alt": "Gallery board with pinned landscape photographs of pyramids, a cathedral altar, and a museum interior.",
+        "id": "timeout"
+      },
+      {
+        "title": "Orange Shirt Day",
+        "medium": "Clothing Design",
+        "thumbnail": "design-photography/orange-shirt-day/gc_dp-osd-thumbnail.webp",
+        "alt": "Orange shirt printed with tangram-style figures and the words Every Child Matters.",
+        "id": "orange-shirt-day"
+      }
+    ]
+  }
+}

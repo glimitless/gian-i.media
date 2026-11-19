@@ -1,0 +1,57 @@
+{
+  "id": "visualizing-science",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "This work gathers four projects from my second and third years. Each approaches its subject differently, but all reflect a growing interest in science communication, visualising complex ideas for non-specialist audiences."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "Fast-paced coursework left some pieces rushed or proof-of-concept; I include them here as markers in my development toward design grounded in research, technology, and accessible storytelling, early steps toward the question of where practice might lead, and what from these projects is worth keeping."
+            }
+          ]
+        }
+      ]
+    ],
+    "collectionLinks": [
+      {
+        "title": "Controller Prototype",
+        "medium": "Interaction Design",
+        "thumbnail": "visualizing-science/controller-prototype/gc_vs-controller-prototype-thumbnail.webp",
+        "alt": "Arduino and breadboard prototype with a white sensor tower, green LED module, and flashlight.",
+        "id": "controller-prototype"
+      },
+      {
+        "title": "Planetary Archive",
+        "medium": "Website Development",
+        "thumbnail": "visualizing-science/planetary-archive/gc_vs-planetary-archive-thumbnail.webp",
+        "alt": "Tablet showing the Planetary Archive site with selectable planet icons on a star field.",
+        "id": "planetary-archive"
+      },
+      {
+        "title": "Game Map",
+        "medium": "Poster Design",
+        "thumbnail": "visualizing-science/game-map/gc_vs-game-map-thumbnail.webp",
+        "alt": "Pixel-art poster mapping the life cycle of a low-mass star along a cosmic path.",
+        "id": "game-map"
+      },
+      {
+        "title": "Micropublications",
+        "medium": "Design Research",
+        "thumbnail": "visualizing-science/micropublications/gc_vs-micropublications-thumbnail.webp",
+        "alt": "Triptych of a green-tinted city street, a glowing circuit board, and purple digital light trails.",
+        "id": "micropublications"
+      }
+    ]
+  }
+}

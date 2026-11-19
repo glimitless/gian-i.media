@@ -1,0 +1,963 @@
+{
+  "id": "visual-research",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "A collection of 2D visualizations that diagram possible structures of time, as defined by the spiral treatise. Rather than a single definitive form, the book invites viewers to reconsider time beyond linear frameworks."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "Printed on 100 lb white matte paper, spiral bound with an acetate front cover and black cardstock back cover."
+            }
+          ]
+        }
+      ]
+    ],
+    "items": [
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "1600/1917",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-001.webp",
+              "width": 1600,
+              "height": 1917,
+              "alt": "Scans of the printed book, spiral visual research front cover.",
+              "id": "spiral-visual-research-front-cover"
+            },
+            {
+              "type": "image",
+              "aspect": "200/113",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-002.webp",
+              "width": 1600,
+              "height": 904,
+              "alt": "Scans of the printed book, spiral visual research pages 2 to 3.",
+              "id": "spiral-visual-research-pages-2-to-3"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/911",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-003.webp",
+              "width": 1600,
+              "height": 911,
+              "alt": "Scans of the printed book, spiral visual research pages 4 to 5.",
+              "id": "spiral-visual-research-pages-4-to-5"
+            },
+            {
+              "type": "image",
+              "aspect": "200/113",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-004.webp",
+              "width": 1600,
+              "height": 904,
+              "alt": "Scans of the printed book, spiral visual research pages 6 to 7.",
+              "id": "spiral-visual-research-pages-6-to-7"
+            },
+            {
+              "type": "image",
+              "aspect": "160/91",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-005.webp",
+              "width": 1600,
+              "height": 910,
+              "alt": "Scans of the printed book, spiral visual research pages 8 to 9.",
+              "id": "spiral-visual-research-pages-8-to-9"
+            },
+            {
+              "type": "image",
+              "aspect": "100/57",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-006.webp",
+              "width": 1600,
+              "height": 912,
+              "alt": "Scans of the printed book, spiral visual research pages 10 to 11.",
+              "id": "spiral-visual-research-pages-10-to-11"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/919",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-007.webp",
+              "width": 1600,
+              "height": 919,
+              "alt": "Scans of the printed book, spiral visual research pages 12 to 13.",
+              "id": "spiral-visual-research-pages-12-to-13"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/917",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-008.webp",
+              "width": 1600,
+              "height": 917,
+              "alt": "Scans of the printed book, spiral visual research pages 14 to 15.",
+              "id": "spiral-visual-research-pages-14-to-15"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/919",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-009.webp",
+              "width": 1600,
+              "height": 919,
+              "alt": "Scans of the printed book, spiral visual research pages 16 to 17.",
+              "id": "spiral-visual-research-pages-16-to-17"
+            },
+            {
+              "type": "image",
+              "aspect": "400/227",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-010.webp",
+              "width": 1600,
+              "height": 908,
+              "alt": "Scans of the printed book, spiral visual research pages 18 to 19.",
+              "id": "spiral-visual-research-pages-18-to-19"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/909",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-011.webp",
+              "width": 1600,
+              "height": 909,
+              "alt": "Scans of the printed book, spiral visual research pages 20 to 21.",
+              "id": "spiral-visual-research-pages-20-to-21"
+            },
+            {
+              "type": "image",
+              "aspect": "800/461",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-012.webp",
+              "width": 1600,
+              "height": 922,
+              "alt": "Scans of the printed book, spiral visual research pages 22 to 23.",
+              "id": "spiral-visual-research-pages-22-to-23"
+            },
+            {
+              "type": "image",
+              "aspect": "800/461",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-013.webp",
+              "width": 1600,
+              "height": 922,
+              "alt": "Scans of the printed book, spiral visual research pages 24 to 25.",
+              "id": "spiral-visual-research-pages-24-to-25"
+            },
+            {
+              "type": "image",
+              "aspect": "40/23",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-014.webp",
+              "width": 1600,
+              "height": 920,
+              "alt": "Scans of the printed book, spiral visual research pages 26 to 27.",
+              "id": "spiral-visual-research-pages-26-to-27"
+            },
+            {
+              "type": "image",
+              "aspect": "800/461",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-015.webp",
+              "width": 1600,
+              "height": 922,
+              "alt": "Scans of the printed book, spiral visual research pages 28 to 29.",
+              "id": "spiral-visual-research-pages-28-to-29"
+            },
+            {
+              "type": "image",
+              "aspect": "400/231",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-016.webp",
+              "width": 1600,
+              "height": 924,
+              "alt": "Scans of the printed book, spiral visual research pages 30 to 31.",
+              "id": "spiral-visual-research-pages-30-to-31"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/927",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-017.webp",
+              "width": 1600,
+              "height": 927,
+              "alt": "Scans of the printed book, spiral visual research pages 32 to 33.",
+              "id": "spiral-visual-research-pages-32-to-33"
+            },
+            {
+              "type": "image",
+              "aspect": "800/463",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-018.webp",
+              "width": 1600,
+              "height": 926,
+              "alt": "Scans of the printed book, spiral visual research pages 34 to 35.",
+              "id": "spiral-visual-research-pages-34-to-35"
+            },
+            {
+              "type": "image",
+              "aspect": "64/37",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-019.webp",
+              "width": 1600,
+              "height": 925,
+              "alt": "Scans of the printed book, spiral visual research pages 36 to 37.",
+              "id": "spiral-visual-research-pages-36-to-37"
+            },
+            {
+              "type": "image",
+              "aspect": "64/37",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-020.webp",
+              "width": 1600,
+              "height": 925,
+              "alt": "Scans of the printed book, spiral visual research pages 38 to 39.",
+              "id": "spiral-visual-research-pages-38-to-39"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/917",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-021.webp",
+              "width": 1600,
+              "height": 917,
+              "alt": "Scans of the printed book, spiral visual research pages 40 to 41.",
+              "id": "spiral-visual-research-pages-40-to-41"
+            },
+            {
+              "type": "image",
+              "aspect": "64/37",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-022.webp",
+              "width": 1600,
+              "height": 925,
+              "alt": "Scans of the printed book, spiral visual research pages 42 to 43.",
+              "id": "spiral-visual-research-pages-42-to-43"
+            },
+            {
+              "type": "image",
+              "aspect": "800/463",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-023.webp",
+              "width": 1600,
+              "height": 926,
+              "alt": "Scans of the printed book, spiral visual research pages 44 to 45.",
+              "id": "spiral-visual-research-pages-44-to-45"
+            },
+            {
+              "type": "image",
+              "aspect": "800/463",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-024.webp",
+              "width": 1600,
+              "height": 926,
+              "alt": "Scans of the printed book, spiral visual research pages 46 to 47.",
+              "id": "spiral-visual-research-pages-46-to-47"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/931",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-025.webp",
+              "width": 1600,
+              "height": 931,
+              "alt": "Scans of the printed book, spiral visual research pages 48 to 49.",
+              "id": "spiral-visual-research-pages-48-to-49"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/917",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-026.webp",
+              "width": 1600,
+              "height": 917,
+              "alt": "Scans of the printed book, spiral visual research pages 50 to 51.",
+              "id": "spiral-visual-research-pages-50-to-51"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/917",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-027.webp",
+              "width": 1600,
+              "height": 917,
+              "alt": "Scans of the printed book, spiral visual research pages 52 to 53.",
+              "id": "spiral-visual-research-pages-52-to-53"
+            },
+            {
+              "type": "image",
+              "aspect": "400/227",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-028.webp",
+              "width": 1600,
+              "height": 908,
+              "alt": "Scans of the printed book, spiral visual research pages 54 to 55.",
+              "id": "spiral-visual-research-pages-54-to-55"
+            },
+            {
+              "type": "image",
+              "aspect": "800/459",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-029.webp",
+              "width": 1600,
+              "height": 918,
+              "alt": "Scans of the printed book, spiral visual research pages 56 to 57.",
+              "id": "spiral-visual-research-pages-56-to-57"
+            },
+            {
+              "type": "image",
+              "aspect": "50/29",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-030.webp",
+              "width": 1600,
+              "height": 928,
+              "alt": "Scans of the printed book, spiral visual research pages 58 to 59.",
+              "id": "spiral-visual-research-pages-58-to-59"
+            },
+            {
+              "type": "image",
+              "aspect": "320/183",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-031.webp",
+              "width": 1600,
+              "height": 915,
+              "alt": "Scans of the printed book, spiral visual research pages 60 to 61.",
+              "id": "spiral-visual-research-pages-60-to-61"
+            },
+            {
+              "type": "image",
+              "aspect": "40/23",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-032.webp",
+              "width": 1600,
+              "height": 920,
+              "alt": "Scans of the printed book, spiral visual research pages 62 to 63.",
+              "id": "spiral-visual-research-pages-62-to-63"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/923",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-033.webp",
+              "width": 1600,
+              "height": 923,
+              "alt": "Scans of the printed book, spiral visual research pages 64 to 65.",
+              "id": "spiral-visual-research-pages-64-to-65"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/919",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-034.webp",
+              "width": 1600,
+              "height": 919,
+              "alt": "Scans of the printed book, spiral visual research pages 66 to 67.",
+              "id": "spiral-visual-research-pages-66-to-67"
+            },
+            {
+              "type": "image",
+              "aspect": "40/23",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-035.webp",
+              "width": 1600,
+              "height": 920,
+              "alt": "Scans of the printed book, spiral visual research pages 68 to 69.",
+              "id": "spiral-visual-research-pages-68-to-69"
+            },
+            {
+              "type": "image",
+              "aspect": "50/29",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-036.webp",
+              "width": 1600,
+              "height": 928,
+              "alt": "Scans of the printed book, spiral visual research pages 70 to 71.",
+              "id": "spiral-visual-research-pages-70-to-71"
+            },
+            {
+              "type": "image",
+              "aspect": "40/23",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-037.webp",
+              "width": 1600,
+              "height": 920,
+              "alt": "Scans of the printed book, spiral visual research pages 72 to 73.",
+              "id": "spiral-visual-research-pages-72-to-73"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/923",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-038.webp",
+              "width": 1600,
+              "height": 923,
+              "alt": "Scans of the printed book, spiral visual research pages 74 to 75.",
+              "id": "spiral-visual-research-pages-74-to-75"
+            },
+            {
+              "type": "image",
+              "aspect": "400/231",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-039.webp",
+              "width": 1600,
+              "height": 924,
+              "alt": "Scans of the printed book, spiral visual research pages 76 to 77.",
+              "id": "spiral-visual-research-pages-76-to-77"
+            },
+            {
+              "type": "image",
+              "aspect": "800/463",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-040.webp",
+              "width": 1600,
+              "height": 926,
+              "alt": "Scans of the printed book, spiral visual research pages 78 to 79.",
+              "id": "spiral-visual-research-pages-78-to-79"
+            },
+            {
+              "type": "image",
+              "aspect": "400/231",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-041.webp",
+              "width": 1600,
+              "height": 924,
+              "alt": "Scans of the printed book, spiral visual research pages 80 to 81.",
+              "id": "spiral-visual-research-pages-80-to-81"
+            },
+            {
+              "type": "image",
+              "aspect": "400/233",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-042.webp",
+              "width": 1600,
+              "height": 932,
+              "alt": "Scans of the printed book, spiral visual research pages 82 to 83.",
+              "id": "spiral-visual-research-pages-82-to-83"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/919",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-043.webp",
+              "width": 1600,
+              "height": 919,
+              "alt": "Scans of the printed book, spiral visual research pages 84 to 85.",
+              "id": "spiral-visual-research-pages-84-to-85"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/927",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-044.webp",
+              "width": 1600,
+              "height": 927,
+              "alt": "Scans of the printed book, spiral visual research pages 86 to 87.",
+              "id": "spiral-visual-research-pages-86-to-87"
+            },
+            {
+              "type": "image",
+              "aspect": "800/463",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-045.webp",
+              "width": 1600,
+              "height": 926,
+              "alt": "Scans of the printed book, spiral visual research pages 88 to 89.",
+              "id": "spiral-visual-research-pages-88-to-89"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/927",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-046.webp",
+              "width": 1600,
+              "height": 927,
+              "alt": "Scans of the printed book, spiral visual research pages 90 to 91.",
+              "id": "spiral-visual-research-pages-90-to-91"
+            },
+            {
+              "type": "image",
+              "aspect": "40/23",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-047.webp",
+              "width": 1600,
+              "height": 920,
+              "alt": "Scans of the printed book, spiral visual research pages 92 to 93.",
+              "id": "spiral-visual-research-pages-92-to-93"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/921",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-048.webp",
+              "width": 1600,
+              "height": 921,
+              "alt": "Scans of the printed book, spiral visual research pages 94 to 95.",
+              "id": "spiral-visual-research-pages-94-to-95"
+            },
+            {
+              "type": "image",
+              "aspect": "800/461",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-049.webp",
+              "width": 1600,
+              "height": 922,
+              "alt": "Scans of the printed book, spiral visual research pages 96 to 97.",
+              "id": "spiral-visual-research-pages-96-to-97"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/921",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-050.webp",
+              "width": 1600,
+              "height": 921,
+              "alt": "Scans of the printed book, spiral visual research pages 98 to 99.",
+              "id": "spiral-visual-research-pages-98-to-99"
+            },
+            {
+              "type": "image",
+              "aspect": "800/461",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-051.webp",
+              "width": 1600,
+              "height": 922,
+              "alt": "Scans of the printed book, spiral visual research pages 100 to 101.",
+              "id": "spiral-visual-research-pages-100-to-101"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/923",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-052.webp",
+              "width": 1600,
+              "height": 923,
+              "alt": "Scans of the printed book, spiral visual research pages 102 to 103.",
+              "id": "spiral-visual-research-pages-102-to-103"
+            },
+            {
+              "type": "image",
+              "aspect": "400/231",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-053.webp",
+              "width": 1600,
+              "height": 924,
+              "alt": "Scans of the printed book, spiral visual research pages 104 to 105.",
+              "id": "spiral-visual-research-pages-104-to-105"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/929",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-054.webp",
+              "width": 1600,
+              "height": 929,
+              "alt": "Scans of the printed book, spiral visual research pages 106 to 107.",
+              "id": "spiral-visual-research-pages-106-to-107"
+            },
+            {
+              "type": "image",
+              "aspect": "160/93",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-055.webp",
+              "width": 1600,
+              "height": 930,
+              "alt": "Scans of the printed book, spiral visual research pages 108 to 109.",
+              "id": "spiral-visual-research-pages-108-to-109"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/929",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-056.webp",
+              "width": 1600,
+              "height": 929,
+              "alt": "Scans of the printed book, spiral visual research pages 110 to 111.",
+              "id": "spiral-visual-research-pages-110-to-111"
+            },
+            {
+              "type": "image",
+              "aspect": "160/93",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-057.webp",
+              "width": 1600,
+              "height": 930,
+              "alt": "Scans of the printed book, spiral visual research pages 112 to 113.",
+              "id": "spiral-visual-research-pages-112-to-113"
+            },
+            {
+              "type": "image",
+              "aspect": "160/93",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-058.webp",
+              "width": 1600,
+              "height": 930,
+              "alt": "Scans of the printed book, spiral visual research pages 114 to 115.",
+              "id": "spiral-visual-research-pages-114-to-115"
+            },
+            {
+              "type": "image",
+              "aspect": "160/93",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-059.webp",
+              "width": 1600,
+              "height": 930,
+              "alt": "Scans of the printed book, spiral visual research pages 116 to 117.",
+              "id": "spiral-visual-research-pages-116-to-117"
+            },
+            {
+              "type": "image",
+              "aspect": "50/29",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-060.webp",
+              "width": 1600,
+              "height": 928,
+              "alt": "Scans of the printed book, spiral visual research pages 118 to 119.",
+              "id": "spiral-visual-research-pages-118-to-119"
+            },
+            {
+              "type": "image",
+              "aspect": "64/37",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-061.webp",
+              "width": 1600,
+              "height": 925,
+              "alt": "Scans of the printed book, spiral visual research pages 120 to 121.",
+              "id": "spiral-visual-research-pages-120-to-121"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/929",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-062.webp",
+              "width": 1600,
+              "height": 929,
+              "alt": "Scans of the printed book, spiral visual research pages 122 to 123.",
+              "id": "spiral-visual-research-pages-122-to-123"
+            },
+            {
+              "type": "image",
+              "aspect": "80/47",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-063.webp",
+              "width": 1600,
+              "height": 940,
+              "alt": "Scans of the printed book, spiral visual research pages 124 to 125.",
+              "id": "spiral-visual-research-pages-124-to-125"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/939",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-064.webp",
+              "width": 1600,
+              "height": 939,
+              "alt": "Scans of the printed book, spiral visual research pages 126 to 127.",
+              "id": "spiral-visual-research-pages-126-to-127"
+            },
+            {
+              "type": "image",
+              "aspect": "80/47",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-065.webp",
+              "width": 1600,
+              "height": 940,
+              "alt": "Scans of the printed book, spiral visual research pages 128 to 129.",
+              "id": "spiral-visual-research-pages-128-to-129"
+            },
+            {
+              "type": "image",
+              "aspect": "800/473",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-066.webp",
+              "width": 1600,
+              "height": 946,
+              "alt": "Scans of the printed book, spiral visual research pages 130 to 131.",
+              "id": "spiral-visual-research-pages-130-to-131"
+            },
+            {
+              "type": "image",
+              "aspect": "800/463",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-067.webp",
+              "width": 1600,
+              "height": 926,
+              "alt": "Scans of the printed book, spiral visual research pages 132 to 133.",
+              "id": "spiral-visual-research-pages-132-to-133"
+            },
+            {
+              "type": "image",
+              "aspect": "800/461",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-068.webp",
+              "width": 1600,
+              "height": 922,
+              "alt": "Scans of the printed book, spiral visual research pages 134 to 135.",
+              "id": "spiral-visual-research-pages-134-to-135"
+            },
+            {
+              "type": "image",
+              "aspect": "400/227",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-069.webp",
+              "width": 1600,
+              "height": 908,
+              "alt": "Scans of the printed book, spiral visual research pages 136 to 137.",
+              "id": "spiral-visual-research-pages-136-to-137"
+            },
+            {
+              "type": "image",
+              "aspect": "80/47",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-070.webp",
+              "width": 1600,
+              "height": 940,
+              "alt": "Scans of the printed book, spiral visual research pages 138 to 139.",
+              "id": "spiral-visual-research-pages-138-to-139"
+            },
+            {
+              "type": "image",
+              "aspect": "800/461",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-071.webp",
+              "width": 1600,
+              "height": 922,
+              "alt": "Scans of the printed book, spiral visual research pages 140 to 141.",
+              "id": "spiral-visual-research-pages-140-to-141"
+            },
+            {
+              "type": "image",
+              "aspect": "800/459",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-072.webp",
+              "width": 1600,
+              "height": 918,
+              "alt": "Scans of the printed book, spiral visual research pages 142 to 143.",
+              "id": "spiral-visual-research-pages-142-to-143"
+            },
+            {
+              "type": "image",
+              "aspect": "800/457",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-073.webp",
+              "width": 1600,
+              "height": 914,
+              "alt": "Scans of the printed book, spiral visual research pages 144 to 145.",
+              "id": "spiral-visual-research-pages-144-to-145"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/939",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-074.webp",
+              "width": 1600,
+              "height": 939,
+              "alt": "Scans of the printed book, spiral visual research pages 146 to 147.",
+              "id": "spiral-visual-research-pages-146-to-147"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/931",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-075.webp",
+              "width": 1600,
+              "height": 931,
+              "alt": "Scans of the printed book, spiral visual research pages 148 to 149.",
+              "id": "spiral-visual-research-pages-148-to-149"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/933",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-076.webp",
+              "width": 1600,
+              "height": 933,
+              "alt": "Scans of the printed book, spiral visual research pages 150 to 151.",
+              "id": "spiral-visual-research-pages-150-to-151"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/919",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-077.webp",
+              "width": 1600,
+              "height": 919,
+              "alt": "Scans of the printed book, spiral visual research pages 152 to 153.",
+              "id": "spiral-visual-research-pages-152-to-153"
+            },
+            {
+              "type": "image",
+              "aspect": "64/37",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-078.webp",
+              "width": 1600,
+              "height": 925,
+              "alt": "Scans of the printed book, spiral visual research pages 154 to 155.",
+              "id": "spiral-visual-research-pages-154-to-155"
+            },
+            {
+              "type": "image",
+              "aspect": "400/233",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-079.webp",
+              "width": 1600,
+              "height": 932,
+              "alt": "Scans of the printed book, spiral visual research pages 156 to 157.",
+              "id": "spiral-visual-research-pages-156-to-157"
+            },
+            {
+              "type": "image",
+              "aspect": "100/59",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-080.webp",
+              "width": 1600,
+              "height": 944,
+              "alt": "Scans of the printed book, spiral visual research pages 158 to 159.",
+              "id": "spiral-visual-research-pages-158-to-159"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/933",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-081.webp",
+              "width": 1600,
+              "height": 933,
+              "alt": "Scans of the printed book, spiral visual research pages 160 to 161.",
+              "id": "spiral-visual-research-pages-160-to-161"
+            },
+            {
+              "type": "image",
+              "aspect": "800/469",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-082.webp",
+              "width": 1600,
+              "height": 938,
+              "alt": "Scans of the printed book, spiral visual research pages 162 to 163.",
+              "id": "spiral-visual-research-pages-162-to-163"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/949",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-083.webp",
+              "width": 1600,
+              "height": 949,
+              "alt": "Scans of the printed book, spiral visual research pages 164 to 165.",
+              "id": "spiral-visual-research-pages-164-to-165"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/949",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-084.webp",
+              "width": 1600,
+              "height": 949,
+              "alt": "Scans of the printed book, spiral visual research pages 166 to 167.",
+              "id": "spiral-visual-research-pages-166-to-167"
+            },
+            {
+              "type": "image",
+              "aspect": "64/37",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-085.webp",
+              "width": 1600,
+              "height": 925,
+              "alt": "Scans of the printed book, spiral visual research pages 168 to 169.",
+              "id": "spiral-visual-research-pages-168-to-169"
+            },
+            {
+              "type": "image",
+              "aspect": "400/231",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-086.webp",
+              "width": 1600,
+              "height": 924,
+              "alt": "Scans of the printed book, spiral visual research pages 170 to 171.",
+              "id": "spiral-visual-research-pages-170-to-171"
+            },
+            {
+              "type": "image",
+              "aspect": "160/93",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-087.webp",
+              "width": 1600,
+              "height": 930,
+              "alt": "Scans of the printed book, spiral visual research pages 172 to 173.",
+              "id": "spiral-visual-research-pages-172-to-173"
+            },
+            {
+              "type": "image",
+              "aspect": "200/119",
+              "src": "time-unwinding-the-spiral/visual-research/book/gc_tuts-visual-research-book-088.webp",
+              "width": 1600,
+              "height": 952,
+              "alt": "Scans of the printed book, spiral visual research pages 174 to 175.",
+              "id": "spiral-visual-research-pages-174-to-175"
+            }
+          ],
+          "id": "spiral-vis-research-full-book"
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Scans of the printed book."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1/1",
+              "src": "time-unwinding-the-spiral/visual-research/gc_spiral-visual-research-front-cover.webp",
+              "width": 1440,
+              "height": 1440,
+              "alt": "Front cover and physical binding of book.",
+              "id": "spiral-vis-research-front-cover"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Front cover and physical binding of book."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1699/956",
+              "src": "time-unwinding-the-spiral/visual-research/gc_tuts-visual-research-rhino-8-screenshot.webp",
+              "width": 1699,
+              "height": 956,
+              "alt": "Screenshot: One of the Rhino 8 drawing files from the visual research.",
+              "id": "spiral-vis-research-rhino-8-screenshot"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "One of the Rhino 8 drawing files from the visual research."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "16/9",
+              "src": "time-unwinding-the-spiral/visual-research/gc_tuts-visual-research-processing-screenshot.webp",
+              "width": 1600,
+              "height": 900,
+              "alt": "Screenshot: the Processing drawing file used in the visual research.",
+              "id": "spiral-vis-research-processing-screenshot"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Screenshot of the Processing drawing file used in the visual research."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "time-unwinding-the-spiral/visual-research/gc_tuts-visual-research-photoshop-screenshot.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Screenshot: One of the Photoshop files from the visual research.",
+              "id": "spiral-vis-research-photoshop-screenshot"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "One of the Photoshop files from the visual research."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "time-unwinding-the-spiral/visual-research/gc_tuts-visual-research-indesign-sc.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Screenshot: InDesign file formatting the visual research.",
+              "id": "spiral-vis-research-indesign-screenshot"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "InDesign file formatting the visual research."
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}
