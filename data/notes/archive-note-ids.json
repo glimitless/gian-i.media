@@ -1,0 +1,62 @@
+[
+  {
+    "id": "birth",
+    "sections": [
+      {
+        "id": "introduction",
+        "blocks": [
+          "lets-start-here"
+        ]
+      },
+      {
+        "id": "version-0p5",
+        "blocks": [
+          "learning-reactjs",
+          "general-structure",
+          "filtration-system",
+          "next-steps"
+        ]
+      },
+      {
+        "id": "version-0p6",
+        "blocks": [
+          "putting-my-best-foot-forward"
+        ]
+      },
+      {
+        "id": "version-0p7",
+        "blocks": [
+          "recursive-self-improvement"
+        ]
+      },
+      {
+        "id": "version-0p8",
+        "blocks": [
+          "new-foundations",
+          "stylistic-adjustments",
+          "creative-technology",
+          "next-steps"
+        ]
+      },
+      {
+        "id": "version-0p9",
+        "blocks": [
+          "changes",
+          "reflections"
+        ]
+      },
+      {
+        "id": "version-0p925",
+        "blocks": [
+          "not-the-mobile-filter"
+        ]
+      },
+      {
+        "id": "version-1p0",
+        "blocks": [
+          "findings"
+        ]
+      }
+    ]
+  }
+]

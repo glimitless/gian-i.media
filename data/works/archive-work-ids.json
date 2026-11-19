@@ -1,0 +1,79 @@
+[
+  {
+    "id": "axxs-digital",
+    "collections": [
+      "parlour",
+      "the-gazette"
+    ]
+  },
+  {
+    "id": "beehive-design",
+    "collections": [
+      "cecconi-simone"
+    ]
+  },
+  {
+    "id": "design-photography",
+    "collections": [
+      "posters",
+      "signage",
+      "timeout",
+      "orange-shirt-day"
+    ]
+  },
+  {
+    "id": "does-this-work",
+    "collections": [
+      "design-process"
+    ]
+  },
+  {
+    "id": "enginuitty-group-ltd",
+    "collections": [
+      "parlour",
+      "paypr",
+      "rocket-science-ltd",
+      "moh-vaccine-campaign"
+    ]
+  },
+  {
+    "id": "scarborough-charter",
+    "collections": [
+      "committee-report"
+    ]
+  },
+  {
+    "id": "sensing-change",
+    "collections": [
+      "logo",
+      "website"
+    ]
+  },
+  {
+    "id": "seventh-sense",
+    "collections": [
+      "color-theory",
+      "prospective-advertisements",
+      "user-experience"
+    ]
+  },
+  {
+    "id": "time-unwinding-the-spiral",
+    "collections": [
+      "exhibition",
+      "live-visualization",
+      "spiral-hourglass",
+      "spiral-treatise",
+      "visual-research"
+    ]
+  },
+  {
+    "id": "visualizing-science",
+    "collections": [
+      "controller-prototype",
+      "game-map",
+      "micropublications",
+      "planetary-archive"
+    ]
+  }
+]

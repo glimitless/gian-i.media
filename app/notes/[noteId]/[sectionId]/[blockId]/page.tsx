@@ -5,17 +5,17 @@ import type { GroupIdArgs, IndividualBlockIdArgs, IndividualIdArgs } from '@/typ
 import { notFound } from 'next/navigation';
 import NoteSectionPageBody from '@/components/note-section/note-section-page-body';
 import HeaderMargin from '@/lib/navigator/header-margin';
-import archiveNotesJson from '@/data/archive-notes.json';
+import archiveNoteIDsJson from '@/data/notes/archive-note-ids.json';
 
 export const dynamicParams = false;
 
 export function generateStaticParams(){
-  return archiveNotesJson.flatMap((note) => 
-    note.content.sections.flatMap((section) =>
-      section.content.blocks.map((block) => ({
+  return archiveNoteIDsJson.flatMap((note) => 
+    note.sections.flatMap((section) =>
+      section.blocks.map((block) => ({
         noteId: note.id,
         sectionId: section.id,
-        blockId: block.id
+        blockId: block
       }))
     )
   );
