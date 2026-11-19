@@ -197,12 +197,14 @@ function renderMediaPart(part: MediaPartArgs, key: number) {
       >
         <video
           className="w-full h-auto"
-          src={mediaURL(part.src, 'video')}
+          src={`/video/${part.src}`}
+          poster={`/posters/${part.poster}`}
           controls={part.controls}
           loop={part.loop}
           muted={part.muted}
-          autoPlay={part.autoplay}
+          autoPlay={false}
           playsInline
+          preload="metadata"
         />
       </div>
       

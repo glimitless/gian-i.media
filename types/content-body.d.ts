@@ -62,10 +62,10 @@ export type VideoBlockArgs = {
   type: 'video';
   aspect: string;
   src: string;
+  poster: string;
   controls: boolean;
   loop: boolean;
   muted: boolean;
-  autoplay: boolean;
   id: string;
 }
 export type YoutubeVideoBlockArgs = {

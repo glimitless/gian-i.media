@@ -1074,10 +1074,10 @@
                     "type": "video",
                     "aspect": "16/9",
                     "src": "seventh-sense/gc-dk_ss-prospective-advertisement-1.mp4",
+                    "poster": "seventh-sense/gc-dk_ss-prospective-advertisement-1-poster.webp",
                     "controls": true,
                     "loop": true,
                     "muted": false,
-                    "autoplay": true,
                     "id": "prospective-advertisement-1"
                   }
                 ]
@@ -1484,10 +1484,10 @@
                     "type": "video",
                     "aspect": "4/5",
                     "src": "seventh-sense/gc-dk_ss-prototyping-form-factor.mp4",
+                    "poster": "seventh-sense/gc-dk_ss-prototyping-form-factor-poster.webp",
                     "controls": true,
                     "loop": true,
                     "muted": true,
-                    "autoplay": true,
                     "id": "early-form-factor-experiment"
                   }
                 ]
@@ -1519,10 +1519,10 @@
                     "type": "video",
                     "aspect": "4/5",
                     "src": "seventh-sense/gc-dk_ss-sensor-experiment.mp4",
+                    "poster": "seventh-sense/gc-dk_ss-sensor-experiment-poster.webp",
                     "controls": true,
                     "loop": true,
                     "muted": true,
-                    "autoplay": true,
                     "id": "early-sensor-experiment"
                   }
                 ]
@@ -1624,10 +1624,10 @@
                     "type": "video",
                     "aspect": "27/9",
                     "src": "seventh-sense/gc-dk_ss-reactive-visual-experiment.mp4",
+                    "poster": "seventh-sense/gc-dk_ss-reactive-visual-experiment-poster.webp",
                     "controls": true,
                     "loop": true,
                     "muted": true,
-                    "autoplay": true,
                     "id": "early-reactive-visual-experiment"
                   }
                 ]
@@ -2218,10 +2218,10 @@
                     "type": "video",
                     "aspect": "4/5",
                     "src": "time-unwinding-the-spiral/gc_spiral-live-vis-video-doc-1.mp4",
+                    "poster": "time-unwinding-the-spiral/gc_spiral-live-vis-video-doc-1-poster.webp",
                     "controls": true,
                     "loop": true,
                     "muted": true,
-                    "autoplay": true,
                     "id": "spiral-live-vis-video-doc-1"
                   }
                 ]
@@ -2233,10 +2233,10 @@
                     "type": "video",
                     "aspect": "4/5",
                     "src": "time-unwinding-the-spiral/gc_spiral-live-vis-video-doc-2.mp4",
+                    "poster": "time-unwinding-the-spiral/gc_spiral-live-vis-video-doc-2-poster.webp",
                     "controls": true,
                     "loop": true,
                     "muted": true,
-                    "autoplay": true,
                     "id": "spiral-live-vis-video-doc-2"
                   }
                 ]
@@ -3484,10 +3484,10 @@
                     "type": "video",
                     "aspect": "16/9",
                     "src": "design-photography/gc_dp-infographics-intro.mp4",
+                    "poster": "design-photography/gc_dp-infographics-intro-poster.webp",
                     "controls": true,
                     "loop": true,
                     "muted": true,
-                    "autoplay": true,
                     "id": "dp-winter-25-infographics-intro"
                   },
                   {
@@ -3957,10 +3957,10 @@
                     "type": "video",
                     "aspect": "16/9",
                     "src": "design-photography/gc_dp-infographics-intro_valentines-day-variant.mp4",
+                    "poster": "design-photography/gc_dp-infographics-intro_valentines-day-variant-poster.webp",
                     "controls": true,
                     "loop": true,
                     "muted": true,
-                    "autoplay": true,
                     "id": "dp-valentines-day-intro"
                   },
                   {
@@ -5851,10 +5851,10 @@
                     "type": "video",
                     "aspect": "16/9",
                     "src": "sensing-change/logo-proposal-animation.mp4",
+                    "poster": "sensing-change/logo-proposal-animation-poster.webp",
                     "controls": true,
                     "loop": true,
                     "muted": true,
-                    "autoplay": true,
                     "id": "scyu-logo-proposal-1-animation"
                   }
                 ]
@@ -6010,10 +6010,10 @@
                     "type": "video",
                     "aspect": "16/9",
                     "src": "sensing-change/gc_scyu-website-main-page-scroll.mp4",
+                    "poster": "sensing-change/gc_scyu-website-main-page-scroll-poster.webp",
                     "controls": true,
                     "loop": true,
                     "muted": true,
-                    "autoplay": true,
                     "id": "scyu-website-main-page-scroll"
                   }
                 ]
@@ -6036,10 +6036,10 @@
                     "type": "video",
                     "aspect": "16/9",
                     "src": "sensing-change/gc_scyu-website-navigation-bar-scroll.mp4",
+                    "poster": "sensing-change/gc_scyu-website-navigation-bar-scroll-poster.webp",
                     "controls": true,
                     "loop": true,
                     "muted": true,
-                    "autoplay": true,
                     "id": "scyu-website-navigation-bar-scroll"
                   }
                 ]
@@ -6218,10 +6218,10 @@
                     "type": "video",
                     "aspect": "16/9",
                     "src": "sensing-change/gc_scyu-website-team-member-profile-hover.mp4",
+                    "poster": "sensing-change/gc_scyu-website-team-member-profile-hover-poster.webp",
                     "controls": true,
                     "loop": true,
                     "muted": true,
-                    "autoplay": true,
                     "id": "scyu-website-team-member-profile-hover"
                   }
                 ]
@@ -6269,10 +6269,10 @@
                     "type": "video",
                     "aspect": "16/9",
                     "src": "sensing-change/gc_scyu-website-news-and-events-page.mp4",
+                    "poster": "sensing-change/gc_scyu-website-news-and-events-page-poster.webp",
                     "controls": true,
                     "loop": true,
                     "muted": true,
-                    "autoplay": true,
                     "id": "scyu-website-news-and-events-page"
                   }
                 ]

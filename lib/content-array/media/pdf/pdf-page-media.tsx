@@ -24,11 +24,6 @@ export default function PDFPageMedia({
     const video = videoRef.current;
     if (!video || page.type !== 'video') return;
 
-    if (isActive && page.autoplay){
-      void video.play();
-      return;
-    }
-
     video.pause();
     video.currentTime = 0;
   }, [isActive, page]);
@@ -51,12 +46,14 @@ export default function PDFPageMedia({
       <video 
         ref={videoRef}
         className={`pdf-page-video w-full h-full max-w-full max-h-full object-contain ${className ?? ''}`}
-        src={mediaURL(page.src, 'image')}
+        src={`/video/${page.src}`}
+        poster={`/posters/${page.poster}`}
         controls={page.controls}
         loop={page.loop}
         muted={page.muted}
-        autoPlay={isActive && page.autoplay}
+        autoPlay={false}
         playsInline
+        preload="metadata"
       />
     )
   }
