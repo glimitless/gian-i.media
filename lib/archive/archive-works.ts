@@ -2,15 +2,13 @@ import archiveWorksContentJson from '@/data/archive-works-content.json';
 import type { ArchiveWorkRecord, GroupIdArgs, IndividualIdArgs, ArchiveWorkContent, ArchiveWorkCollection } from '@/types/archive';
 import path from 'node:path';
 import fs from 'node:fs';
-import type { ContentTypeArgs } from '@/types/filter';
 
 const archiveWorksContent = archiveWorksContentJson as ArchiveWorkContent[];
 
 export function findArchiveWorkRecord(
-  workId:GroupIdArgs,
-  type: ContentTypeArgs
+  workId:GroupIdArgs
 ): ArchiveWorkRecord | undefined {
-  const file = path.join(process.cwd(), 'data', type, workId, 'index.json');
+  const file = path.join(process.cwd(), 'data', 'works', workId, 'index.json');
   if (!fs.existsSync(file)) return undefined;
   return JSON.parse(fs.readFileSync(file, 'utf-8')) as ArchiveWorkRecord;
 };
