@@ -1,7 +1,4 @@
-import archiveNotesJson from '@/data/archive-notes.json';
-import archiveNotesContentJson from '@/data/archive-notes-content.json';
-import type { 
-  ArchiveNoteContent, 
+import type {  
   ArchiveNoteSection,
   NoteSectionRecord, 
   NoteSectionNeighbors,
@@ -9,30 +6,24 @@ import type {
   GroupIdArgs, 
   IndividualIdArgs 
 } from '@/types/archive';
-
-const archiveNoteRecords = archiveNotesJson as ArchiveNoteRecord[];
-const archiveNoteContentRecords = archiveNotesContentJson as ArchiveNoteContent[];
+import fs from 'node:fs';
+import path from 'node:path';
 
 export function findArchiveNoteRecord(
   noteId: GroupIdArgs
 ) : ArchiveNoteRecord | undefined {
-  return archiveNoteRecords.find(
-    (item) => item.id === noteId
-  );
+  const file = path.join(process.cwd(), 'data', 'notes', noteId, 'index.json')
+  if (!fs.existsSync(file)) return undefined;
+  return JSON.parse(fs.readFileSync(file, 'utf-8')) as ArchiveNoteRecord;
 };
 
 export function findArchiveNoteSectionContent(
   noteId: GroupIdArgs,
   sectionId: IndividualIdArgs,
 ) : ArchiveNoteSection | undefined {
-  const note = archiveNoteContentRecords.find(
-    (item) => item.id === noteId
-  );
-  if(!note) return undefined;
-
-  return note.sections.find(
-    (item) => item.id === sectionId
-  );
+  const file = path.join(process.cwd(), 'data', 'notes', noteId, `${sectionId}.json`)
+  if (!fs.existsSync(file)) return undefined;
+  return JSON.parse(fs.readFileSync(file, 'utf-8')) as ArchiveNoteSection;
 }
 
 export function getNoteSectionNeighbors(

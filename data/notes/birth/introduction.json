@@ -1,0 +1,130 @@
+{
+  "id": "introduction",
+  "blocks": [
+    {
+      "id": "lets-start-here",
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "My name is Gian Immanuel Cambridge, or Gian-I for short. I am a multidisciplinary graphic designer transitioning into product design, with a deep interest in designing at the frontier of science and technology. What you’re reading here is the first note in what will hopefully grow into an archive of creativity throughout my career, spanning client work, personal projects, and reflections on the world we live in. Think of it as a vast, singular cloud of creativity — a dream space."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "When building a portfolio, we designers are often advised to make it representative of who we are and to develop a brand identity that remains consistent across our appearance, websites, and social media. I found this task quite daunting. With every completed project, book read, and connection made within the broader design community, my practice continued to evolve. As a result, I was unable to settle on a single concept that could accurately define me for nearly two or three years."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "Then I came across a somewhat vague definition of the word temple in the Merriam-Webster dictionary. At the time, my research focused on the Japanese use of empty space in design. I was reading ‘White’ by Kenya Hara and looking at images of Shinto shrines, particularly their empty, receptive spaces at the center, when I encountered the following definition:"
+              }
+            ]
+          },
+          {
+            "type": "quote",
+            "content": [
+              {
+                "type": "quote-content",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "value": "A place devoted to a special purpose. ”"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "Those words stayed with me."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "Creativity has been the most recurring source of solace. I have not accomplished a much yet, and what I have achieved has been accompanied by far more failures. When I was younger, I carried the belief that there was nothing I was particularly good at. That feeling held me back for a significant portion of my life. At some point, however, my mind began dreaming up prosperous futures on its own accord."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "Thank God for that."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "Those dreams made uncertain periods more bearable. They also helped me recognize that this current stage of my life, having recently graduated from my undergraduate program and now wrapping up a summer internship, is not an endpoint. It is a positive place from which to begin."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "By branding my practice as a temple and structuring the website as a navigational space through the vast cloud of creativity I hope to produce throughout my career, this project expresses gratitude to whatever force has made me creative; for the opportunities to exercise my imagination, and to stretch, test, and strengthen my imaginative muscle. Looking back, creativity has definitively been one of the key motivators that has carried me this far."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "As for the website, every update, whether an addition, fix, or improvement, will be documented in a post. These posts will also be shared on the dedicated Gian-I Media pages created on LinkedIn and Instagram. The first update will follow this short introduction and document version 0.5 of Gian-I Media, because, truthfully, the project is only about 50% complete."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "There is still much more to build, discover, and imagine."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "value": "Onto the next."
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ]
+}
