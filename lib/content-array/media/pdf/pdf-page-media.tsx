@@ -24,8 +24,13 @@ export default function PDFPageMedia({
     const video = videoRef.current;
     if (!video || page.type !== 'video') return;
 
-    video.pause();
-    video.currentTime = 0;
+    // Seeking (setting currentTime) clears the browser's "show poster" flag,
+    // so only reset a video that has actually been played. load() rewinds
+    // to the start AND brings the poster back.
+    if (!isActive && (video.currentTime > 0 || !video.paused)) {
+      video.pause();
+      video.load();
+    }
   }, [isActive, page]);
 
   if (page.type === 'image') {
