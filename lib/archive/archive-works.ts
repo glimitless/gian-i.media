@@ -1,16 +1,18 @@
-import archiveWorksJson from '@/data/archive-works.json';
 import archiveWorksContentJson from '@/data/archive-works-content.json';
 import type { ArchiveWorkRecord, GroupIdArgs, IndividualIdArgs, ArchiveWorkContent, ArchiveWorkCollection } from '@/types/archive';
+import path from 'node:path';
+import fs from 'node:fs';
+import type { ContentTypeArgs } from '@/types/filter';
 
-const archiveWorkRecords = archiveWorksJson as ArchiveWorkRecord[];
 const archiveWorksContent = archiveWorksContentJson as ArchiveWorkContent[];
 
 export function findArchiveWorkRecord(
-  workId:GroupIdArgs
+  workId:GroupIdArgs,
+  type: ContentTypeArgs
 ): ArchiveWorkRecord | undefined {
-  return archiveWorkRecords.find(
-    (item) => item.id === workId
-  );
+  const file = path.join(process.cwd(), 'data', type, workId, 'index.json');
+  if (!fs.existsSync(file)) return undefined;
+  return JSON.parse(fs.readFileSync(file, 'utf-8')) as ArchiveWorkRecord;
 };
 
 export function findArchiveWorkCollectionContent(

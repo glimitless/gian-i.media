@@ -1,0 +1,36 @@
+{
+  "id": "scarborough-charter",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "Near the end of my third year, "
+            },
+            {
+              "type": "external-link",
+              "href": "https://www.linkedin.com/in/shamika-pierre/",
+              "label": "Shamika Pierre"
+            },
+            {
+              "type": "text",
+              "value": " and I were commissioned by the Scarborough Charter to design covers for its annual committee report. The Charter is a national Canadian framework through which universities and colleges commit to addressing anti-Black racism and fostering Black inclusion in higher education."
+            }
+          ]
+        }
+      ]
+    ],
+    "collectionLinks": [
+      {
+        "title": "Committee Report",
+        "medium": "Book Cover Design",
+        "thumbnail": "scarborough-charter/committee-report/gc_sc-committee-report-thumbnail.webp",
+        "alt": "Stacked Scarborough Charter committee report covers with a swimmer among teal waves and flowers.",
+        "id": "committee-report"
+      }
+    ]
+  }
+}

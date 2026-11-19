@@ -24,7 +24,7 @@ export default async function WorkPage({ params }:WorkPageProps){
   const type = 'works';
   const { workId } = await params;
   const archiveIDRecord = findArchiveIDRecord(workId, type);
-  const work = findArchiveWorkRecord(workId);
+  const work = findArchiveWorkRecord(workId, type);
   if(!archiveIDRecord || !work) notFound();
 
   return (

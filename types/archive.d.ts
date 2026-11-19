@@ -1,4 +1,4 @@
-import { TypeArgs, SearchQueryArgs, KeywordArgs, ToolArgs } from './filter';
+import { ContentTypeArgs, SearchQueryArgs, KeywordArgs, ToolArgs } from './filter';
 import { SvgIcon } from './svg';
 import { ContentBlockArgs } from './content-body';
 
@@ -9,7 +9,7 @@ export type IndividualBlockIdArgs = string;
 
 // Archive types
 export type ArchiveIDRecord = {
-  type:TypeArgs;
+  type:ContentTypeArgs;
   title:SearchQueryArgs; 
   thumbnail:string; 
   alt:string;
