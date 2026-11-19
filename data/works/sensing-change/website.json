@@ -1,0 +1,418 @@
+{
+  "id": "website",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "The site comprises a main page and a News & Events page. The main page draws on treatise scrolls, continuous rolls used for formal scientific and ethical argument, here focused on black carbon pollution and SensingChange’s work to make it visible. News & Events extends that scroll vernacular into an updatable template so the community can follow project developments in one place."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "The site has since been expanded; visit "
+            },
+            {
+              "type": "external-link",
+              "href": "https://myairwear.com/",
+              "label": "myairwear.com"
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
+        }
+      ]
+    ],
+    "items": [
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "1600/951",
+              "src": "sensing-change/website/gc_scyu-original-website-design-sc-1.webp",
+              "width": 1600,
+              "height": 951,
+              "alt": "Website view: main treatise page and News & Events, final website screenshot 1.",
+              "id": "final-website-screenshot-1"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/951",
+              "src": "sensing-change/website/gc_scyu-original-website-design-sc-2.webp",
+              "width": 1600,
+              "height": 951,
+              "alt": "Website view: main treatise page and News & Events, final website screenshot 2.",
+              "id": "final-website-screenshot-2"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/951",
+              "src": "sensing-change/website/gc_scyu-original-website-design-sc-3.webp",
+              "width": 1600,
+              "height": 951,
+              "alt": "Website view: main treatise page and News & Events, final website screenshot 3.",
+              "id": "final-website-screenshot-3"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/951",
+              "src": "sensing-change/website/gc_scyu-original-website-design-sc-4.webp",
+              "width": 1600,
+              "height": 951,
+              "alt": "Website view: main treatise page and News & Events, final website screenshot 4.",
+              "id": "final-website-screenshot-4"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/951",
+              "src": "sensing-change/website/gc_scyu-original-website-design-sc-5.webp",
+              "width": 1600,
+              "height": 951,
+              "alt": "Website view: main treatise page and News & Events, final website screenshot 5.",
+              "id": "final-website-screenshot-5"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/951",
+              "src": "sensing-change/website/gc_scyu-original-website-design-sc-6.webp",
+              "width": 1600,
+              "height": 951,
+              "alt": "Website view: main treatise page and News & Events, final website screenshot 6.",
+              "id": "final-website-screenshot-6"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Final website: main treatise page and News & Events."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "video",
+              "aspect": "16/9",
+              "src": "sensing-change/gc_scyu-website-main-page-scroll.mp4",
+              "poster": "sensing-change/gc_scyu-website-main-page-scroll-poster.webp",
+              "controls": true,
+              "loop": true,
+              "muted": true,
+              "id": "scyu-website-main-page-scroll"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Video: scroll through the main page and treatise-scroll narrative."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "video",
+              "aspect": "16/9",
+              "src": "sensing-change/gc_scyu-website-navigation-bar-scroll.mp4",
+              "poster": "sensing-change/gc_scyu-website-navigation-bar-scroll-poster.webp",
+              "controls": true,
+              "loop": true,
+              "muted": true,
+              "id": "scyu-website-navigation-bar-scroll"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Video: navigation via the top bar (overview, team, contact)."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1600/899",
+              "src": "sensing-change/website/gc_scyu-website-final-cursor-sc.webp",
+              "width": 1600,
+              "height": 899,
+              "alt": "Screenshot: Main page HTML in Cursor IDE. Site built with HTML, CSS, and JavaScript; Bootstrap.js for carousels.",
+              "id": "scyu-website-cursor-sc"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Main page HTML in Cursor IDE. Site built with HTML, CSS, and JavaScript; Bootstrap.js for carousels."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "16/9",
+              "src": "sensing-change/website/gc_scyu-website-final-design-figma-sc-1.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "Final Figma main page. Cross-platform by intent; phone and tablet layouts were less refined under time constraints but remained usable, website design screenshot 1.",
+              "id": "website-design-sc-1"
+            },
+            {
+              "type": "image",
+              "aspect": "16/9",
+              "src": "sensing-change/website/gc_scyu-website-final-design-figma-sc-2.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "Final Figma main page. Cross-platform by intent; phone and tablet layouts were less refined under time constraints but remained usable, website design screenshot 2.",
+              "id": "website-design-sc-2"
+            },
+            {
+              "type": "image",
+              "aspect": "16/9",
+              "src": "sensing-change/website/gc_scyu-website-final-design-figma-sc-3.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "Final Figma main page. Cross-platform by intent; phone and tablet layouts were less refined under time constraints but remained usable, website design screenshot 3.",
+              "id": "website-design-sc-3"
+            },
+            {
+              "type": "image",
+              "aspect": "16/9",
+              "src": "sensing-change/website/gc_scyu-website-final-design-figma-sc-4.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "Final Figma main page. Cross-platform by intent; phone and tablet layouts were less refined under time constraints but remained usable, website design screenshot 4.",
+              "id": "website-design-sc-4"
+            },
+            {
+              "type": "image",
+              "aspect": "16/9",
+              "src": "sensing-change/website/gc_scyu-website-final-design-figma-sc-5.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "Final Figma main page. Cross-platform by intent; phone and tablet layouts were less refined under time constraints but remained usable, website design screenshot 5.",
+              "id": "website-design-sc-5"
+            },
+            {
+              "type": "image",
+              "aspect": "16/9",
+              "src": "sensing-change/website/gc_scyu-website-final-design-figma-sc-6.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "Final Figma main page. Cross-platform by intent; phone and tablet layouts were less refined under time constraints but remained usable, website design screenshot 6.",
+              "id": "website-design-sc-6"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Final Figma main page. Cross-platform by intent; phone and tablet layouts were less refined under time constraints but remained usable."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "16/9",
+              "src": "sensing-change/website/gc_scyu-website-process-page-layouts-sc-5.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "Early main-page layouts exploring structure, colour, and typography, process page layout 5.",
+              "id": "process-page-layout-5"
+            },
+            {
+              "type": "image",
+              "aspect": "16/9",
+              "src": "sensing-change/website/gc_scyu-website-process-page-layouts-sc-4.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "Early main-page layouts exploring structure, colour, and typography, process page layout 4.",
+              "id": "process-page-layout-4"
+            },
+            {
+              "type": "image",
+              "aspect": "16/9",
+              "src": "sensing-change/website/gc_scyu-website-process-page-layouts-sc-1.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "Early main-page layouts exploring structure, colour, and typography, process page layout 1.",
+              "id": "process-page-layout-1"
+            },
+            {
+              "type": "image",
+              "aspect": "16/9",
+              "src": "sensing-change/website/gc_scyu-website-process-page-layouts-sc-2.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "Early main-page layouts exploring structure, colour, and typography, process page layout 2.",
+              "id": "process-page-layout-2"
+            },
+            {
+              "type": "image",
+              "aspect": "16/9",
+              "src": "sensing-change/website/gc_scyu-website-process-page-layouts-sc-3.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "Early main-page layouts exploring structure, colour, and typography, process page layout 3.",
+              "id": "process-page-layout-3"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Early main-page layouts exploring structure, colour, and typography."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "video",
+              "aspect": "16/9",
+              "src": "sensing-change/gc_scyu-website-team-member-profile-hover.mp4",
+              "poster": "sensing-change/gc_scyu-website-team-member-profile-hover-poster.webp",
+              "controls": true,
+              "loop": true,
+              "muted": true,
+              "id": "scyu-website-team-member-profile-hover"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Video: hover on team profiles for links and detail."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "16/9",
+              "src": "sensing-change/website/gc_scyu-website-final-design-thumbnails-figma-sc.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "Screenshot: Final Figma design for team profile hover states, refined further in production.",
+              "id": "scyu-website-team-member-profile-hover-design"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Final Figma design for team profile hover states, refined further in production."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "video",
+              "aspect": "16/9",
+              "src": "sensing-change/gc_scyu-website-news-and-events-page.mp4",
+              "poster": "sensing-change/gc_scyu-website-news-and-events-page-poster.webp",
+              "controls": true,
+              "loop": true,
+              "muted": true,
+              "id": "scyu-website-news-and-events-page"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Navigation of News & Events, showing how updates are organised in the treatise-inspired template."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "16/9",
+              "src": "sensing-change/website/gc_scyu-website-final-design-n&e-figma-sc.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "Screenshot: Final Figma for News & Events: repeatable card system for project updates.",
+              "id": "scyu-website-news-and-events-page-design"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Final Figma for News & Events: repeatable card system for project updates."
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

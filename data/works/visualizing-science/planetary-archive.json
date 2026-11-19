@@ -1,0 +1,411 @@
+{
+  "id": "planetary-archive",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "In Graphic Design 2 (second year), we designed, built, and published a resource website while avoiding the hyper-commodified look of much of the contemporary web."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "Mine shares information about the solar system as a planetarium with the user at the centre. Selecting a planet reveals detail; a control at lower left switches to a comparison of orbital speeds."
+            }
+          ]
+        }
+      ]
+    ],
+    "items": [
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "visualizing-science/planetary-archive/gc_planetary-archive-landing-page.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Landing page.",
+              "id": "planetary-archive-landing-page"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Landing page"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Landing view centres the user in the solar system; planets and icons respond on hover."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "visualizing-science/planetary-archive/gc_planetary-archive-navigation-menu.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Navigation menu.",
+              "id": "planetary-archive-navigation-menu"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Navigation menu"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Top-right menu: direct access to any planet when the solar view is hard to navigate."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "visualizing-science/planetary-archive/gc_planetary-archive-planet-selected.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Planet selected (view 1 of 2).",
+              "id": "planetary-archive-planet-selected"
+            }
+          ]
+        },
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "visualizing-science/planetary-archive/gc_planetary-archive-planet-selected-more-info.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Planet selected (view 2 of 2).",
+              "id": "planetary-archive-planet-selected-more-info"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Planet selected"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "After a planet is selected, the user sees a short overview and tabs for specific topics. Each tab links to further resources on that topic."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "visualizing-science/planetary-archive/gc_planetary-archive-orbit-speed-comparison.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Orbit speed comparison (view 1 of 2).",
+              "id": "planetary-archive-orbit-speed-comparison"
+            }
+          ]
+        },
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "visualizing-science/planetary-archive/gc_planetary-archive-orbit-speed-comparison-angle-2.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Orbit speed comparison (view 2 of 2).",
+              "id": "planetary-archive-orbit-speed-comparison-angle-2"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Orbit speed comparison"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Bottom-left switch compares planetary orbital periods from a bird’s-eye view."
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Planets move far faster than in reality so orbits read on screen (~35 s for Earth at 60 FPS, roughly 900,000× real speed). Inner planets outpace outer ones, but ratios are compressed (Mercury vs Earth, Neptune vs Earth). Speed also varies slightly with refresh rate because motion follows animation frames."
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Retrospective note: I likely misread orbital periods during build, so the mapping was inaccurate. I believed the simulation at presentation; later review showed otherwise."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "visualizing-science/planetary-archive/gc_planetary-archive-orbit-speed-comparison-planet-selected.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Orbital speed comparison – planet selected.",
+              "id": "planetary-archive-orbit-speed-comparison-planet-selected"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Orbital speed comparison – planet selected"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "In orbital-speed comparison mode, selecting a planet shows its accepted orbital period as of the site’s publish date."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "visualizing-science/planetary-archive/gc_planetary-archive-cursor-screenshot.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "JavaScript snippet that renders site content (built in Cursor IDE).",
+              "id": "planetary-archive-cursor-screenshot"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "JavaScript snippet that renders site content (built in Cursor IDE)."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "5/4",
+              "src": "visualizing-science/planetary-archive/gc_planetary-archive-sketch-ideation-1.webp",
+              "width": 1440,
+              "height": 1152,
+              "alt": "Sketch ideation (view 1 of 2).",
+              "id": "planetary-archive-sketch-ideation-1"
+            }
+          ]
+        },
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "5/4",
+              "src": "visualizing-science/planetary-archive/gc_planetary-archive-sketch-ideation-2.webp",
+              "width": 1440,
+              "height": 1152,
+              "alt": "Sketch ideation (view 2 of 2).",
+              "id": "planetary-archive-sketch-ideation-2"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Sketch ideation"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "I had planned to extend the sun life-cycle theme from the Game Map project in ‘Graphic Design 2’, but course instructor "
+            },
+            {
+              "type": "external-link",
+              "href": "https://www.linkedin.com/in/chris-lange-584b0b5/",
+              "label": "Chris Lange"
+            },
+            {
+              "type": "text",
+              "value": " noted that this direction would leave the site with one data point: time until the sun expands, sheds its outer layers, cools, and becomes a black dwarf. The brief required a broader resource, so I pivoted to a full planetary archive."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "80/27",
+              "src": "visualizing-science/planetary-archive/gc_planetary-archive-sitemap.webp",
+              "width": 2160,
+              "height": 729,
+              "alt": "Early sitemap of the planetary archive’s structure.",
+              "id": "planetary-archive-sitemap"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Early sitemap of the planetary archive’s structure."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "683/355",
+              "src": "visualizing-science/planetary-archive/gc_planetary-archive-overlay-mockup.webp",
+              "width": 1366,
+              "height": 710,
+              "alt": "Early mockup of the overlay shown after selecting a planet.",
+              "id": "planetary-archive-overlay-mockup"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Early mockup of the overlay shown after selecting a planet."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "4/3",
+              "src": "visualizing-science/planetary-archive/gc_planetary-archive-mockup-feedback-from-professor.webp",
+              "width": 1440,
+              "height": 1080,
+              "alt": "Feedback from Professor on the informational overlay mockup.",
+              "id": "planetary-archive-overlay-mockup-prof-feedback"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Feedback from Professor "
+            },
+            {
+              "type": "external-link",
+              "href": "https://www.linkedin.com/in/ali-qadeer-138002402/",
+              "label": "Ali Qadeer"
+            },
+            {
+              "type": "text",
+              "value": " on the informational overlay mockup."
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

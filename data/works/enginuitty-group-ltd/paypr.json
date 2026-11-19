@@ -1,0 +1,246 @@
+{
+  "id": "paypr",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "PAYPR is TSTT’s (Telecommunications Services of Trinidad and Tobago) mobile e-wallet for secure digital payments and peer-to-peer transfers."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "I formatted brand documents for internal and external use, helping establish a consistent visual language centred on security, accessibility, and digital innovation."
+            }
+          ]
+        }
+      ]
+    ],
+    "items": [
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "160/207",
+              "src": "enginuitty-group-ltd/paypr/gc_egl-paypr-brand-at-a-glance-1.webp",
+              "width": 1280,
+              "height": 1656,
+              "alt": "Page 1 of 2: Formatted PAYPR’s Brand at a Glance, a concise reference for core brand elements and common guidelines.",
+              "id": "paypr-brand-at-a-glance-page-1"
+            },
+            {
+              "type": "image",
+              "aspect": "160/207",
+              "src": "enginuitty-group-ltd/paypr/gc_egl-paypr-brand-at-a-glance-2.webp",
+              "width": 1280,
+              "height": 1656,
+              "alt": "Page 2 of 2: Formatted PAYPR’s Brand at a Glance, a concise reference for core brand elements and common guidelines.",
+              "id": "paypr-brand-at-a-glance-page-2"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Formatted PAYPR’s Brand at a Glance, a concise reference for core brand elements and common guidelines."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "720/479",
+              "src": "enginuitty-group-ltd/paypr/gc_egl-paypr-brand-at-a-glance-working-file-screenshot.webp",
+              "width": 1440,
+              "height": 958,
+              "alt": "Screenshot: Illustrator artwork for PAYPR Brand at a Glance.",
+              "id": "egl-paypr-brand-at-a-glance-illustrator-sc"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Illustrator file for PAYPR Brand at a Glance."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "480/371",
+              "src": "enginuitty-group-ltd/paypr/brand-guidelines-template/gc_egl-paypr-brand-guidelines-1.webp",
+              "width": 1440,
+              "height": 1113,
+              "alt": "Page 1 of 13. Formatted the master template for PAYPR brand guidelines: layout system for logo use, colour, typography, and applications.",
+              "id": "paypr-brand-guidelines-page-1"
+            },
+            {
+              "type": "image",
+              "aspect": "480/371",
+              "src": "enginuitty-group-ltd/paypr/brand-guidelines-template/gc_egl-paypr-brand-guidelines-2.webp",
+              "width": 1440,
+              "height": 1113,
+              "alt": "Page 2 of 13. Formatted the master template for PAYPR brand guidelines: layout system for logo use, colour, typography, and applications.",
+              "id": "paypr-brand-guidelines-page-2"
+            },
+            {
+              "type": "image",
+              "aspect": "480/371",
+              "src": "enginuitty-group-ltd/paypr/brand-guidelines-template/gc_egl-paypr-brand-guidelines-3.webp",
+              "width": 1440,
+              "height": 1113,
+              "alt": "Page 3 of 13. Formatted the master template for PAYPR brand guidelines: layout system for logo use, colour, typography, and applications.",
+              "id": "paypr-brand-guidelines-page-3"
+            },
+            {
+              "type": "image",
+              "aspect": "480/371",
+              "src": "enginuitty-group-ltd/paypr/brand-guidelines-template/gc_egl-paypr-brand-guidelines-4.webp",
+              "width": 1440,
+              "height": 1113,
+              "alt": "Page 4 of 13. Formatted the master template for PAYPR brand guidelines: layout system for logo use, colour, typography, and applications.",
+              "id": "paypr-brand-guidelines-page-4"
+            },
+            {
+              "type": "image",
+              "aspect": "480/371",
+              "src": "enginuitty-group-ltd/paypr/brand-guidelines-template/gc_egl-paypr-brand-guidelines-5.webp",
+              "width": 1440,
+              "height": 1113,
+              "alt": "Page 5 of 13. Formatted the master template for PAYPR brand guidelines: layout system for logo use, colour, typography, and applications.",
+              "id": "paypr-brand-guidelines-page-5"
+            },
+            {
+              "type": "image",
+              "aspect": "480/371",
+              "src": "enginuitty-group-ltd/paypr/brand-guidelines-template/gc_egl-paypr-brand-guidelines-6.webp",
+              "width": 1440,
+              "height": 1113,
+              "alt": "Page 6 of 13. Formatted the master template for PAYPR brand guidelines: layout system for logo use, colour, typography, and applications.",
+              "id": "paypr-brand-guidelines-page-6"
+            },
+            {
+              "type": "image",
+              "aspect": "480/371",
+              "src": "enginuitty-group-ltd/paypr/brand-guidelines-template/gc_egl-paypr-brand-guidelines-7.webp",
+              "width": 1440,
+              "height": 1113,
+              "alt": "Page 7 of 13. Formatted the master template for PAYPR brand guidelines: layout system for logo use, colour, typography, and applications.",
+              "id": "paypr-brand-guidelines-page-7"
+            },
+            {
+              "type": "image",
+              "aspect": "480/371",
+              "src": "enginuitty-group-ltd/paypr/brand-guidelines-template/gc_egl-paypr-brand-guidelines-8.webp",
+              "width": 1440,
+              "height": 1113,
+              "alt": "Page 8 of 13. Formatted the master template for PAYPR brand guidelines: layout system for logo use, colour, typography, and applications.",
+              "id": "paypr-brand-guidelines-page-8"
+            },
+            {
+              "type": "image",
+              "aspect": "480/371",
+              "src": "enginuitty-group-ltd/paypr/brand-guidelines-template/gc_egl-paypr-brand-guidelines-9.webp",
+              "width": 1440,
+              "height": 1113,
+              "alt": "Page 9 of 13. Formatted the master template for PAYPR brand guidelines: layout system for logo use, colour, typography, and applications.",
+              "id": "paypr-brand-guidelines-page-9"
+            },
+            {
+              "type": "image",
+              "aspect": "480/371",
+              "src": "enginuitty-group-ltd/paypr/brand-guidelines-template/gc_egl-paypr-brand-guidelines-10.webp",
+              "width": 1440,
+              "height": 1113,
+              "alt": "Page 10 of 13. Formatted the master template for PAYPR brand guidelines: layout system for logo use, colour, typography, and applications.",
+              "id": "paypr-brand-guidelines-page-10"
+            },
+            {
+              "type": "image",
+              "aspect": "480/371",
+              "src": "enginuitty-group-ltd/paypr/brand-guidelines-template/gc_egl-paypr-brand-guidelines-11.webp",
+              "width": 1440,
+              "height": 1113,
+              "alt": "Page 11 of 13. Formatted the master template for PAYPR brand guidelines: layout system for logo use, colour, typography, and applications.",
+              "id": "paypr-brand-guidelines-page-11"
+            },
+            {
+              "type": "image",
+              "aspect": "480/371",
+              "src": "enginuitty-group-ltd/paypr/brand-guidelines-template/gc_egl-paypr-brand-guidelines-12.webp",
+              "width": 1440,
+              "height": 1113,
+              "alt": "Page 12 of 13. Formatted the master template for PAYPR brand guidelines: layout system for logo use, colour, typography, and applications.",
+              "id": "paypr-brand-guidelines-page-12"
+            },
+            {
+              "type": "image",
+              "aspect": "480/371",
+              "src": "enginuitty-group-ltd/paypr/brand-guidelines-template/gc_egl-paypr-brand-guidelines-13.webp",
+              "width": 1440,
+              "height": 1113,
+              "alt": "Page 13 of 13. Formatted the master template for PAYPR brand guidelines: layout system for logo use, colour, typography, and applications.",
+              "id": "paypr-brand-guidelines-page-13"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Formatted the master template for PAYPR brand guidelines: layout system for logo use, colour, typography, and applications."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "enginuitty-group-ltd/paypr/gc_egl-paypr-brand-guidelines-working-file-screenshot.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Screenshot: InDesign layout for PAYPR brand guidelines: typography, colour, and layout.",
+              "id": "egl-paypr-brand-guidelines-indesign-sc"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "InDesign file for PAYPR brand guidelines: typography, colour, and layout."
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

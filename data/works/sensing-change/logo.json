@@ -1,0 +1,270 @@
+{
+  "id": "logo",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "The final logo needed to feel like a professional, education-centred research project and a movement, making air pollution visible and actionable. Two proposals balanced scientific credibility with activist energy; the second was selected for clarity and symbolic resonance. Process documentation for both proposals follows."
+            }
+          ]
+        }
+      ]
+    ],
+    "items": [
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1/1",
+              "src": "sensing-change/logo/gc_scyu-logo-final.webp",
+              "width": 1440,
+              "height": 1440,
+              "alt": "Second logo proposal.",
+              "id": "scyu-logo-final"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Second logo proposal."
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Wordmark-led concept: “air” treated as particulate in the atmosphere. Emphasis on clarity, legibility, and research tone with an activist undercurrent."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "sensing-change/logo/gc_scyu-logo-process-illustrator-sc-6.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Illustrator artwork for the second logo proposal: typographic explorations of the “air” wordmark, logo proposal 2 illustrator screenshot 1.",
+              "id": "logo-proposal-2-illustrator-sc-1"
+            },
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "sensing-change/logo/gc_scyu-logo-process-illustrator-sc-7.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Illustrator artwork for the second logo proposal: typographic explorations of the “air” wordmark, logo proposal 2 illustrator screenshot 2.",
+              "id": "logo-proposal-2-illustrator-sc-2"
+            },
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "sensing-change/logo/gc_scyu-logo-process-illustrator-sc-8.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Illustrator artwork for the second logo proposal: typographic explorations of the “air” wordmark, logo proposal 2 illustrator screenshot 3.",
+              "id": "logo-proposal-2-illustrator-sc-3"
+            },
+            {
+              "type": "image",
+              "aspect": "720/479",
+              "src": "sensing-change/logo/gc_scyu-logo-process-illustrator-sc-9.webp",
+              "width": 1440,
+              "height": 958,
+              "alt": "Illustrator artwork for the second logo proposal: typographic explorations of the “air” wordmark, logo proposal 2 illustrator screenshot 4.",
+              "id": "logo-proposal-2-illustrator-sc-4"
+            },
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "sensing-change/logo/gc_scyu-logo-process-illustrator-sc-10.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Illustrator artwork for the second logo proposal: typographic explorations of the “air” wordmark, logo proposal 2 illustrator screenshot 5.",
+              "id": "logo-proposal-2-illustrator-sc-5"
+            },
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "sensing-change/logo/gc_scyu-logo-process-illustrator-sc-11.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Illustrator artwork for the second logo proposal: typographic explorations of the “air” wordmark, logo proposal 2 illustrator screenshot 6.",
+              "id": "logo-proposal-2-illustrator-sc-6"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Illustrator files for the second proposal: typographic “air” wordmark explorations."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1/1",
+              "src": "sensing-change/logo/gc_scyu-logo-proposal-1.webp",
+              "width": 1440,
+              "height": 1440,
+              "alt": "First logo proposal.",
+              "id": "scyu-logo-proposal-1"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "First logo proposal."
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Concept: radar icon sensing an invisible “ghost” in the air. The site was to use a map/radar view for black-carbon hotspots (future work). Colour drew on Canadian Air Quality Health Index cues (originally American; see process screenshots)."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "sensing-change/logo/gc_scyu-logo-process-illustrator-sc-1.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Illustrator artwork for the first logo proposal, with icon sketches and colour studies, logo proposal 1 illustrator screenshot 1.",
+              "id": "logo-proposal-1-illustrator-sc-1"
+            },
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "sensing-change/logo/gc_scyu-logo-process-illustrator-sc-2.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Illustrator artwork for the first logo proposal, with icon sketches and colour studies, logo proposal 1 illustrator screenshot 2.",
+              "id": "logo-proposal-1-illustrator-sc-2"
+            },
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "sensing-change/logo/gc_scyu-logo-process-illustrator-sc-3.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Illustrator artwork for the first logo proposal, with icon sketches and colour studies, logo proposal 1 illustrator screenshot 3.",
+              "id": "logo-proposal-1-illustrator-sc-3"
+            },
+            {
+              "type": "image",
+              "aspect": "1440/959",
+              "src": "sensing-change/logo/gc_scyu-logo-process-illustrator-sc-4.webp",
+              "width": 1440,
+              "height": 959,
+              "alt": "Illustrator artwork for the first logo proposal, with icon sketches and colour studies, logo proposal 1 illustrator screenshot 4.",
+              "id": "logo-proposal-1-illustrator-sc-4"
+            },
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "sensing-change/logo/gc_scyu-logo-process-illustrator-sc-5.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Illustrator artwork for the first logo proposal, with icon sketches and colour studies, logo proposal 1 illustrator screenshot 5.",
+              "id": "logo-proposal-1-illustrator-sc-5"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Illustrator files for the first logo proposal, with icon sketches and colour studies."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "video",
+              "aspect": "16/9",
+              "src": "sensing-change/logo-proposal-animation.mp4",
+              "poster": "sensing-change/logo-proposal-animation-poster.webp",
+              "controls": true,
+              "loop": true,
+              "muted": true,
+              "id": "scyu-logo-proposal-1-animation"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Animation for the first logo proposal, exploring motion and metaphors for detection, movement, and atmospheric change."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "sensing-change/logo/gc_scyu-logo-proposal-1-animation-process-sc.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Screenshot: After Effects composition for the first logo proposal animation: layers, keyframes, and radar effects.",
+              "id": "scyu-logo-proposal-1-animation-process"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "After Effects file for proposal 1 animation: layers, keyframes, and radar effects."
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

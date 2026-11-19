@@ -1,0 +1,217 @@
+{
+  "id": "rocket-science-ltd",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "Logo, wordmark, and colour palette for Rocket Science Ltd., a Trinidad and Tobago technology consultancy. The identity communicates forward-looking problem-solving, technical expertise, and innovation through a contemporary mark."
+            }
+          ]
+        }
+      ]
+    ],
+    "items": [
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "1/1",
+              "src": "enginuitty-group-ltd/rocket-science-ltd/gc_egl-rocket-science-logo-gray-red-white.webp",
+              "width": 1440,
+              "height": 1440,
+              "alt": "Final logo for Rocket Science Limited: rocket trajectory and lunar curve forming an abstract “O,” symbolising innovation, ambition, movement, and progress (view 1 of 4).",
+              "id": "egl-rocket-science-logo-render-1"
+            },
+            {
+              "type": "image",
+              "aspect": "1/1",
+              "src": "enginuitty-group-ltd/rocket-science-ltd/gc_egl-rocket-science-logo-white.webp",
+              "width": 1440,
+              "height": 1440,
+              "alt": "Final logo for Rocket Science Limited: rocket trajectory and lunar curve forming an abstract “O,” symbolising innovation, ambition, movement, and progress (view 2 of 4).",
+              "id": "egl-rocket-science-logo-render-3"
+            },
+            {
+              "type": "image",
+              "aspect": "1/1",
+              "src": "enginuitty-group-ltd/rocket-science-ltd/gc_egl-rocket-science-logo-gray-red-black.webp",
+              "width": 1440,
+              "height": 1440,
+              "alt": "Final logo for Rocket Science Limited: rocket trajectory and lunar curve forming an abstract “O,” symbolising innovation, ambition, movement, and progress (view 3 of 4).",
+              "id": "egl-rocket-science-logo-render-2"
+            },
+            {
+              "type": "image",
+              "aspect": "1/1",
+              "src": "enginuitty-group-ltd/rocket-science-ltd/gc_egl-rocket-science-logo-black.webp",
+              "width": 1440,
+              "height": 1440,
+              "alt": "Final logo for Rocket Science Limited: rocket trajectory and lunar curve forming an abstract “O,” symbolising innovation, ambition, movement, and progress (view 4 of 4).",
+              "id": "egl-rocket-science-logo-render-4"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Final logo for Rocket Science Limited: rocket trajectory and lunar curve forming an abstract “O,” symbolising innovation, ambition, movement, and progress."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "1/1",
+              "src": "enginuitty-group-ltd/rocket-science-ltd/gc_egl-rocket-science-wordmark-gray-red-white.webp",
+              "width": 1440,
+              "height": 1440,
+              "alt": "Final Rocket Science Ltd. wordmark: clear, confident typography (view 1 of 4).",
+              "id": "egl-rocket-science-wordmark-render-1"
+            },
+            {
+              "type": "image",
+              "aspect": "1/1",
+              "src": "enginuitty-group-ltd/rocket-science-ltd/gc_egl-rocket-science-wordmark-white.webp",
+              "width": 1440,
+              "height": 1440,
+              "alt": "Final Rocket Science Ltd. wordmark: clear, confident typography (view 2 of 4).",
+              "id": "egl-rocket-science-wordmark-render-3"
+            },
+            {
+              "type": "image",
+              "aspect": "1/1",
+              "src": "enginuitty-group-ltd/rocket-science-ltd/gc_egl-rocket-science-wordmark-gray-red-white.webp",
+              "width": 1440,
+              "height": 1440,
+              "alt": "Final Rocket Science Ltd. wordmark: clear, confident typography (view 3 of 4).",
+              "id": "egl-rocket-science-wordmark-render-2"
+            },
+            {
+              "type": "image",
+              "aspect": "1/1",
+              "src": "enginuitty-group-ltd/rocket-science-ltd/gc_egl-rocket-science-wordmark-black.webp",
+              "width": 1440,
+              "height": 1440,
+              "alt": "Final Rocket Science Ltd. wordmark: clear, confident typography (view 4 of 4).",
+              "id": "egl-rocket-science-wordmark-render-4"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Final Rocket Science Ltd. wordmark: clear, confident typography."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "enginuitty-group-ltd/rocket-science-ltd/gc_egl-rocket-science-working-file-screenshot.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Screenshot of the Adobe Illustrator file used to organise and prepare the final logo renders. The original logo-development file is no longer available.",
+              "id": "rocket-science-illustrator-file-sc"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Screenshot of the Adobe Illustrator file used to organise and prepare the final logo renders. The original logo-development file is no longer available."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "80/33",
+              "src": "enginuitty-group-ltd/rocket-science-ltd/gc_egl-rocket-science-sketch-1.webp",
+              "width": 1440,
+              "height": 594,
+              "alt": "Early Rocket Science Ltd. wordmark sketches (view 1 of 3).",
+              "id": "egl-rocket-science-wordmark-sketch-1"
+            },
+            {
+              "type": "image",
+              "aspect": "1440/677",
+              "src": "enginuitty-group-ltd/rocket-science-ltd/gc_egl-rocket-science-sketch-2.webp",
+              "width": 1440,
+              "height": 677,
+              "alt": "Early Rocket Science Ltd. wordmark sketches (view 2 of 3).",
+              "id": "egl-rocket-science-wordmark-sketch-2"
+            },
+            {
+              "type": "image",
+              "aspect": "720/313",
+              "src": "enginuitty-group-ltd/rocket-science-ltd/gc_egl-rocket-science-sketch-3.webp",
+              "width": 1440,
+              "height": 626,
+              "alt": "Early Rocket Science Ltd. wordmark sketches (view 3 of 3).",
+              "id": "egl-rocket-science-wordmark-sketch-3"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Early Rocket Science Ltd. wordmark sketches."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1/1",
+              "src": "enginuitty-group-ltd/rocket-science-ltd/gc_egl-rocket-science-sketch-brainstorm.webp",
+              "width": 1440,
+              "height": 1440,
+              "alt": "Early wordmark brainstorming sketches.",
+              "id": "rocket-science-sketch-brainstorm"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Early wordmark brainstorming sketches."
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

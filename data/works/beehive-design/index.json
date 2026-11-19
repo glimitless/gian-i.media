@@ -1,0 +1,45 @@
+{
+  "id": "beehive-design",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "The summer after my third year, I interned at Beehive Design, a Toronto design studio specializing in brand identity, digital design, and print communications."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "Under "
+            },
+            {
+              "type": "external-link",
+              "href": "https://www.linkedin.com/in/terry-lau-b4b98a/",
+              "label": "Terry Lau"
+            },
+            {
+              "type": "text",
+              "value": ", I researched thematic directions for a Cecconi Simone rebrand. The award-winning interior firm had recently begun working with Beehive. The internship focused on visual research, interview analysis, brand positioning, and mapping conceptual territories for a refreshed identity."
+            }
+          ]
+        }
+      ]
+    ],
+    "collectionLinks": [
+      {
+        "title": "Cecconi Simone",
+        "medium": "Brand Research",
+        "thumbnail": "beehive-design/cecconi-simone/gc_bhd-cecconi-simone-thumbnail.webp",
+        "alt": "Research slide titled The Four Pillars of Cecconi Simone with interconnected principle descriptions.",
+        "id": "cecconi-simone"
+      }
+    ]
+  }
+}

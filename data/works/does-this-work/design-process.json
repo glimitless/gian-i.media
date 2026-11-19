@@ -1,0 +1,234 @@
+{
+  "id": "design-process",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "I framed my process as “the simplification of excess”: moving through vast possibilities to reach the most effective solution for the task."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "The book opens with dense visual stimuli and gradually reduces complexity until a single note acknowledges that the process is still evolving as my practice grows."
+            }
+          ]
+        }
+      ]
+    ],
+    "items": [
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "1600/1053",
+              "src": "does-this-work/design-process/book/does-this-work-01.webp",
+              "width": 1600,
+              "height": 1053,
+              "alt": "Scans of the printed book, does this work front cover.",
+              "id": "does-this-work-front-cover"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/1053",
+              "src": "does-this-work/design-process/book/does-this-work-02.webp",
+              "width": 1600,
+              "height": 1053,
+              "alt": "Scans of the printed book, does this work pages 2 to 3.",
+              "id": "does-this-work-pages-2-to-3"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/1053",
+              "src": "does-this-work/design-process/book/does-this-work-03.webp",
+              "width": 1600,
+              "height": 1053,
+              "alt": "Scans of the printed book, does this work pages 4 to 5.",
+              "id": "does-this-work-pages-4-to-5"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/1053",
+              "src": "does-this-work/design-process/book/does-this-work-04.webp",
+              "width": 1600,
+              "height": 1053,
+              "alt": "Scans of the printed book, does this work pages 6 to 7.",
+              "id": "does-this-work-pages-6-to-7"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/1053",
+              "src": "does-this-work/design-process/book/does-this-work-05.webp",
+              "width": 1600,
+              "height": 1053,
+              "alt": "Scans of the printed book, does this work pages 8 to 9.",
+              "id": "does-this-work-pages-8-to-9"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/1053",
+              "src": "does-this-work/design-process/book/does-this-work-06.webp",
+              "width": 1600,
+              "height": 1053,
+              "alt": "Scans of the printed book, does this work pages 10 to 11.",
+              "id": "does-this-work-pages-10-to-11"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/1053",
+              "src": "does-this-work/design-process/book/does-this-work-07.webp",
+              "width": 1600,
+              "height": 1053,
+              "alt": "Scans of the printed book, does this work pages 12 to 13.",
+              "id": "does-this-work-pages-12-to-13"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/1053",
+              "src": "does-this-work/design-process/book/does-this-work-08.webp",
+              "width": 1600,
+              "height": 1053,
+              "alt": "Scans of the printed book, does this work pages 14 to 15.",
+              "id": "does-this-work-pages-14-to-15"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/1053",
+              "src": "does-this-work/design-process/book/does-this-work-09.webp",
+              "width": 1600,
+              "height": 1053,
+              "alt": "Scans of the printed book, does this work pages 16 to 17.",
+              "id": "does-this-work-pages-16-to-17"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/1053",
+              "src": "does-this-work/design-process/book/does-this-work-10.webp",
+              "width": 1600,
+              "height": 1053,
+              "alt": "Scans of the printed book, does this work pages 18 to 19.",
+              "id": "does-this-work-pages-18-to-19"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/1053",
+              "src": "does-this-work/design-process/book/does-this-work-11.webp",
+              "width": 1600,
+              "height": 1053,
+              "alt": "Scans of the printed book, does this work pages 20 to 21.",
+              "id": "does-this-work-pages-20-to-21"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/1053",
+              "src": "does-this-work/design-process/book/does-this-work-12.webp",
+              "width": 1600,
+              "height": 1053,
+              "alt": "Scans of the printed book, does this work pages 22 to 23.",
+              "id": "does-this-work-pages-22-to-23"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/1053",
+              "src": "does-this-work/design-process/book/does-this-work-13.webp",
+              "width": 1600,
+              "height": 1053,
+              "alt": "Scans of the printed book, does this work pages 24 to 25.",
+              "id": "does-this-work-pages-24-to-25"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/1053",
+              "src": "does-this-work/design-process/book/does-this-work-14.webp",
+              "width": 1600,
+              "height": 1053,
+              "alt": "Scans of the printed book, does this work pages 26 to 27.",
+              "id": "does-this-work-pages-26-to-27"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/1053",
+              "src": "does-this-work/design-process/book/does-this-work-15.webp",
+              "width": 1600,
+              "height": 1053,
+              "alt": "Scans of the printed book, does this work pages 28 to 29.",
+              "id": "does-this-work-pages-28-to-29"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/1053",
+              "src": "does-this-work/design-process/book/does-this-work-16.webp",
+              "width": 1600,
+              "height": 1053,
+              "alt": "Scans of the printed book, does this work pages 30 to 31.",
+              "id": "does-this-work-pages-30-to-31"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/1053",
+              "src": "does-this-work/design-process/book/does-this-work-17.webp",
+              "width": 1600,
+              "height": 1053,
+              "alt": "Scans of the printed book, does this work pages 32 to 33.",
+              "id": "does-this-work-pages-32-to-33"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/1053",
+              "src": "does-this-work/design-process/book/does-this-work-18.webp",
+              "width": 1600,
+              "height": 1053,
+              "alt": "Scans of the printed book, does this work pages 34 to 35.",
+              "id": "does-this-work-pages-34-to-35"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/1053",
+              "src": "does-this-work/design-process/book/does-this-work-19.webp",
+              "width": 1600,
+              "height": 1053,
+              "alt": "Scans of the printed book, does this work pages 36 to 37.",
+              "id": "does-this-work-pages-36-to-37"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/1053",
+              "src": "does-this-work/design-process/book/does-this-work-20.webp",
+              "width": 1600,
+              "height": 1053,
+              "alt": "Scans of the printed book, does this work pages 38 to 39.",
+              "id": "does-this-work-pages-38-to-39"
+            },
+            {
+              "type": "image",
+              "aspect": "1600/1053",
+              "src": "does-this-work/design-process/book/does-this-work-21.webp",
+              "width": 1600,
+              "height": 1053,
+              "alt": "Scans of the printed book, does this work pages 40 to 41.",
+              "id": "does-this-work-pages-40-to-41"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Scans of the printed book."
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

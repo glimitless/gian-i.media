@@ -1,0 +1,129 @@
+{
+  "id": "orange-shirt-day",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "In my third year, I helped design T-shirts for Orange Shirt Day, annual remembrance for Indigenous children forced into Canada’s residential schools, and for Survivors, families, and communities."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "On a tight timeline, we chose a tangram motif: each piece is necessary to the whole, echoing that Every Child Matters."
+            }
+          ]
+        }
+      ]
+    ],
+    "items": [
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "961/934",
+              "src": "design-photography/orange-shirt-day/gc_dp-osd-shirt-design-print.webp",
+              "width": 961,
+              "height": 934,
+              "alt": "Final production design for the Orange Shirt Day T-shirts.",
+              "id": "dp-osd-design-print"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Final production design for the Orange Shirt Day T-shirts."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "839/1050",
+              "src": "design-photography/orange-shirt-day/gc_dp-osd-shirt-design-context.webp",
+              "width": 839,
+              "height": 1050,
+              "alt": "Photograph of me wearing the completed Orange Shirt Day T-shirt.",
+              "id": "dp-osd-design-context"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Photograph of me wearing the completed Orange Shirt Day T-shirt."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1/1",
+              "src": "design-photography/orange-shirt-day/gc_dp-osd-orginal-design.webp",
+              "width": 1280,
+              "height": 1280,
+              "alt": "Original submitted design. Vector fills were outlined for heat-transfer so type and graphics pressed consistently.",
+              "id": "dp-osd-original-design"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Original submitted design. Vector fills were outlined for heat-transfer so type and graphics pressed consistently."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "design-photography/orange-shirt-day/gc_dp-osd-illustrator-sc.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Illustrator file for the original Orange Shirt Day T-shirt artwork.",
+              "id": "dp-osd-illustrator-sc"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Illustrator file for the original Orange Shirt Day T-shirt artwork."
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

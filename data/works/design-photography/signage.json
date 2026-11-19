@@ -1,0 +1,501 @@
+{
+  "id": "signage",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "After OCAD repainted the Sharp Centre during my third-year winter break, the studio’s sign was misplaced. "
+            },
+            {
+              "type": "external-link",
+              "href": "https://www.linkedin.com/in/jogindersinghphotography/",
+              "label": "Joginder Singh"
+            },
+            {
+              "type": "text",
+              "value": " treated that as a chance to replace it with signage aligned to the poster identity and versatile enough to serve as the Design Photography logo on walls, events, and communications at different scales."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "This tied environmental graphics to digital communications. I also developed labels for equipment and services so students could better navigate the studio’s resources."
+            }
+          ]
+        }
+      ]
+    ],
+    "items": [
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "4/5",
+              "src": "design-photography/signage/gc_dp-wordmark-context-1.webp",
+              "width": 960,
+              "height": 1200,
+              "alt": "Final wordmark installation.",
+              "id": "dp-wordmark-context-1"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Final wordmark installation"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Installed Design Photography wordmark above reception."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "4/3",
+              "src": "design-photography/signage/gc_dp-design-photography-sign-context-1.webp",
+              "width": 1280,
+              "height": 960,
+              "alt": "Installation process.",
+              "id": "dp-wordmark-context-2"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Installation process"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Installation of the new Design Photography sign."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1600/973",
+              "src": "design-photography/signage/gc_dp-design-photography-sign-context-2.webp",
+              "width": 1600,
+              "height": 973,
+              "alt": "Wordmark in context (view 1 of 2).",
+              "id": "dp-wordmark-context-3"
+            }
+          ]
+        },
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1600/973",
+              "src": "design-photography/signage/gc_dp-design-photography-sign-context-3.webp",
+              "width": 1600,
+              "height": 973,
+              "alt": "Wordmark in context (view 2 of 2).",
+              "id": "dp-wordmark-context-4"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Wordmark in context"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Further photographs of the new Design Photography wordmark alongside the poster-system identity."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1600/973",
+              "src": "design-photography/signage/gc_dp-design-photography-sign-context-4.webp",
+              "width": 1600,
+              "height": 973,
+              "alt": "Previous studio sign.",
+              "id": "dp-wordmark-context-5"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Previous studio sign"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Original Design Photography sign, later lost during fifth-floor repainting."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1600/973",
+              "src": "design-photography/signage/gc_dp-design-photography-sign-context-5.webp",
+              "width": 1600,
+              "height": 973,
+              "alt": "Studio identification.",
+              "id": "dp-wordmark-context-6"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Studio identification"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Wordmark applied to Design Photography studio identification."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "360/239",
+              "src": "design-photography/signage/gc_dp-design-photography-sign-illustrator-1.webp",
+              "width": 1440,
+              "height": 956,
+              "alt": "Design Photography wordmark file.",
+              "id": "dp-wordmark-illustrator-sc-1"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Design Photography wordmark file"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Illustrator file for the Design Photography wordmark."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "design-photography/signage/gc_dp-design-photography-sign-illustrator-2.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Screenshot: Acrylic fabrication file.",
+              "id": "dp-wordmark-illustrator-sc-2"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Acrylic fabrication file"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Illustrator production file for the acrylic laser-cut wordmark."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "4/5",
+              "src": "design-photography/signage/gc_dp-put-it-up-sign-1.webp",
+              "width": 960,
+              "height": 1200,
+              "alt": "Put It Up! wordmark (view 1 of 2).",
+              "id": "dp-put-it-up-context-1"
+            }
+          ]
+        },
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1600/973",
+              "src": "design-photography/signage/gc_dp-put-it-up-sign-2.webp",
+              "width": 1600,
+              "height": 973,
+              "alt": "Put It Up! wordmark (view 2 of 2).",
+              "id": "dp-put-it-up-context-2"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Put It Up! wordmark"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Wordmark for ‘Put it Up!’, an extension of "
+            },
+            {
+              "type": "external-link",
+              "href": "https://www.linkedin.com/in/richard-hunt-5898b48/",
+              "label": "Richard Hunt’s"
+            },
+            {
+              "type": "text",
+              "value": " ‘Lighten Up!’ identity. The ‘Put it Up!’ board, installed beside "
+            },
+            {
+              "type": "external-link",
+              "href": "https://www.ocadu.ca/news/lighten-open-access-wall-studio",
+              "label": "Lighten Up! The Open Access Wall Studio"
+            },
+            {
+              "type": "text",
+              "value": " gave students a board to post flyers for photography gear they wanted to sell."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "design-photography/signage/gc_dp-put-it-up-sign-illustrator.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Screenshot: Production file.",
+              "id": "dp-put-it-up-illustrator-sc"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Production file"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Illustrator file for the ‘Put it Up!’ wordmark."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "893/1116",
+              "src": "design-photography/signage/gc_dp-the-background-check-sign.webp",
+              "width": 893,
+              "height": 1116,
+              "alt": "The Background Check wordmark.",
+              "id": "dp-the-background-check-context"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "The Background Check wordmark"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Designed the wordmark for ‘The Background Check’, coloured studio backdrops newly offered for student photographic experimentation."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "design-photography/signage/gc_dp-the-background-check-sign-illustrator.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Screenshot: Plywood fabrication file.",
+              "id": "dp-the-background-check-illustrator-sc"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Plywood fabrication file"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "InDesign file for ‘The Background Check’ and ‘Put it Up!’ wordmarks, prepared for plywood laser cutting."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "1600/973",
+              "src": "design-photography/signage/gc_dp-lighten-up-labels.webp",
+              "width": 1600,
+              "height": 973,
+              "alt": "Lighten Up! control labels.",
+              "id": "dp-lighten-up-sc"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Lighten Up! control labels"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Labels for the controls at the base of "
+            },
+            {
+              "type": "external-link",
+              "href": "https://www.ocadu.ca/news/lighten-open-access-wall-studio",
+              "label": "Lighten Up! The Open Access Wall Studio"
+            },
+            {
+              "type": "text",
+              "value": ", which controlled the booth lighting. The original label files have since been lost."
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

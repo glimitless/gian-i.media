@@ -1,0 +1,204 @@
+{
+  "id": "game-map",
+  "content": {
+    "description": [
+      [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "In Graphic Design 2 (second year), one project required a 24″ × 36″ digital composition without print-focused production software."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "value": "I mapped the Sun’s lifecycle from formation to its theorised end as a black dwarf, using 8-bit game-asset tools for graphics and an AI-assisted editor for type."
+            }
+          ]
+        }
+      ]
+    ],
+    "items": [
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "2/3",
+              "src": "visualizing-science/game-map/gc_sun-cycle-game-map.webp",
+              "width": 1280,
+              "height": 1920,
+              "alt": "Final game map.",
+              "id": "sun-cycle-game-map"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Final game map."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "pdf",
+          "pages": [
+            {
+              "type": "image",
+              "aspect": "320/181",
+              "src": "visualizing-science/game-map/lcb-drawings/gc_vs-game-map-drawing-1.webp",
+              "width": 1600,
+              "height": 905,
+              "alt": "Page 1 of 5: Aseprite game map drawings with reference images.",
+              "id": "vs-lcb-drawings-page-1"
+            },
+            {
+              "type": "image",
+              "aspect": "320/181",
+              "src": "visualizing-science/game-map/lcb-drawings/gc_vs-game-map-drawing-2.webp",
+              "width": 1600,
+              "height": 905,
+              "alt": "Page 2 of 5: Aseprite game map drawings with reference images.",
+              "id": "vs-lcb-drawings-page-2"
+            },
+            {
+              "type": "image",
+              "aspect": "320/181",
+              "src": "visualizing-science/game-map/lcb-drawings/gc_vs-game-map-drawing-3.webp",
+              "width": 1600,
+              "height": 905,
+              "alt": "Page 3 of 5: Aseprite game map drawings with reference images.",
+              "id": "vs-lcb-drawings-page-3"
+            },
+            {
+              "type": "image",
+              "aspect": "800/453",
+              "src": "visualizing-science/game-map/lcb-drawings/gc_vs-game-map-drawing-4.webp",
+              "width": 1600,
+              "height": 906,
+              "alt": "Page 4 of 5: Aseprite game map drawings with reference images.",
+              "id": "vs-lcb-drawings-page-4"
+            },
+            {
+              "type": "image",
+              "aspect": "800/453",
+              "src": "visualizing-science/game-map/lcb-drawings/gc_vs-game-map-drawing-5.webp",
+              "width": 1600,
+              "height": 906,
+              "alt": "Page 5 of 5: Aseprite game map drawings with reference images.",
+              "id": "vs-lcb-drawings-page-5"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Aseprite game map drawings with reference images."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "800/453",
+              "src": "visualizing-science/game-map/gc_vs-game-map-background.webp",
+              "width": 1600,
+              "height": 906,
+              "alt": "Pixel art converter for the background with source image.",
+              "id": "game-map-background-process"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Pixel art converter for the background with source image."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "visualizing-science/game-map/gc_vs-game-map-tiled-screenshot-1.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Tiled files organising Aseprite art and converted background into one composition (view 1 of 2).",
+              "id": "game-map-tiled-sc-1"
+            }
+          ]
+        },
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "3/2",
+              "src": "visualizing-science/game-map/gc_vs-game-map-tiled-screenshot-2.webp",
+              "width": 1440,
+              "height": 960,
+              "alt": "Tiled files organising Aseprite art and converted background into one composition (view 2 of 2).",
+              "id": "game-map-tiled-sc-2"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Tiled files organising Aseprite art and converted background into one composition."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "media",
+          "content": [
+            {
+              "type": "image",
+              "aspect": "639/719",
+              "src": "visualizing-science/game-map/gc_vs-game-map-pixelcut-screenshot.webp",
+              "width": 1278,
+              "height": 1438,
+              "alt": "Screenshot: Pixelcut project adding text to the Tiled composition.",
+              "id": "game-map-pixelcut-sc"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "type": "text",
+              "value": "Pixelcut project adding text to the Tiled composition."
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}
