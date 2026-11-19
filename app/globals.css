@@ -397,7 +397,7 @@
       grid-template-columns: calc(var(--page-layout-overview-column-width) + var(--page-layout-column-gap) + var(--page-layout-content-column-width)) var(--page-layout-navigation-column-width);
     }
     .three-column-page-content-column{
-      @apply grid-cols-[var(--page-layout-overview-column-width)_var(--page-layout-content-column-width)] gap-(--page-layout-column-gap) min-h-0 gap-y-0 overflow-hidden;
+      @apply grid-cols-[var(--page-layout-overview-column-width)_var(--page-layout-content-column-width)] gap-(--page-layout-column-gap) min-h-0 gap-y-0 overflow-hidden overscroll-y-auto;
       width: calc(var(--page-layout-overview-column-width) + var(--page-layout-column-gap) + var(--page-layout-content-column-width));
       grid-template-rows: minmax(0,1fr);
       padding-bottom: 0;
@@ -408,7 +408,7 @@
       padding-bottom: calc(0.85rem + var(--footer-reveal-space, 0px));
     }
     .three-column-page-overview-container{
-      @apply self-stretch min-h-0 overflow-scroll scrollbar-none-webkit pb-5 mb-(--footer-revealed,0rem);
+      @apply self-stretch min-h-0 overflow-scroll overscroll-y-contain scrollbar-none-webkit pb-5 mb-(--footer-revealed,0rem);
     }
   }
 
