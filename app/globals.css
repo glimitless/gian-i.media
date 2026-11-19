@@ -63,8 +63,8 @@
   --color-lmBoxShadowInactive: #22222333;
   --color-lmBoxShadowActive: #2222231F;
   --color-lmImageModalBackground: #F0EEE9E6;
-  --color-lmYoutubeEmbedBackground: #222223BF;
-  --color-lmYoutubeEmbedPrimary: #6F645C;
+  --color-lmYoutubeEmbedBackground: #2B2A33B3;
+  --color-lmYoutubeEmbedPrimary: #EBE7E1;
   
   --color-dmBg: #151413;
   --color-dmBgActive: #2E2B28;
@@ -77,8 +77,8 @@
   --color-dmBoxShadowInactive: #EBE7E133;
   --color-dmBoxShadowActive: #EBE7E11F;
   --color-dmImageModalBackground: #151413E6;
-  --color-dmYoutubeEmbedBackground: #151413BF;
-  --color-dmYoutubeEmbedPrimary: #B5AEA6;
+  --color-dmYoutubeEmbedBackground: #2B2A33B3;
+  --color-dmYoutubeEmbedPrimary: #EBE7E1;
 
   /* Font variables */
   --font-main: "Zilla Slab", ui-slab, Georgia, serif;
