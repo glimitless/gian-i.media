@@ -11,7 +11,7 @@ export default function Resume() {
           <h3>Gian-I Cambridge</h3>
           <h3>
             <a
-              href={mediaURL('resume/gc_resume-nov-2026-digital-2.pdf', 'pdf', true)}
+              href={mediaURL('resume/gc_resume-nov-2026-digital-3.pdf', 'pdf', true)}
               download={true}
               className="text-link"
             >
