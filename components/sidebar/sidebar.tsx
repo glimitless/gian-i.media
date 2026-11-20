@@ -2,13 +2,14 @@
 
 import { useSidebarContext } from '@/lib/navigator/navigator-provider';
 import { useFilterContext } from '@/lib/filter/filter-provider';
-import TempleIcon from '@/public/svg/icons/sidebar/gc_temple-icon.svg';
 import WorksIcon from '@/public/svg/icons/sidebar/gc_works-icon.svg';
 import NotesIcon from '@/public/svg/icons/sidebar/gc_notebook-icon.svg'
 import AboutIcon from '@/public/svg/icons/sidebar/gc_about-icon.svg'
 import SidebarButton from './buttons/sidebar-button';
 import NameWordmark from '@/public/svg/icons/sidebar/gc_wordmark.svg';
 import { useMediaQueryContext } from '@/lib/navigator/navigator-provider';
+import HomeLink from '../header/buttons/home-link';
+import { usePathname } from 'next/navigation';
 
 
 export default function Sidebar(){
@@ -16,6 +17,7 @@ export default function Sidebar(){
   const { filterArguments, onToggleContentType } = useFilterContext();
   const { contentType } = filterArguments;
   const { isBelowTablet } = useMediaQueryContext();
+  const pathname = usePathname();
 
   if(isBelowTablet) return (<></>)
   return (
@@ -26,14 +28,7 @@ export default function Sidebar(){
         <div 
           className="w-full flex items-center justify-start gap-4 min-w-16" 
         >
-          <SidebarButton
-            variantProps={{
-              type: "temple",
-              svg: TempleIcon,
-              setSidebarExpand: setSidebarExpand,
-            }}
-            sidebarExpand={sidebarExpand}
-          />
+          <HomeLink isHome={pathname === '/'} />
           <div className="flex flex-1 h-16 w-auto overflow-hidden justify-start items-center min-width min-w-16">
             <NameWordmark className="h-[1.53rem] w-auto shrink-0 text-lmSecondary dark:text-dmSecondary" />
           </div>

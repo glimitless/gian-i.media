@@ -7,10 +7,6 @@ import { usePathname } from 'next/navigation';
 
 type VariantProps = (
   {
-    type: 'temple';
-    svg: SvgIcon;
-    setSidebarExpand: React.Dispatch<React.SetStateAction<SidebarExpand>>;
-  } | {
     type: ('works' | 'notes');
     svg: SvgIcon;
     href: string;
@@ -31,34 +27,22 @@ export default function SidebarButton({variantProps, sidebarExpand} : {variantPr
   let svgWidth:string;
   let btnPLeft:string;
   let btnGap:string;
-  let onClick:((() => void) | undefined);
   
   switch(variantProps.type){
-    case 'temple':
-      svgWidth = 'w-10';
-      btnPLeft = '';
-      btnGap = '';
-      onClick = () => {
-        variantProps.setSidebarExpand(sidebarExpand === 'hidden' ? 'expanded' : 'hidden');
-      };
-      break;
     case 'works':
       svgWidth = 'w-[2.4rem]';
       btnPLeft = 'pl-[0.8rem]';
       btnGap = 'gap-[0.9rem]';
-      onClick = undefined;
       break;
     case 'notes':
       svgWidth = 'w-[2.4rem]';
       btnPLeft = 'pl-[0.8rem]';
       btnGap = 'gap-[0.9rem]';
-      onClick = undefined;
       break;
     case 'about':
       svgWidth = 'w-[1.8rem]';
       btnPLeft = 'pl-[1.1rem]';
       btnGap = 'gap-[1.2rem]';
-      onClick = undefined;
       break;
   }
 
@@ -80,20 +64,7 @@ export default function SidebarButton({variantProps, sidebarExpand} : {variantPr
   const Icon = variantProps.svg;
   
 
-  if(variantProps.type === 'temple'){
-    return (
-      <button 
-        type="button"
-        aria-expanded={isSidebarExpanded}
-        aria-label={isSidebarExpanded ? 'Collapse sidebar' : 'Expand sidebar'}
-        className={`btn-template ${isSidebarExpanded && 'btn-template-active cursor-pointer'} w-16 justify-center shrink-0`}
-        onClick={onClick}
-      >
-        <Icon className={`${svgWidth} h-auto shrink-0 text-lmSecondary dark:text-dmSecondary color-transition`} />
-      </button>
-    )
-    
-  } else if(variantProps.type === 'works' || variantProps.type === 'notes') {
+  if(variantProps.type === 'works' || variantProps.type === 'notes') {
     return(
       <Link
         aria-current={pathname.split('/')[2] === variantProps.type ? 'page' : undefined}
