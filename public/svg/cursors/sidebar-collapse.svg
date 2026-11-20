@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+  <!-- right-arrowhead.svg, scaled to cursor size: black outline drawn under a white fill -->
+  <g transform="rotate(180 12 12) translate(7.26 3.5) scale(0.685)">
+    <path d="M2.02,0l11.4,11.4c.56.56.56,1.46,0,2.02L2.02,24.82l-2.02-2.02,10.39-10.39L0,2.02,2.02,0Z" fill="#000" stroke="#000" stroke-width="3.9" stroke-linejoin="round"/>
+    <path d="M2.02,0l11.4,11.4c.56.56.56,1.46,0,2.02L2.02,24.82l-2.02-2.02,10.39-10.39L0,2.02,2.02,0Z" fill="#fff" stroke="#fff" stroke-width="1.5" stroke-linejoin="round"/>
+  </g>
+</svg>

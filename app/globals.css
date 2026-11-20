@@ -544,6 +544,12 @@
     background-color var(--duration-bcvg) var(--ease-bcvg),
     width var(--duration-dim2) var(--ease-dim2);
 }
+@utility cursor-sidebar-expand{
+  cursor: url('/svg/cursors/sidebar-expand.svg') 14 14, e-resize;
+}
+@utility cursor-sidebar-collapse{
+  cursor: url('/svg/cursors/sidebar-collapse.svg') 14 14, w-resize;
+}
 @utility footer-expand-transition{
   transition:
     grid-template-columns var(--duration-dim2) var(--ease-dim2),
