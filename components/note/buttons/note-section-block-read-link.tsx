@@ -13,7 +13,7 @@ export default function NoteSectionBlockReadLink(
   return (
     <div className="read-link pl-[4.9rem] pr-2 pt-5 pb-2">
       <Link
-        href={`/notes/${noteId}/${sectionId}/${blockId}`}
+        href={`/archive/notes/${noteId}/${sectionId}/${blockId}`}
         className="btn-template h-fit w-fit py-2 px-4"
       >
         Read

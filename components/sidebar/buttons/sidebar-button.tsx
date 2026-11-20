@@ -68,7 +68,7 @@ export default function SidebarButton({variantProps, sidebarExpand} : {variantPr
     onToggleContentType: (type: ContentTypeArgs) => void,
     activeContentType: ContentTypeArgs,
   ){
-    if(pathname === '/' &&  (contentType === 'notes' || contentType === 'works')){
+    if(pathname === '/archive' &&  (contentType === 'notes' || contentType === 'works')){
       onToggleContentType(contentType === activeContentType ? 'all' : contentType);
       event.preventDefault();
     } 
@@ -96,9 +96,9 @@ export default function SidebarButton({variantProps, sidebarExpand} : {variantPr
   } else if(variantProps.type === 'works' || variantProps.type === 'notes') {
     return(
       <Link
-        aria-current={pathname.split('/')[1] === variantProps.type ? 'page' : undefined}
+        aria-current={pathname.split('/')[2] === variantProps.type ? 'page' : undefined}
         aria-label={!isSidebarExpanded ? variantProps.type.charAt(0).toUpperCase() : undefined}
-        className={`btn-template ${((variantProps.type === variantProps.activeContentType && pathname === '/') || pathname.split('/')[1] === variantProps.type) && 'btn-template-active cursor-pointer'} justify-start overflow-hidden whitespace-nowrap ${btnPLeft} ${btnGap}`}
+        className={`btn-template ${((variantProps.type === variantProps.activeContentType && pathname === '/archive') || pathname.split('/')[2] === variantProps.type) && 'btn-template-active cursor-pointer'} justify-start overflow-hidden whitespace-nowrap ${btnPLeft} ${btnGap}`}
         href={variantProps.href}
         onClick={(event) => onFilterLinkClick(event, variantProps.type, variantProps.onToggleContentType, variantProps.activeContentType)}
       >
@@ -109,7 +109,7 @@ export default function SidebarButton({variantProps, sidebarExpand} : {variantPr
   } else {
     return(
       <Link
-        aria-current={pathname.split('/')[1] === '/about' ? 'page' : undefined}
+        aria-current={pathname.split('/')[2] === '/about' ? 'page' : undefined}
         aria-label={!isSidebarExpanded ? 'About' : undefined}
         className={`btn-template justify-start overflow-hidden whitespace-nowrap ${btnPLeft} ${btnGap} ${pathname === '/about' && 'btn-template-active'}`}
         href={variantProps.href}

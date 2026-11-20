@@ -28,7 +28,7 @@ function FilterGridItem({
     <div className="py-5 w-full block">
       <Link
         className="group bg-lmSurface dark:bg-dmSurface hover:bg-lmBgActive hover:dark:bg-dmBgActive flex flex-col justify-center items-center cursor-pointer bcvg-transition p-[0.4rem]"
-        href={`/${type}/${id}`}
+        href={`/archive/${type}/${id}`}
         aria-label={title}
       >
         <Thumbnail

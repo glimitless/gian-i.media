@@ -11,7 +11,7 @@ export default function SmallNavThumbnail(
 
   return (
     <Link
-      href={`/${type}/${id}`}
+      href={`/archive/${type}/${id}`}
       aria-label={title}
       aria-current={active ? 'page' : undefined}
       className={`group w-16 h-16 flex items-center shrink-0 justify-center p-[0.15rem] bcvg-transition ${active ? 'bg-lmMedium dark:bg-dmMedium cursor-default' : 'bg-lmSurface dark:bg-dmSurface hover:bg-lmBgActive dark:hover:bg-dmBgActive'}`}

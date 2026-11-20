@@ -43,7 +43,7 @@ export default function Sidebar(){
             variantProps={{
               type: "works",
               svg: WorksIcon,
-              href: '/',
+              href: '/archive',
               activeContentType: contentType,
               onToggleContentType: onToggleContentType,
             }}
@@ -53,7 +53,7 @@ export default function Sidebar(){
             variantProps={{
               type: "notes",
               svg: NotesIcon,
-              href: '/',
+              href: '/archive',
               activeContentType: contentType,
               onToggleContentType: onToggleContentType,
             }}
