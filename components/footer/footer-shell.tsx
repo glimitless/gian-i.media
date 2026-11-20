@@ -12,7 +12,7 @@ export default function FooterShell(){
   const pathname = usePathname();
   const { mainRef } = useHeaderContext();
   const { rootFontSizePx } = useMediaQueryContext();
-  const isArchiveContentPage = (pathname.startsWith('/archive/works') || pathname.startsWith('/archive/notes')) ;
+  const isArchiveContentPage = (pathname.startsWith('/archive/works') || pathname.startsWith('/archive/notes') || pathname === '/about') ;
   const footerRef = useRef<HTMLDivElement>(null);
   const [footerHeight, setFooterHeight] = useState(0);
   useColumnFooterReveal(
