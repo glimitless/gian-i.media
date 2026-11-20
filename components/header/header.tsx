@@ -13,9 +13,19 @@ const HEADER_HEIGHT: Record<HeaderExpand, string> = {
   'level-3': 'h-66 py-3'
 };
 
+// How many header rows each level shows. Rows past this are clipped by overflow-hidden,
+// so they're made inert: otherwise tabbing into them scrolls the clipped container.
+const VISIBLE_ROWS: Record<HeaderExpand, number> = {
+  'hidden': 1,
+  'level-1': 1,
+  'level-2': 2,
+  'level-3': 3
+};
+
 export default function Header(){
   const { headerExpand } = useHeaderContext();
   const headerHeight = HEADER_HEIGHT[headerExpand];
+  const visibleRows = VISIBLE_ROWS[headerExpand];
 
   return (
     <header
@@ -27,10 +37,10 @@ export default function Header(){
         <div className="header-row"> 
           <HeaderFirstRow />
         </div>
-        <div className="header-row">
+        <div className="header-row" inert={visibleRows < 2}>
           <MoreSearchOptions />
         </div>
-        <div className="header-row">
+        <div className="header-row" inert={visibleRows < 3}>
           <SelectedFilterArgument />
         </div>
        </div>
