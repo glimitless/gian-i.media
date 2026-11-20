@@ -37,7 +37,7 @@ export default function Resume() {
             </li>
             <li>
               <p>Frontend Web Design & Development</p>
-              <h3>Figma, HTML, CSS (+ Tailwind CSS), JavaScript (+ TypeScript, React.js, Next.js; intermediate in Three.js).</h3>
+              <h3>Figma, HTML, CSS (+ Tailwind CSS), JavaScript (+ TypeScript, React.js, Next.js; intermediate in Node.js backend, Three.js).</h3>
             </li>
             <li>
               <p>Microsoft Office</p>
