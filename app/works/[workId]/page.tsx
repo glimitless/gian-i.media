@@ -29,7 +29,7 @@ export default async function WorkPage({ params }:WorkPageProps){
 
   return (
     <div className="three-column-page-container">
-      <div className={`three-column-page-grid`}>
+      <div className="three-column-page-grid">
         <div className="three-column-page-content-column">
           <div className="three-column-page-overview-container">
             <HeaderMargin />

@@ -11,7 +11,6 @@ export default async function AboutPage(){
           <Resume />
         </div>
         <div className="two-column-page-navigation-column">
-          <HeaderMargin />
           <ThumbnailNav />
         </div>
       </div>
