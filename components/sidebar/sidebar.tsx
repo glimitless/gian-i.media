@@ -2,6 +2,7 @@
 
 import { useSidebarContext } from '@/lib/navigator/navigator-provider';
 import { useFilterContext } from '@/lib/filter/filter-provider';
+import type { MouseEvent } from 'react';
 import WorksIcon from '@/public/svg/icons/sidebar/gc_works-icon.svg';
 import NotesIcon from '@/public/svg/icons/sidebar/gc_notebook-icon.svg'
 import AboutIcon from '@/public/svg/icons/sidebar/gc_about-icon.svg'
@@ -19,10 +20,16 @@ export default function Sidebar(){
   const { isBelowTablet } = useMediaQueryContext();
   const pathname = usePathname();
 
+  function onSidebarBackgroundClick(event: MouseEvent<HTMLElement>){
+    if((event.target as Element).closest('a, button')) return;
+    setSidebarExpand(sidebarExpand === 'expanded' ? 'hidden' : 'expanded')
+  }
+
   if(isBelowTablet) return (<></>)
   return (
     <nav 
-      className={`${sidebarExpand === 'hidden' ? 'w-26' : 'w-81'} bg-lmSurface dark:bg-dmSurface flex flex-col pr-3 pl-3 pt-3 pb-3 sidebar-transition @max-[92.8em]/viewport:hidden`}
+      className={`${sidebarExpand === 'hidden' ? 'w-26' : 'w-81'} cursor-pointer bg-lmSurface dark:bg-dmSurface flex flex-col pr-3 pl-3 pt-3 pb-3 sidebar-transition @max-[92.8em]/viewport:hidden`}
+      onClick={onSidebarBackgroundClick}
     >
       <div className="p-2 overflow-hidden flex flex-col justify-between w-full h-full ">
         <div 
