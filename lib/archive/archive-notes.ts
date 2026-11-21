@@ -2,12 +2,19 @@ import type {
   ArchiveNoteSection,
   NoteSectionRecord, 
   NoteSectionNeighbors,
-  ArchiveNoteRecord, 
+  ArchiveNoteRecord,
+  ArchiveNoteID,
   GroupIdArgs, 
-  IndividualIdArgs 
+  IndividualIdArgs, 
+  IndividualBlockIdArgs
 } from '@/types/archive';
+import type { Metadata } from 'next';
 import fs from 'node:fs';
 import path from 'node:path';
+import { toPageMetadata } from './page-metadata';
+import archiveNoteIDsJson from '@/data/notes/archive-note-ids.json';
+
+const archiveNoteIDs: ArchiveNoteID[] = archiveNoteIDsJson;
 
 export function findArchiveNoteRecord(
   noteId: GroupIdArgs
@@ -38,5 +45,16 @@ export function getNoteSectionNeighbors(
     previous: index > 0 ? sections[index - 1] : undefined,
     next: index < sections.length - 1 ? sections[index + 1] : undefined
   }
+}
 
+export function findArchiveNoteMetadata(
+  noteId: GroupIdArgs,
+  sectionId: IndividualIdArgs,
+  blockId: IndividualBlockIdArgs
+) {
+  const note = archiveNoteIDs.find((item) => item.id === noteId);
+  if (!sectionId) return toPageMetadata(note);
+  const section = note?.sections.find((item) => item.id === sectionId);
+  if (!blockId) return toPageMetadata(section);
+  return toPageMetadata(section?.blocks.find((item) => item.id === blockId));
 }

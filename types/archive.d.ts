@@ -42,11 +42,11 @@ export type ArchiveWorkRecord = {
 };
 export type ArchiveWorkID = {
   id: GroupIdArgs;
-  metaTitle: string;
+  metaTitle?: string;
   metaDescription?: string;
   collections: {
     id: IndividualIdArgs;
-    metaTitle: string;
+    metaTitle?: string;
     metaDescription?: string;
   }[]
 };
@@ -90,17 +90,17 @@ export type ArchiveNoteRecord = {
     sections: NoteSectionRecord[];
   }
 }
-export type ArchiveNoteIds = {
+export type ArchiveNoteID = {
   id: GroupIdArgs;
-  metaTitle: string;
+  metaTitle?: string;
   metaDescription?: string;
   sections: {
     id: IndividualIdArgs;
-    metaTitle: string;
+    metaTitle?: string;
     metaDescription?: string;
     blocks: {
       id: IndividualIdArgs;
-      metaTitle: string;
+      metaTitle?: string;
       metaDescription?: string;
     }[]
   }[]
