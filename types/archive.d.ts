@@ -90,6 +90,21 @@ export type ArchiveNoteRecord = {
     sections: NoteSectionRecord[];
   }
 }
+export type ArchiveNoteIds = {
+  id: GroupIdArgs;
+  metaTitle: string;
+  metaDescription?: string;
+  sections: {
+    id: IndividualIdArgs;
+    metaTitle: string;
+    metaDescription?: string;
+    blocks: {
+      id: IndividualIdArgs;
+      metaTitle: string;
+      metaDescription?: string;
+    }[]
+  }[]
+}
 
 export type ArchiveNoteBlock = {
   id:IndividualBlockIdArgs;

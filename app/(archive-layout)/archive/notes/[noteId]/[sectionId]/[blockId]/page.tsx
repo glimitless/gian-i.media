@@ -15,7 +15,7 @@ export function generateStaticParams(){
       section.blocks.map((block) => ({
         noteId: note.id,
         sectionId: section.id,
-        blockId: block
+        blockId: block.id
       }))
     )
   );
