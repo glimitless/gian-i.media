@@ -1,7 +1,8 @@
 import ThumbnailNav from '@/components/thumbnail-nav/thumbnail-nav';
 import { findArchiveIDRecord } from '@/lib/archive/archive-ids';
-import { findArchiveNoteSectionContent, findArchiveNoteRecord, getNoteSectionNeighbors } from '@/lib/archive/archive-notes';
+import { findArchiveNoteSectionContent, findArchiveNoteRecord, getNoteSectionNeighbors, findArchiveNoteMetadata } from '@/lib/archive/archive-notes';
 import type { GroupIdArgs, IndividualBlockIdArgs, IndividualIdArgs } from '@/types/archive';
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import NoteSectionPageBody from '@/components/note-section/note-section-page-body';
 import HeaderMargin from '@/lib/navigator/header-margin';
@@ -21,11 +22,16 @@ export function generateStaticParams(){
   );
 }
 
-type NoteSectionPageProps =  {
+export async function generateMetadata({ params }: NoteSectionBlockPageProps): Promise<Metadata> {
+  const { noteId, sectionId, blockId } = await params;
+  return findArchiveNoteMetadata(noteId, sectionId, blockId);
+}
+
+type NoteSectionBlockPageProps =  {
   params: Promise<{noteId:GroupIdArgs, sectionId:IndividualIdArgs, blockId:IndividualBlockIdArgs}>
 }
 
-export default async function NoteSectionBlockPage({ params }:NoteSectionPageProps){
+export default async function NoteSectionBlockPage({ params }:NoteSectionBlockPageProps){
   const type = 'notes';
   const { noteId, sectionId, blockId } = await params;
 

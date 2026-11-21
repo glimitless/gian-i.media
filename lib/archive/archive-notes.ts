@@ -49,9 +49,9 @@ export function getNoteSectionNeighbors(
 
 export function findArchiveNoteMetadata(
   noteId: GroupIdArgs,
-  sectionId: IndividualIdArgs,
-  blockId: IndividualBlockIdArgs
-) {
+  sectionId?: IndividualIdArgs,
+  blockId?: IndividualBlockIdArgs
+): Metadata {
   const note = archiveNoteIDs.find((item) => item.id === noteId);
   if (!sectionId) return toPageMetadata(note);
   const section = note?.sections.find((item) => item.id === sectionId);

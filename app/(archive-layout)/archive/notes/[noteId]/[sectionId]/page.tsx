@@ -1,14 +1,14 @@
 import ThumbnailNav from '@/components/thumbnail-nav/thumbnail-nav';
 import { findArchiveIDRecord } from '@/lib/archive/archive-ids';
-import { findArchiveNoteSectionContent, findArchiveNoteRecord, getNoteSectionNeighbors } from '@/lib/archive/archive-notes';
+import { findArchiveNoteSectionContent, findArchiveNoteRecord, getNoteSectionNeighbors, findArchiveNoteMetadata } from '@/lib/archive/archive-notes';
 import type { GroupIdArgs, IndividualIdArgs } from '@/types/archive';
 import { notFound } from 'next/navigation';
 import NoteSectionPageBody from '@/components/note-section/note-section-page-body';
 import HeaderMargin from '@/lib/navigator/header-margin';
 import archiveNoteIDsJson from '@/data/notes/archive-note-ids.json';
+import type { Metadata } from 'next';
 
 export const dynamicParams = false;
-
 export function generateStaticParams() {
   return archiveNoteIDsJson.flatMap((note) => 
     note.sections.map((section) => ({
@@ -17,6 +17,11 @@ export function generateStaticParams() {
     }))
   );
 }
+
+export async function generateMetadata({ params }: NoteSectionPageProps): Promise<Metadata> {
+  const { noteId, sectionId } = await params;
+  return findArchiveNoteMetadata(noteId, sectionId);
+} 
 
 type NoteSectionPageProps =  {
   params: Promise<{noteId:GroupIdArgs, sectionId:IndividualIdArgs}>
