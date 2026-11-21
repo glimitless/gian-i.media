@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: 'Gian-I Media is a multidisciplinary creative studio specializing in graphic design, branding, digital experiences, and interactive media.',
 };
 
-// Sets the color scheme prior to painting html
+// Sets the color scheme prior to painting HTML
 const themeScript = `(
   function(){
       var theme = localStorage.getItem('theme') || 'system';
