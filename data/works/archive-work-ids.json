@@ -1,79 +1,207 @@
 [
   {
     "id": "axxs-digital",
+    "metaTitle": "AXXS Digital",
+    "metaDescription": "Brand and product design from an AXXS Digital internship: a rebrand for Parlour Caribbean and new features for The Gazette app.",
     "collections": [
-      "parlour",
-      "the-gazette"
+      {
+        "id": "parlour",
+        "metaTitle": "Parlour – AXXS Digital",
+        "metaDescription": "A new brand identity and MVP interface designs for Parlour Caribbean, an e-commerce marketplace for authentic Caribbean products."
+      },
+      {
+        "id": "the-gazette",
+        "metaTitle": "The Gazette – AXXS Digital",
+        "metaDescription": "Three features for The Gazette, a Caribbean news app: a mobile author page, a daily news digest, and a daily word game."
+      }
     ]
   },
   {
     "id": "beehive-design",
+    "metaTitle": "Beehive Design",
+    "metaDescription": "Brand research from a Beehive Design internship: visual research, interview analysis, and positioning for a Cecconi Simone rebrand.",
     "collections": [
-      "cecconi-simone"
+      {
+        "id": "cecconi-simone",
+        "metaTitle": "Cecconi Simone – Beehive Design",
+        "metaDescription": "Brand strategy for interior design firm Cecconi Simone, built on four philosophical pillars and a commitment to mentoring new designers."
+      }
     ]
   },
   {
     "id": "design-photography",
+    "metaTitle": "Design Photography",
+    "metaDescription": "Brand identity, posters, signage, motion graphics, and apparel for OCAD University's Design Photography Studio.",
     "collections": [
-      "posters",
-      "signage",
-      "timeout",
-      "orange-shirt-day"
+      {
+        "id": "posters",
+        "metaTitle": "Posters – Design Photography",
+        "metaDescription": "A modular poster system for OCAD University's Design Photography Studio that student staff can adapt, aligned with OCAD's identity."
+      },
+      {
+        "id": "signage",
+        "metaTitle": "Signage – Design Photography",
+        "metaDescription": "Studio signage and equipment labels for OCAD's Design Photography Studio, extending the poster identity into environmental graphics."
+      },
+      {
+        "id": "timeout",
+        "metaTitle": "Timeout – Design Photography",
+        "metaDescription": "Photographs, an artist statement template, and an accordion-fold handout for 'Timeout: A Visual Record of the Summer'."
+      },
+      {
+        "id": "orange-shirt-day",
+        "metaTitle": "Orange Shirt Day – Design Photography",
+        "metaDescription": "Orange Shirt Day T-shirts with a tangram motif: every piece is necessary to the whole, echoing that Every Child Matters."
+      }
     ]
   },
   {
     "id": "does-this-work",
+    "metaTitle": "Does This Work?",
+    "metaDescription": "A first-year process book compiling Design Process 1 and 2, a record of method and intent rather than a portfolio.",
     "collections": [
-      "design-process"
+      {
+        "id": "design-process",
+        "metaTitle": "Design Process – Does This Work?",
+        "metaDescription": "A process book framed as 'the simplification of excess', moving from dense visual stimuli to a single closing note."
+      }
     ]
   },
   {
     "id": "enginuitty-group-ltd",
+    "metaTitle": "Enginuitty Group Ltd.",
+    "metaDescription": "Branding, document design, and social graphics from an internship at Enginuitty Group, a Trinidad and Tobago technology company.",
     "collections": [
-      "parlour",
-      "paypr",
-      "rocket-science-ltd",
-      "moh-vaccine-campaign"
+      {
+        "id": "parlour",
+        "metaTitle": "Parlour – Enginuitty Group Ltd.",
+        "metaDescription": "Brand identity and launch social graphics for Parlour Caribbean, a multi-vendor marketplace for Caribbean artisans."
+      },
+      {
+        "id": "paypr",
+        "metaTitle": "Paypr – Enginuitty Group Ltd.",
+        "metaDescription": "Brand documents for PAYPR, TSTT's mobile e-wallet, establishing a visual language centred on security and accessibility."
+      },
+      {
+        "id": "rocket-science-ltd",
+        "metaTitle": "Rocket Science Ltd – Enginuitty Group Ltd.",
+        "metaDescription": "Logo, wordmark, and colour palette for Rocket Science Ltd., a Trinidad and Tobago technology consultancy."
+      },
+      {
+        "id": "moh-vaccine-campaign",
+        "metaTitle": "MOH Vaccine Campaign – Enginuitty Group Ltd.",
+        "metaDescription": "A people-centred social media campaign for Trinidad and Tobago's Ministry of Health encouraging vaccination."
+      }
     ]
   },
   {
     "id": "scarborough-charter",
+    "metaTitle": "Scarborough Charter",
+    "metaDescription": "Cover design and illustration for the Scarborough Charter's annual committee report on anti-Black racism and Black inclusion.",
     "collections": [
-      "committee-report"
+      {
+        "id": "committee-report",
+        "metaTitle": "Committee Report – Scarborough Charter",
+        "metaDescription": "Front and back covers for the Scarborough Charter's annual committee report, reflecting Black flourishing and inclusive excellence."
+      }
     ]
   },
   {
     "id": "sensing-change",
+    "metaTitle": "SensingChange",
+    "metaDescription": "Visual identity and website for SensingChange, a York University art and science project making black carbon air pollution visible.",
     "collections": [
-      "logo",
-      "website"
+      {
+        "id": "logo",
+        "metaTitle": "Logo – SensingChange",
+        "metaDescription": "Logo proposals for SensingChange balancing scientific credibility with activist energy, with process documentation for both."
+      },
+      {
+        "id": "website",
+        "metaTitle": "Website – SensingChange",
+        "metaDescription": "Design and development of the SensingChange website, inspired by treatise scrolls, with an updatable News & Events page."
+      }
     ]
   },
   {
     "id": "seventh-sense",
+    "metaTitle": "7th Sense",
+    "metaDescription": "A speculative design project imagining decentralised AI that reads physiological stress and adapts users' devices in response.",
     "collections": [
-      "color-theory",
-      "prospective-advertisements",
-      "user-experience"
+      {
+        "id": "color-theory",
+        "metaTitle": "Color Theory – 7th Sense",
+        "metaDescription": "The 7th Sense colour palette: cyan, blue, purple, and magenta map emotional and energetic states without labelling them good or bad."
+      },
+      {
+        "id": "prospective-advertisements",
+        "metaTitle": "Prospective Advertisements – 7th Sense",
+        "metaDescription": "Speculative ads and posters for 7th Sense, a watch-sized pod that responds to physiological needs and syncs a user's devices."
+      },
+      {
+        "id": "user-experience",
+        "metaTitle": "User Experience – 7th Sense",
+        "metaDescription": "UI and UX research and prototyping for 7th Sense, exploring how a device can feel like a seamless extension of the body."
+      }
     ]
   },
   {
     "id": "time-unwinding-the-spiral",
+    "metaTitle": "TIME: Unwinding the Spiral",
+    "metaDescription": "A thesis exploring time as a spiral through a treatise, 3D-printed hourglass, interactive installation, book, and GradEx exhibition.",
     "collections": [
-      "exhibition",
-      "live-visualization",
-      "spiral-hourglass",
-      "spiral-treatise",
-      "visual-research"
+      {
+        "id": "exhibition",
+        "metaTitle": "Exhibition – TIME: Unwinding the Spiral",
+        "metaDescription": "Exhibition design for TIME: Unwinding the Spiral, shown at OCAD University's GradEx 111."
+      },
+      {
+        "id": "live-visualization",
+        "metaTitle": "Live Visualization – TIME: Unwinding the Spiral",
+        "metaDescription": "An interactive installation built with Max 9 and Arduino where a viewer's delayed afterimage reflects their influence on time."
+      },
+      {
+        "id": "spiral-hourglass",
+        "metaTitle": "Spiral Hourglass – TIME: Unwinding the Spiral",
+        "metaDescription": "A parametric hourglass modelled in Rhino and Grasshopper and SLA 3D printed in clear resin, proposing a spiral structure of time."
+      },
+      {
+        "id": "spiral-treatise",
+        "metaTitle": "Spiral Treatise – TIME: Unwinding the Spiral",
+        "metaDescription": "A treatise arguing that time moves in a spiral, revisiting past patterns while moving forward so nothing repeats exactly."
+      },
+      {
+        "id": "visual-research",
+        "metaTitle": "Visual Research – TIME: Unwinding the Spiral",
+        "metaDescription": "A spiral-bound book of 2D visualizations diagramming possible structures of time, as defined by the spiral treatise."
+      }
     ]
   },
   {
     "id": "visualizing-science",
+    "metaTitle": "Visualizing Science",
+    "metaDescription": "Four science communication projects: a gesture controller, a solar system website, a Sun lifecycle poster, and AR micropublications.",
     "collections": [
-      "controller-prototype",
-      "game-map",
-      "micropublications",
-      "planetary-archive"
+      {
+        "id": "controller-prototype",
+        "metaTitle": "Controller Prototype – Visualizing Science",
+        "metaDescription": "A tangible controller prototype that lets presenters interact gesturally with projected slides, 3D models, and media."
+      },
+      {
+        "id": "game-map",
+        "metaTitle": "Game Map – Visualizing Science",
+        "metaDescription": "A 24 × 36 inch poster mapping the Sun's lifecycle from formation to black dwarf, made with 8-bit game-asset tools."
+      },
+      {
+        "id": "micropublications",
+        "metaTitle": "Micropublications – Visualizing Science",
+        "metaDescription": "Research micropublications on how augmented reality can make science communication more effective."
+      },
+      {
+        "id": "planetary-archive",
+        "metaTitle": "Planetary Archive – Visualizing Science",
+        "metaDescription": "An interactive solar system website that puts the user at the centre of a planetarium and compares orbital speeds."
+      }
     ]
   }
 ]

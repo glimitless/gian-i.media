@@ -14,7 +14,7 @@ export function generateStaticParams() {
   return archiveWorkIDsJson.flatMap((work) => 
     work.collections.map((collection) => ({
       workId: work.id,
-      collectionId: collection
+      collectionId: collection.id
     }))
   );
 }
