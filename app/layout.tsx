@@ -3,7 +3,10 @@ import './globals.css';
 import ThemeProvider from '@/lib/theme/theme-provider';
 
 export const metadata: Metadata = {
-  title: 'Gian-I Media',
+  title: {
+    default: 'Gian-I Media',
+    template: '%s | Gian-I Media'
+  },
   description: 'Gian-I Media is a multidisciplinary creative studio specializing in graphic design, branding, digital experiences, and interactive media.',
 };
 
