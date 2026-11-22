@@ -13,12 +13,15 @@ export const metadata: Metadata = {
 // Sets the color scheme prior to painting HTML
 const themeScript = `(
   function(){
-      var theme = localStorage.getItem('theme') || 'system';
-      if (theme === 'system') Theme.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-      var documentRef = document.documentElement;
-      documentRef.classList.remove('light', 'dark');
-      documentRef.classList.add(theme);
-      documentRef.colorScheme = theme;
+    try {
+      var theme = localStorage.getItem('theme');
+      if (theme !== 'light' && theme !== 'dark') {
+        theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+      var root = document.documentElement;
+      root.classList.remove('light', 'dark');
+      root.classList.add(theme);
+      root.style.colorScheme = theme;
     } catch(error) {}
   }
 )()`

@@ -6,7 +6,7 @@ import Header from '@/components/header/header';
 import MainScroll from '@/components/main-scroll/main-scroll';
 import type { ReactNode } from 'react';
 
-export default function ArchiveNavLayout({ children }: { children: ReactNode }) {
+export default function ArchiveLayout({ children }: { children: ReactNode }) {
   return (
     <NavigatorProvider>
       <FilterProvider>
