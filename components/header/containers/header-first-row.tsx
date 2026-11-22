@@ -1,4 +1,4 @@
-import ColorModeSwitch from '../buttons/color-mode-switch';
+import ColorThemeSwitch from '../buttons/color-theme-switch';
 import MobileHomeLinkContainer from '../containers/mobile-home-link-container';
 import TitleSearchContainer from '../containers/title-search-container';
 import ActiveTags from './active-tags';
@@ -19,7 +19,7 @@ export default function HeaderFirstRow(){
       <div
         className="p-2"
       >
-        <ColorModeSwitch />
+        <ColorThemeSwitch />
       </div>
       
     </div>

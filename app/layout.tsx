@@ -36,7 +36,7 @@ export default function RootLayout({ children}: LayoutProps<'/'>) {
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>
-      <body className="min-h-full bg-lmBg dark:bg-dmBg bg-color-transition">
+      <body className="min-h-full bg-lmBg dark:bg-dmBg bg-color-transition-2">
         <ThemeProvider>
           {children}
         </ThemeProvider>
