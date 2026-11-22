@@ -22,7 +22,7 @@ const VISIBLE_ROWS: Record<HeaderExpand, number> = {
   'level-3': 3
 };
 
-export default function Header(){
+export default function ArchiveHeader(){
   const { headerExpand } = useHeaderContext();
   const headerHeight = HEADER_HEIGHT[headerExpand];
   const visibleRows = VISIBLE_ROWS[headerExpand];
