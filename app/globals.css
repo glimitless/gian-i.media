@@ -412,6 +412,14 @@
     }
   }
 
+  /* Landing page: one section per screen, clear of the fixed header */
+  .landing-section{
+    @apply min-h-dvh flex flex-col justify-center py-26;
+  }
+  .landing-section-wrap{
+    @apply w-full max-w-[144em] mx-auto px-5 @min-[64em]/main:px-10;
+  }
+
   /* Fallbacks */
   .loader {
     @apply w-12 p-[0.8rem] aspect-square rounded-full bg-lmSecondary dark:bg-dmSecondary animate-spin;
@@ -496,6 +504,12 @@
 @utility bg-color-transition-2{
   transition:
     background-color var(--duration-bc2) var(--ease-bc2),
+    color var(--duration-c) var(--ease-c);
+}
+@utility reveal-transition{
+  transition:
+    opacity var(--duration-dim4) var(--ease-dim4),
+    translate var(--duration-dim4) var(--ease-dim4),
     color var(--duration-c) var(--ease-c);
 }
 @utility bcvg-transition{

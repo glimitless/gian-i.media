@@ -38,3 +38,4 @@ Tokens, component classes, and transition utilities all live in `app/globals.css
 - SVGs import as React components (svgr) and inherit `currentColor`, so color them with text tokens. Mark decorative ones `aria-hidden`.
 - A new archive thumbnail must be registered in `lib/archive/thumbnails.ts`, or `hydrateArchiveID` throws.
 - Non-submit buttons get `type="button"`. Icon-only controls get `aria-label`. Disclosures get `aria-expanded`.
+

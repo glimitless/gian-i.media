@@ -7,7 +7,7 @@ export default function LandingHeader(){
 
   return (
     <header
-      className="h-26 py-5 px-5 absolute w-full overflow-hidden z-4"
+      className="h-26 py-5 px-5 fixed top-0 w-full overflow-hidden z-4"
     >
       <div
         className="w-full h-full flex flex-row justify-between"
