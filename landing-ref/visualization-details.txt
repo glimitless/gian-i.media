@@ -1,0 +1,46 @@
+The idea
+Kenya Hara's point in White is that emptiness isn't nothing. It's a vessel, space that's ready to be filled. In a Shinto shrine the centre is left empty so something can arrive there. The landing page follows the same idea: the pixel cloud is the "vast, singular cloud of creativity," and the clearing in the middle is the shrine. Your sentence sits in that clearing, and the visitor is what arrives.
+
+So the centre shouldn't look like a hole punched in a pattern. It should look like a space the cloud is respecting, one that reacts when someone steps into it.
+
+Composition
+Grid: square cells about 10px wide, which is 1rem in your scale, so roughly 190×100 cells on a laptop. Each cell is either filled or empty, with no outlines. That keeps it flat and square like the rest of the site.
+Cloud: each cell gets a density value from slow, layered Perlin noise (2–3 layers). That gives soft, weather-like masses, not random static.
+Clearing: that density is multiplied by a mask in the shape of an ellipse, sized from the sentence's real on-screen box. The mask is 0 inside the text, rises smoothly to 1 at about 1.6× the text size, and stays at 1 out to the edges. The clearing hugs the copy at any width and line wrap.
+Dithering instead of blur: density becomes pixels through a 4×4 Bayer dither (an ordered pattern), not a random threshold. The edge of the clearing then fades through a deliberate checkerboard texture, like a risograph or early-Mac print, not fuzz. This choice does more than any other to make it look designed, not generated.
+Tones: you see three of your tokens: Bg in the gaps, Surface for thin cloud, Medium for dense cloud. You could add a rare Secondary pixel at peak density for depth. In light mode the cloud is darker than the background, in dark mode lighter, so it reads as weather either way.
+Motion: slow, never repeating
+Drift: the noise field moves about one cell every 2–3 seconds and also changes shape over time, so it moves in one direction without ever looping. You notice it only when you look away and back.
+Breathing: the clearing grows and shrinks by about 4% over 8–10 seconds. It's barely noticeable, but the page feels alive even with no input.
+How it receives the visitor
+Opening on load: the cloud starts dense, with no clearing. Over about 1.5 seconds the clearing opens from the centre, like shrine doors, and the sentence fades in once it's mostly open. "The temple opens."
+Carrying a small emptiness: when the cursor is over the cloud, it clears a small dithered pocket around itself (about 6 cells wide). The pocket trails slightly behind the cursor and fills back in after it passes. You can't move through the cloud without opening space.
+Stillness inside: when the cursor enters the central clearing, the drift slows to almost nothing and the breathing settles, the way a room goes quiet when you step inside. It picks up again when you leave.
+Touch: a finger works like the cursor while it's down. When it lifts, the pocket fills back in.
+Theme and accessibility
+Colours are read from the --color-lm*/--color-dm* CSS variables. On a theme switch they fade over your existing --duration-* length, so the canvas changes in step with the page.
+The sentence is a real <h1> above the canvas, and the canvas gets aria-hidden. With prefers-reduced-motion, show one still frame with the clearing already open.
+Pause when the tab is hidden. Use cells of about 14px on small screens, which also means fewer noise calls.
+The core loop
+
+// per frame: one noise lookup per cell (~19k cells), cheap enough at 60fps
+const BAYER = [0,8,2,10,12,4,14,6,3,11,1,9,15,7,13,5].map(v => (v + 0.5) / 16);
+
+for (let y = 0; y < rows; y++) for (let x = 0; x < cols; x++) {
+  const n = p.noise(x * 0.06 + t * drift, y * 0.06, t * 0.02);            // cloud
+  const d = Math.hypot((x - cx) / rx, (y - cy) / ry) / breath;             // ellipse distance
+  const mask = smoothstep(1, 1.6, d) * (1 - pocket(x, y));                 // temple + cursor pocket
+  const v = n * mask;
+  if (v < BAYER[(y & 3) * 4 + (x & 3)]) continue;                          // dithered emptiness
+  p.fill(v > 0.7 ? medium : surface);
+  p.rect(x * cell, y * cell, cell, cell);
+}
+Settings to tune by eye
+Start at
+Cell size	10px (14px on mobile)
+Noise scale	0.06
+Drift speed	about 1 cell per 2.5s
+Clearing edge	1.0 → 1.6× the text box
+Breathing	±4%, 9s period
+Opening on load	1.5s
+Cursor pocket radius	6 cells, fills back in over about 0.8s
