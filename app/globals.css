@@ -419,7 +419,7 @@
 
   /* Landing page: one section per screen, clear of the fixed header */
   .landing-section{
-    @apply min-h-dvh flex flex-col justify-center py-26;
+    @apply min-h-dvh flex flex-col py-26 *:my-auto;
   }
   .landing-section-wrap{
     @apply w-full max-w-[144em] mx-auto px-5 @min-[64em]/main:px-10;
@@ -520,6 +520,13 @@
   transition:
     opacity var(--duration-dim4) var(--ease-dim4),
     translate var(--duration-dim4) var(--ease-dim4),
+    color var(--duration-c) var(--ease-c);
+}
+/* reveal-transition that waits one reveal for the outgoing element to fade; color is not delayed */
+@utility reveal-transition-after{
+  transition:
+    opacity var(--duration-dim4) var(--ease-dim4) var(--duration-dim4),
+    translate var(--duration-dim4) var(--ease-dim4) var(--duration-dim4),
     color var(--duration-c) var(--ease-c);
 }
 @utility bcvg-transition{

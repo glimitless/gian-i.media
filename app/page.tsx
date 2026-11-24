@@ -28,10 +28,9 @@ export default function Home() {
       <div className="@container/viewport min-h-dvh w-full relative">
         <LandingHeader />
         <main className="@container/main scrollbar-none">
-          <PixelTemple>
+          <PixelTemple heldContent={<WhatIDo />}>
             Gian-I Cambridge is a Designer and Aspiring Software Engineer based in Toronto, Canada.
           </PixelTemple>
-          <WhatIDo />
           <FeaturedWorks works={works} />
           <ArchivePromo workCount={count('works')} noteCount={count('notes')} />
         </main>

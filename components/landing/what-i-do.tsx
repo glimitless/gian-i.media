@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Reveal from './reveal';
 import mediaURL from '@/lib/media-url/media-url';
 
 // PLACEHOLDER copy: drafted from data/archive-ids.json and
@@ -22,7 +21,7 @@ const DISCIPLINES = [
 export default function WhatIDo() {
   return (
     <section className="landing-section" aria-labelledby="what-i-do" data-placeholder>
-      <Reveal className="landing-section-wrap grid grid-cols-1 gap-y-16 items-center @min-[110em]/main:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] @min-[110em]/main:gap-x-(--page-layout-column-gap)">
+      <div className="landing-section-wrap grid grid-cols-1 gap-y-16 items-center @min-[110em]/main:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] @min-[110em]/main:gap-x-(--page-layout-column-gap)">
         <Image
           className="w-full h-auto aspect-square object-cover"
           src={mediaURL('/landing-page/gc_profile-pic.webp', 'image')}
@@ -45,7 +44,7 @@ export default function WhatIDo() {
             ))}
           </ul>
         </div>
-      </Reveal>
+      </div>
     </section>
   );
 }

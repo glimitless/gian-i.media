@@ -124,12 +124,24 @@ function makeClouds(cols: number, rows: number, widthPx: number, cx: number, cy:
     .sort((a, b) => a.speed - b.speed); // far clouds first
 }
 
-export default function PixelTemple({ children }: { children: ReactNode }) {
+// heldContent (WhatIDo) reveals in place once the clouds have cleared, and the stage holds it for one more viewport.
+export default function PixelTemple({ children, heldContent }: { children: ReactNode; heldContent: ReactNode }) {
   const sectionRef = useRef<HTMLElement>(null);
   const stageRef = useRef<HTMLDivElement>(null);
   const canvasHostRef = useRef<HTMLDivElement>(null);
   const titleRef = useRef<HTMLHeadingElement>(null);
   const [isOpen, setIsOpen] = useState(false);
+  const [isCleared, setIsCleared] = useState(false);
+
+  useEffect(() => {
+    const section = sectionRef.current;
+    if (!section || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    // The same point scrollProgress() reaches 1 and the clouds are gone.
+    const onScroll = () => setIsCleared(-section.getBoundingClientRect().top >= window.innerHeight);
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
 
   useEffect(() => {
     const section = sectionRef.current;
@@ -299,9 +311,8 @@ export default function PixelTemple({ children }: { children: ReactNode }) {
             Math.max(...[[0, 0], [cols, 0], [0, rows], [cols, rows]].map(([x, y]) => clearingDistance(x - cx, y - cy, rx, ry)));
 
           const scrollProgress = () => {
-            const rect = section.getBoundingClientRect();
-            const range = rect.height - window.innerHeight;
-            return range > 0 ? Math.min(1, Math.max(0, -rect.top / range)) : 0;
+            // The first viewport of scroll clears the clouds; the rest of the section is the hold.
+            return Math.min(1, Math.max(0, -section.getBoundingClientRect().top / window.innerHeight));
           };
 
           p.setup = () => {
@@ -488,19 +499,29 @@ export default function PixelTemple({ children }: { children: ReactNode }) {
   }, []);
 
   return (
-    // Two screens tall: the second scrolls the clearing open until the clouds are gone.
-    <section ref={sectionRef} className="relative h-[200dvh] motion-reduce:h-dvh">
-      <div ref={stageRef} className="sticky top-0 h-dvh w-full overflow-hidden">
-        <div ref={canvasHostRef} className="absolute inset-0 [image-rendering:pixelated]" aria-hidden="true" />
-        <div className="absolute inset-0 flex items-center justify-center px-5">
-          <h1
-            ref={titleRef}
-            className={`max-w-176 @min-[50em]/viewport:max-w-4xl text-center reveal-transition ${isOpen ? 'opacity-100' : 'motion-safe:opacity-0'}`}
-          >
-            {children}
-          </h1>
+    // Pinned for two viewports: the first scrolls the clearing open, the second holds heldContent.
+    // Stage and heldContent share one grid cell, so heldContent sets the pinned height when it's taller than the viewport.
+    <section ref={sectionRef} className="relative">
+      <div className="motion-safe:sticky top-0 grid">
+        <div ref={stageRef} className="relative h-dvh w-full overflow-hidden motion-safe:row-1 motion-safe:col-1">
+          <div ref={canvasHostRef} className="absolute inset-0 [image-rendering:pixelated]" aria-hidden="true" />
+          {/* Load fade here, isCleared fade on the h1, so only the scroll-back fade-in waits for heldContent to leave. */}
+          <div className={`absolute inset-0 flex items-center justify-center px-5 reveal-transition ${isOpen ? '' : 'motion-safe:opacity-0'}`}>
+            <h1
+              ref={titleRef}
+              className={`max-w-176 @min-[50em]/viewport:max-w-4xl text-center ${isCleared ? 'reveal-transition motion-safe:opacity-0' : 'reveal-transition-after'}`}
+            >
+              {children}
+            </h1>
+          </div>
+        </div>
+        <div
+          className={`motion-safe:row-1 motion-safe:col-1 ${isCleared ? 'reveal-transition-after' : 'reveal-transition motion-safe:opacity-0 motion-safe:translate-y-8 motion-safe:pointer-events-none'}`}
+        >
+          {heldContent}
         </div>
       </div>
+      <div className="h-[200dvh] motion-reduce:hidden" aria-hidden="true" />
     </section>
   );
 }
