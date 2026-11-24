@@ -493,7 +493,7 @@ export default function PixelTemple({ children }: { children: ReactNode }) {
         <div className="absolute inset-0 flex items-center justify-center px-5">
           <h1
             ref={titleRef}
-            className={`max-w-[44rem] @min-[50em]/viewport:max-w-[56rem] text-center reveal-transition ${isOpen ? 'opacity-100' : 'motion-safe:opacity-0'}`}
+            className={`max-w-176 @min-[50em]/viewport:max-w-4xl text-center reveal-transition ${isOpen ? 'opacity-100' : 'motion-safe:opacity-0'}`}
           >
             {children}
           </h1>

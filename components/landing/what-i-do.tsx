@@ -34,7 +34,7 @@ export default function WhatIDo() {
           <h2 id="what-i-do" className="mb-8 text-[7.5rem] leading-none text-lmPrimary dark:text-dmPrimary">
             What I do
           </h2>
-          <p className="text-[2.4rem] leading-[3.4rem] @min-[110em]/main:text-[2.8rem] @min-[110em]/main:leading-[4rem]">
+          <p className="text-[2.4rem] leading-[3.4rem] @min-[110em]/main:text-[2.8rem] @min-[110em]/main:leading-16">
             I’m a graphic designer moving into product design, trained at OCAD University and drawn to work at the
             frontier of science and technology. I design the brand and the interface, and more and more I build
             the code behind them.
