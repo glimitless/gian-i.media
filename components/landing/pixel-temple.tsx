@@ -13,8 +13,8 @@ const BREATH_AMOUNT = 0.04;
 const BREATH_PERIOD = 9;
 const OPEN_SECONDS = 1.5;
 const CLEARING_MARGIN = 1.25; // clouds start 25% beyond the h1 box
-const POCKET_RADIUS_PX = 60;
-const POCKET_REFILL_SECONDS = 0.8;
+const POCKET_RADIUS_PX = 40;
+const POCKET_REFILL_SECONDS = 0.5;
 const MORPH = 0.04;
 // Ordered dither: the clearing's edge thins out over a band (EDGE - 1) * s * ry cells wide on every side,
 // so the sides of a wide title fade as quickly as its top and bottom.

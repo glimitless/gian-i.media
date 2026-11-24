@@ -158,6 +158,11 @@
     transition:
       --selection-bg var(--duration-bc) var(--ease-bc),
       --selection-text var(--duration-c) var(--ease-c);
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-lmPrimary) transparent;
+  }
+  html::-webkit-scrollbar {
+    width: 0.6rem;
   }
   html.dark {
     --selection-bg: #802D54;
@@ -500,6 +505,11 @@
 }
 @utility bg-transition-2{
   transition: background-color var(--duration-bc2) var(--ease-bc2);
+}
+@utility image-theme-transition{
+  transition:
+    display var(--duration-bc2) var(--ease-bc2) allow-discrete,
+    opacity var(--duration-bc2) var(--ease-bc2);
 }
 @utility bg-color-transition-2{
   transition:
