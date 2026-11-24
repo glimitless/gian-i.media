@@ -31,7 +31,7 @@ export default function WhatIDo() {
           sizes="(min-width: 1115px) 40vw, 100vw"
         />
         <div>
-          <h2 id="what-i-do" className="mb-8 text-[5.6rem] leading-[1] text-lmPrimary dark:text-dmPrimary @min-[110em]/main:text-[8rem]">
+          <h2 id="what-i-do" className="mb-8 text-[7.5rem] leading-none text-lmPrimary dark:text-dmPrimary">
             What I do
           </h2>
           <p className="text-[2.4rem] leading-[3.4rem] @min-[110em]/main:text-[2.8rem] @min-[110em]/main:leading-[4rem]">
