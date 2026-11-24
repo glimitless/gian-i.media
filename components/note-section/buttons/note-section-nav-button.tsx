@@ -21,13 +21,13 @@ export default function NoteSectionNavButton(
       {variantProps.type === 'next' ?
         <Link
           className="btn-template h-fit w-fit py-3 px-4"
-          href={`/notes/${variantProps.noteId}/${variantProps.sectionId}`}
+          href={`/archive/notes/${variantProps.noteId}/${variantProps.sectionId}`}
         >
           {"Next →\uFE0E"}
         </Link> :
         <Link
           className="btn-template h-fit w-fit py-3 px-4"
-          href={`/notes/${variantProps.noteId}/${variantProps.sectionId}`}
+          href={`/archive/notes/${variantProps.noteId}/${variantProps.sectionId}`}
         >
           {"←\uFE0E Prev"}
         </Link>

@@ -1,9 +1,9 @@
-import MobileHomeLink from '../buttons/mobile-home-link';
 import { usePathname } from 'next/navigation';
 import ExpandMobileFilter from '../buttons/expand-mobile-filter';
 import { useFilterContext } from '@/lib/filter/filter-provider';
 import ResetFilter from '../buttons/reset-filter';
 import { useMediaQueryContext } from '@/lib/navigator/navigator-provider';
+import HomeLink from '../buttons/home-link';
 
 export default function MobileHomeLinkContainer(){
   const pathname = usePathname();
@@ -13,7 +13,7 @@ export default function MobileHomeLinkContainer(){
 
   return (
     <div className="@min-[93.8em]/viewport:hidden flex flex-row gap-4 @min-[72.5em]/viewport:gap-0 min-w-0">
-      <MobileHomeLink isHome={isHome} />
+      <HomeLink isHome={isHome} />
       {isHome && 
         <>
           <ExpandMobileFilter />

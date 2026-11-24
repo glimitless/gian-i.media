@@ -18,7 +18,7 @@ export default function LargeNavThumbnail(
     <Link
       aria-label={title}
       aria-current={active ? "page" : undefined}
-      href={`/works/${workId}/${collectionId}`}
+      href={`/archive/works/${workId}/${collectionId}`}
       className={`group shrink-0 flex w-32 h-32 items-center justify-center p-0 relative bg-lmSurface dark:bg-dmSurface bcvg-transition ${active && 'cursor-default'}`}
     >
       <Image 

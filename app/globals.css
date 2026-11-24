@@ -158,6 +158,11 @@
     transition:
       --selection-bg var(--duration-bc) var(--ease-bc),
       --selection-text var(--duration-c) var(--ease-c);
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-lmPrimary) transparent;
+  }
+  html::-webkit-scrollbar {
+    width: 0.6rem;
   }
   html.dark {
     --selection-bg: #802D54;
@@ -196,6 +201,9 @@
   }
   .mobile-filter-options{
     @apply w-full flex flex-row flex-wrap gap-4;
+  }
+  .footer-container{
+    @apply flex flex-row bg-lmBg dark:bg-dmBg bg-transition-2 justify-between;
   }
 
   /* Button templates */
@@ -353,12 +361,23 @@
     padding-bottom: calc(1.25rem + var(--footer-reveal-space, 0px));
     scroll-timeline: --content-footer y;
   }
+
+  /* Landing page layout */
+  .featured-works-grid {
+    @apply grid grid-cols-1 gap-y-22;
+  }
+
   @container main (min-width: 64em){
     .three-column-page-container, .two-column-page-container{
       @apply w-(--page-layout-content-column-width);
     }
     .three-column-page-grid, .three-column-page-content-column, .two-column-page-content-column, .two-column-page-grid{
       @apply w-(--page-layout-content-column-width) grid-cols-(--page-layout-content-column-width);
+    }
+  }
+  @container main (min-width: 79.5em){
+    .featured-works-grid{
+      @apply grid-cols-2 gap-x-14;
     }
   }
   @container main (min-width: 70em){
@@ -388,6 +407,11 @@
       @apply w-(--page-layout-content-column-width) grid-cols-(--page-layout-content-column-width);
     }
   }
+  @container main (min-width: 126em){
+    .featured-works-grid{
+      @apply grid-cols-3; 
+    }
+  }
   @container main (min-width: 144em){
     .three-column-page-container{
       width: calc(var(--page-layout-overview-column-width) + var(--page-layout-column-gap) + var(--page-layout-content-column-width) + var(--page-layout-column-gap) + var(--page-layout-navigation-column-width));
@@ -410,6 +434,14 @@
     .three-column-page-overview-container{
       @apply self-stretch min-h-0 overflow-scroll overscroll-y-contain scrollbar-none-webkit pb-5 mb-(--footer-revealed,0rem);
     }
+  }
+
+  /* Landing page: one section per screen, clear of the fixed header */
+  .landing-section{
+    @apply min-h-dvh flex flex-col py-26 *:my-auto;
+  }
+  .landing-section-wrap{
+    @apply w-full max-w-[144em] mx-auto px-5 @min-[64em]/main:px-10;
   }
 
   /* Fallbacks */
@@ -493,9 +525,27 @@
 @utility bg-transition-2{
   transition: background-color var(--duration-bc2) var(--ease-bc2);
 }
+@utility image-theme-transition{
+  transition:
+    display var(--duration-bc2) var(--ease-bc2) allow-discrete,
+    opacity var(--duration-bc2) var(--ease-bc2);
+}
 @utility bg-color-transition-2{
   transition:
     background-color var(--duration-bc2) var(--ease-bc2),
+    color var(--duration-c) var(--ease-c);
+}
+@utility reveal-transition{
+  transition:
+    opacity var(--duration-dim4) var(--ease-dim4),
+    translate var(--duration-dim4) var(--ease-dim4),
+    color var(--duration-c) var(--ease-c);
+}
+/* reveal-transition that waits one reveal for the outgoing element to fade; color is not delayed */
+@utility reveal-transition-after{
+  transition:
+    opacity var(--duration-dim4) var(--ease-dim4) var(--duration-dim4),
+    translate var(--duration-dim4) var(--ease-dim4) var(--duration-dim4),
     color var(--duration-c) var(--ease-c);
 }
 @utility bcvg-transition{
@@ -543,6 +593,12 @@
   transition:
     background-color var(--duration-bcvg) var(--ease-bcvg),
     width var(--duration-dim2) var(--ease-dim2);
+}
+@utility cursor-sidebar-expand{
+  cursor: url('/svg/cursors/sidebar-expand.svg') 14 14, e-resize;
+}
+@utility cursor-sidebar-collapse{
+  cursor: url('/svg/cursors/sidebar-collapse.svg') 14 14, w-resize;
 }
 @utility footer-expand-transition{
   transition:

@@ -1,26 +1,31 @@
 import WorkOverviewContainer from '@/components/work/work-overview-container';
 import { notFound } from 'next/navigation';
 import { findArchiveIDRecord } from '@/lib/archive/archive-ids';
-import { findArchiveWorkRecord } from '@/lib/archive/archive-works';
+import { findArchiveWorkRecord, findArchiveWorkMetadata } from '@/lib/archive/archive-works';
 import WorkExpandedDescription from '@/components/work/work-expanded-description';
 import WorkCollectionsGrid from '@/components/work/work-collections-grid';
 import ThumbnailNav from '@/components/thumbnail-nav/thumbnail-nav';
 import HeaderMargin from '@/lib/navigator/header-margin';
 import archiveWorkIDsJson from '@/data/works/archive-work-ids.json';
+import type { Metadata } from 'next';
 
 export const dynamicParams = false;
-
 export function generateStaticParams(){
   return archiveWorkIDsJson.map((work) => ({
     workId: work.id
-  }))
+  }));
 }
+
+export async function generateMetadata({ params }: WorkPageProps): Promise<Metadata> {
+  const { workId } = await params;
+  return findArchiveWorkMetadata(workId)
+} 
 
 type WorkPageProps = {
   params: Promise< {workId:string }>
 }
 
-export default async function WorkPage({ params }:WorkPageProps){
+export default async function WorkPage({ params }: WorkPageProps){
   const type = 'works';
   const { workId } = await params;
   const archiveIDRecord = findArchiveIDRecord(workId, type);

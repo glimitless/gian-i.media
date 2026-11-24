@@ -1,42 +1,46 @@
 import type { Metadata } from 'next';
-import type { ReactNode } from 'react';
 import './globals.css';
 import ThemeProvider from '@/lib/theme/theme-provider';
-import FilterProvider from '@/lib/filter/filter-provider';
-import NavigatorProvider from '@/lib/navigator/navigator-provider';
-import Sidebar from '@/components/sidebar/sidebar';
-import Header from '@/components/header/header';
-import MainScroll from '@/components/main-scroll/main-scroll';
-import MobileFilterMenu from '@/components/mobile-filter-menu/mobile-filter-menu';
 
 export const metadata: Metadata = {
-  title: 'Gian-I Media',
+  title: {
+    default: 'Gian-I Media',
+    template: '%s | Gian-I Media'
+  },
   description: 'Gian-I Media is a multidisciplinary creative studio specializing in graphic design, branding, digital experiences, and interactive media.',
 };
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+// Sets the color scheme prior to painting HTML
+const themeScript = `(
+  function(){
+    try {
+      var theme = localStorage.getItem('theme');
+      if (theme !== 'light' && theme !== 'dark') {
+        theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+      var root = document.documentElement;
+      root.classList.remove('light', 'dark');
+      root.classList.add(theme);
+      root.style.colorScheme = theme;
+    } catch(error) {}
+    // The landing page's scroll-driven intro must start at the top; set before the browser restores a reload's scroll.
+    if (location.pathname === '/') history.scrollRestoration = 'manual';
+  }
+)()`
+
+export default function RootLayout({ children}: LayoutProps<'/'>) {
   return (
     <html
       lang="en"
       className='h-full antialiased'
       suppressHydrationWarning
     >
-      <body className="min-h-full bg-lmBg dark:bg-dmBg bg-color-transition">
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+      </head>
+      <body className="min-h-full bg-lmBg dark:bg-dmBg bg-color-transition-2">
         <ThemeProvider>
-          <NavigatorProvider>
-            <FilterProvider>
-              <div className="@container/viewport min-h-dvh h-dvh flex flex-row relative">
-                <MobileFilterMenu />
-                <Sidebar />
-                <div className="@container/content relative self-stretch flex min-w-0 flex-1 flex-col">
-                  <Header />
-                  <MainScroll>
-                    {children}
-                  </MainScroll>
-                </div>
-              </div>
-            </FilterProvider>
-          </NavigatorProvider>
+          {children}
         </ThemeProvider>
       </body>
     </html>

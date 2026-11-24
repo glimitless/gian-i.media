@@ -1,20 +1,24 @@
 import ThumbnailNav from '@/components/thumbnail-nav/thumbnail-nav';
 import { findArchiveIDRecord } from '@/lib/archive/archive-ids';
-import { findArchiveNoteRecord } from '@/lib/archive/archive-notes';
+import { findArchiveNoteRecord, findArchiveNoteMetadata } from '@/lib/archive/archive-notes';
 import type { GroupIdArgs } from '@/types/archive';
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import NotePageBody from '@/components/note/note-page-body';
 import HeaderMargin from '@/lib/navigator/header-margin';
 import archiveNoteIDsJson from '@/data/notes/archive-note-ids.json';
 
 export const dynamicParams = false;
-
 export function generateStaticParams() {
-  return archiveNoteIDsJson
-    .map((note) => ({
+  return archiveNoteIDsJson.map((note) => ({
       noteId: note.id
-    }))
+  }));
 }
+
+export async function generateMetadata({ params }: NotePageProps): Promise<Metadata> {
+  const { noteId } = await params;
+  return findArchiveNoteMetadata(noteId);
+} 
 
 type NotePageProps = {
   params: Promise<{noteId: GroupIdArgs}>

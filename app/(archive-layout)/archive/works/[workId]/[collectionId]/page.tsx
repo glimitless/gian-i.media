@@ -1,22 +1,27 @@
 import ThumbnailNav from '@/components/thumbnail-nav/thumbnail-nav';
 import { findArchiveIDRecord } from '@/lib/archive/archive-ids';
 import type { GroupIdArgs, IndividualIdArgs } from '@/types/archive';
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { findArchiveWorkRecord, findArchiveWorkCollectionContent } from '@/lib/archive/archive-works';
+import { findArchiveWorkRecord, findArchiveWorkCollectionContent, findArchiveWorkMetadata } from '@/lib/archive/archive-works';
 import WorkCollectionOverviewContainer from '@/components/work-collection/work-collection-overview-container';
 import renderContentBody from '@/lib/content-array/render-content-body';
 import HeaderMargin from '@/lib/navigator/header-margin';
 import archiveWorkIDsJson from '@/data/works/archive-work-ids.json';
 
 export const dynamicParams = false;
-
 export function generateStaticParams() {
   return archiveWorkIDsJson.flatMap((work) => 
     work.collections.map((collection) => ({
       workId: work.id,
-      collectionId: collection
+      collectionId: collection.id
     }))
   );
+}
+
+export async function generateMetadata({ params }: WorkCollectionPageProps): Promise<Metadata> {
+  const { workId, collectionId } = await params;
+  return findArchiveWorkMetadata(workId, collectionId);
 }
 
 type WorkCollectionPageProps = {

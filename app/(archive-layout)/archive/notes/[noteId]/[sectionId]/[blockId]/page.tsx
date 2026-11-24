@@ -1,7 +1,8 @@
 import ThumbnailNav from '@/components/thumbnail-nav/thumbnail-nav';
 import { findArchiveIDRecord } from '@/lib/archive/archive-ids';
-import { findArchiveNoteSectionContent, findArchiveNoteRecord, getNoteSectionNeighbors } from '@/lib/archive/archive-notes';
-import type { GroupIdArgs, IndividualIdArgs } from '@/types/archive';
+import { findArchiveNoteSectionContent, findArchiveNoteRecord, getNoteSectionNeighbors, findArchiveNoteMetadata } from '@/lib/archive/archive-notes';
+import type { GroupIdArgs, IndividualBlockIdArgs, IndividualIdArgs } from '@/types/archive';
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import NoteSectionPageBody from '@/components/note-section/note-section-page-body';
 import HeaderMargin from '@/lib/navigator/header-margin';
@@ -9,22 +10,30 @@ import archiveNoteIDsJson from '@/data/notes/archive-note-ids.json';
 
 export const dynamicParams = false;
 
-export function generateStaticParams() {
+export function generateStaticParams(){
   return archiveNoteIDsJson.flatMap((note) => 
-    note.sections.map((section) => ({
-      noteId: note.id,
-      sectionId: section.id
-    }))
+    note.sections.flatMap((section) =>
+      section.blocks.map((block) => ({
+        noteId: note.id,
+        sectionId: section.id,
+        blockId: block.id
+      }))
+    )
   );
 }
 
-type NoteSectionPageProps =  {
-  params: Promise<{noteId:GroupIdArgs, sectionId:IndividualIdArgs}>
+export async function generateMetadata({ params }: NoteSectionBlockPageProps): Promise<Metadata> {
+  const { noteId, sectionId, blockId } = await params;
+  return findArchiveNoteMetadata(noteId, sectionId, blockId);
 }
 
-export default async function NoteSectionPage({ params }:NoteSectionPageProps){
+type NoteSectionBlockPageProps =  {
+  params: Promise<{noteId:GroupIdArgs, sectionId:IndividualIdArgs, blockId:IndividualBlockIdArgs}>
+}
+
+export default async function NoteSectionBlockPage({ params }:NoteSectionBlockPageProps){
   const type = 'notes';
-  const { noteId, sectionId } = await params;
+  const { noteId, sectionId, blockId } = await params;
 
   const archiveIDRecord = findArchiveIDRecord(noteId, type);
   const archiveNoteRecord = findArchiveNoteRecord(noteId);
@@ -42,6 +51,7 @@ export default async function NoteSectionPage({ params }:NoteSectionPageProps){
         <div className="two-column-page-content-column">
           <HeaderMargin />
           <NoteSectionPageBody 
+            blockId={blockId}
             noteTitle={archiveIDRecord.title}
             sectionTitle={neighbors.current.content.title}
             blocks={archiveNoteSectionContent.blocks}

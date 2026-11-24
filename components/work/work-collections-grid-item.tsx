@@ -18,7 +18,7 @@ export default function WorkCollectionsGridItem(
     <div className="block w-full">
       <Link
         aria-label={title}
-        href={`/works/${workId}/${collectionId}`}
+        href={`/archive/works/${workId}/${collectionId}`}
         className="block aspect-square w-full h-auto p-0 bg-lmSurface dark:bg-dmSurface img-thumbnail-transition img-thumbnail-hover"
       >
         <Image 

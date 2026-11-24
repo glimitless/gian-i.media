@@ -12,6 +12,7 @@
 
 # testing
 /coverage
+/.playwright-mcp
 
 # vscode
 /.vscode
@@ -42,3 +43,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#graphify
+/graphify-out

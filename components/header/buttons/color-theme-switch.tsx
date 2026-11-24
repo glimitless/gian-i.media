@@ -2,7 +2,7 @@ import { useTheme } from 'next-themes';
 import { useEffect, useState } from 'react';
 import ColorModeSwitchIcon from '@/public/svg/icons/header/color-mode-switch-icon.svg';
 
-export default function ColorModeSwitch(){
+export default function ColorThemeSwitch(){
   const { setTheme, resolvedTheme } = useTheme();
   const [ mounted, setMounted ] = useState(false);
 

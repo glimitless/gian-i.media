@@ -1,60 +1,138 @@
 [
   {
     "id": "birth",
+    "metaTitle": "Birth",
+    "metaDescription": "Documentation of how the Gian-I Media portfolio was designed and built, from its first concept through versions 0.5 to 1.0.",
     "sections": [
       {
         "id": "introduction",
+        "metaTitle": "Introduction – Birth",
+        "metaDescription": "An introduction to Gian-I Media, a growing archive of client work, personal projects, and reflections, and its temple-themed branding.",
         "blocks": [
-          "lets-start-here"
+          {
+            "id": "lets-start-here",
+            "metaTitle": "Let’s Start Here – Introduction – Birth",
+            "metaDescription": "Meet Gian-I, a multidisciplinary graphic designer moving into product design, and explore the temple-themed branding of Gian-I Media."
+          }
         ]
       },
       {
         "id": "version-0p5",
+        "metaTitle": "Version 0.5 – Birth",
+        "metaDescription": "Building the first version of Gian-I Media in React, modelled on Novak’s Hypermedia Navigator, with a layered filtering system.",
         "blocks": [
-          "learning-reactjs",
-          "general-structure",
-          "filtration-system",
-          "next-steps"
+          {
+            "id": "learning-reactjs",
+            "metaTitle": "Learning React.js – Version 0.5 – Birth",
+            "metaDescription": "Learning React after internship feedback, and building the entire Gian-I Media site from one HTML file with React and React Router."
+          },
+          {
+            "id": "general-structure",
+            "metaTitle": "General Structure – Version 0.5 – Birth",
+            "metaDescription": "A portfolio layout modelled on Marcos Novak’s Hypermedia Navigator, framed as a dream space with a persistent filtering navigator."
+          },
+          {
+            "id": "filtration-system",
+            "metaTitle": "Filtration System – Version 0.5 – Birth",
+            "metaDescription": "Four layers of filtering that scale with a growing project archive, with filter settings that persist across navigation."
+          },
+          {
+            "id": "next-steps",
+            "metaTitle": "Next Steps – Version 0.5 – Birth",
+            "metaDescription": "Plans after version 0.5: finish the remaining works, redesign the filters for mobile, and move the site to Next.js."
+          }
         ]
       },
       {
         "id": "version-0p6",
+        "metaTitle": "Version 0.6 – Birth",
+        "metaDescription": "Version 0.6 of Gian-I Media adds three new projects, bringing the archive to six works out of a planned ten.",
         "blocks": [
-          "putting-my-best-foot-forward"
+          {
+            "id": "putting-my-best-foot-forward",
+            "metaTitle": "Putting My Best Foot Forward – Version 0.6 – Birth",
+            "metaDescription": "Three new projects bring the Gian-I Media archive to six works, and the plan for version 1.0 grows to ten."
+          }
         ]
       },
       {
         "id": "version-0p7",
+        "metaTitle": "Version 0.7 – Birth",
+        "metaDescription": "Version 0.7 of Gian-I Media publishes all ten planned projects and optimizes the archive’s images.",
         "blocks": [
-          "recursive-self-improvement"
+          {
+            "id": "recursive-self-improvement",
+            "metaTitle": "Recursive Self-Improvement – Version 0.7 – Birth",
+            "metaDescription": "All ten projects for version 1.0 go live, and the archive’s images are converted to WebP, compressed, and downscaled."
+          }
         ]
       },
       {
         "id": "version-0p8",
+        "metaTitle": "Version 0.8 – Birth",
+        "metaDescription": "Version 0.8 rebuilds Gian-I Media on Next.js, TypeScript, and Tailwind CSS, with layout and accessibility refinements.",
         "blocks": [
-          "new-foundations",
-          "stylistic-adjustments",
-          "creative-technology",
-          "next-steps"
+          {
+            "id": "new-foundations",
+            "metaTitle": "New Foundations – Version 0.8 – Birth",
+            "metaDescription": "Rebuilding Gian-I Media as a Next.js app on Vercel with TypeScript and Tailwind CSS, and the tutorials used to learn them."
+          },
+          {
+            "id": "stylistic-adjustments",
+            "metaTitle": "Stylistic Adjustments – Version 0.8 – Birth",
+            "metaDescription": "Refined spacing and column proportions on work and note pages, improved accessibility, and smoother theme transitions."
+          },
+          {
+            "id": "creative-technology",
+            "metaTitle": "Creative Technology – Version 0.8 – Birth",
+            "metaDescription": "Early fragments of a personal stance on design and technology, sparked by GradEx manifestos, touching on craft and nature."
+          },
+          {
+            "id": "next-steps",
+            "metaTitle": "Next Steps – Version 0.8 – Birth",
+            "metaDescription": "Plans after version 0.8: settle the mobile filter UX, filter by project tools, add grid options, and refine dark mode."
+          }
         ]
       },
       {
         "id": "version-0p9",
+        "metaTitle": "Version 0.9 – Birth",
+        "metaDescription": "Version 0.9 adds tool filters and refines the colour palettes, alongside a look back at the original Figma designs.",
         "blocks": [
-          "changes",
-          "reflections"
+          {
+            "id": "changes",
+            "metaTitle": "Changes – Version 0.9 – Birth",
+            "metaDescription": "Filtering by project tools, refined light and dark palettes, and clearer active filter controls in the header."
+          },
+          {
+            "id": "reflections",
+            "metaTitle": "Reflections – Version 0.9 – Birth",
+            "metaDescription": "Screenshots from the original Figma file for Gian-I Media, compared with early layout choices in the current build."
+          }
         ]
       },
       {
         "id": "version-0p925",
+        "metaTitle": "Version 0.925 – Birth",
+        "metaDescription": "An experimental version 0.925 of Gian-I Media: a weekend of small improvements instead of the planned mobile filter.",
         "blocks": [
-          "not-the-mobile-filter"
+          {
+            "id": "not-the-mobile-filter",
+            "metaTitle": "Not The Mobile Filter – Version 0.925 – Birth",
+            "metaDescription": "A loosely tested collection of small improvements, built over a weekend instead of the mobile filter that was planned."
+          }
         ]
       },
       {
         "id": "version-1p0",
+        "metaTitle": "Version 1.0 – Birth",
+        "metaDescription": "Version 1.0 of Gian-I Media adds the mobile filter, a scroll-aware header and footer, and plans for a featured landing page.",
         "blocks": [
-          "findings"
+          {
+            "id": "findings",
+            "metaTitle": "Findings – Version 1.0 – Birth",
+            "metaDescription": "A scroll-aware header and footer, the mobile filter, a reset button, and larger type, plus a plan for a featured landing page."
+          }
         ]
       }
     ]

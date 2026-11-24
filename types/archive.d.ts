@@ -22,6 +22,8 @@ export type ArchiveID = Omit<ArchiveIDRecord, 'thumbnail'> & {
   thumbnail: SvgIcon
 };
 
+
+
 export type WorkWorkCollectionLinkThumbnail = string;
 export type WorkCollectionLink = {
   title: string;
@@ -38,9 +40,18 @@ export type ArchiveWorkRecord = {
     collectionLinks: WorkCollectionLink[];
   };
 };
+export type ArchiveWorkID = {
+  id: GroupIdArgs;
+  metaTitle?: string;
+  metaDescription?: string;
+  collections: {
+    id: IndividualIdArgs;
+    metaTitle?: string;
+    metaDescription?: string;
+  }[]
+};
 
 export type ArchiveWorkCollection = {
-  id: IndividualIdArgs;
   content: {
     description: ContentBlockArgs[][];
     items: ContentBlockArgs[][];
@@ -78,6 +89,21 @@ export type ArchiveNoteRecord = {
     description: ContentBlockArgs[][];
     sections: NoteSectionRecord[];
   }
+}
+export type ArchiveNoteID = {
+  id: GroupIdArgs;
+  metaTitle?: string;
+  metaDescription?: string;
+  sections: {
+    id: IndividualIdArgs;
+    metaTitle?: string;
+    metaDescription?: string;
+    blocks: {
+      id: IndividualIdArgs;
+      metaTitle?: string;
+      metaDescription?: string;
+    }[]
+  }[]
 }
 
 export type ArchiveNoteBlock = {

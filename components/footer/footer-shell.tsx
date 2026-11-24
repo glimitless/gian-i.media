@@ -12,11 +12,11 @@ export default function FooterShell(){
   const pathname = usePathname();
   const { mainRef } = useHeaderContext();
   const { rootFontSizePx } = useMediaQueryContext();
-  const isContentPage = pathname !== '/';
+  const isArchiveContentPage = (pathname.startsWith('/archive/works') || pathname.startsWith('/archive/notes') || pathname === '/about') ;
   const footerRef = useRef<HTMLDivElement>(null);
   const [footerHeight, setFooterHeight] = useState(0);
   useColumnFooterReveal(
-    isContentPage,
+    isArchiveContentPage,
     mainRef,
     footerHeight,
     pathname,
@@ -25,7 +25,7 @@ export default function FooterShell(){
   );
 
   useLayoutEffect(() => {
-    if (!isContentPage) return;
+    if (!isArchiveContentPage) return;
 
     const footer = footerRef.current;
     if (!footer) return;
@@ -36,9 +36,9 @@ export default function FooterShell(){
     const observer = new ResizeObserver(measure);
     observer.observe(footer);
     return () => observer.disconnect();
-  }, [isContentPage, pathname]);
+  }, [isArchiveContentPage, pathname]);
 
-  if (!isContentPage) {
+  if (!isArchiveContentPage) {
     return (
       <div className={shellClass}>
         <Footer />
