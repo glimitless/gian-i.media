@@ -27,7 +27,7 @@ export default function Home() {
     <NavigatorProvider>
       <div className="@container/viewport min-h-dvh w-full relative">
         <LandingHeader />
-        <main className="@container/main">
+        <main className="@container/main scrollbar-none">
           <PixelTemple>
             Gian-I Cambridge is a Designer and Aspiring Software Engineer based in Toronto, Canada.
           </PixelTemple>

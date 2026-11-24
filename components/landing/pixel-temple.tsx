@@ -16,6 +16,9 @@ const CLEARING_MARGIN = 1.25; // clouds start 25% beyond the h1 box
 const POCKET_RADIUS_PX = 60;
 const POCKET_REFILL_SECONDS = 0.8;
 const MORPH = 0.04;
+// Ordered dither: the clearing's edge thins out from d = EDGE down to d = 1.
+const BAYER = [0, 8, 2, 10, 12, 4, 14, 6, 3, 11, 1, 9, 15, 7, 13, 5].map((v) => (v + 0.5) / 16);
+const EDGE = 1.6;
 
 type RGB = [number, number, number];
 type Lump = { c: number; r: number; h: number; seed: number };
@@ -26,8 +29,6 @@ type Cloud = {
   speed: number; // px per second
   seed: number;
   lumps: Lump[];
-  tailL: number;
-  tailR: number;
   hasSuccessor: boolean; // each cloud spawns at most one replacement
 };
 
@@ -65,12 +66,14 @@ function makeCloud(yFrac: number, sizeScale: number, x: number): Cloud {
   const lumpCount = 3 + Math.floor(Math.random() * 4);
   const lumps = Array.from({ length: lumpCount }, (_, i) => {
     const along = lumpCount === 1 ? 0 : i / (lumpCount - 1) - 0.5; // -0.5..0.5 across the body
-    const r = w * (0.25 + Math.random() * 0.25);
+    const centre = 1 - Math.abs(along) * 2; // 1 in the middle, 0 at the ends
+    // wider and taller puffs toward the middle give the billowing top in landing-ref/
+    const r = w * (0.22 + 0.22 * centre + Math.random() * 0.15);
     return {
       c: along * w * 1.4 + (Math.random() - 0.5) * w * 0.2,
       r,
-      // taller lumps toward the middle give the stacked, domed top; capped so no lump becomes a pillar
-      h: Math.min(r,height * (0.5 + 0.5 * (1 - Math.abs(along) * 1.4) + Math.random() * 0.2)),
+      // capped a little above a half-circle so no lump becomes a pillar
+      h: Math.min(r * 1.15, height * (0.45 + 0.6 * centre + Math.random() * 0.15)),
       seed: Math.random() * 1000,
     };
   });
@@ -81,26 +84,33 @@ function makeCloud(yFrac: number, sizeScale: number, x: number): Cloud {
     speed: 3 + 6 * depth, // nearer, bigger clouds move faster
     seed: Math.random() * 1000,
     lumps,
-    tailL: Math.random() < 0.5 ? w * (0.3 + Math.random() * 0.5) : 0,
-    tailR: Math.random() < 0.6 ? w * (0.3 + Math.random() * 0.6) : 0,
     hasSuccessor: false,
   };
 }
 
 // Rightmost reach in cells from the cloud's origin, at the widest its morphing allows
-// (lumps shift up to +0.15w, tails stretch up to 1.4×; see shapeOf).
+// (lumps shift up to +0.15w; see shapeOf).
 function maxRightReach(cloud: Cloud) {
-  return Math.max(...cloud.lumps.map((l) => l.c + l.r)) + cloud.w * 0.15 + cloud.tailR * 1.4 + 1;
+  return Math.max(...cloud.lumps.map((l) => l.c + l.r)) + cloud.w * 0.15 + 1;
 }
 
-function makeClouds(cols: number, rows: number, widthPx: number): Cloud[] {
-  const count = Math.min(16, Math.max(7, Math.round((cols * rows) / 3500)));
+// cx, cy, rx, ry: the clearing's centre and resting half-extents, in cells.
+function makeClouds(cols: number, rows: number, widthPx: number, cx: number, cy: number, rx: number, ry: number): Cloud[] {
+  const count = Math.min(16, Math.max(9, Math.round((cols * rows) / 3500)));
   const sizeScale = cloudSizeScale(cols);
   const cellPx = widthPx / cols;
   const lanes = Array.from({ length: count }, (_, i) => i).sort(() => Math.random() - 0.5);
   return lanes
     .map((lane) => {
       const cloud = makeCloud((lane + 0.6 + (Math.random() - 0.5) * 0.6) / count, sizeScale, 0);
+      const base = cloud.yFrac * rows;
+      const top = base - Math.max(...cloud.lumps.map((l) => l.h));
+      if (base >= cy - ry && top <= cy + ry) {
+        // Rows the clearing opens through start with a cloud behind the title, so the
+        // load animation has sky to open.
+        cloud.x = (cx + (Math.random() - 0.5) * 0.5 * rx) * cellPx;
+        return cloud;
+      }
       // Start anywhere from just off-screen left to the right edge, so on narrow screens
       // the first clouds don't all leave together and empty the sky.
       const offLeft = maxRightReach(cloud) * cellPx;
@@ -181,12 +191,15 @@ export default function PixelTemple({ children }: { children: ReactNode }) {
             buffer.height = rows;
             image = new ImageData(cols, rows);
             pixels = new Uint32Array(image.data.buffer);
-            if (clouds.length === 0) clouds = makeClouds(cols, rows, w);
             // offsets ignore the h1's fade, and its offsetParent is the stage-sized overlay
             cx = (title.offsetLeft + title.offsetWidth / 2) / cell;
             cy = (title.offsetTop + title.offsetHeight / 2) / cell;
             rx = title.offsetWidth / 2 / cell + 1;
             ry = title.offsetHeight / 2 / cell + 1;
+            if (clouds.length === 0) {
+              const reach = CLEARING_MARGIN * EDGE; // outer edge of the resting fade
+              clouds = makeClouds(cols, rows, w, cx, cy, rx * reach, ry * reach);
+            }
           };
 
           const paint = (x: number, y: number, tone: number) => {
@@ -203,56 +216,55 @@ export default function PixelTemple({ children }: { children: ReactNode }) {
             }));
             const left = Math.min(...lumps.map((l) => l.c - l.r));
             const right = Math.max(...lumps.map((l) => l.c + l.r));
-            const tailL = cloud.tailL * (0.6 + 0.8 * p.noise(cloud.seed, t * MORPH));
-            const tailR = cloud.tailR * (0.6 + 0.8 * p.noise(cloud.seed + 20, t * MORPH));
             return {
               lumps,
               left,
               right,
               height: Math.max(...lumps.map((l) => l.h)),
-              tailL,
-              tailR,
-              paintLeft: Math.floor(left - tailL),
-              paintRight: Math.ceil(right + tailR),
+              paintLeft: Math.floor(left),
+              paintRight: Math.ceil(right),
             };
           };
 
           // Column-by-column: a domed, stepped top from stacked lumps, a flat bottom that
-          // steps up at the ends, tapered tails, and highlight/shadow bands with stepped edges.
-          // `s` scales the clearing box (half-extents rx*s, ry*s around cx, cy).
-          const rasterize = (cloud: Cloud, s: number) => {
-            const { lumps, left, right, height, tailL, tailR, paintLeft, paintRight } = shapeOf(cloud);
+          // steps up at the ends, and highlight/shadow bands with stepped edges.
+          const rasterize = (cloud: Cloud) => {
+            const { lumps, left, right, height, paintLeft, paintRight } = shapeOf(cloud);
             const ox = Math.round(cloud.x / cell);
             if (ox + paintRight < 0 || ox + paintLeft >= cols) return; // entirely off-screen sideways
-            let base = Math.round(cloud.yFrac * rows);
+            const base = Math.round(cloud.yFrac * rows);
+            if (base < 0 || base - Math.ceil(height) >= rows) return; // entirely off the top or bottom
 
-            // Parting: as a cloud drifts into the clearing's columns, the whole cloud rises
-            // or sinks out of its way, so its shape stays intact.
-            const overlapX = Math.min(ox + right + tailR, cx + rx * s) - Math.max(ox + left - tailL, cx - rx * s);
-            const approach = smoothstep(-cloud.w, 0, overlapX);
-            if (approach > 0) {
-              const gap = 2;
-              const above = base - height / 2 < cy;
-              const need = above
-                ? Math.max(0, base - (cy - ry * s) + gap)
-                : Math.max(0, cy + ry * s - (base - height) + gap);
-              base += Math.round((above ? -need : need) * approach);
-            }
-            if (base < 0 || base - Math.ceil(height) >= rows) return; // pushed entirely off the top or bottom
-
+            // Pass 1: the body's rows per column, or null where the dome is too low or the
+            // lifted bottom meets the top.
+            const body: ({ yTop: number; yBottom: number } | null)[] = [];
+            let first = Infinity, last = -Infinity; // u can be negative, so no -1 sentinel
             for (let u = paintLeft; u <= paintRight; u++) {
               let top = 0;
               for (const l of lumps) {
                 const k = (u - l.c) / l.r;
                 if (k > -1 && k < 1) top = Math.max(top, l.h * Math.sqrt(1 - k * k));
               }
-              const x = ox + u;
               const fromEdge = Math.min(u - left, right - u);
-              if (top >= 2) {
-                const lift = fromEdge < cloud.w * 0.3 ? Math.floor((cloud.w * 0.3 - fromEdge) * 0.5) : 0;
-                const yTop = base - Math.round(top);
-                const yBottom = base - lift;
-                if (yBottom - yTop < 1) continue;
+              const lift = Math.max(0, 2 - Math.floor(fromEdge / 2)); // corners step up 1–2 cells, as in landing-ref/
+              const yTop = base - Math.round(top);
+              const yBottom = base - lift;
+              const visible = top >= 2 && yBottom - yTop >= 1;
+              body.push(visible ? { yTop, yBottom } : null);
+              if (visible) {
+                first = Math.min(first, u);
+                last = u;
+              }
+            }
+            if (last < first) return; // nothing visible
+
+            let edge = body[first - paintLeft]!;
+            for (let u = first; u <= last; u++) {
+              const x = ox + u;
+              const col = body[u - paintLeft];
+              if (col) {
+                edge = col;
+                const { yTop, yBottom } = col;
                 const span = yBottom - yTop + 1;
                 const wobble = p.noise(cloud.seed + u * 0.18, t * MORPH);
                 const highlight = Math.max(1, Math.round(span * 0.18 + wobble * 3));
@@ -261,13 +273,9 @@ export default function PixelTemple({ children }: { children: ReactNode }) {
                   paint(x, y, y < yTop + highlight ? 1 : y > yBottom - shadow ? 3 : 2);
                 }
               } else {
-                // Tail: a thin band off the body's lower side, tapering to one cell.
-                const into = u < left + cloud.w * 0.5 ? (left - u) / Math.max(1, tailL) : (u - right) / Math.max(1, tailR);
-                if (into > 1) continue;
-                const k = Math.max(0, into);
-                const thickness = Math.max(1, Math.round(3 * (1 - k)));
-                const yBottom = base - 1 - Math.round(k * 2);
-                for (let y = yBottom - thickness + 1; y <= yBottom; y++) paint(x, y, y === yBottom - thickness + 1 ? 1 : 2);
+                // A dip between lumps: bridge it with a band level with the previous column's top.
+                const yBottom = Math.min(edge.yBottom, edge.yTop + 2);
+                for (let y = edge.yTop; y <= yBottom; y++) paint(x, y, y === edge.yTop ? 1 : 2);
               }
             }
           };
@@ -347,15 +355,16 @@ export default function PixelTemple({ children }: { children: ReactNode }) {
             const tones = packedPaletteAt(now);
 
             field.fill(0);
-            for (const cloud of clouds) rasterize(cloud, s);
+            for (const cloud of clouds) rasterize(cloud);
 
-            // Hard pixel edges: whatever is still inside the clearing or the cursor's wake is cut.
+            // Render mask: the clearing fades out in dither (s = 0 draws everything), the cursor's wake is cut.
             for (let y = 0; y < rows; y++) {
               for (let x = 0; x < cols; x++) {
                 const i = y * cols + x;
                 const tone = field[i];
+                const d = clearingDistance(x + 0.5 - cx, y + 0.5 - cy, rx, ry) / s;
                 pixels[i] =
-                  tone && pocket[i] < 0.5 && clearingDistance(x + 0.5 - cx, y + 0.5 - cy, rx, ry) >= s ? tones[tone - 1] : 0;
+                  tone && pocket[i] < 0.5 && smoothstep(1, EDGE, d) >= BAYER[(y & 3) * 4 + (x & 3)] ? tones[tone - 1] : 0;
               }
             }
 
