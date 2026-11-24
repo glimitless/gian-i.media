@@ -8,7 +8,7 @@ export function MobileAboutLink(){
   const pathname = usePathname();
 
   return (
-    <div className="@min-[92.8em]/viewport:hidden p-[0.4rem]">
+    <div className={`${pathname === '/' ? '' : '@min-[92.8em]/viewport:hidden'} p-[0.4rem]`}>
       <Link 
         href='/about'
         className={`btn-template ${pathname === '/about' && 'btn-template-active'} w-auto justify-start pl-[1.1rem] pr-[1.2rem] gap-[1.2rem]`}

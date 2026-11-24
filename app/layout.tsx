@@ -23,6 +23,8 @@ const themeScript = `(
       root.classList.add(theme);
       root.style.colorScheme = theme;
     } catch(error) {}
+    // The landing page's scroll-driven intro must start at the top; set before the browser restores a reload's scroll.
+    if (location.pathname === '/') history.scrollRestoration = 'manual';
   }
 )()`
 

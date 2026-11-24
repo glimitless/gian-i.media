@@ -202,6 +202,9 @@
   .mobile-filter-options{
     @apply w-full flex flex-row flex-wrap gap-4;
   }
+  .footer-container{
+    @apply flex flex-row bg-lmBg dark:bg-dmBg bg-transition-2 justify-between;
+  }
 
   /* Button templates */
   .btn-template{

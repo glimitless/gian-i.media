@@ -5,6 +5,7 @@ import WhatIDo from "@/components/landing/what-i-do";
 import FeaturedWorks, { type FeaturedWork } from "@/components/landing/featured-works";
 import ArchivePromo from "@/components/landing/archive-promo";
 import PinnedSwap from "@/components/landing/pinned-swap";
+import LandingScrollRestoration from "@/components/landing/landing-scroll-restoration";
 import NavigatorProvider from "@/lib/navigator/navigator-provider";
 import { archiveIDRecords, findArchiveIDRecord } from "@/lib/archive/archive-ids";
 import { findArchiveWorkRecord } from "@/lib/archive/archive-works";
@@ -26,6 +27,7 @@ export default function Home() {
 
   return (
     <NavigatorProvider>
+      <LandingScrollRestoration />
       <div className="@container/viewport min-h-dvh w-full relative">
         <LandingHeader />
         <main className="@container/main scrollbar-none">

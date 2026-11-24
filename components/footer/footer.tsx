@@ -21,7 +21,7 @@ export default function Footer(){
 
   return (
     <footer
-      className="flex flex-row bg-lmBg dark:bg-dmBg bg-transition-2 justify-between"
+      className="footer-container"
     >
       <div className={`grid @min-[50em]/viewport:hidden footer-expand-transition ${isExpanded ? 'grid-cols-[0fr]' : 'grid-cols-[1fr]'}`}>
         <div className="overflow-hidden min-w-0">

@@ -3,8 +3,8 @@
 import { useEffect, useLayoutEffect, useRef, useState, type ReactNode } from 'react';
 
 // content pins at its bottom edge, then fades out while heldContent fades in over it in the same cell.
-// The stage scrolls like normal content except at the swap: crossing the pin point (either way) pins it until the
-// incoming side's fade ends, then it releases where it sits.
+// The stage scrolls like normal content except at the swap: crossing the pin point (either way) pins it for a short
+// buffer, then it swaps and stays pinned until the incoming side's fade ends, then it releases where it sits.
 export default function PinnedSwap({ content, heldContent }: { content: ReactNode; heldContent: ReactNode }) {
   const sectionRef = useRef<HTMLElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
@@ -38,6 +38,7 @@ export default function PinnedSwap({ content, heldContent }: { content: ReactNod
     let swapped = false;
     let holding = false;
     const room = () => 2 * window.innerHeight; // pinned scroll available during a hold
+    const buffer = () => window.innerHeight / 4; // pinned scroll before an approach (not a reversal) swaps
     // Scroll past the pin point (the sticky top, same formula as the style below).
     const past = () => Math.min(0, window.innerHeight - contentEl.getBoundingClientRect().height) - section.getBoundingClientRect().top;
     const setSpacer = (px: number) => (spacer.style.height = `${px}px`);
@@ -48,12 +49,22 @@ export default function PinnedSwap({ content, heldContent }: { content: ReactNod
     };
 
     const onScroll = () => {
-      const p = past();
-      const h = spacer.offsetHeight;
-      if (!swapped && (holding ? p > h + EPS : p > EPS)) {
+      let p = past();
+      let h = spacer.offsetHeight;
+      if (swapped && !holding && p >= 0 && p < h - EPS && h < 2 * buffer()) {
+        // Up approach with too little pin range above (a release cut it short, or a resize): the swap at h - buffer
+        // must land a buffer above the top so a wheel step can't overshoot into the unpinned path. Grow the range and
+        // scroll by the same amount so nothing moves.
+        const add = 2 * buffer() - h;
+        setSpacer(h + add);
+        window.scrollBy(0, add);
+        h += add;
+        p += add;
+      }
+      if (!swapped && (holding ? p > h + EPS : p > buffer())) {
         // Down: reached the pin point from above (or fell off the bottom of an up hold). Hold only if pinned now.
         swap(true, !holding && p <= h);
-      } else if (swapped && (holding ? p < -EPS : p < h - EPS)) {
+      } else if (swapped && (holding ? p < -EPS : p < h - buffer())) {
         // Up: re-pinned at the spacer's end from below (or ran off the top of a down hold).
         if (!holding && p >= 0) {
           // Only p px of pinned scroll is left above; add room and scroll by the same amount so nothing moves.
