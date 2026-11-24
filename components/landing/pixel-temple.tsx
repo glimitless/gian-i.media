@@ -124,20 +124,34 @@ function makeClouds(cols: number, rows: number, widthPx: number, cx: number, cy:
     .sort((a, b) => a.speed - b.speed); // far clouds first
 }
 
-// heldContent (WhatIDo) reveals in place once the clouds have cleared, and the stage holds it for one more viewport.
+// heldContent (WhatIDo) reveals in place once the clouds have cleared, and the stage holds it until that reveal ends.
 export default function PixelTemple({ children, heldContent }: { children: ReactNode; heldContent: ReactNode }) {
   const sectionRef = useRef<HTMLElement>(null);
   const stageRef = useRef<HTMLDivElement>(null);
   const canvasHostRef = useRef<HTMLDivElement>(null);
   const titleRef = useRef<HTMLHeadingElement>(null);
+  const spacerRef = useRef<HTMLDivElement>(null);
   const [isOpen, setIsOpen] = useState(false);
   const [isCleared, setIsCleared] = useState(false);
+  const [isHolding, setIsHolding] = useState(false);
+  // Spacer height (px) at release, so the pin ends exactly where the stage sits: no jump.
+  // shortcut: stays in px until scrolled back above the trigger, so a resize after release keeps the old length.
+  const [releaseHeight, setReleaseHeight] = useState<number>();
 
   useEffect(() => {
     const section = sectionRef.current;
     if (!section || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-    // The same point scrollProgress() reaches 1 and the clouds are gone.
-    const onScroll = () => setIsCleared(-section.getBoundingClientRect().top >= window.innerHeight);
+    let cleared = false;
+    const onScroll = () => {
+      // The same point scrollProgress() reaches 1 and the clouds are gone.
+      const next = -section.getBoundingClientRect().top >= window.innerHeight;
+      if (next === cleared) return;
+      cleared = next;
+      setIsCleared(next);
+      setIsHolding(next);
+      // Above the trigger the spacer's end is off screen, so resetting it is invisible.
+      if (!next) setReleaseHeight(undefined);
+    };
     onScroll();
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
@@ -311,7 +325,7 @@ export default function PixelTemple({ children, heldContent }: { children: React
             Math.max(...[[0, 0], [cols, 0], [0, rows], [cols, rows]].map(([x, y]) => clearingDistance(x - cx, y - cy, rx, ry)));
 
           const scrollProgress = () => {
-            // The first viewport of scroll clears the clouds; the rest of the section is the hold.
+            // The first viewport of scroll clears the clouds.
             return Math.min(1, Math.max(0, -section.getBoundingClientRect().top / window.innerHeight));
           };
 
@@ -499,7 +513,7 @@ export default function PixelTemple({ children, heldContent }: { children: React
   }, []);
 
   return (
-    // Pinned for two viewports: the first scrolls the clearing open, the second holds heldContent.
+    // Pinned for one viewport while the clearing opens, then held until heldContent's reveal ends.
     // Stage and heldContent share one grid cell, so heldContent sets the pinned height when it's taller than the viewport.
     <section ref={sectionRef} className="relative">
       <div className="motion-safe:sticky top-0 grid">
@@ -516,12 +530,26 @@ export default function PixelTemple({ children, heldContent }: { children: React
           </div>
         </div>
         <div
+          onTransitionEnd={(e) => {
+            const section = sectionRef.current;
+            const spacer = spacerRef.current;
+            if (!isHolding || e.target !== e.currentTarget || e.propertyName !== 'opacity' || !section || !spacer) return;
+            // Release at the current scroll, capped at the hold spacer in case a fling already passed it.
+            setReleaseHeight(Math.min(-section.getBoundingClientRect().top, spacer.offsetHeight));
+            setIsHolding(false);
+          }}
           className={`motion-safe:row-1 motion-safe:col-1 ${isCleared ? 'reveal-transition-after' : 'reveal-transition motion-safe:opacity-0 motion-safe:translate-y-8 motion-safe:pointer-events-none'}`}
         >
           {heldContent}
         </div>
       </div>
-      <div className="h-[200dvh] motion-reduce:hidden" aria-hidden="true" />
+      <div
+        ref={spacerRef}
+        // Tall before the trigger too (its end is off screen), so the frame before isHolding lands can't release the stage.
+        className="h-[200dvh] motion-reduce:hidden"
+        style={isHolding || releaseHeight === undefined ? undefined : { height: releaseHeight }}
+        aria-hidden="true"
+      />
     </section>
   );
 }

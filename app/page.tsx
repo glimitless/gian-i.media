@@ -4,6 +4,7 @@ import PixelTemple from "@/components/landing/pixel-temple";
 import WhatIDo from "@/components/landing/what-i-do";
 import FeaturedWorks, { type FeaturedWork } from "@/components/landing/featured-works";
 import ArchivePromo from "@/components/landing/archive-promo";
+import PinnedSwap from "@/components/landing/pinned-swap";
 import NavigatorProvider from "@/lib/navigator/navigator-provider";
 import { archiveIDRecords, findArchiveIDRecord } from "@/lib/archive/archive-ids";
 import { findArchiveWorkRecord } from "@/lib/archive/archive-works";
@@ -31,8 +32,10 @@ export default function Home() {
           <PixelTemple heldContent={<WhatIDo />}>
             Gian-I Cambridge is a Designer and Aspiring Software Engineer based in Toronto, Canada.
           </PixelTemple>
-          <FeaturedWorks works={works} />
-          <ArchivePromo workCount={count('works')} noteCount={count('notes')} />
+          <PinnedSwap
+            content={<FeaturedWorks works={works} />}
+            heldContent={<ArchivePromo workCount={count('works')} noteCount={count('notes')} />}
+          />
         </main>
         <FooterShell />
       </div>

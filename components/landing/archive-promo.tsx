@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import Reveal from './reveal';
 import mediaURL from '@/lib/media-url/media-url';
 
 export default function ArchivePromo({ workCount, noteCount }: { workCount: number; noteCount: number }) {
@@ -21,7 +20,7 @@ export default function ArchivePromo({ workCount, noteCount }: { workCount: numb
         fill
       />
       <div aria-hidden="true" className="absolute inset-0 bg-lmSurface/80 dark:bg-dmSurface/80 bg-transition-2" />
-      <Reveal className="landing-section-wrap relative">
+      <div className="landing-section-wrap relative">
         <h1 id="the-archive" className="mb-4">The archive</h1>
         <p className="max-w-5xl mb-8">
           {workCount} {workCount === 1 ? 'work' : 'works'} and {noteCount} {noteCount === 1 ? 'note' : 'notes'} in one place: client projects, personal experiments and the
@@ -30,7 +29,7 @@ export default function ArchivePromo({ workCount, noteCount }: { workCount: numb
         <Link href="/archive" className="btn-template w-max px-5">
           Browse the archive
         </Link>
-      </Reveal>
+      </div>
     </section>
   );
 }
