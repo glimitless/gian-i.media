@@ -186,6 +186,8 @@ export default function PixelTemple({ children }: { children: ReactNode }) {
           const measure = () => {
             const w = stage.clientWidth;
             const h = stage.clientHeight;
+            // No layout size while the page is hidden (e.g. navigating away); the ResizeObserver re-measures.
+            if (!w || !h) return;
             cell = w < 640 ? 7 : 5;
             cols = Math.ceil(w / cell);
             rows = Math.ceil(h / cell);
