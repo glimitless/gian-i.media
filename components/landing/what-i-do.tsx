@@ -10,7 +10,7 @@ const DISCIPLINES = [
   },
   {
     title: 'Product & UI Design & Development',
-    detail: 'The GazettE at AXXS Digital, plus sites I design and build in code: SensingChange, the planetary archive for Visualizing Science, and this portfolio.',
+    detail: 'The GazettE at AXXS Digital, plus sites I design and code: SensingChange, Visualizing Science’s planetary archive, and this portfolio.',
   },
   {
     title: 'Interactive Media',
@@ -37,7 +37,7 @@ export default function WhatIDo() {
         
         <div>
           <h1 className="">
-            I’m a graphic designer transitioning into product design engineering, trained at OCAD University and drawn to work at the frontier of science and technology. I design the brand and the interface, and more and more I build the code behind them.
+            I’m a graphic designer transitioning into product design engineering, trained at OCAD University and drawn to work at the frontier of science and technology. I design the brand and the interface, and increasingly the code behind them.
           </h1>
           <ul className="mt-10 space-y-5">
             {DISCIPLINES.map((item) => (
