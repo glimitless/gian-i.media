@@ -21,7 +21,7 @@ export default function FeaturedWorks({ works }: { works: FeaturedWork[] }) {
     <section className="landing-section" aria-labelledby="selected-work">
       <Reveal className="landing-section-wrap">
         <h1 id="selected-work" className="mb-10">Selected works</h1>
-        <ul className="grid grid-cols-1 gap-y-20 @min-[64em]/main:grid-cols-3 @min-[64em]/main:gap-x-14">
+        <ul className="featured-works-grid">
           {works.map((work) => (
             <li key={work.id}>
               <Link
