@@ -37,7 +37,7 @@ export default function FeaturedWorks({ works }: { works: FeaturedWork[] }) {
                   height={0}
                 />
               </Link>
-              <p className="mt-5 mb-2 text-[2.3rem] text-lmPrimary dark:bg-dmPrimary font-normal">{work.title}</p>
+              <p className="mt-5 mb-2 text-[2.3rem] text-lmPrimary dark:text-dmPrimary font-normal">{work.title}</p>
               <h3 className="mb-3">{formatDate(work.date)}</h3>
               <div className="mb-4">
                 {renderContentBody([[work.summary]])}
