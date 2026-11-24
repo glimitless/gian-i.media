@@ -19,6 +19,9 @@ const MORPH = 0.04;
 // Ordered dither: the clearing's edge thins out from d = EDGE down to d = 1.
 const BAYER = [0, 8, 2, 10, 12, 4, 14, 6, 3, 11, 1, 9, 15, 7, 13, 5].map((v) => (v + 0.5) / 16);
 const EDGE = 1.6;
+const TEXT_GAP_CELLS = 1;
+// d where smoothstep(1, EDGE, d) first reaches the smallest BAYER threshold: the first visible dot.
+const FIRST_DOT_D = 1.06;
 
 type RGB = [number, number, number];
 type Lump = { c: number; r: number; h: number; seed: number };
@@ -194,7 +197,12 @@ export default function PixelTemple({ children }: { children: ReactNode }) {
             // offsets ignore the h1's fade, and its offsetParent is the stage-sized overlay
             cx = (title.offsetLeft + title.offsetWidth / 2) / cell;
             cy = (title.offsetTop + title.offsetHeight / 2) / cell;
-            rx = title.offsetWidth / 2 / cell + 1;
+            // The first dither dot sits TEXT_GAP_CELLS past the longest rendered line (not the h1 box),
+            // even at the breath's smallest scale, so the dither starts right after the copy.
+            const range = document.createRange();
+            range.selectNodeContents(title);
+            const textHalf = range.getBoundingClientRect().width / 2 / cell;
+            rx = (textHalf + TEXT_GAP_CELLS) / (CLEARING_MARGIN * (1 - BREATH_AMOUNT) * FIRST_DOT_D);
             ry = title.offsetHeight / 2 / cell + 1;
             if (clouds.length === 0) {
               const reach = CLEARING_MARGIN * EDGE; // outer edge of the resting fade
