@@ -20,7 +20,7 @@ export default function FeaturedWorks({ works }: { works: FeaturedWork[] }) {
   return (
     <section className="landing-section" aria-labelledby="selected-work">
       <Reveal className="landing-section-wrap">
-        <h1 id="selected-work" className="mb-10">Selected works</h1>
+        <h1 id="selected-work" className="mb-9">Selected works</h1>
         <ul className="featured-works-grid">
           {works.map((work) => (
             <li key={work.id}>
@@ -37,7 +37,7 @@ export default function FeaturedWorks({ works }: { works: FeaturedWork[] }) {
                   height={0}
                 />
               </Link>
-              <p className="mt-4 mb-0">{work.title}</p>
+              <p className="mt-5 mb-2 text-[2.3rem] text-lmPrimary dark:bg-dmPrimary font-normal">{work.title}</p>
               <h3 className="mb-3">{formatDate(work.date)}</h3>
               <div className="mb-4">
                 {renderContentBody([[work.summary]])}
