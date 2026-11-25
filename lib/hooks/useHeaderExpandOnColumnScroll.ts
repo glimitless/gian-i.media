@@ -24,9 +24,11 @@ export default function useHeaderExpandOnColumnScroll(
     let pendingDelta = 0;
     
     const onScroll = (event: Event) => {
-      const target = event.target;
+      // Window scrolls (the landing page) fire on document; read them from the scrolling element.
+      const target = event.target === document ? document.scrollingElement : event.target;
       if(!(target instanceof HTMLElement)) return;
 
+      const isDocumentScroll = target === document.scrollingElement;
       const isContentColumn = CONTENT_COLUMN_CLASSES.some((className) =>
         target.classList.contains(className)
       );
@@ -35,7 +37,7 @@ export default function useHeaderExpandOnColumnScroll(
       const isFilterGrid =
         target.classList.contains(FILTER_GRID_CLASS) ||
         (target === mainRef.current && !!target.querySelector(`.${FILTER_GRID_CLASS}`));
-      const isPageScroll = isContentColumn || isFilterGrid;
+      const isPageScroll = isContentColumn || isFilterGrid || isDocumentScroll;
       if (!isPageScroll && !isMediaColumn) return;
 
       const top = target.scrollTop;
